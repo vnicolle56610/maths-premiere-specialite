@@ -9,4 +9,6 @@ L'objectif est de montrer :
 - les liens entre les notions ;
 - les dépendances importantes.
 
-Une version graphique cliquable sera ajoutée ici.
+## Carte de progression
+
+[![Progression spiralée en Première spécialité mathématiques](assets/images/Progression_1S.png)](assets/images/Progression_1S.png)
