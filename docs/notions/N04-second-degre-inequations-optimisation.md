@@ -8,6 +8,9 @@
 
 ## Documents
 
-- Cours : à venir.
-- TD : à venir.
-- Corrigé : à venir.
+<!-- AUTO-DOCS:START -->
+- [Cours N04 — Second degré : inéquations, optimisation et problèmes](../cours/COURS_N04_SECOND_DEGRE_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
+- [TD N04 — Second degré : inéquations, optimisation et problèmes](../td/TD_N04_SECOND_DEGRE_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
+- [Corrigé TD N04](../corriges/CORRIGE_TD_N04_SECOND_DEGRE_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
+- [Automatismes N04](../automatismes/AUTOMATISMES_N04_SECOND_DEGRE_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
+<!-- AUTO-DOCS:END -->
