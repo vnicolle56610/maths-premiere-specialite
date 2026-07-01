@@ -1,2 +1,12 @@
-# Repository-name-maths-premiere-specialite
-Cours, TD, méthodes et progression de Première spécialité mathématiques.
+# Maths Première spécialité
+
+Site de ressources pour les élèves de Première spécialité mathématiques.
+
+On y trouvera progressivement :
+
+- les cours ;
+- les TD ;
+- les fiches méthodes ;
+- les automatismes ;
+- les corrigés publiés ;
+- une progression visuelle des notions.
