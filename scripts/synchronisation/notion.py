@@ -72,6 +72,7 @@ class Notion:
     nom_machine: str  # "SECOND_DEGRE_II"
     dossier: Path
     documents: dict[TypeDocument, list[Document]] = field(default_factory=dict)
+    pdf_non_reconnus: list[Path] = field(default_factory=list)
 
     @property
     def slug(self) -> str:

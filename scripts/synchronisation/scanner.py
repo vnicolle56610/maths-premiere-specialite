@@ -63,6 +63,7 @@ def scanner_notions(config: SiteConfig) -> list[Notion]:
         for chemin_pdf in sorted(notion.dossier.glob("*.pdf")):
             type_document = classifier_pdf(chemin_pdf.stem)
             if type_document is None:
+                notion.pdf_non_reconnus.append(chemin_pdf)
                 continue
             notion.documents.setdefault(type_document, []).append(
                 Document(type=type_document, source=chemin_pdf)

@@ -29,6 +29,10 @@ class RapportGlobal:
     def nombre_incompletes(self) -> int:
         return len(self.rapports) - self.nombre_completes
 
+    @property
+    def nombre_pdf_non_reconnus(self) -> int:
+        return sum(len(rapport.notion.pdf_non_reconnus) for rapport in self.rapports)
+
 
 def verifier(notions: list[Notion]) -> RapportGlobal:
     rapports = tuple(
@@ -61,4 +65,23 @@ def formater_rapport(rapport: RapportGlobal, niveau: str) -> str:
         f"{rapport.nombre_incompletes} incomplète(s) "
         f"sur {len(rapport.rapports)}."
     )
+
+    if rapport.nombre_pdf_non_reconnus:
+        lignes.append("")
+        lignes.append(
+            f"⚠ {rapport.nombre_pdf_non_reconnus} PDF au nom non reconnu "
+            "(ignoré·s, jamais publiés) :"
+        )
+        for rapport_notion in rapport.rapports:
+            for chemin in rapport_notion.notion.pdf_non_reconnus:
+                lignes.append(
+                    f"    {rapport_notion.notion.numero} — "
+                    f"{chemin.parent.name}/{chemin.name}"
+                )
+        lignes.append(
+            "  -> renommez ces fichiers selon la convention "
+            "TYPE_Nxx_NOM.pdf (COURS_, TD_, CORRIGE_TD_, AUTOMATISMES_, "
+            "MINITEST_) pour qu'ils soient pris en compte."
+        )
+
     return "\n".join(lignes)
