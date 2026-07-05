@@ -1,0 +1,75 @@
+# Guide d'utilisation — `lancer_publication.sh`
+
+Ce script lance la synchronisation du site depuis le dépôt de référence
+« Version en cours », construit le site MkDocs, et peut le publier sur
+GitHub Pages.
+
+## D'où le lancer
+
+Le script se débrouille pour retrouver la racine du projet tout seul,
+mais le plus simple est de toujours se placer dans le dossier du projet
+avant de l'appeler :
+
+```bash
+cd ~/ENSEIGNEMENT/maths-premiere-specialite
+./scripts/lancer_publication.sh
+```
+
+Il fonctionne aussi en donnant le chemin complet depuis n'importe où :
+
+```bash
+~/ENSEIGNEMENT/maths-premiere-specialite/scripts/lancer_publication.sh
+```
+
+⚠️ Attention à ne pas mettre le `~` avant `scripts` : `~scripts/...` n'est
+pas un chemin valide. Le `~` doit toujours être suivi d'un `/`.
+
+## Les commandes disponibles
+
+| Commande | Ce qu'elle fait |
+|---|---|
+| `./scripts/lancer_publication.sh --sync-only` | Scanne « Version en cours », régénère les pages/nav/index, affiche le rapport ✓/⚠. **Ne construit pas le site, ne publie rien.** À utiliser pour vérifier ce qui a changé avant d'aller plus loin. |
+| `./scripts/lancer_publication.sh` | Fait tout ce que fait `--sync-only`, puis lance `mkdocs build` (construit le site dans `site/`, en local). **Ne publie toujours rien en ligne.** |
+| `./scripts/lancer_publication.sh --deploy` | Fait tout ce qui précède, **puis publie sur GitHub Pages** (`mkdocs gh-deploy`, qui pousse sur `origin`). C'est la seule commande qui rend les changements visibles sur `https://vnicolle56610.github.io/maths-premiere-specialite/`. |
+| `./scripts/lancer_publication.sh --gui` | Ouvre l'ancienne interface graphique (`publier_ressources_gui.py`) avec les cases à cocher pour choisir précisément quels PDF publier. |
+
+## Dans quel ordre travailler
+
+1. **Vérifier d'abord sans rien publier** :
+   ```bash
+   ./scripts/lancer_publication.sh --sync-only
+   ```
+   Regarder le rapport : notions complètes (✓), documents manquants (⚠),
+   pages créées/renommées/modifiées.
+
+2. **Si le rapport est satisfaisant, publier en ligne** :
+   ```bash
+   ./scripts/lancer_publication.sh --deploy
+   ```
+
+3. **Après un déploiement**, si le site semble ne pas avoir changé dans le
+   navigateur, faire un rechargement forcé avant de s'inquiéter :
+   `Ctrl+Maj+R` (ou ouvrir la page en navigation privée). C'est
+   généralement un cache du navigateur, pas un problème de publication.
+
+## ⚠️ Ne pas alterner avec l'interface graphique sur les mêmes notions
+
+Le pipeline automatique (`--sync-only`, sans argument, `--deploy`) republie
+**tout** ce qu'il trouve dans « Version en cours », sans notion de
+sélection. L'interface graphique (`--gui`) permet au contraire de
+**décocher** certains PDF pour ne pas les publier.
+
+Si vous lancez le pipeline automatique après avoir décoché quelque chose
+dans le GUI, il va **régénérer les pages depuis zéro** et donc annuler
+silencieusement votre désélection.
+
+Règle simple : pour une notion donnée, choisissez un seul des deux outils
+et n'y revenez pas avec l'autre tant que le contenu source n'a pas changé.
+
+## Prérequis
+
+- Être dans un terminal Linux, avec `bash`.
+- Un environnement virtuel Python dans `.venv/` (le script l'active tout
+  seul s'il existe) contenant `mkdocs`, `mkdocs-material` et `pyyaml`.
+- Le dépôt source `Version en cours` accessible au chemin indiqué dans
+  `config_site.yaml` (à la racine du projet).

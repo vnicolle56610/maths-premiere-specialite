@@ -9,7 +9,8 @@ import os
 import re
 import shutil
 import subprocess
-from collections import defaultdict
+import sys
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import quote
@@ -31,6 +32,7 @@ AUTO_DOCS_END = "<!-- AUTO-DOCS:END -->"
 DESTINATION_DIRS = {
     "COURS": "cours",
     "TD": "td",
+    "CORRIGE_TD": "corriges",
     "CORRIGE": "corriges",
     "AUTOMATISMES": "automatismes",
     "MINITEST": "automatismes",
@@ -40,6 +42,8 @@ DESTINATION_DIRS = {
 LABELS = {
     "COURS": "Cours",
     "TD": "TD",
+    "CORRIGE_TD": "Corrigé TD",
+    "CORRIGE": "Corrigé",
     "AUTOMATISMES": "Automatismes",
     "MINITEST": "Mini-test",
     "DS": "DS",
@@ -72,19 +76,29 @@ TOPIC_TITLES = {
 KIND_ORDER = {
     "COURS": 0,
     "TD": 1,
-    "CORRIGE": 2,
-    "AUTOMATISMES": 3,
-    "MINITEST": 4,
-    "DS": 5,
+    "AUTOMATISMES": 2,
+    "MINITEST": 3,
+    "DS": 4,
+    "CORRIGE": 5,
+    "CORRIGE_TD": 6,
 }
 
-# Le cas CORRIGE_TD_Nxx existe déjà dans les ressources de travail. Il doit
-# être testé avant TD_Nxx pour ne pas finir par erreur dans docs/td.
+SAFE_DEFAULT_KINDS = frozenset({"COURS", "TD"})
+
+# CORRIGE_TD doit être testé avant CORRIGE afin de conserver deux choix
+# distincts dans l'interface, tout en envoyant les deux vers docs/corriges.
 RESOURCE_PATTERNS = (
+    (
+        "CORRIGE_TD",
+        re.compile(
+            r"^CORRIG(?:E|É)_TD_N(?P<number>\d{2})(?:_|$)",
+            re.IGNORECASE,
+        ),
+    ),
     (
         "CORRIGE",
         re.compile(
-            r"^CORRIG(?:E|É)(?:_(?:TD|DS))?_N(?P<number>\d{2})(?:_|$)",
+            r"^CORRIG(?:E|É)_N(?P<number>\d{2})(?:_|$)",
             re.IGNORECASE,
         ),
     ),
@@ -127,12 +141,20 @@ class PublicationReport:
     pdf_count: int = 0
     ignored_pdf_count: int = 0
     resources: list[Resource] = field(default_factory=list)
+    selected_resources: list[Resource] = field(default_factory=list)
+    ignored_resources: list[Resource] = field(default_factory=list)
     copied_files: list[Path] = field(default_factory=list)
     unchanged_files: list[Path] = field(default_factory=list)
     modified_pages: list[Path] = field(default_factory=list)
     unchanged_pages: list[Path] = field(default_factory=list)
+    present_unselected_files: list[Path] = field(default_factory=list)
     missing_pages: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
+    dry_run: bool = False
+
+
+class SelectionCancelled(Exception):
+    """Signaler une sélection interrompue avant toute écriture."""
 
 
 def classify_pdf(path: Path) -> tuple[str, str] | None:
@@ -196,7 +218,6 @@ def copy_resources(resources: list[Resource], report: PublicationReport) -> None
     """Copier uniquement les PDF absents ou dont le contenu diffère."""
     for resource in resources:
         destination = resource.destination
-        destination.parent.mkdir(parents=True, exist_ok=True)
 
         if (
             destination.exists()
@@ -206,8 +227,51 @@ def copy_resources(resources: list[Resource], report: PublicationReport) -> None
             report.unchanged_files.append(destination)
             continue
 
-        shutil.copy2(resource.source, destination)
+        if not report.dry_run:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(resource.source, destination)
         report.copied_files.append(destination)
+
+
+def find_present_unselected_files(
+    resources: list[Resource],
+    selected_resources: list[Resource],
+    docs_root: Path,
+) -> list[Path]:
+    selected_destinations = {
+        resource.destination.resolve(strict=False)
+        for resource in selected_resources
+    }
+    present_files = {
+        resource.destination
+        for resource in resources
+        if (
+            resource.destination.is_file()
+            and resource.destination.resolve(strict=False)
+            not in selected_destinations
+        )
+    }
+
+    # Inclure aussi les anciens PDF reconnus qui seraient restés dans docs/
+    # alors que leur fichier source n'existe plus, ou qui auraient été placés
+    # dans un mauvais sous-dossier par une ancienne version du script.
+    for directory_name in set(DESTINATION_DIRS.values()):
+        directory = docs_root / directory_name
+        if not directory.is_dir():
+            continue
+        ensure_inside_docs(directory, docs_root)
+        for path in directory.rglob("*"):
+            if (
+                path.is_file()
+                and classify_pdf(path) is not None
+                and path.resolve(strict=False) not in selected_destinations
+            ):
+                present_files.add(path)
+
+    return sorted(
+        present_files,
+        key=lambda path: str(path).casefold(),
+    )
 
 
 def find_notion_page(docs_root: Path, notion: str) -> Path | None:
@@ -239,6 +303,14 @@ def notion_topic_from_heading(text: str, notion: str) -> str | None:
     return heading.group(1).strip() if heading else None
 
 
+def topic_title_for_resource(
+    resource: Resource,
+    fallback_topic: str | None = None,
+) -> str | None:
+    topic_slug = topic_slug_from_filename(resource.source)
+    return TOPIC_TITLES.get(topic_slug or "", fallback_topic)
+
+
 def student_link_title(
     resource: Resource,
     fallback_topic: str | None = None,
@@ -246,19 +318,16 @@ def student_link_title(
     """Construire uniquement le texte visible du lien destiné aux élèves."""
     notion = resource.notion
 
-    if resource.kind == "CORRIGE":
-        upper_stem = resource.source.stem.upper()
-        if re.match(r"^CORRIG(?:E|É)_TD_N\d{2}(?:_|$)", upper_stem):
-            return f"Corrigé TD {notion}"
-        if re.match(r"^CORRIG(?:E|É)_DS_N\d{2}(?:_|$)", upper_stem):
-            return f"Corrigé DS {notion}"
-        return f"Corrigé {notion}"
-
-    if resource.kind in {"AUTOMATISMES", "MINITEST", "DS"}:
+    if resource.kind in {
+        "AUTOMATISMES",
+        "MINITEST",
+        "DS",
+        "CORRIGE",
+        "CORRIGE_TD",
+    }:
         return f"{LABELS[resource.kind]} {notion}"
 
-    topic_slug = topic_slug_from_filename(resource.source)
-    topic = TOPIC_TITLES.get(topic_slug or "", fallback_topic)
+    topic = topic_title_for_resource(resource, fallback_topic)
     title = f"{LABELS[resource.kind]} {notion}"
     return f"{title} — {topic}" if topic else title
 
@@ -285,6 +354,179 @@ def render_document_lines(
         link = relative_link(markdown_page, resource.destination)
         lines.append(f"- [{title}]({link})")
     return "\n".join(lines)
+
+
+def notion_display_topic(
+    notion: str,
+    resources: list[Resource],
+    docs_root: Path,
+) -> str | None:
+    """Trouver le meilleur intitulé disponible pour le menu de sélection."""
+    for resource in sorted(
+        resources,
+        key=lambda item: (
+            KIND_ORDER[item.kind],
+            item.source.name.casefold(),
+        ),
+    ):
+        topic = topic_title_for_resource(resource)
+        if topic:
+            return topic
+
+    try:
+        markdown_page = find_notion_page(docs_root, notion)
+    except ValueError:
+        return None
+    if markdown_page is None:
+        return None
+
+    ensure_inside_docs(markdown_page, docs_root)
+    text = markdown_page.read_bytes().decode("utf-8")
+    return notion_topic_from_heading(text, notion)
+
+
+def selection_label(resource: Resource, duplicate_kind: bool) -> str:
+    label = LABELS[resource.kind]
+    if duplicate_kind:
+        return f"{label} — {resource.source.name}"
+    return label
+
+
+def parse_selection(
+    answer: str,
+    option_count: int,
+    default_numbers: set[int],
+) -> set[int]:
+    """Analyser une liste telle que « 1, 2, 5-7 »."""
+    normalized = answer.strip().casefold()
+    if not normalized:
+        return set(default_numbers)
+    if normalized in {"aucun", "aucune"}:
+        return set()
+    if normalized in {"tous", "toutes"}:
+        return set(range(1, option_count + 1))
+
+    selected: set[int] = set()
+    tokens = [
+        token
+        for token in re.split(r"[,;\s]+", normalized)
+        if token
+    ]
+    for token in tokens:
+        range_match = re.fullmatch(r"(\d+)-(\d+)", token)
+        if range_match:
+            start, end = map(int, range_match.groups())
+            if start > end:
+                raise ValueError(f"plage décroissante interdite : {token}")
+            selected.update(range(start, end + 1))
+            continue
+        if not token.isdigit():
+            raise ValueError(f"choix incompréhensible : {token}")
+        selected.add(int(token))
+
+    invalid = sorted(number for number in selected if not 1 <= number <= option_count)
+    if invalid:
+        values = ", ".join(str(number) for number in invalid)
+        raise ValueError(f"numéro hors liste : {values}")
+    return selected
+
+
+def choose_resources(
+    resources: list[Resource],
+    docs_root: Path,
+    non_interactive: bool,
+) -> list[Resource]:
+    """Faire valider les ressources avant la première écriture."""
+    ordered_resources = sorted(
+        resources,
+        key=lambda item: (
+            item.notion,
+            KIND_ORDER[item.kind],
+            item.source.name.casefold(),
+        ),
+    )
+
+    if non_interactive:
+        selected = [
+            resource
+            for resource in ordered_resources
+            if resource.kind in SAFE_DEFAULT_KINDS
+        ]
+        print(
+            "\nMode non interactif : seuls les COURS et TD "
+            "sont sélectionnés."
+        )
+        return selected
+
+    if not ordered_resources:
+        print("\nAucun PDF reconnu à sélectionner.")
+        return []
+
+    print("\n=== Documents disponibles ===")
+    print("[x] présélectionné ; [ ] non présélectionné")
+
+    options: list[tuple[int, Resource]] = []
+    resources_by_notion: dict[str, list[Resource]] = defaultdict(list)
+    for resource in ordered_resources:
+        resources_by_notion[resource.notion].append(resource)
+
+    number = 1
+    for notion in sorted(resources_by_notion):
+        notion_resources = resources_by_notion[notion]
+        topic = notion_display_topic(notion, notion_resources, docs_root)
+        heading = f"{notion} — {topic}" if topic else notion
+        print(f"\n{heading}")
+
+        kind_counts = Counter(resource.kind for resource in notion_resources)
+        for resource in notion_resources:
+            preselected = resource.kind in SAFE_DEFAULT_KINDS
+            checkbox = "[x]" if preselected else "[ ]"
+            label = selection_label(
+                resource,
+                duplicate_kind=kind_counts[resource.kind] > 1,
+            )
+            print(f"  {number:>2}. {checkbox} {label}")
+            options.append((number, resource))
+            number += 1
+
+    default_numbers = {
+        option_number
+        for option_number, resource in options
+        if resource.kind in SAFE_DEFAULT_KINDS
+    }
+    print(
+        "\nSaisissez la liste complète des numéros à publier "
+        "(ex. 1,2,5-7)."
+    )
+    print(
+        "Entrée valide la présélection ; « aucun » vide la sélection ; "
+        "« tous » sélectionne tout."
+    )
+
+    while True:
+        try:
+            answer = input("Votre sélection : ")
+        except (EOFError, KeyboardInterrupt) as error:
+            print("\nSélection annulée : aucun fichier n’a été modifié.")
+            raise SelectionCancelled from error
+
+        try:
+            selected_numbers = parse_selection(
+                answer,
+                option_count=len(options),
+                default_numbers=default_numbers,
+            )
+        except ValueError as error:
+            print(f"Sélection invalide ({error}). Réessayez.")
+            continue
+
+        selected = [
+            resource
+            for option_number, resource in options
+            if option_number in selected_numbers
+        ]
+        print(f"{len(selected)} document(s) validé(s).")
+        return selected
 
 
 def detect_newline(text: str) -> str:
@@ -360,12 +602,16 @@ def replace_auto_docs_zone(text: str, content: str, newline: str) -> str:
 
 def update_notion_pages(
     resources: list[Resource],
+    selected_resources: list[Resource],
     docs_root: Path,
     report: PublicationReport,
 ) -> None:
     resources_by_notion: dict[str, list[Resource]] = defaultdict(list)
+    selected_by_notion: dict[str, list[Resource]] = defaultdict(list)
     for resource in resources:
         resources_by_notion[resource.notion].append(resource)
+    for resource in selected_resources:
+        selected_by_notion[resource.notion].append(resource)
 
     for notion in sorted(resources_by_notion):
         try:
@@ -375,16 +621,18 @@ def update_notion_pages(
             continue
 
         if markdown_page is None:
-            report.missing_pages.append(notion)
+            if selected_by_notion[notion]:
+                report.missing_pages.append(notion)
             continue
 
+        ensure_inside_docs(markdown_page, docs_root)
         original_bytes = markdown_page.read_bytes()
         original_text = original_bytes.decode("utf-8")
         newline = detect_newline(original_text)
         fallback_topic = notion_topic_from_heading(original_text, notion)
         content = render_document_lines(
             markdown_page,
-            resources_by_notion[notion],
+            selected_by_notion[notion],
             fallback_topic,
         ).replace("\n", newline)
 
@@ -401,27 +649,41 @@ def update_notion_pages(
             report.unchanged_pages.append(markdown_page)
             continue
 
-        markdown_page.write_bytes(updated_bytes)
+        if not report.dry_run:
+            markdown_page.write_bytes(updated_bytes)
         report.modified_pages.append(markdown_page)
 
 
-def publish(source_root: Path, docs_root: Path) -> PublicationReport:
-    if not source_root.is_dir():
-        raise FileNotFoundError(f"Dossier source introuvable : {source_root}")
-    if not docs_root.is_dir():
-        raise FileNotFoundError(f"Dossier MkDocs introuvable : {docs_root}")
-
-    resources, pdf_count, ignored_pdf_count = discover_resources(
-        source_root, docs_root
-    )
+def publish_selected_resources(
+    resources: list[Resource],
+    selected_resources: list[Resource],
+    docs_root: Path,
+    pdf_count: int,
+    ignored_pdf_count: int,
+    dry_run: bool,
+) -> PublicationReport:
+    selected = set(selected_resources)
     report = PublicationReport(
         pdf_count=pdf_count,
         ignored_pdf_count=ignored_pdf_count,
         resources=resources,
+        selected_resources=selected_resources,
+        ignored_resources=[
+            resource for resource in resources if resource not in selected
+        ],
+        present_unselected_files=find_present_unselected_files(
+            resources, selected_resources, docs_root
+        ),
+        dry_run=dry_run,
     )
 
-    copy_resources(resources, report)
-    update_notion_pages(resources, docs_root, report)
+    copy_resources(selected_resources, report)
+    update_notion_pages(
+        resources,
+        selected_resources,
+        docs_root,
+        report,
+    )
     return report
 
 
@@ -435,14 +697,58 @@ def display_paths(title: str, paths: list[Path], project_root: Path) -> None:
         print(f"  - {displayed_path}")
 
 
+def display_resources(
+    title: str,
+    resources: list[Resource],
+    source_root: Path,
+) -> None:
+    print(f"{title} : {len(resources)}")
+    for resource in resources:
+        try:
+            source = resource.source.relative_to(source_root)
+        except ValueError:
+            source = resource.source
+        print(
+            f"  - {resource.notion} — {LABELS[resource.kind]} : "
+            f"{source}"
+        )
+
+
 def display_report(report: PublicationReport, project_root: Path) -> None:
-    print("\n=== Bilan de la publication ===")
+    heading = (
+        "=== Bilan de la simulation ==="
+        if report.dry_run
+        else "=== Bilan de la publication ==="
+    )
+    print(f"\n{heading}")
     print(f"PDF trouvés       : {report.pdf_count}")
     print(f"PDF reconnus      : {len(report.resources)}")
-    print(f"PDF ignorés       : {report.ignored_pdf_count}")
-    display_paths("Fichiers copiés", report.copied_files, project_root)
-    print(f"Fichiers déjà à jour : {len(report.unchanged_files)}")
-    display_paths("Pages modifiées", report.modified_pages, project_root)
+    print(f"PDF non reconnus  : {report.ignored_pdf_count}")
+    display_resources(
+        "Fichiers sélectionnés",
+        report.selected_resources,
+        SOURCE_ROOT,
+    )
+    display_resources(
+        "Fichiers ignorés (non sélectionnés)",
+        report.ignored_resources,
+        SOURCE_ROOT,
+    )
+
+    copied_title = (
+        "Fichiers qui seraient copiés"
+        if report.dry_run
+        else "Fichiers copiés"
+    )
+    display_paths(copied_title, report.copied_files, project_root)
+    print(f"Fichiers sélectionnés déjà à jour : {len(report.unchanged_files)}")
+
+    pages_title = (
+        "Pages Markdown qui seraient modifiées"
+        if report.dry_run
+        else "Pages Markdown modifiées"
+    )
+    display_paths(pages_title, report.modified_pages, project_root)
     print(f"Pages déjà à jour : {len(report.unchanged_pages)}")
 
     if report.missing_pages:
@@ -454,6 +760,12 @@ def display_report(report: PublicationReport, project_root: Path) -> None:
         for warning in report.warnings:
             print(f"  - {warning}")
 
+    display_paths(
+        "Fichiers déjà présents mais non sélectionnés",
+        report.present_unselected_files,
+        project_root,
+    )
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -461,6 +773,16 @@ def parse_args() -> argparse.Namespace:
             "Publie les PDF de travail dans docs/ et met à jour les pages "
             "de notions."
         )
+    )
+    parser.add_argument(
+        "--non-interactive",
+        action="store_true",
+        help="publie sans question uniquement les COURS et TD",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="simule la publication sans écrire aucun fichier",
     )
     parser.add_argument(
         "--serve",
@@ -476,12 +798,60 @@ def main() -> int:
     print(f"Docs   : {DOCS_ROOT}")
 
     try:
-        report = publish(SOURCE_ROOT, DOCS_ROOT)
+        if not SOURCE_ROOT.is_dir():
+            raise FileNotFoundError(
+                f"Dossier source introuvable : {SOURCE_ROOT}"
+            )
+        if not DOCS_ROOT.is_dir():
+            raise FileNotFoundError(
+                f"Dossier MkDocs introuvable : {DOCS_ROOT}"
+            )
+
+        resources, pdf_count, ignored_pdf_count = discover_resources(
+            SOURCE_ROOT, DOCS_ROOT
+        )
+        selected_resources = choose_resources(
+            resources,
+            DOCS_ROOT,
+            non_interactive=args.non_interactive,
+        )
+
+        present_unselected_files = find_present_unselected_files(
+            resources, selected_resources, DOCS_ROOT
+        )
+        if present_unselected_files:
+            print("\nDocuments déjà publiés mais non sélectionnés :")
+            for path in present_unselected_files:
+                displayed_path = path.relative_to(PROJECT_ROOT)
+                print(
+                    "  AVERTISSEMENT : Ce fichier est déjà présent dans "
+                    "docs/ mais n’a pas été sélectionné : "
+                    f"{displayed_path}"
+                )
+
+        report = publish_selected_resources(
+            resources,
+            selected_resources,
+            DOCS_ROOT,
+            pdf_count,
+            ignored_pdf_count,
+            dry_run=args.dry_run,
+        )
+    except SelectionCancelled:
+        return 130
     except (FileNotFoundError, OSError, ValueError) as error:
         print(f"\nERREUR : {error}")
         return 1
 
     display_report(report, PROJECT_ROOT)
+
+    if args.dry_run:
+        if args.serve:
+            print(
+                "\nmkdocs serve n’est pas lancé en mode --dry-run, "
+                "afin de conserver une simulation sans écriture."
+            )
+        return 0
 
     if not args.serve:
         return 0
