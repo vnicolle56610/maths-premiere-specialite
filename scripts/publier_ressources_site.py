@@ -85,6 +85,14 @@ KIND_ORDER = {
 
 SAFE_DEFAULT_KINDS = frozenset({"COURS", "TD"})
 
+EXCLUDED_SOURCE_DIR_PREFIXES = (
+    "_ANCIEN",
+    "_ARCHIVE",
+    "_SAUVEGARDE",
+    "_A_TELEVERSER_GPT_",
+)
+NOTION_DIR_PATTERN = re.compile(r"^N\d{2}_")
+
 # CORRIGE_TD doit être testé avant CORRIGE afin de conserver deux choix
 # distincts dans l'interface, tout en envoyant les deux vers docs/corriges.
 RESOURCE_PATTERNS = (
@@ -177,6 +185,24 @@ def ensure_inside_docs(path: Path, docs_root: Path) -> None:
         raise ValueError(f"Destination interdite hors de docs/ : {path}")
 
 
+def is_publishable_source_path(path: Path, source_root: Path) -> bool:
+    """Écarter les archives et dossiers techniques avant classification."""
+    try:
+        relative_parts = path.relative_to(source_root).parts
+    except ValueError:
+        relative_parts = path.parts
+    directory_parts = relative_parts[:-1]
+    if any(
+        part.startswith(EXCLUDED_SOURCE_DIR_PREFIXES)
+        for part in directory_parts
+    ):
+        return False
+    return not any(
+        NOTION_DIR_PATTERN.match(part)
+        for part in directory_parts[1:]
+    )
+
+
 def discover_resources(
     source_root: Path, docs_root: Path
 ) -> tuple[list[Resource], int, int]:
@@ -187,6 +213,8 @@ def discover_resources(
 
     for path in sorted(source_root.rglob("*"), key=lambda item: str(item).casefold()):
         if not path.is_file() or path.suffix.casefold() != ".pdf":
+            continue
+        if not is_publishable_source_path(path, source_root):
             continue
 
         pdf_count += 1
