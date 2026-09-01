@@ -16,8 +16,8 @@ Cette notion prolonge l’exponentielle dans les modèles d’évolution. Les re
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N21 — Exponentielle II](../cours/COURS_N21_EXPONENTIELLE_II.pdf)
-- [TD N21 — Exponentielle II](../td/TD_N21_EXPONENTIELLE_II.pdf)
+- [Cours N21 — Exponentielle II : modèles](../cours/COURS_N21_EXPONENTIELLE_II.pdf)
+- [TD N21 — Exponentielle II : modèles](../td/TD_N21_EXPONENTIELLE_II.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

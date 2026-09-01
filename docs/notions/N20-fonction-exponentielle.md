@@ -16,8 +16,8 @@ La fonction exponentielle modélise des évolutions où le taux de variation gar
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N20 — Fonctions exponentielles](../cours/COURS_N20_FONCTION_EXPONENTIELLE.pdf)
-- [TD N20 — Fonctions exponentielles](../td/TD_N20_FONCTION_EXPONENTIELLE.pdf)
+- [Cours N20 — Fonction exponentielle I](../cours/COURS_N20_FONCTION_EXPONENTIELLE.pdf)
+- [TD N20 — Fonction exponentielle I](../td/TD_N20_FONCTION_EXPONENTIELLE.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

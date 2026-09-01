@@ -16,11 +16,8 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N02 — Calcul algebrique équations](../cours/COURS_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
-- [TD N02 — Calcul algebrique équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
-- [TD N02 — Calcul algebrique équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS_EXOS_4-10-11-12-24-25_20260827_230541.pdf)
-- [TD N02 — Calcul algebrique équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS_V1.pdf)
-- [TD N02 — Calcul algebrique équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS_V1_EXOS_A1-A7-B10_20260828_140014.pdf)
+- [Cours N02 — Calcul algébrique et équations](../cours/COURS_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
+- [TD N02 — Calcul algébrique et équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

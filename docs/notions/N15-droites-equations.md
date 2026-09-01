@@ -16,8 +16,8 @@ Les équations de droites relient géométrie, calcul et fonctions affines. Cett
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N15 — Droites équations](../cours/COURS_N15_DROITES_ET_EQUATIONS.pdf)
-- [TD N15 — Droites équations](../td/TD_N15_DROITES_ET_EQUATIONS.pdf)
+- [Cours N15 — Droites et équations](../cours/COURS_N15_DROITES_ET_EQUATIONS.pdf)
+- [TD N15 — Droites et équations](../td/TD_N15_DROITES_ET_EQUATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

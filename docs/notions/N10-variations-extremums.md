@@ -16,8 +16,8 @@ L’étude des variations met la dérivée au service de la résolution de probl
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N10 — Variations extremums](../cours/COURS_N10_VARIATIONS_EXTREMUMS.pdf)
-- [TD N10 — Variations extremums](../td/TD_N10_VARIATIONS_EXTREMUMS.pdf)
+- [Cours N10 — Variations et extremums](../cours/COURS_N10_VARIATIONS_EXTREMUMS.pdf)
+- [TD N10 — Variations et extremums](../td/TD_N10_VARIATIONS_EXTREMUMS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

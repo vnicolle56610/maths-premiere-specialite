@@ -16,8 +16,8 @@ La dérivation permet de décrire une variation instantanée. Cette notion intro
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N08 — Nombre dérivé derivation](../cours/COURS_N08_NOMBRE_DERIVE_DERIVATION.pdf)
-- [TD N08 — Nombre dérivé derivation](../td/TD_N08_NOMBRE_DERIVE_DERIVATION.pdf)
+- [Cours N08 — Nombre dérivé et dérivation](../cours/COURS_N08_NOMBRE_DERIVE_DERIVATION.pdf)
+- [TD N08 — Nombre dérivé et dérivation](../td/TD_N08_NOMBRE_DERIVE_DERIVATION.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

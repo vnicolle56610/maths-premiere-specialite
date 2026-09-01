@@ -16,8 +16,8 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N03 — Fonctions lectures variations](../cours/COURS_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
-- [TD N03 — Fonctions lectures variations](../td/TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
+- [Cours N03 — Fonctions : lectures graphiques et variations](../cours/COURS_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
+- [TD N03 — Fonctions : lectures graphiques et variations](../td/TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

@@ -16,8 +16,8 @@ Les sommes permettent d’additionner les termes d’une suite et de modéliser 
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N13 — Sommes modeles discrets](../cours/COURS_N13_SOMMES_MODELES_DISCRETS.pdf)
-- [TD N13 — Sommes modeles discrets](../td/TD_N13_SOMMES_MODELES_DISCRETS.pdf)
+- [Cours N13 — Sommes et modèles discrets](../cours/COURS_N13_SOMMES_MODELES_DISCRETS.pdf)
+- [TD N13 — Sommes et modèles discrets](../td/TD_N13_SOMMES_MODELES_DISCRETS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi
