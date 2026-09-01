@@ -262,6 +262,26 @@ def ensure_no_staged_deletion(worktree: Path) -> tuple[bool, str]:
     return True, output
 
 
+def deployed_site_path(staged_path: str) -> str | None:
+    if not staged_path.startswith("docs/"):
+        return None
+    docs_path = Path(staged_path.removeprefix("docs/"))
+    if docs_path.suffix.casefold() != ".md":
+        return docs_path.as_posix()
+    if docs_path.name == "index.md":
+        return docs_path.with_suffix(".html").as_posix()
+    return (docs_path.parent / docs_path.stem / "index.html").as_posix()
+
+
+def deployed_site_paths(staged_paths: tuple[str, ...]) -> tuple[str, ...]:
+    paths = {
+        output_path
+        for staged_path in staged_paths
+        if (output_path := deployed_site_path(staged_path)) is not None
+    }
+    return tuple(sorted(paths, key=str.casefold))
+
+
 def check_deploy_preflight(project_root: Path) -> DeployPreflightResult:
     technical_details: list[str] = []
 
@@ -758,7 +778,8 @@ class PublicationApp:
         self,
         cwd: Path,
         source_sha: str,
-        expected_resources: tuple[str, ...],
+        site_directory: Path,
+        expected_outputs: tuple[str, ...],
     ) -> str:
         fetch_output = self._git_output_or_error(cwd, "fetch", "origin")
         current_origin_main = self._rev_parse(cwd, "origin/main")
@@ -770,7 +791,17 @@ class PublicationApp:
             )
 
         gh_pages_sha = self._rev_parse(cwd, "origin/gh-pages")
-        required_paths = [".nojekyll", "sitemap.xml", *expected_resources]
+        required_paths = [".nojekyll", "sitemap.xml", *expected_outputs]
+        missing_build_paths = [
+            path for path in required_paths if not (site_directory / path).exists()
+        ]
+        if missing_build_paths:
+            raise RuntimeError(
+                "Contrôle post-déploiement échoué : fichier(s) absent(s) "
+                "dans le build MkDocs.\n\n"
+                + "\n".join(f"- {path}" for path in missing_build_paths)
+            )
+
         missing_paths: list[str] = []
         for path in required_paths:
             check = run_git(cwd, "cat-file", "-e", f"origin/gh-pages:{path}")
@@ -905,6 +936,7 @@ class PublicationApp:
             post_deploy_details = self._validate_gh_pages_artifact(
                 deploy_worktree,
                 source_sha,
+                site_directory,
                 expected_resources,
             )
         finally:
@@ -1613,9 +1645,7 @@ class PublicationApp:
             self.status.set("Déploiement bloqué : source non synchronisée.")
             return
         expected_resources = tuple(
-            path.removeprefix("docs/")
-            for path in prepared.staged_paths
-            if path.startswith("docs/")
+            deployed_site_paths(prepared.staged_paths)
         )
 
         confirmed = messagebox.askyesno(
