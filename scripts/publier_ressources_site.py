@@ -820,6 +820,19 @@ def render_document_lines(
     return "\n".join(lines)
 
 
+def resources_to_keep_published(
+    resources: list[Resource],
+    selected_resources: list[Resource],
+) -> list[Resource]:
+    """Garder les PDF sélectionnés et ceux déjà publiés dans docs/."""
+    selected = set(selected_resources)
+    return [
+        resource
+        for resource in resources
+        if resource in selected or resource.destination.is_file()
+    ]
+
+
 def notion_display_topic(
     notion: str,
     resources: list[Resource],
@@ -1072,12 +1085,13 @@ def update_notion_pages(
 ) -> None:
     resources_by_notion: dict[str, list[Resource]] = defaultdict(list)
     selected_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in resources:
+    kept_resources = resources_to_keep_published(resources, selected_resources)
+    for resource in kept_resources:
         resources_by_notion[resource.notion].append(resource)
     for resource in selected_resources:
         selected_by_notion[resource.notion].append(resource)
 
-    for notion in sorted(resources_by_notion):
+    for notion in sorted(selected_by_notion):
         try:
             markdown_page = find_notion_page(docs_root, notion)
         except ValueError as error:
@@ -1111,7 +1125,7 @@ def update_notion_pages(
         fallback_topic = notion_topic_from_heading(original_text, notion)
         content = render_document_lines(
             markdown_page,
-            selected_by_notion[notion],
+            resources_by_notion[notion],
             fallback_topic,
         ).replace("\n", newline)
 
@@ -1151,20 +1165,22 @@ def update_section_index(
 ) -> None:
     """Régénérer docs/<section>/index.md, comme les pages de notions."""
 
-    all_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in resources:
-        all_by_notion[resource.notion].append(resource)
+    kept_resources = resources_to_keep_published(resources, selected_resources)
 
-    selected_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in selected_resources:
-        if resource.kind in kinds:
-            selected_by_notion[resource.notion].append(resource)
-
-    notions_with_documents = {
-        notion
-        for notion, notion_resources in all_by_notion.items()
-        if any(item.kind in kinds for item in notion_resources)
+    selected_notions_for_kinds = {
+        resource.notion
+        for resource in selected_resources
+        if resource.kind in kinds
     }
+    if not selected_notions_for_kinds:
+        return
+
+    published_by_notion: dict[str, list[Resource]] = defaultdict(list)
+    for resource in kept_resources:
+        if resource.kind in kinds and resource.notion in selected_notions_for_kinds:
+            published_by_notion[resource.notion].append(resource)
+
+    notions_with_documents = set(published_by_notion)
     if not notions_with_documents:
         return
 
@@ -1190,7 +1206,7 @@ def update_section_index(
             notion_page = None
         heading_text = notion_page_title(notion_page) if notion_page else notion
         document_lines = render_document_lines(
-            markdown_page, selected_by_notion[notion]
+            markdown_page, published_by_notion[notion]
         )
         sections.append(f"## {heading_text}\n\n{document_lines}")
 
