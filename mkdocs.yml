@@ -1,22 +1,52 @@
 site_name: Maths Première spécialité
 site_url: https://www.maths-nicolle.fr/maths-premiere-specialite/
 site_description: Cours, TD, méthodes et progression de Première spécialité mathématiques.
-site_author: Vincent
+site_author: Vincent NICOLLE
+copyright: >
+  © Vincent NICOLLE — contenus diffusés sous licence
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank" rel="license noopener">CC BY-NC-SA 4.0</a>
 
 nav:
-  - Accueil: index.md
-  - Progression: progression.md
-  - Notions:
-      - "N01 — Logique et intervalles": notions/N01-logique-intervalles.md
-      - "N02 — Second degré : forme canonique": notions/N02-second-degre-forme-canonique.md
-      - "N03 — Second degré : racines, signe, discriminant": notions/N03-second-degre-racines-signe-discriminant.md
-      - "N04 — Second degré : inéquations et optimisation": notions/N04-second-degre-inequations-optimisation.md
-  - Automatismes: automatismes/index.md
-  - Corrigés publiés: corriges/index.md
+  - "🏠 Accueil": index.md
+  - "📈 Progression": progression.md
+  - "📖 Notions":
+      - "N01 — Logique ensembles": notions/N01-logique-ensembles.md
+      - "N02 — Calcul algebrique équations": notions/N02-calcul-algebrique-equations.md
+      - "N03 — Fonctions lectures variations": notions/N03-fonctions-lectures-variations.md
+      - "N04 — Repérages vecteurs": notions/N04-reperages-vecteurs.md
+      - "N05 — Second degré I": notions/N05-second-degre-i.md
+      - "N06 — Second degré II": notions/N06-second-degre-ii.md
+      - "N07 — Taux de variation": notions/N07-taux-de-variation.md
+      - "N08 — Nombre dérivé derivation": notions/N08-nombre-derive-derivation.md
+      - "N09 — Dérivées usuelles": notions/N09-derivees-usuelles.md
+      - "N10 — Variations extremums": notions/N10-variations-extremums.md
+      - "N11 — Suites definition": notions/N11-suites-definition.md
+      - "N12 — Suites arithmétiques et géométriques": notions/N12-suites-arithmetiques-geometriiques.md
+      - "N13 — Sommes modeles discrets": notions/N13-sommes-modeles-discrets.md
+      - "N14 — Algorithmique": notions/N14-algorithmique.md
+      - "N15 — Droites équations": notions/N15-droites-equations.md
+      - "N16 — Trigonométrie": notions/N16-trigonometrie.md
+      - "N17 — Produit scalaire I": notions/N17-produit-scalaire-i.md
+      - "N18 — Produit scalaire II": notions/N18-produit-scalaire-ii.md
+      - "N19 — Géométrie repérée": notions/N19-geometrie-reperee.md
+      - "N20 — Fonctions exponentielles": notions/N20-fonction-exponentielle.md
+      - "N21 — Exponentielle II": notions/N21-exponentielle-ii.md
+      - "N22 — Probabilités conditionnelles": notions/N22-probabilites-conditionnelles.md
+      - "N23 — Indépendance arbres": notions/N23-independance-arbres.md
+      - "N24 — Variables aléatoires espérance": notions/N24-variables-aleatoires-esperance.md
+  - "📝 TD": td/index.md
+  - "⚡ Automatismes": automatismes/index.md
+  - "✅ Corrigés publiés": corriges/index.md
+  - "ℹ️ À propos & licence": a-propos.md
+  - "Toutatice (Pronote)": https://www.toutatice.fr/portail
 
 theme:
   name: material
   language: fr
+  palette:
+    - scheme: default
+      primary: white
+      accent: green
   features:
     - navigation.tabs
     - navigation.sections
@@ -30,3 +60,10 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/pdf-new-tab.js
+  - javascripts/toutatice-header.js
+  - javascripts/goatcounter.js
+  - javascripts/compteur-visites.js

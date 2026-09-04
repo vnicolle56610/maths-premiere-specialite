@@ -59,11 +59,11 @@ TOPIC_TITLES = {
     "SECOND_DEGRE_FONCTION_CARRE_FORME_CANONIQUE": (
         "Second degré : fonction carré et forme canonique"
     ),
-    "SECOND_DEGRE_FORMES_RACINES_SIGNE_DISCRIMINANT": (
-        "Second degré : formes, racines, signe et discriminant"
+    "PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT": (
+        "Second degré (partie 1) : formes, racines, signe et discriminant"
     ),
-    "SECOND_DEGRE_INEQUATIONS_OPTIMISATION_PROBLEMES": (
-        "Second degré : inéquations, optimisation et problèmes"
+    "PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES": (
+        "Second degré (partie 2) : inéquations, optimisation et problèmes"
     ),
     "PRODUIT_SCALAIRE_DEFINITION_PROJECTION_COORDONNEES": (
         "Produit scalaire : définition, projection et coordonnées"
@@ -84,6 +84,14 @@ KIND_ORDER = {
 }
 
 SAFE_DEFAULT_KINDS = frozenset({"COURS", "TD"})
+
+EXCLUDED_SOURCE_DIR_PREFIXES = (
+    "_ANCIEN",
+    "_ARCHIVE",
+    "_SAUVEGARDE",
+    "_A_TELEVERSER_GPT_",
+)
+NOTION_DIR_PATTERN = re.compile(r"^N\d{2}_")
 
 # CORRIGE_TD doit être testé avant CORRIGE afin de conserver deux choix
 # distincts dans l'interface, tout en envoyant les deux vers docs/corriges.
@@ -177,6 +185,24 @@ def ensure_inside_docs(path: Path, docs_root: Path) -> None:
         raise ValueError(f"Destination interdite hors de docs/ : {path}")
 
 
+def is_publishable_source_path(path: Path, source_root: Path) -> bool:
+    """Écarter les archives et dossiers techniques avant classification."""
+    try:
+        relative_parts = path.relative_to(source_root).parts
+    except ValueError:
+        relative_parts = path.parts
+    directory_parts = relative_parts[:-1]
+    if any(
+        part.startswith(EXCLUDED_SOURCE_DIR_PREFIXES)
+        for part in directory_parts
+    ):
+        return False
+    return not any(
+        NOTION_DIR_PATTERN.match(part)
+        for part in directory_parts[1:]
+    )
+
+
 def discover_resources(
     source_root: Path, docs_root: Path
 ) -> tuple[list[Resource], int, int]:
@@ -187,6 +213,8 @@ def discover_resources(
 
     for path in sorted(source_root.rglob("*"), key=lambda item: str(item).casefold()):
         if not path.is_file() or path.suffix.casefold() != ".pdf":
+            continue
+        if not is_publishable_source_path(path, source_root):
             continue
 
         pdf_count += 1
@@ -756,7 +784,6 @@ def student_link_title(
     notion = resource.notion
 
     if resource.kind in {
-        "AUTOMATISMES",
         "MINITEST",
         "DS",
         "CORRIGE",
@@ -791,6 +818,19 @@ def render_document_lines(
         link = relative_link(markdown_page, resource.destination)
         lines.append(f"- [{title}]({link})")
     return "\n".join(lines)
+
+
+def resources_to_keep_published(
+    resources: list[Resource],
+    selected_resources: list[Resource],
+) -> list[Resource]:
+    """Garder les PDF sélectionnés et ceux déjà publiés dans docs/."""
+    selected = set(selected_resources)
+    return [
+        resource
+        for resource in resources
+        if resource in selected or resource.destination.is_file()
+    ]
 
 
 def notion_display_topic(
@@ -1045,12 +1085,13 @@ def update_notion_pages(
 ) -> None:
     resources_by_notion: dict[str, list[Resource]] = defaultdict(list)
     selected_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in resources:
+    kept_resources = resources_to_keep_published(resources, selected_resources)
+    for resource in kept_resources:
         resources_by_notion[resource.notion].append(resource)
     for resource in selected_resources:
         selected_by_notion[resource.notion].append(resource)
 
-    for notion in sorted(resources_by_notion):
+    for notion in sorted(selected_by_notion):
         try:
             markdown_page = find_notion_page(docs_root, notion)
         except ValueError as error:
@@ -1084,7 +1125,7 @@ def update_notion_pages(
         fallback_topic = notion_topic_from_heading(original_text, notion)
         content = render_document_lines(
             markdown_page,
-            selected_by_notion[notion],
+            resources_by_notion[notion],
             fallback_topic,
         ).replace("\n", newline)
 
@@ -1107,36 +1148,46 @@ def update_notion_pages(
         report.modified_pages.append(markdown_page)
 
 
-def update_automatismes_index(
+SECTION_INDEX_PAGES = (
+    ("td", frozenset({"TD"}), "TD"),
+    ("automatismes", frozenset({"AUTOMATISMES", "MINITEST"}), "Automatismes"),
+)
+
+
+def update_section_index(
+    directory_name: str,
+    kinds: frozenset[str],
+    section_label: str,
     resources: list[Resource],
     selected_resources: list[Resource],
     docs_root: Path,
     report: PublicationReport,
 ) -> None:
-    """Régénérer docs/automatismes/index.md, comme les pages de notions."""
-    automatismes_kinds = {"AUTOMATISMES", "MINITEST"}
+    """Régénérer docs/<section>/index.md, comme les pages de notions."""
 
-    all_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in resources:
-        all_by_notion[resource.notion].append(resource)
+    kept_resources = resources_to_keep_published(resources, selected_resources)
 
-    selected_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in selected_resources:
-        if resource.kind in automatismes_kinds:
-            selected_by_notion[resource.notion].append(resource)
-
-    notions_with_automatismes = {
-        notion
-        for notion, notion_resources in all_by_notion.items()
-        if any(item.kind in automatismes_kinds for item in notion_resources)
+    selected_notions_for_kinds = {
+        resource.notion
+        for resource in selected_resources
+        if resource.kind in kinds
     }
-    if not notions_with_automatismes:
+    if not selected_notions_for_kinds:
         return
 
-    markdown_page = docs_root / "automatismes" / "index.md"
+    published_by_notion: dict[str, list[Resource]] = defaultdict(list)
+    for resource in kept_resources:
+        if resource.kind in kinds and resource.notion in selected_notions_for_kinds:
+            published_by_notion[resource.notion].append(resource)
+
+    notions_with_documents = set(published_by_notion)
+    if not notions_with_documents:
+        return
+
+    markdown_page = docs_root / directory_name / "index.md"
     if not markdown_page.is_file():
         report.warnings.append(
-            f"{markdown_page} : page introuvable, section Automatismes "
+            f"{markdown_page} : page introuvable, section {section_label} "
             "non régénérée"
         )
         return
@@ -1147,7 +1198,7 @@ def update_automatismes_index(
     newline = detect_newline(original_text)
 
     sections = []
-    for notion in sorted(notions_with_automatismes):
+    for notion in sorted(notions_with_documents):
         try:
             notion_page = find_notion_page(docs_root, notion)
         except ValueError as error:
@@ -1155,7 +1206,7 @@ def update_automatismes_index(
             notion_page = None
         heading_text = notion_page_title(notion_page) if notion_page else notion
         document_lines = render_document_lines(
-            markdown_page, selected_by_notion[notion]
+            markdown_page, published_by_notion[notion]
         )
         sections.append(f"## {heading_text}\n\n{document_lines}")
 
@@ -1175,6 +1226,24 @@ def update_automatismes_index(
     if not report.dry_run:
         markdown_page.write_bytes(updated_bytes)
     report.modified_pages.append(markdown_page)
+
+
+def update_section_indexes(
+    resources: list[Resource],
+    selected_resources: list[Resource],
+    docs_root: Path,
+    report: PublicationReport,
+) -> None:
+    for directory_name, kinds, section_label in SECTION_INDEX_PAGES:
+        update_section_index(
+            directory_name,
+            kinds,
+            section_label,
+            resources,
+            selected_resources,
+            docs_root,
+            report,
+        )
 
 
 def publish_selected_resources(
@@ -1207,7 +1276,7 @@ def publish_selected_resources(
         docs_root,
         report,
     )
-    update_automatismes_index(
+    update_section_indexes(
         resources,
         selected_resources,
         docs_root,

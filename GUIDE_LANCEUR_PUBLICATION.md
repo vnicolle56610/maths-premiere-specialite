@@ -24,6 +24,22 @@ Il fonctionne aussi en donnant le chemin complet depuis n'importe où :
 ⚠️ Attention à ne pas mettre le `~` avant `scripts` : `~scripts/...` n'est
 pas un chemin valide. Le `~` doit toujours être suivi d'un `/`.
 
+## Ouvrir l'interface graphique (cases à cocher)
+
+**Sans argument, le lanceur n'ouvre PAS l'interface graphique** : il exécute
+le pipeline automatique (synchronisation + build). Pour obtenir
+l'interface avec les cases à cocher, il faut explicitement ajouter
+`--gui` :
+
+```bash
+cd ~/ENSEIGNEMENT/maths-premiere-specialite
+./scripts/lancer_publication.sh --gui
+```
+
+C'est la **seule** des quatre commandes qui ouvre une fenêtre. Les trois
+autres (`--sync-only`, sans argument, `--deploy`) tournent entièrement
+dans le terminal, sans aucune fenêtre.
+
 ## Les commandes disponibles
 
 | Commande | Ce qu'elle fait |
@@ -73,3 +89,48 @@ et n'y revenez pas avec l'autre tant que le contenu source n'a pas changé.
   seul s'il existe) contenant `mkdocs`, `mkdocs-material` et `pyyaml`.
 - Le dépôt source `Version en cours` accessible au chemin indiqué dans
   `config_site.yaml` (à la racine du projet).
+
+
+# Commande personnelle dans `~/bin`.
+# créée le 2026/07/06, renommée le 2026/07/06 pour coexister avec le
+# lanceur de Seconde (voir maths-seconde/GUIDE_LANCEUR_PUBLICATION.md).
+Copie-colle ceci dans le terminal :
+
+```bash
+mkdir -p ~/bin
+
+cat > ~/bin/lancer_publication_premiere <<'EOF'
+#!/usr/bin/env bash
+exec "$HOME/ENSEIGNEMENT/maths-premiere-specialite/scripts/lancer_publication.sh" --gui "$@"
+EOF
+
+chmod +x ~/bin/lancer_publication_premiere
+```
+
+Puis assure-toi que `~/bin` est bien dans le `PATH` :
+
+```bash
+grep -q 'export PATH="$HOME/bin:$PATH"' ~/.bashrc || echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Ensuite, depuis n'importe quel répertoire, tu pourras simplement écrire :
+
+```bash
+lancer_publication_premiere
+```
+
+Pour vérifier :
+
+```bash
+command -v lancer_publication_premiere
+```
+
+Tu devrais obtenir quelque chose comme :
+
+```bash
+/home/vincent/bin/lancer_publication_premiere
+```
+
+Il existe une commande symétrique `lancer_publication_seconde` pour le
+site de Seconde (`~/ENSEIGNEMENT/maths-seconde`).
