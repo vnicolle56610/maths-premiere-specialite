@@ -6,7 +6,6 @@ Travaux dirigés, classés par notion.
 ## N01 — Logique, ensembles et intervalles
 
 - [TD N01](TD_N01_LOGIQUE_ENSEMBLES.pdf)
-- [TD N01](TD_N01_LOGIQUE_ENSEMBLES_EXOS_8-17-22-23_20260831_123919.pdf)
 
 ## N02 — Calcul algébrique et équations
 
