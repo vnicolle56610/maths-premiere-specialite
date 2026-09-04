@@ -25,7 +25,6 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 <!-- AUTO-DOCS:START -->
 - [Cours N05 — Second degré I : fonction carré et forme canonique](../cours/COURS_N05_SECOND_DEGRE_I.pdf)
 - [TD N05 — Second degré I : fonction carré et forme canonique](../td/TD_N05_SECOND_DEGRE_I.pdf)
-- [Corrigé TD N05](../corriges/CORRIGE_TD_N05_SECOND_DEGRE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi
