@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "notions": {
+    "N01": {
+      "cours": [
+        "COURS_N01_LOGIQUE_ENSEMBLES.pdf"
+      ],
+      "td": [
+        "TD_N01_LOGIQUE_ENSEMBLES.pdf",
+        "TD_N01_LOGIQUE_ENSEMBLES_EXOS_8-17-22-23_20260831_123919.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N01_LOGIQUE_ENSEMBLES.pdf"
+      ]
+    },
+    "N02": {
+      "cours": [
+        "COURS_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
+      ],
+      "td": [
+        "TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
+      ]
+    },
+    "N03": {
+      "cours": [
+        "COURS_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
+      ],
+      "td": [
+        "TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
+      ]
+    },
+    "N04": {
+      "cours": [
+        "COURS_N04_REPERAGES_VECTEURS.pdf"
+      ],
+      "td": [
+        "TD_N04_REPERAGES_VECTEURS.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N04_REPERAGES_VECTEURS.pdf"
+      ]
+    },
+    "N05": {
+      "cours": [
+        "COURS_N05_SECOND_DEGRE_I.pdf"
+      ],
+      "td": [
+        "TD_N05_SECOND_DEGRE_I.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N05_SECOND_DEGRE_I.pdf"
+      ]
+    },
+    "N06": {
+      "cours": [
+        "COURS_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
+        "COURS_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf"
+      ],
+      "td": [
+        "TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
+        "TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT_EXOS_2-4-11-12-14-30_20260830_175218.pdf",
+        "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf",
+        "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES_EXOS_2-3-15-21-26_20260830_175821.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf"
+      ]
+    },
+    "N07": {
+      "cours": [
+        "COURS_N07_TAUX_DE_VARIATION.pdf"
+      ],
+      "td": [
+        "TD_N07_TAUX_DE_VARIATION.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N07_TAUX_DE_VARIATION.pdf"
+      ]
+    },
+    "N08": {
+      "cours": [
+        "COURS_N08_NOMBRE_DERIVE_DERIVATION.pdf"
+      ],
+      "td": [
+        "TD_N08_NOMBRE_DERIVE_DERIVATION.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N08_NOMBRE_DERIVE_DERIVATION.pdf"
+      ]
+    },
+    "N09": {
+      "cours": [
+        "COURS_N09_DERIVEES_USUELLES.pdf"
+      ],
+      "td": [
+        "TD_N09_DERIVEES_USUELLES.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N09_DERIVEES_USUELLES.pdf"
+      ]
+    },
+    "N10": {
+      "cours": [
+        "COURS_N10_VARIATIONS_EXTREMUMS.pdf"
+      ],
+      "td": [
+        "TD_N10_VARIATIONS_EXTREMUMS.pdf"
+      ]
+    },
+    "N11": {
+      "cours": [
+        "COURS_N11_SUITES_DEFINITION.pdf"
+      ],
+      "td": [
+        "TD_N11_SUITES_DEFINITION.pdf"
+      ]
+    },
+    "N12": {
+      "cours": [
+        "COURS_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf"
+      ],
+      "td": [
+        "TD_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf"
+      ]
+    },
+    "N13": {
+      "cours": [
+        "COURS_N13_SOMMES_MODELES_DISCRETS.pdf"
+      ],
+      "td": [
+        "TD_N13_SOMMES_MODELES_DISCRETS.pdf"
+      ]
+    },
+    "N14": {
+      "cours": [
+        "COURS_N14_ALGORITHMIQUE.pdf"
+      ],
+      "td": [
+        "TD_N14_ALGORITHMIQUE.pdf"
+      ]
+    },
+    "N15": {
+      "cours": [
+        "COURS_N15_DROITES_ET_EQUATIONS.pdf"
+      ],
+      "td": [
+        "TD_N15_DROITES_ET_EQUATIONS.pdf"
+      ]
+    },
+    "N16": {
+      "cours": [
+        "COURS_N16_TRIGONOMETRIE.pdf"
+      ],
+      "td": [
+        "TD_N16_TRIGONOMETRIE.pdf"
+      ]
+    },
+    "N17": {
+      "cours": [
+        "COURS_N17_PRODUIT_SCALAIRE_I.pdf"
+      ],
+      "td": [
+        "TD_N17_PRODUIT_SCALAIRE_I.pdf",
+        "TD_N17_PRODUIT_SCALAIRE_I_old.pdf"
+      ]
+    },
+    "N18": {
+      "cours": [
+        "COURS_N18_PRODUIT_SCALAIRE_II.pdf"
+      ],
+      "td": [
+        "TD_N18_PRODUIT_SCALAIRE_II.pdf"
+      ]
+    },
+    "N19": {
+      "cours": [
+        "COURS_N19_GEOMETRIE_REPEREE.pdf"
+      ],
+      "td": [
+        "TD_N19_GEOMETRIE_REPEREE.pdf"
+      ]
+    },
+    "N20": {
+      "cours": [
+        "COURS_N20_FONCTION_EXPONENTIELLE.pdf"
+      ],
+      "td": [
+        "TD_N20_FONCTION_EXPONENTIELLE.pdf"
+      ]
+    },
+    "N21": {
+      "cours": [
+        "COURS_N21_EXPONENTIELLE_II.pdf"
+      ],
+      "td": [
+        "TD_N21_EXPONENTIELLE_II.pdf"
+      ],
+      "corrige_td": [
+        "CORRIGE_TD_N21_EXPONENTIELLE_II.pdf"
+      ]
+    },
+    "N22": {
+      "cours": [
+        "COURS_N22_PROBABILITES_CONDITIONNELLES.pdf"
+      ],
+      "td": [
+        "TD_N22_PROBABILITES_CONDITIONNELLES.pdf"
+      ]
+    },
+    "N23": {
+      "cours": [
+        "COURS_N23_INDEPENDANCE_ARBRES.pdf"
+      ],
+      "td": [
+        "TD_N23_INDEPENDANCE_ARBRES.pdf"
+      ]
+    },
+    "N24": {
+      "cours": [
+        "COURS_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf"
+      ],
+      "td": [
+        "TD_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf"
+      ]
+    }
+  }
+}
