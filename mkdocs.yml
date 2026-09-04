@@ -34,6 +34,7 @@ nav:
       - "N22 — Probabilités conditionnelles": notions/N22-probabilites-conditionnelles.md
       - "N23 — Indépendance arbres": notions/N23-independance-arbres.md
       - "N24 — Variables aléatoires espérance": notions/N24-variables-aleatoires-esperance.md
+      - "N25 — Synthèses automatismes": notions/N25-syntheses-automatismes.md
   - "📝 TD": td/index.md
   - "⚡ Automatismes": automatismes/index.md
   - "✅ Corrigés publiés": corriges/index.md

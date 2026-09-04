@@ -3,27 +3,27 @@
 Exercices d'automatismes et mini-tests, classés par notion.
 
 <!-- AUTO-DOCS:START -->
-## N01 — Logique ensembles
+## N01 — Logique, ensembles et intervalles
 
 
 
-## N02 — Calcul algebrique équations
+## N02 — Calcul algébrique et équations
 
 
 
-## N03 — Fonctions lectures variations
+## N03 — Fonctions : lectures graphiques et variations
 
 
 
-## N04 — Repérages vecteurs
+## N04 — Repérage et vecteurs
 
 
 
-## N05 — Second degré I
+## N05 — Second degré I : fonction carré et forme canonique
 
 
 
-## N06 — Second degré II
+## N06 — Second degré II : racines, signe et discriminant
 
 
 
@@ -31,7 +31,7 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N08 — Nombre dérivé derivation
+## N08 — Nombre dérivé et dérivation
 
 
 
@@ -39,11 +39,11 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N10 — Variations extremums
+## N10 — Variations et extremums
 
 
 
-## N11 — Suites definition
+## N11 — Suites : définition et premiers raisonnements
 
 
 
@@ -51,7 +51,7 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N13 — Sommes modeles discrets
+## N13 — Sommes et modèles discrets
 
 
 
@@ -59,7 +59,7 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N15 — Droites équations
+## N15 — Droites et équations
 
 
 
@@ -79,11 +79,11 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N20 — Fonctions exponentielles
+## N20 — Fonction exponentielle I
 
 
 
-## N21 — Exponentielle II
+## N21 — Exponentielle II : modèles
 
 
 
@@ -91,15 +91,15 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 
 
-## N23 — Indépendance arbres
+## N23 — Indépendance et arbres
 
 
 
-## N24 — Variables aléatoires espérance
+## N24 — Variables aléatoires et espérance
 
 
 
-## N25 — Syntheses Automatismes
+## N25 — Synthèses et automatismes
 
 
 <!-- AUTO-DOCS:END -->
