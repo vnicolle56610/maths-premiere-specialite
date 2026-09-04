@@ -25,6 +25,7 @@ Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie 
 <!-- AUTO-DOCS:START -->
 - [Cours N07 — Taux de variation](../cours/COURS_N07_TAUX_DE_VARIATION.pdf)
 - [TD N07 — Taux de variation](../td/TD_N07_TAUX_DE_VARIATION.pdf)
+- [Corrigé TD N07](../corriges/CORRIGE_TD_N07_TAUX_DE_VARIATION.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

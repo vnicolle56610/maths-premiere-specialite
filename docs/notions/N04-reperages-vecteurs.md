@@ -25,6 +25,7 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 <!-- AUTO-DOCS:START -->
 - [Cours N04 — Repérage et vecteurs](../cours/COURS_N04_REPERAGES_VECTEURS.pdf)
 - [TD N04 — Repérage et vecteurs](../td/TD_N04_REPERAGES_VECTEURS.pdf)
+- [Corrigé TD N04](../corriges/CORRIGE_TD_N04_REPERAGES_VECTEURS.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi
