@@ -300,7 +300,7 @@ source:
 destination :
 
 ```
-~/ENSEIGNEMENT/maths-premiere-specialite
+~/ENSEIGNEMENT/SITES_INTERNET/maths-premiere-specialite
 ```
 
 Le même script devra fonctionner ensuite pour
