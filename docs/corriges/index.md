@@ -51,7 +51,7 @@ Corrigés destinés aux élèves, classés par notion.
 
 ## N02 — Calcul algébrique et équations
 
-- [Corrigé TD N02](CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
+
 
 ## N03 — Fonctions : lectures graphiques et variations
 
@@ -59,7 +59,7 @@ Corrigés destinés aux élèves, classés par notion.
 
 ## N04 — Repérage et vecteurs
 
-- [Corrigé TD N04](CORRIGE_TD_N04_REPERAGES_VECTEURS.pdf)
+
 
 ## N05 — Second degré I : fonction carré et forme canonique
 
@@ -71,7 +71,7 @@ Corrigés destinés aux élèves, classés par notion.
 
 ## N07 — Taux de variation
 
-- [Corrigé TD N07](CORRIGE_TD_N07_TAUX_DE_VARIATION.pdf)
+
 
 ## N08 — Nombre dérivé et dérivation
 

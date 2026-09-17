@@ -26,9 +26,7 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - [Cours N06 — Second degré (partie 1) : formes, racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant)](../cours/COURS_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
 - [Cours N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../cours/COURS_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 - [TD N06 — Second degré (partie 1) : formes, racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant)](../td/TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
-- [TD N06 — Second degré II : racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant Exos 2-4-11-12-14-30 20260830 175218)](../td/TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT_EXOS_2-4-11-12-14-30_20260830_175218.pdf)
 - [TD N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../td/TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
-- [TD N06 — Second degré II : racines, signe et discriminant (Partie 2 Inequations Optimisation Problemes Exos 2-3-15-21-26 20260830 175821)](../td/TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES_EXOS_2-3-15-21-26_20260830_175821.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

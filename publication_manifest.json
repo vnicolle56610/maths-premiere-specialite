@@ -15,9 +15,6 @@
       ],
       "td": [
         "TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
-      ],
-      "corrige_td": [
-        "CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
       ]
     },
     "N03": {
@@ -34,9 +31,6 @@
       ],
       "td": [
         "TD_N04_REPERAGES_VECTEURS.pdf"
-      ],
-      "corrige_td": [
-        "CORRIGE_TD_N04_REPERAGES_VECTEURS.pdf"
       ]
     },
     "N05": {
@@ -54,9 +48,7 @@
       ],
       "td": [
         "TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
-        "TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT_EXOS_2-4-11-12-14-30_20260830_175218.pdf",
-        "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf",
-        "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES_EXOS_2-3-15-21-26_20260830_175821.pdf"
+        "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf"
       ]
     },
     "N07": {
@@ -65,9 +57,6 @@
       ],
       "td": [
         "TD_N07_TAUX_DE_VARIATION.pdf"
-      ],
-      "corrige_td": [
-        "CORRIGE_TD_N07_TAUX_DE_VARIATION.pdf"
       ]
     },
     "N08": {
