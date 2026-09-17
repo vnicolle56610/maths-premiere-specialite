@@ -5,7 +5,7 @@ Exercices d'automatismes et mini-tests, classés par notion.
 <!-- AUTO-DOCS:START -->
 ## N01 — Logique, ensembles et intervalles
 
-
+- [Automatismes N01](AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.pdf)
 
 ## N02 — Calcul algébrique et équations
 
