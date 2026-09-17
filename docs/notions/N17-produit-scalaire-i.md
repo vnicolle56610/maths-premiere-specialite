@@ -25,7 +25,7 @@ Le produit scalaire permet de calculer avec les longueurs, les angles et l’ort
 <!-- AUTO-DOCS:START -->
 - [Cours N17 — Produit scalaire I](../cours/COURS_N17_PRODUIT_SCALAIRE_I.pdf)
 - [TD N17 — Produit scalaire I](../td/TD_N17_PRODUIT_SCALAIRE_I.pdf)
-- [TD N17 — Produit scalaire I](../td/TD_N17_PRODUIT_SCALAIRE_I_old.pdf)
+- [TD N17 — Produit scalaire I (Produit Scalaire I Old)](../td/TD_N17_PRODUIT_SCALAIRE_I_old.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

@@ -25,10 +25,10 @@ Travaux dirigés, classés par notion.
 
 ## N06 — Second degré II : racines, signe et discriminant
 
-- [TD N06 — Second degré (partie 1) : formes, racines, signe et discriminant](TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
-- [TD N06](TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT_EXOS_2-4-11-12-14-30_20260830_175218.pdf)
-- [TD N06 — Second degré (partie 2) : inéquations, optimisation et problèmes](TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
-- [TD N06](TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES_EXOS_2-3-15-21-26_20260830_175821.pdf)
+- [TD N06 — Second degré (partie 1) : formes, racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant)](TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
+- [TD N06 (Partie 1 Formes Racines Signe Discriminant Exos 2-4-11-12-14-30 20260830 175218)](TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT_EXOS_2-4-11-12-14-30_20260830_175218.pdf)
+- [TD N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
+- [TD N06 (Partie 2 Inequations Optimisation Problemes Exos 2-3-15-21-26 20260830 175821)](TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES_EXOS_2-3-15-21-26_20260830_175821.pdf)
 
 ## N07 — Taux de variation
 
@@ -72,8 +72,8 @@ Travaux dirigés, classés par notion.
 
 ## N17 — Produit scalaire I
 
-- [TD N17](TD_N17_PRODUIT_SCALAIRE_I.pdf)
-- [TD N17](TD_N17_PRODUIT_SCALAIRE_I_old.pdf)
+- [TD N17 (Produit scalaire I)](TD_N17_PRODUIT_SCALAIRE_I.pdf)
+- [TD N17 (Produit Scalaire I Old)](TD_N17_PRODUIT_SCALAIRE_I_old.pdf)
 
 ## N18 — Produit scalaire II
 

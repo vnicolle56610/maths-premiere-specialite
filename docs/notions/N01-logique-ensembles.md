@@ -22,6 +22,5 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-- [Cours N01 — Logique, ensembles et intervalles](../cours/COURS_N01_LOGIQUE_ENSEMBLES.pdf)
 - [TD N01 — Logique, ensembles et intervalles](../td/TD_N01_LOGIQUE_ENSEMBLES.pdf)
 <!-- AUTO-DOCS:END -->
