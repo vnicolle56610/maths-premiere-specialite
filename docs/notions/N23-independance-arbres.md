@@ -25,6 +25,7 @@ L’indépendance donne un critère pour simplifier certains calculs de probabil
 <!-- AUTO-DOCS:START -->
 - [Cours N23 — Indépendance et arbres](../cours/COURS_N23_INDEPENDANCE_ARBRES.pdf)
 - [TD N23 — Indépendance et arbres](../td/TD_N23_INDEPENDANCE_ARBRES.pdf)
+- [Automatismes N23 — Indépendance et arbres](../automatismes/AUTOMATISMES_N23_INDEPENDANCE_ARBRES.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

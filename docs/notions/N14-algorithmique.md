@@ -25,6 +25,7 @@ L’algorithmique rend les raisonnements exécutables étape par étape. Les exe
 <!-- AUTO-DOCS:START -->
 - [Cours N14 — Algorithmique](../cours/COURS_N14_ALGORITHMIQUE.pdf)
 - [TD N14 — Algorithmique](../td/TD_N14_ALGORITHMIQUE.pdf)
+- [Automatismes N14 — Algorithmique](../automatismes/AUTOMATISMES_N14_ALGORITHMIQUE.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

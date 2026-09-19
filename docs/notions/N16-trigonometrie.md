@@ -25,6 +25,7 @@ La trigonométrie étend les outils de mesure des angles. On travaille le cercle
 <!-- AUTO-DOCS:START -->
 - [Cours N16 — Trigonométrie](../cours/COURS_N16_TRIGONOMETRIE.pdf)
 - [TD N16 — Trigonométrie](../td/TD_N16_TRIGONOMETRIE.pdf)
+- [Automatismes N16 — Trigonométrie](../automatismes/AUTOMATISMES_N16_TRIGONOMETRIE.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

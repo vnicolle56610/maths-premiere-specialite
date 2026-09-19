@@ -25,6 +25,7 @@ Les probabilités conditionnelles permettent de tenir compte d’une information
 <!-- AUTO-DOCS:START -->
 - [Cours N22 — Probabilités conditionnelles](../cours/COURS_N22_PROBABILITES_CONDITIONNELLES.pdf)
 - [TD N22 — Probabilités conditionnelles](../td/TD_N22_PROBABILITES_CONDITIONNELLES.pdf)
+- [Automatismes N22 — Probabilités conditionnelles](../automatismes/AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

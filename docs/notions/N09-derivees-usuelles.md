@@ -25,6 +25,7 @@ Les dérivées usuelles fournissent une boîte à outils pour étudier rapidemen
 <!-- AUTO-DOCS:START -->
 - [Cours N09 — Dérivées usuelles](../cours/COURS_N09_DERIVEES_USUELLES.pdf)
 - [TD N09 — Dérivées usuelles](../td/TD_N09_DERIVEES_USUELLES.pdf)
+- [Automatismes N09 — Dérivées usuelles](../automatismes/AUTOMATISMES_N09_DERIVEES_USUELLES.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

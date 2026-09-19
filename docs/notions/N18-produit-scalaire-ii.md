@@ -25,6 +25,7 @@ Cette seconde partie du produit scalaire développe les identités utiles et les
 <!-- AUTO-DOCS:START -->
 - [Cours N18 — Produit scalaire II](../cours/COURS_N18_PRODUIT_SCALAIRE_II.pdf)
 - [TD N18 — Produit scalaire II](../td/TD_N18_PRODUIT_SCALAIRE_II.pdf)
+- [Automatismes N18 — Produit scalaire II](../automatismes/AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

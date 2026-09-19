@@ -25,6 +25,7 @@ La géométrie repérée rassemble les outils de coordonnées, droites, distance
 <!-- AUTO-DOCS:START -->
 - [Cours N19 — Géométrie repérée](../cours/COURS_N19_GEOMETRIE_REPEREE.pdf)
 - [TD N19 — Géométrie repérée](../td/TD_N19_GEOMETRIE_REPEREE.pdf)
+- [Automatismes N19 — Géométrie repérée](../automatismes/AUTOMATISMES_N19_GEOMETRIE_REPEREE.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

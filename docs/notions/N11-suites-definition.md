@@ -25,6 +25,7 @@ Les suites décrivent des phénomènes discrets, étape par étape. Cette notion
 <!-- AUTO-DOCS:START -->
 - [Cours N11 — Suites : définition et premiers raisonnements](../cours/COURS_N11_SUITES_DEFINITION.pdf)
 - [TD N11 — Suites : définition et premiers raisonnements](../td/TD_N11_SUITES_DEFINITION.pdf)
+- [Automatismes N11 — Suites : définition et premiers raisonnements](../automatismes/AUTOMATISMES_N11_SUITES_DEFINITION.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

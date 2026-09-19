@@ -25,6 +25,7 @@ Les suites arithmétiques et géométriques modélisent des évolutions réguli�
 <!-- AUTO-DOCS:START -->
 - [Cours N12 — Suites arithmétiques et géométriques](../cours/COURS_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
 - [TD N12 — Suites arithmétiques et géométriques](../td/TD_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
+- [Automatismes N12 — Suites arithmétiques et géométriques](../automatismes/AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

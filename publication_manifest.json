@@ -21,6 +21,9 @@
       ],
       "td": [
         "TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf"
       ]
     },
     "N03": {
@@ -29,6 +32,9 @@
       ],
       "td": [
         "TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
       ]
     },
     "N04": {
@@ -37,6 +43,9 @@
       ],
       "td": [
         "TD_N04_REPERAGES_VECTEURS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf"
       ]
     },
     "N05": {
@@ -45,6 +54,9 @@
       ],
       "td": [
         "TD_N05_SECOND_DEGRE_I.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N05_SECOND_DEGRE_I.pdf"
       ]
     },
     "N06": {
@@ -55,6 +67,10 @@
       "td": [
         "TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
         "TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
+        "AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf"
       ]
     },
     "N07": {
@@ -63,6 +79,9 @@
       ],
       "td": [
         "TD_N07_TAUX_DE_VARIATION.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N07_TAUX_DE_VARIATION.pdf"
       ]
     },
     "N08": {
@@ -71,6 +90,9 @@
       ],
       "td": [
         "TD_N08_NOMBRE_DERIVE_DERIVATION.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N08_NOMBRE_DERIVE_DERIVATION.pdf"
       ]
     },
     "N09": {
@@ -79,6 +101,9 @@
       ],
       "td": [
         "TD_N09_DERIVEES_USUELLES.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N09_DERIVEES_USUELLES.pdf"
       ]
     },
     "N10": {
@@ -87,6 +112,9 @@
       ],
       "td": [
         "TD_N10_VARIATIONS_EXTREMUMS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N10_VARIATIONS_EXTREMUMS.pdf"
       ]
     },
     "N11": {
@@ -95,6 +123,9 @@
       ],
       "td": [
         "TD_N11_SUITES_DEFINITION.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N11_SUITES_DEFINITION.pdf"
       ]
     },
     "N12": {
@@ -103,6 +134,9 @@
       ],
       "td": [
         "TD_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf"
       ]
     },
     "N13": {
@@ -111,6 +145,9 @@
       ],
       "td": [
         "TD_N13_SOMMES_MODELES_DISCRETS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N13_SOMMES_MODELES_DISCRETS.pdf"
       ]
     },
     "N14": {
@@ -119,6 +156,9 @@
       ],
       "td": [
         "TD_N14_ALGORITHMIQUE.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N14_ALGORITHMIQUE.pdf"
       ]
     },
     "N15": {
@@ -127,6 +167,9 @@
       ],
       "td": [
         "TD_N15_DROITES_ET_EQUATIONS.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N15_DROITES_ET_EQUATIONS.pdf"
       ]
     },
     "N16": {
@@ -135,6 +178,9 @@
       ],
       "td": [
         "TD_N16_TRIGONOMETRIE.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N16_TRIGONOMETRIE.pdf"
       ]
     },
     "N17": {
@@ -142,8 +188,10 @@
         "COURS_N17_PRODUIT_SCALAIRE_I.pdf"
       ],
       "td": [
-        "TD_N17_PRODUIT_SCALAIRE_I.pdf",
-        "TD_N17_PRODUIT_SCALAIRE_I_old.pdf"
+        "TD_N17_PRODUIT_SCALAIRE_I.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N17_PRODUIT_SCALAIRE_I.pdf"
       ]
     },
     "N18": {
@@ -152,6 +200,9 @@
       ],
       "td": [
         "TD_N18_PRODUIT_SCALAIRE_II.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.pdf"
       ]
     },
     "N19": {
@@ -160,6 +211,9 @@
       ],
       "td": [
         "TD_N19_GEOMETRIE_REPEREE.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N19_GEOMETRIE_REPEREE.pdf"
       ]
     },
     "N20": {
@@ -168,6 +222,9 @@
       ],
       "td": [
         "TD_N20_FONCTION_EXPONENTIELLE.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N20_EXPONENTIELLE_I.pdf"
       ]
     },
     "N21": {
@@ -176,6 +233,9 @@
       ],
       "td": [
         "TD_N21_EXPONENTIELLE_II.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N21_EXPONENTIELLE_II_MODELES.pdf"
       ]
     },
     "N22": {
@@ -184,6 +244,9 @@
       ],
       "td": [
         "TD_N22_PROBABILITES_CONDITIONNELLES.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf"
       ]
     },
     "N23": {
@@ -192,6 +255,9 @@
       ],
       "td": [
         "TD_N23_INDEPENDANCE_ARBRES.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N23_INDEPENDANCE_ARBRES.pdf"
       ]
     },
     "N24": {
@@ -200,6 +266,9 @@
       ],
       "td": [
         "TD_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf"
+      ],
+      "automatismes": [
+        "AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf"
       ]
     }
   }

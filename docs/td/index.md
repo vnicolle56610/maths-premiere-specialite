@@ -70,8 +70,7 @@ Travaux dirigés, classés par notion.
 
 ## N17 — Produit scalaire I
 
-- [TD N17 (Produit scalaire I)](TD_N17_PRODUIT_SCALAIRE_I.pdf)
-- [TD N17 (Produit Scalaire I Old)](TD_N17_PRODUIT_SCALAIRE_I_old.pdf)
+- [TD N17](TD_N17_PRODUIT_SCALAIRE_I.pdf)
 
 ## N18 — Produit scalaire II
 
