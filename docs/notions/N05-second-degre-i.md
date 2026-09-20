@@ -1,5 +1,5 @@
 ---
-title: Second degré I : fonction carré et forme canonique
+title: "Second degré I : fonction carré et forme canonique"
 description: Cours et exercices de Première spécialité sur la fonction carré, les paraboles et la forme canonique.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Second degré II : racines, signe et discriminant
+title: "Second degré II : racines, signe et discriminant"
 description: Cours et exercices de Première spécialité pour résoudre des équations et inéquations du second degré.
 ---
 

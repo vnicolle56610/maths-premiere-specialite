@@ -1,5 +1,5 @@
 ---
-title: Fonctions : lectures graphiques et variations
+title: "Fonctions : lectures graphiques et variations"
 description: Cours et exercices de Première spécialité pour lire une courbe, exploiter un tableau de variations et interpréter une fonction.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Exponentielle II : modèles
+title: "Exponentielle II : modèles"
 description: Cours et exercices de Première spécialité pour utiliser l’exponentielle dans des modèles et équations.
 ---
 

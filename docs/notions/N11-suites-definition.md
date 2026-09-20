@@ -1,5 +1,5 @@
 ---
-title: Suites : définition et premiers raisonnements
+title: "Suites : définition et premiers raisonnements"
 description: Cours et exercices de Première spécialité pour définir une suite, calculer des termes et raisonner par récurrence simple.
 ---
 
