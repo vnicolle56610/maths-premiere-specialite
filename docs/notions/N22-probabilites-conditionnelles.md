@@ -12,13 +12,31 @@ description: Cours et exercices de Première spécialité pour calculer avec des
 </nav>
 <!-- NOTION-NAV:END -->
 
-Les probabilités conditionnelles permettent de tenir compte d’une information disponible. Cette notion travaille les notations, les arbres pondérés, les intersections et les formules de conditionnement. Elle prépare l’indépendance et les variables aléatoires.
+Les probabilités conditionnelles permettent de calculer une probabilité en tenant compte d'une information déjà connue. On cherche par exemple la probabilité qu'un événement B se réalise sachant qu'un événement A est déjà réalisé. Les arbres pondérés permettent de représenter simplement ce type de situation.
 
 ## Objectifs
 
 - Lire et compléter un arbre pondéré.
 - Calculer une probabilité conditionnelle.
-- Utiliser intersections et événements dans un raisonnement.
+- Utiliser les intersections d'événements dans un raisonnement.
+
+## Notions essentielles
+
+Si P(A)>0, la probabilité de B sachant A se note P<sub>A</sub>(B).
+
+On a alors :
+
+**P(A ∩ B) = P(A) × P<sub>A</sub>(B)**
+
+Dans un arbre pondéré, les probabilités inscrites sur les branches de deuxième niveau sont des probabilités conditionnelles. La probabilité d'un chemin s'obtient en multipliant les probabilités inscrites sur ses branches.
+
+## Exemple
+
+Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :
+
+**P(A ∩ B) = 0,4 × 0,25 = 0,10**
+
+La probabilité que A et B se réalisent est donc égale à 0,10.
 
 ## Documents
 
