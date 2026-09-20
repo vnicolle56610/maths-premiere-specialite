@@ -12,11 +12,11 @@ description: Cours et exercices de Première spécialité pour développer, fact
 </nav>
 <!-- NOTION-NAV:END -->
 
-Le calcul algébrique permet de transformer une expression pour faire apparaître la méthode utile. Les exercices travaillent le développement, la factorisation, les identités remarquables et la résolution d’équations. Ces automatismes sont indispensables avant le second degré, les dérivées et les suites.
+Le calcul algébrique permet de transformer une expression pour faire apparaître la méthode utile. Les exercices travaillent le développement, la factorisation, les identités remarquables et la résolution d'équations. Ces automatismes sont indispensables avant le second degré, les dérivées et les suites.
 
 ## Objectifs
 
-- Transformer une expression selon l’objectif du problème.
+- Transformer une expression selon l'objectif du problème.
 - Résoudre des équations avec une rédaction claire.
 - Choisir entre développer, factoriser ou isoler.
 
@@ -27,6 +27,26 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 - [TD N02 — Calcul algébrique et équations](../td/TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
 - [Automatismes N02 — Calcul algébrique et équations](../automatismes/AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
 <!-- AUTO-DOCS:END -->
+
+## Notions essentielles
+
+Une même expression peut avoir plusieurs écritures : développée, factorisée ou faisant apparaître une identité remarquable.
+
+Développer transforme un produit en somme ; factoriser transforme une somme en produit. Les identités remarquables peuvent être utilisées dans les deux sens.
+
+La forme utile dépend de la question posée : développer n'est pas toujours la meilleure stratégie, et une forme factorisée peut par exemple faciliter la résolution d'une équation.
+
+Lors d'une résolution, chaque transformation doit conserver le même ensemble de solutions. La résolution se termine par l'indication de l'ensemble des solutions.
+
+Pour une inéquation, multiplier ou diviser les deux membres par un nombre strictement négatif change le sens de l'inégalité.
+
+## Exemple
+
+Pour résoudre `(x - 7)(x - 1) = 0`, on utilise la propriété du produit nul.
+
+`(x - 7)(x - 1) = 0 ⇔ x - 7 = 0 ou x - 1 = 0`
+
+Donc `x = 7` ou `x = 1`, et `S = {1 ; 7}`.
 
 ## Voir aussi
 

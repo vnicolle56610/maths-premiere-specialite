@@ -20,6 +20,14 @@ Les probabilités conditionnelles permettent de calculer une probabilité en ten
 - Calculer une probabilité conditionnelle.
 - Utiliser les intersections d'événements dans un raisonnement.
 
+## Documents
+
+<!-- AUTO-DOCS:START -->
+- [Cours N22 — Probabilités conditionnelles](../cours/COURS_N22_PROBABILITES_CONDITIONNELLES.pdf)
+- [TD N22 — Probabilités conditionnelles](../td/TD_N22_PROBABILITES_CONDITIONNELLES.pdf)
+- [Automatismes N22 — Probabilités conditionnelles](../automatismes/AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf)
+<!-- AUTO-DOCS:END -->
+
 ## Notions essentielles
 
 Si P(A)>0, la probabilité de B sachant A se note P<sub>A</sub>(B).
@@ -37,14 +45,6 @@ Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :
 **P(A ∩ B) = 0,4 × 0,25 = 0,10**
 
 La probabilité que A et B se réalisent est donc égale à 0,10.
-
-## Documents
-
-<!-- AUTO-DOCS:START -->
-- [Cours N22 — Probabilités conditionnelles](../cours/COURS_N22_PROBABILITES_CONDITIONNELLES.pdf)
-- [TD N22 — Probabilités conditionnelles](../td/TD_N22_PROBABILITES_CONDITIONNELLES.pdf)
-- [Automatismes N22 — Probabilités conditionnelles](../automatismes/AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf)
-<!-- AUTO-DOCS:END -->
 
 ## Voir aussi
 

@@ -12,7 +12,7 @@ description: Cours et exercices de Première spécialité pour lire une courbe, 
 </nav>
 <!-- NOTION-NAV:END -->
 
-Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend les lectures graphiques, les images, les antécédents, le signe et les variations. Elle prépare l’étude fine avec le taux de variation, le nombre dérivé et les dérivées.
+Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend les lectures graphiques, les images, les antécédents, le signe et les variations. Elle prépare l'étude plus fine des fonctions avec le taux de variation, le nombre dérivé et les dérivées.
 
 ## Objectifs
 
@@ -27,6 +27,22 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 - [TD N03 — Fonctions : lectures graphiques et variations](../td/TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
 - [Automatismes N03 — Fonctions : lectures graphiques et variations](../automatismes/AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
 <!-- AUTO-DOCS:END -->
+
+## Notions essentielles
+
+Si `f(a) = b`, alors `b` est l'image de `a` par la fonction `f`, et `a` est un antécédent de `b`. Une valeur peut avoir aucun, un ou plusieurs antécédents.
+
+Une fonction peut être représentée par une expression, un tableau, une courbe ou une situation. La représentation la plus efficace dépend de la question posée.
+
+Sur une courbe, `f(x)>0` lorsque la courbe est au-dessus de l'axe des abscisses, et `f(x)<0` lorsqu'elle est au-dessous.
+
+Les variations indiquent comment évoluent les images lorsque `x` parcourt un intervalle : la fonction peut notamment être croissante ou décroissante.
+
+## Exemple
+
+Si `f(2)=5` et `f(7)=5`, alors 5 possède au moins deux antécédents par `f` : 2 et 7.
+
+En revanche, 2 possède une seule image par `f`, qui est ici égale à 5.
 
 ## Voir aussi
 
