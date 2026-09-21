@@ -28,6 +28,29 @@ L’algorithmique rend les raisonnements exécutables étape par étape. Les exe
 - [Automatismes N14 — Algorithmique](../automatismes/AUTOMATISMES_N14_ALGORITHMIQUE.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+En Python, l'instruction `=` ne signifie pas « est égal à » comme en mathématiques : c'est une **affectation**, qui donne une valeur à une variable. Une variable est un nom qui désigne une valeur stockée en mémoire, valeur qui peut changer au cours de l'exécution.
+
+Une **boucle bornée** (`for`) répète un bloc d'instructions un nombre connu de fois : `range(n)` produit `n` répétitions, avec les valeurs `0, 1, …, n-1`.
+
+Une **boucle conditionnelle** (`while`) répète un bloc tant qu'une condition reste vraie ; elle est utile pour chercher un seuil, quand on ne connaît pas à l'avance le nombre d'étapes nécessaires. La condition est testée avant chaque répétition.
+
+Une **fonction Python**, définie avec `def`, est un bloc d'instructions nommé qui peut recevoir des paramètres et renvoyer un résultat avec `return`.
+
+## Exemple
+
+On considère la suite définie par `u₀=500` et `uₙ₊₁=1,12×uₙ`. Le programme suivant calcule `u₈` :
+
+```
+u = 500
+for k in range(8):
+    u = 1.12*u
+print(u)
+```
+
+La boucle est exécutée `8` fois : on passe de `u₀` à `u₈`.
+
 ## Voir aussi
 
 - PRÉREQUIS : [N13](N13-sommes-modeles-discrets.md) (Les modèles discrets se programment naturellement.)

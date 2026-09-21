@@ -28,6 +28,22 @@ La trigonométrie étend les outils de mesure des angles. On travaille le cercle
 - [Automatismes N16 — Trigonométrie](../automatismes/AUTOMATISMES_N16_TRIGONOMETRIE.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Le cercle trigonométrique est le cercle de centre `O`, de rayon `1`, orienté dans le sens inverse des aiguilles d'une montre. Un tour complet correspond à `2π` radians, donc `360° = 2π` rad.
+
+En enroulant la droite numérique autour du cercle à partir du point `I`, on associe à chaque réel `x` un point `Mₓ`. Deux réels qui diffèrent d'un multiple de `2π` correspondent au même point.
+
+Le cosinus et le sinus de `x` sont les coordonnées de `Mₓ` : `Mₓ(cos x ; sin x)`. Pour tout réel `x`, `cos²x + sin²x = 1`, avec `-1⩽cos x⩽1` et `-1⩽sin x⩽1`.
+
+Cosinus et sinus sont `2π`-périodiques. La fonction cosinus est paire (`cos(-x)=cos x`) et la fonction sinus est impaire (`sin(-x)=-sin x`). On a aussi `cos(π-x)=-cos x` et `sin(π-x)=sin x`.
+
+## Exemple
+
+Déterminons `cos(5π/6)`. On écrit `5π/6 = π - π/6`, donc :
+
+`cos(5π/6) = -cos(π/6) = -√3/2`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N04](N04-reperages-vecteurs.md) (Le repérage aide à lire le cercle trigonométrique.)
