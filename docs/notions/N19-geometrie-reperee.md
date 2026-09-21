@@ -28,6 +28,22 @@ La géométrie repérée rassemble les outils de coordonnées, droites, distance
 - [Automatismes N19 — Géométrie repérée](../automatismes/AUTOMATISMES_N19_GEOMETRIE_REPEREE.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Dans un repère orthonormé, si une droite `d` a pour équation `ax+by+c=0`, alors `n⃗(a ; b)` est un vecteur normal à `d`, et un point `M(x ; y)` appartient à `d` si et seulement si `ax+by+c=0`.
+
+Le **projeté orthogonal** de `M` sur `d` est le point `H∈d` tel que `(MH)⊥d` — c'est aussi le point de `d` le plus proche de `M`.
+
+Le cercle de centre `Ω(a ; b)` et de rayon `r>0` a pour équation `(x-a)²+(y-b)²=r²`. Une équation de la forme `x²+y²+αx+βy+γ=0` se ramène à cette forme en complétant les carrés ; l'ensemble n'est un cercle que si le carré du rayon obtenu est strictement positif.
+
+Pour étudier une configuration dans un repère : identifier les objets (points, droites, cercles), choisir l'outil adapté (vecteurs, produit scalaire, équations, projection), effectuer les calculs, puis conclure géométriquement.
+
+## Exemple
+
+Le cercle de centre `Ω(3 ; -2)` et de rayon `4` a pour équation `(x-3)²+(y+2)²=16`.
+
+Le point `A(7 ; -2)` appartient à ce cercle, car `(7-3)² + (-2+2)² = 16`.
+
 ## Voir aussi
 
 - PRÉREQUIS : [N15](N15-droites-equations.md) (Les équations de droites sont fréquemment utilisées.)

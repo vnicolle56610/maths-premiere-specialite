@@ -28,6 +28,20 @@ Cette seconde partie du produit scalaire développe les identités utiles et les
 - [Automatismes N18 — Produit scalaire II](../automatismes/AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Pour tous vecteurs `u⃗` et `v⃗` : `‖u⃗+v⃗‖² = ‖u⃗‖² + 2×u⃗·v⃗ + ‖v⃗‖²` et `‖u⃗-v⃗‖² = ‖u⃗‖² - 2×u⃗·v⃗ + ‖v⃗‖²`.
+
+Dans un triangle `ABC`, avec `a=BC`, `b=AC`, `c=AB`, la **formule d'Al-Kashi** généralise Pythagore : `BC² = AB² + AC² - 2×AB×AC×cos(Â)`. Elle permet aussi de calculer un angle à partir des trois longueurs : `cos(Â) = (AB²+AC²-BC²) / (2×AB×AC)`.
+
+Pour deux points distincts `A` et `B`, l'ensemble des points `M` tels que `MA⃗·MB⃗=0` est le cercle de diamètre `[AB]` (`A` et `B` inclus) : cela revient à dire que le triangle `AMB` est rectangle en `M`.
+
+## Exemple
+
+Dans un triangle `ABC` avec `AB=6`, `AC=5` et `Â=60°` :
+
+`BC² = 6² + 5² - 2×6×5×cos 60° = 36+25-60×0,5 = 31`, donc `BC = √31`.
+
 ## Voir aussi
 
 - PRÉREQUIS : [N17](N17-produit-scalaire-i.md) (Les définitions du produit scalaire sont nécessaires.)

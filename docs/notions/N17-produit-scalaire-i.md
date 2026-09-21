@@ -28,6 +28,22 @@ Le produit scalaire permet de calculer avec les longueurs, les angles et l’ort
 - [Automatismes N17 — Produit scalaire I](../automatismes/AUTOMATISMES_N17_PRODUIT_SCALAIRE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Le produit scalaire de deux vecteurs `u⃗` et `v⃗` est un nombre réel, noté `u⃗·v⃗` — pas un vecteur. Lorsque `u⃗` et `v⃗` sont non nuls : `u⃗·v⃗>0` si l'angle entre eux est aigu, `u⃗·v⃗=0` si l'angle est droit, `u⃗·v⃗<0` si l'angle est obtus.
+
+Avec un angle `θ` entre `0` et `π` : `u⃗·v⃗ = ‖u⃗‖ × ‖v⃗‖ × cos θ`.
+
+Dans un repère **orthonormé**, si `u⃗(x ; y)` et `v⃗(x′ ; y′)`, alors `u⃗·v⃗ = xx′+yy′`.
+
+Deux vecteurs `u⃗` et `v⃗` sont orthogonaux si et seulement si `u⃗·v⃗=0`. Deux droites de vecteurs directeurs `u⃗` et `v⃗` sont perpendiculaires si et seulement si `u⃗·v⃗=0`.
+
+## Exemple
+
+Soient `u⃗(3 ; -2)` et `v⃗(5 ; 4)`, dans un repère orthonormé :
+
+`u⃗·v⃗ = 3×5 + (-2)×4 = 15-8 = 7`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N04](N04-reperages-vecteurs.md) (Les vecteurs sont le langage de base.)
