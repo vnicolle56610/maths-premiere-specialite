@@ -28,6 +28,22 @@ Les dérivées usuelles fournissent une boîte à outils pour étudier rapidemen
 - [Automatismes N09 — Dérivées usuelles](../automatismes/AUTOMATISMES_N09_DERIVEES_USUELLES.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Si `f` est dérivable en tout réel d'un intervalle `I`, la fonction qui à `x` associe `f′(x)` s'appelle la fonction dérivée de `f`, notée `f′`.
+
+Dérivées usuelles : une constante a pour dérivée `0` ; `(x)′=1` ; `(x²)′=2x` ; `(x³)′=3x²` ; `(xⁿ)′=nxⁿ⁻¹` là où `xⁿ` est définie ; `(1/x)′=-1/x²` sur `ℝ*` ; `(√x)′=1/(2√x)` sur `]0 ; +∞[`.
+
+Pour deux fonctions dérivables `u` et `v` et un réel `k` : `(u+v)′=u′+v′`, `(ku)′=ku′`, `(uv)′=u′v+uv′`, et si `v` ne s'annule pas, `(u/v)′=(u′v-uv′)/v²`.
+
+Pour une fonction composée avec une fonction affine, `f(x)=g(ax+b)` a pour dérivée `f′(x)=a×g′(ax+b)`.
+
+## Exemple
+
+Pour `g(x)=x²(3x-1)`, on pose `u(x)=x²` et `v(x)=3x-1`, donc `u′(x)=2x` et `v′(x)=3`. Avec `(uv)′=u′v+uv′` :
+
+`g′(x) = 2x(3x-1) + 3x² = 9x² - 2x`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N08](N08-nombre-derive-derivation.md) (Le sens de la dérivée vient du nombre dérivé.)
