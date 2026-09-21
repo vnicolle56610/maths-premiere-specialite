@@ -1143,6 +1143,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1465,6 +1487,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1516,6 +1560,14 @@
 </ul>
 <!-- AUTO-DOCS:END -->
 
+<h2 id="notions-essentielles">Notions essentielles</h2>
+<p>Un <strong>modèle discret</strong> d'évolution exponentielle s'écrit <code>u_n=C×q^n</code>, où <code>C</code> est la valeur initiale et <code>q&gt;0</code> le coefficient multiplicateur à chaque étape. Une hausse de <code>t %</code> par étape correspond à <code>q=1+t/100</code> ; une baisse à <code>q=1-t/100</code>.</p>
+<p>Un <strong>modèle continu</strong> est une fonction <code>f(t)=C×e^(kt)</code>, avec <code>C&gt;0</code>. Si <code>k&gt;0</code>, <code>f</code> est croissante ; si <code>k&lt;0</code>, <code>f</code> est décroissante. On a toujours <code>f′(t) = k×f(t)</code> : la vitesse d'évolution est proportionnelle à la quantité présente.</p>
+<p>Si <code>q&gt;0</code> et si <code>k</code> vérifie <code>e^k=q</code>, alors pour tout entier <code>n</code>, <code>q^n=e^(kn)</code> : la suite <code>u_n=C×q^n</code> s'écrit aussi <code>u_n=C×e^(kn)</code>, ce qui relie modèle discret et modèle continu.</p>
+<p>Pour chercher un seuil, on calcule les termes ou valeurs successives jusqu'à dépasser (ou atteindre) le seuil fixé — en distinguant bien une condition stricte d'une condition large.</p>
+<h2 id="exemple">Exemple</h2>
+<p>Une population de bactéries est modélisée par <code>N(t)=500×e^(0,18t)</code>, <code>t</code> en heures.</p>
+<p>On a <code>N(0)=500</code>, et <code>N′(t)=0,18×N(t)</code> : la vitesse instantanée d'évolution est proportionnelle à la population présente.</p>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N20-fonction-exponentielle/">N20</a> (Les propriétés de base sont indispensables.)</li>
