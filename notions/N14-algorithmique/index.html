@@ -947,6 +947,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1465,6 +1487,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1516,6 +1560,19 @@
 </ul>
 <!-- AUTO-DOCS:END -->
 
+<h2 id="notions-essentielles">Notions essentielles</h2>
+<p>En Python, l'instruction <code>=</code> ne signifie pas « est égal à » comme en mathématiques : c'est une <strong>affectation</strong>, qui donne une valeur à une variable. Une variable est un nom qui désigne une valeur stockée en mémoire, valeur qui peut changer au cours de l'exécution.</p>
+<p>Une <strong>boucle bornée</strong> (<code>for</code>) répète un bloc d'instructions un nombre connu de fois : <code>range(n)</code> produit <code>n</code> répétitions, avec les valeurs <code>0, 1, …, n-1</code>.</p>
+<p>Une <strong>boucle conditionnelle</strong> (<code>while</code>) répète un bloc tant qu'une condition reste vraie ; elle est utile pour chercher un seuil, quand on ne connaît pas à l'avance le nombre d'étapes nécessaires. La condition est testée avant chaque répétition.</p>
+<p>Une <strong>fonction Python</strong>, définie avec <code>def</code>, est un bloc d'instructions nommé qui peut recevoir des paramètres et renvoyer un résultat avec <code>return</code>.</p>
+<h2 id="exemple">Exemple</h2>
+<p>On considère la suite définie par <code>u₀=500</code> et <code>uₙ₊₁=1,12×uₙ</code>. Le programme suivant calcule <code>u₈</code> :</p>
+<div class="highlight"><pre><span></span><code>u = 500
+for k in range(8):
+    u = 1.12*u
+print(u)
+</code></pre></div>
+<p>La boucle est exécutée <code>8</code> fois : on passe de <code>u₀</code> à <code>u₈</code>.</p>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N13-sommes-modeles-discrets/">N13</a> (Les modèles discrets se programment naturellement.)</li>
