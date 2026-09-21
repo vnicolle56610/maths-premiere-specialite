@@ -28,6 +28,22 @@ La fonction exponentielle modélise des évolutions où le taux de variation gar
 - [Automatismes N20 — Fonction exponentielle I](../automatismes/AUTOMATISMES_N20_EXPONENTIELLE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Il existe une unique fonction `f` dérivable sur `ℝ` telle que `f′=f` et `f(0)=1` : c'est la fonction **exponentielle**, notée `exp`. On note `e=exp(1)≈2,718`, et pour tout réel `x`, `exp(x)=e^x`.
+
+Pour tous réels `x` et `y` : `e^(x+y) = e^x × e^y`, et `e^x × e^(-x) = 1`.
+
+Pour tout réel `x`, `e^x>0`. Comme `exp′=exp`, la fonction exponentielle est **strictement croissante** sur `ℝ`.
+
+Pour tout réel `a`, la fonction `t↦e^(at)` est dérivable sur `ℝ` et `(e^(at))′ = a×e^(at)`.
+
+## Exemple
+
+Simplifions `e^(2x+1) / e^(x-3)` pour tout réel `x` :
+
+`e^(2x+1) / e^(x-3) = e^((2x+1)-(x-3)) = e^(x+4)`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N10](N10-variations-extremums.md) (Les variations donnent le cadre d’étude.)
