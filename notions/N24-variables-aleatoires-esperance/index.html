@@ -1227,6 +1227,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1465,6 +1487,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#notions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notions essentielles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemple
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#voir-aussi" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1516,6 +1560,15 @@
 </ul>
 <!-- AUTO-DOCS:END -->
 
+<h2 id="notions-essentielles">Notions essentielles</h2>
+<p>Une <strong>variable aléatoire réelle</strong> <code>X</code> est une fonction qui associe un nombre réel à chaque issue d'une expérience aléatoire. Si <code>X</code> prend les valeurs <code>x₁,...,xₙ</code> avec les probabilités <code>p₁,...,pₙ</code>, sa <strong>loi de probabilité</strong> vérifie <code>p₁+p₂+...+pₙ=1</code>.</p>
+<p>L'<strong>espérance</strong> de <code>X</code> est <code>E(X) = x₁p₁+x₂p₂+...+xₙpₙ</code>. Ce n'est pas forcément une valeur prise par <code>X</code> : elle s'interprète comme une moyenne à long terme, jamais comme un résultat garanti pour une seule expérience. Pour tous réels <code>a</code> et <code>b</code> : <code>E(aX+b) = a×E(X)+b</code>.</p>
+<p>La <strong>variance</strong> de <code>X</code> est <code>V(X) = Σ pᵢ(xᵢ-E(X))²</code>, et son <strong>écart-type</strong> est <code>σ(X)=√V(X)</code>. La formule de König-Huygens donne <code>V(X) = E(X²) - (E(X))²</code>, plus pratique en calcul. Une variance n'est jamais négative.</p>
+<p>Lorsqu'on répète l'expérience un grand nombre de fois, la moyenne observée sur l'échantillon se rapproche de <code>E(X)</code>, sans jamais lui être exactement égale sur un échantillon fini.</p>
+<h2 id="exemple">Exemple</h2>
+<p>Une variable aléatoire <code>X</code> prend les valeurs <code>-1</code>, <code>1</code> et <code>4</code> avec les probabilités <code>0,5</code>, <code>0,3</code> et <code>0,2</code>.</p>
+<p><code>E(X) = (-1)×0,5 + 1×0,3 + 4×0,2 = -0,5+0,3+0,8 = 0,6</code></p>
+<p>En moyenne, sur un grand nombre de répétitions, <code>X</code> vaut <code>0,6</code>.</p>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N22-probabilites-conditionnelles/">N22</a> (Les probabilités de base alimentent la loi.)</li>
