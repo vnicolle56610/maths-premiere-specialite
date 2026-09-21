@@ -28,6 +28,24 @@ Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie 
 - [Automatismes N07 — Taux de variation](../automatismes/AUTOMATISMES_N07_TAUX_DE_VARIATION.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Entre deux réels distincts `a` et `b`, l'accroissement de la variable est `b-a`, et l'accroissement de l'image est `f(b)-f(a)`. Le taux de variation de `f` entre `a` et `b` est le quotient `τf(a;b) = (f(b)-f(a)) / (b-a)` : il mesure l'accroissement moyen de `f(x)` par unité d'accroissement de `x`.
+
+Ce taux est le coefficient directeur de la droite sécante passant par `A(a ; f(a))` et `B(b ; f(b))`. Un taux positif indique que l'image augmente en moyenne entre `a` et `b` ; un taux négatif indique qu'elle diminue.
+
+Pour une fonction affine, le taux de variation entre deux réels distincts est toujours le même : la pente est constante. Pour une fonction non affine, le taux dépend en général de l'intervalle choisi.
+
+L'écriture `(f(a+h)-f(a)) / h`, avec `h≠0`, permet de rapprocher progressivement le second point du premier : elle prépare la notion de nombre dérivé, étudiée par la suite.
+
+## Exemple
+
+Pour `f(x)=x²`, entre `1` et `3`, on a `f(1)=1` et `f(3)=9`.
+
+`τf(1;3) = (9-1) / (3-1) = 4`
+
+En moyenne, lorsque `x` augmente de `1`, l'image augmente de `4` sur cet intervalle.
+
 ## Voir aussi
 
 - PRÉREQUIS : [N03](N03-fonctions-lectures-variations.md) (Les lectures de fonctions donnent le cadre.)

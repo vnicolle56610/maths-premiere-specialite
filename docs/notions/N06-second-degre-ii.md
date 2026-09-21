@@ -31,6 +31,30 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - [Automatismes N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../automatismes/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Pour `P(x)=ax²+bx+c`, avec `a≠0`, un réel `r` est une racine de `P` lorsque `P(r)=0`. Le discriminant `Δ=b²-4ac` donne le nombre de racines réelles :
+
+- si `Δ>0`, deux racines distinctes `x₁` et `x₂` ;
+- si `Δ=0`, une racine double `x₀=-b/2a` ;
+- si `Δ<0`, aucune racine réelle.
+
+Avec deux racines `x₁<x₂`, le trinôme est du signe de `a` à l'extérieur des racines et du signe opposé entre elles. Avec une racine double, il garde le signe de `a` et s'annule seulement en `x₀`. Sans racine réelle, il garde le signe de `a` sur `ℝ`.
+
+Pour résoudre une inéquation du second degré, on ramène tout dans un membre, on détermine les racines ou une factorisation, puis on dresse le tableau de signes avant de conclure. Une racine appartient à l'ensemble des solutions pour `⩽` ou `⩾`, mais pas pour `<` ou `>`.
+
+## Exemple
+
+Résolvons `2x² - 5x - 3 = 0`. Ici `a=2`, `b=-5`, `c=-3`.
+
+`Δ = (-5)² - 4×2×(-3) = 49`
+
+Comme `Δ>0`, l'équation possède deux solutions :
+
+`x₁ = (5-7)/4 = -0,5` et `x₂ = (5+7)/4 = 3`
+
+Donc `S = {-0,5 ; 3}`.
+
 ## Voir aussi
 
 - PRÉREQUIS : [N05](N05-second-degre-i.md) (La forme canonique éclaire la parabole.)
