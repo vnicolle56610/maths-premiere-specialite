@@ -28,6 +28,20 @@ Les suites arithmétiques et géométriques modélisent des évolutions réguli�
 - [Automatismes N12 — Suites arithmétiques et géométriques](../automatismes/AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Une suite `(uₙ)` est **arithmétique** lorsqu'il existe un réel `r` tel que, pour tout rang `n`, `uₙ₊₁=uₙ+r` ; `r` est la raison. La différence entre deux termes consécutifs est alors constante. Si le premier terme est `u₀`, alors `uₙ=u₀+nr` pour tout `n`.
+
+Une suite `(uₙ)` est **géométrique** lorsqu'il existe un réel `q` tel que, pour tout rang `n`, `uₙ₊₁=q×uₙ` ; `q` est la raison. Si les termes sont non nuls, le quotient entre deux termes consécutifs est alors constant. Si le premier terme est `u₀`, alors `uₙ=u₀×qⁿ` pour tout `n`.
+
+Une évolution avec ajout constant se modélise par une suite arithmétique ; une évolution à taux fixe se modélise par une suite géométrique.
+
+## Exemple
+
+Soit `(uₙ)` arithmétique telle que `u₀=12` et `r=5`. Alors `uₙ=12+5n`, donc :
+
+`u₂₀ = 12 + 5×20 = 112`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N11](N11-suites-definition.md) (Les définitions de suites sont nécessaires.)

@@ -28,6 +28,24 @@ Les suites décrivent des phénomènes discrets, étape par étape. Cette notion
 - [Automatismes N11 — Suites : définition et premiers raisonnements](../automatismes/AUTOMATISMES_N11_SUITES_DEFINITION.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Une suite numérique associe à chaque rang `n` un nombre noté `uₙ` ; on note la suite `(uₙ)`. Dans l'écriture `uₙ`, `n` est le rang et `uₙ` le terme de rang `n` ; le premier terme peut être `u₀` ou `u₁` selon l'énoncé.
+
+Une suite est définie par une **formule explicite** lorsque `uₙ` est donné directement en fonction de `n` : on peut alors calculer un terme sans connaître les précédents.
+
+Une suite est définie **par récurrence** lorsqu'on donne un terme initial et une relation permettant de calculer chaque terme à partir du précédent, par exemple `u₀` et `uₙ₊₁=2uₙ+3`. Sans terme initial, la suite n'est pas entièrement déterminée.
+
+Une suite `(uₙ)` peut être représentée par les points de coordonnées `(n ; uₙ)` : les abscisses étant des entiers, on obtient un nuage de points, pas une courbe continue.
+
+## Exemple
+
+Soit la suite définie pour tout `n∈ℕ` par `uₙ=2n²-3n+1`.
+
+`u₂ = 2×4 - 3×2 + 1 = 3` et `u₁₀ = 2×100 - 3×10 + 1 = 171`
+
+Avec une formule explicite, on calcule directement `u₁₀` sans passer par tous les termes précédents.
+
 ## Voir aussi
 
 - PROLONGEMENT : [N12](N12-suites-arithmetiques-geometriiques.md) (Les suites usuelles donnent des modèles rapides.)

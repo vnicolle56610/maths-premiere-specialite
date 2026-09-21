@@ -28,6 +28,22 @@ Les sommes permettent d’additionner les termes d’une suite et de modéliser 
 - [Automatismes N13 — Sommes et modèles discrets](../automatismes/AUTOMATISMES_N13_SOMMES_MODELES_DISCRETS.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Une somme cumulée additionne plusieurs termes consécutifs d'une suite. La notation `Σ` (sigma) `Σₖ₌₀ⁿ uₖ` se lit « somme des `uₖ`, pour `k` allant de `0` à `n` » et signifie `u₀+u₁+⋯+uₙ`.
+
+Pour une suite **arithmétique**, la somme de termes consécutifs vaut : nombre de termes × (premier terme + dernier terme) / 2. En particulier, `u₀+u₁+⋯+uₙ = (n+1) × (u₀+uₙ)/2`.
+
+Pour une suite **géométrique** de premier terme `u₀` et de raison `q≠1` : `u₀+u₁+⋯+uₙ = u₀ × (1-qⁿ⁺¹)/(1-q)`.
+
+Un terme isolé `uₙ` est une valeur ; une somme `u₀+⋯+uₙ` est un total : il ne faut pas confondre les deux.
+
+## Exemple
+
+Calculons `3+6+12+24+48`, une somme géométrique de premier terme `3`, de raison `2`, avec `5` termes :
+
+`3+6+12+24+48 = 3 × (1-2⁵)/(1-2) = 3×31 = 93`
+
 ## Voir aussi
 
 - PRÉREQUIS : [N12](N12-suites-arithmetiques-geometriiques.md) (Les suites usuelles donnent les formules de base.)
