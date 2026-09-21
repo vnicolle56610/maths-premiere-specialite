@@ -28,6 +28,26 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 - [Automatismes N04 — Repérage et vecteurs](../automatismes/AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf)
 <!-- AUTO-DOCS:END -->
 
+## Notions essentielles
+
+Dans un repère, un point se note `A(xA ; yA)`. L'abscisse se lit horizontalement et l'ordonnée verticalement.
+
+Un vecteur représente un déplacement. Si `A(xA ; yA)` et `B(xB ; yB)`, alors le vecteur `AB` a pour coordonnées `(xB - xA ; yB - yA)` : arrivée moins départ.
+
+Deux vecteurs sont égaux lorsqu'ils ont les mêmes coordonnées. Dans un parallélogramme `ABCD`, on peut par exemple utiliser l'égalité des vecteurs `AB` et `DC`.
+
+Deux vecteurs non nuls sont colinéaires lorsqu'ils ont la même direction. Pour `u=(x ; y)` et `v=(x' ; y')`, on peut tester la colinéarité avec `xy' - yx' = 0`.
+
+Pour montrer que trois points sont alignés, on calcule deux vecteurs issus d'un même point, puis on teste leur colinéarité.
+
+## Exemple
+
+Avec `A(1 ; 2)`, `B(4 ; 8)` et `C(-1 ; -2)`, on obtient `AB=(3 ; 6)` et `AC=(-2 ; -4)`.
+
+On calcule `3 × (-4) - 6 × (-2) = -12 + 12 = 0`.
+
+Les vecteurs `AB` et `AC` sont colinéaires, donc les points A, B et C sont alignés.
+
 ## Voir aussi
 
 - PROLONGEMENT : [N15](N15-droites-equations.md) (Les équations de droites prolongent le travail vectoriel.)

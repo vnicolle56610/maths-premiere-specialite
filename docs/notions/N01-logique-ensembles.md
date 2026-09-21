@@ -27,3 +27,25 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 - [Automatismes N01 — Logique, ensembles et intervalles](../automatismes/AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.pdf)
 - [Corrigé TD N01](../corriges/CORRIGE_TD_N01_LOGIQUE_ENSEMBLES.pdf)
 <!-- AUTO-DOCS:END -->
+
+## Notions essentielles
+
+Une assertion est une phrase mathématique vraie ou fausse. Une phrase ouverte dépend d'une variable : elle devient une assertion lorsqu'une valeur est fixée.
+
+Une implication `P ⇒ Q` signifie que chaque fois que `P` est vraie, `Q` est vraie. Sa réciproque `Q ⇒ P` est une affirmation différente, à étudier séparément.
+
+Pour réfuter une implication, un seul contre-exemple suffit : il faut trouver une situation où l'hypothèse est vraie et la conclusion fausse.
+
+La contraposée de `P ⇒ Q` est `non Q ⇒ non P`. Elle a la même valeur de vérité que l'implication de départ.
+
+L'appartenance `x ∈ E` relie un élément à un ensemble ; l'inclusion `A ⊂ B` relie deux ensembles. Les opérations `A ∩ B`, `A ∪ B` et `A \ B` se lisent souvent efficacement sur une représentation d'intervalles.
+
+## Exemple
+
+Soient `A=[-3 ; 2]` et `B=]0 ; 5[`.
+
+La partie commune aux deux intervalles est `A ∩ B = ]0 ; 2]`.
+
+La réunion des deux intervalles est `A ∪ B = [-3 ; 5[`.
+
+La partie de `A` qui n'appartient pas à `B` est `A \ B = [-3 ; 0]`.
