@@ -46,7 +46,7 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 ## N11 — Suites : définition et premiers raisonnements
 
-- [Automatismes N11](AUTOMATISMES_N11_SUITES_DEFINITION.pdf)
+
 
 ## N12 — Suites arithmétiques et géométriques
 
