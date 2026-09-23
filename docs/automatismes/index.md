@@ -102,5 +102,5 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 ## N25 — Synthèses et automatismes
 
-
+- [Automatismes N25](AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf)
 <!-- AUTO-DOCS:END -->

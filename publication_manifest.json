@@ -270,6 +270,11 @@
       "automatismes": [
         "AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf"
       ]
+    },
+    "N25": {
+      "automatismes": [
+        "AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf"
+      ]
     }
   }
 }
