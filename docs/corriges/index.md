@@ -51,7 +51,7 @@ Corrigés destinés aux élèves, classés par notion.
 
 ## N02 — Calcul algébrique et équations
 
-
+- [Corrigé TD N02](CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
 
 ## N03 — Fonctions : lectures graphiques et variations
 
