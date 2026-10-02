@@ -89,11 +89,39 @@ Corrigés destinés aux élèves, classés par notion.
 
 
 
+## N15 — Droites et équations
+
+
+
 ## N17 — Produit scalaire I
 
 
 
+## N18 — Produit scalaire II
+
+
+
+## N19 — Géométrie repérée
+
+
+
+## N20 — Fonction exponentielle I
+
+
+
 ## N21 — Exponentielle II : modèles
+
+
+
+## N22 — Probabilités conditionnelles
+
+
+
+## N23 — Indépendance et arbres
+
+
+
+## N24 — Variables aléatoires et espérance
 
 
 <!-- AUTO-DOCS:END -->
