@@ -55,7 +55,7 @@ Corrigés destinés aux élèves, classés par notion.
 
 ## N03 — Fonctions : lectures graphiques et variations
 
-
+- [Corrigé TD N03](CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
 
 ## N04 — Repérage et vecteurs
 
