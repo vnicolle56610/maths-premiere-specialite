@@ -1057,10 +1057,6 @@ def update_section_index(
     considered_kinds: frozenset[str] | None = None,
 ) -> None:
     """Régénérer docs/<section>/index.md, comme les pages de notions."""
-    all_by_notion: dict[str, list[Resource]] = defaultdict(list)
-    for resource in resources:
-        all_by_notion[resource.notion].append(resource)
-
     section_resources = [
         resource for resource in resources if resource.kind in kinds
     ]
@@ -1070,7 +1066,7 @@ def update_section_index(
 
     notions_with_documents = {
         notion
-        for notion, notion_resources in all_by_notion.items()
+        for notion, notion_resources in selected_by_notion.items()
         if any(item.kind in kinds for item in notion_resources)
     }
     if not notions_with_documents:
