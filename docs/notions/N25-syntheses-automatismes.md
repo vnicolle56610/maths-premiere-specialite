@@ -22,7 +22,7 @@ Cette page rassemble les ressources de synthèse et d’automatismes. Elle sert 
 ## Documents
 
 <!-- AUTO-DOCS:START -->
-
+- [Automatismes N25 — Synthèses et automatismes](../automatismes/AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf)
 <!-- AUTO-DOCS:END -->
 
 ## Voir aussi

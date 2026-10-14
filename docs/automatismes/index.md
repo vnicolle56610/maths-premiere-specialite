@@ -44,10 +44,6 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 - [Automatismes N10](AUTOMATISMES_N10_VARIATIONS_EXTREMUMS.pdf)
 
-## N11 — Suites : définition et premiers raisonnements
-
-
-
 ## N12 — Suites arithmétiques et géométriques
 
 - [Automatismes N12](AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
@@ -102,5 +98,5 @@ Exercices d'automatismes et mini-tests, classés par notion.
 
 ## N25 — Synthèses et automatismes
 
-
+- [Automatismes N25](AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf)
 <!-- AUTO-DOCS:END -->
