@@ -1,0 +1,45 @@
+# Devoirs blancs publiés dans la rubrique « Préparer une évaluation ».
+#
+# Seuls les devoirs blancs vont sur le site, jamais les sujets ni les
+# corrigés des évaluations réelles. Rien n'est publié tant qu'une entrée
+# n'est pas déclarée ici, et c'est le professeur qui fait avancer « etat » :
+#
+#   non_publie        rien n'apparaît sur le site
+#   annonce           annoncée dans « À venir » (date, format, notions),
+#                     sans document : pour que les élèves se projettent
+#   sujet             devoir blanc en ligne (fiche + sujet), corrigé annoncé
+#   sujet_et_corrige  devoir blanc et corrigé en ligne
+#
+# Une fois l'évaluation passée, l'entrée reste : elle passe dans
+# « Pour réviser — évaluations passées ». Ne pas la supprimer.
+#
+# Dates : celles du message Pronote (MESSAGE_ELEVES_<id>.md). Le script
+# signale un retard sur sujet_prevu / corrige_prevu sans rien publier seul.
+# dossier : relatif à la source déclarée dans config_site.yaml.
+#
+# Puis lancer : ./scripts/lancer_publication.sh
+
+devoirs_blancs:
+  - id: MT2
+    date: 2026-11-09
+    duree: 30 min
+    calculatrice: interdite
+    notions: [N03, N04, N05]
+    dossier: Evaluations/MINITESTS/MT2_N03_N05_2026_11_09
+    sujet: DEVOIR_BLANC_MT2_1S.pdf
+    corrige: CORRIGE_DEVOIR_BLANC_MT2_1S.pdf
+    sujet_prevu: 2026-11-02
+    corrige_prevu: 2026-11-06
+    etat: annonce
+
+  - id: DS1
+    date: 2026-11-23
+    duree: 80 min
+    calculatrice: interdite
+    notions: [N01, N02, N04, N05, N06]
+    dossier: Evaluations/DS/DS1_N01_N05_2026_11_23
+    sujet: DEVOIR_BLANC_DS1_1S.pdf
+    corrige: CORRIGE_DEVOIR_BLANC_DS1_1S.pdf
+    sujet_prevu: 2026-11-16
+    corrige_prevu: 2026-11-19
+    etat: annonce

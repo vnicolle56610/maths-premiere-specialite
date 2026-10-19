@@ -29,6 +29,10 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 - [Corrigé TD N02](../corriges/CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTO-EVAL:START -->
+- 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
+<!-- AUTO-EVAL:END -->
+
 ## Notions essentielles
 
 Une même expression peut avoir plusieurs écritures : développée, factorisée ou faisant apparaître une identité remarquable.

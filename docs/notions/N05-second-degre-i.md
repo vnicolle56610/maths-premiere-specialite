@@ -28,6 +28,11 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 - [Automatismes N05 — Second degré I : fonction carré et forme canonique](../automatismes/AUTOMATISMES_N05_SECOND_DEGRE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTO-EVAL:START -->
+- 🎯 Évaluée au mini-test 2 du lundi 9 novembre : [devoir blanc en ligne le lundi 2 novembre](../preparer-evaluation/index.md#mt2-2026-2027)
+- 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
+<!-- AUTO-EVAL:END -->
+
 ## Notions essentielles
 
 La fonction carré est définie sur `ℝ` par `f(x)=x²`. Sa courbe est une parabole de sommet `O(0 ; 0)`, symétrique par rapport à l'axe des ordonnées. Elle est décroissante sur `]-∞ ; 0]`, puis croissante sur `[0 ; +∞[`.

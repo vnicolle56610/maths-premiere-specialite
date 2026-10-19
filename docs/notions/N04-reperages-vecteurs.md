@@ -28,6 +28,11 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 - [Automatismes N04 — Repérage et vecteurs](../automatismes/AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTO-EVAL:START -->
+- 🎯 Évaluée au mini-test 2 du lundi 9 novembre : [devoir blanc en ligne le lundi 2 novembre](../preparer-evaluation/index.md#mt2-2026-2027)
+- 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
+<!-- AUTO-EVAL:END -->
+
 ## Notions essentielles
 
 Dans un repère, un point se note `A(xA ; yA)`. L'abscisse se lit horizontalement et l'ordonnée verticalement.

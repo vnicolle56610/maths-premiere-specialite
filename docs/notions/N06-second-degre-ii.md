@@ -31,6 +31,10 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - [Automatismes N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../automatismes/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTO-EVAL:START -->
+- 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
+<!-- AUTO-EVAL:END -->
+
 ## Notions essentielles
 
 Pour `P(x)=ax²+bx+c`, avec `a≠0`, un réel `r` est une racine de `P` lorsque `P(r)=0`. Le discriminant `Δ=b²-4ac` donne le nombre de racines réelles :

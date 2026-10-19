@@ -28,6 +28,10 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 - [Corrigé TD N01](../corriges/CORRIGE_TD_N01_LOGIQUE_ENSEMBLES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTO-EVAL:START -->
+- 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
+<!-- AUTO-EVAL:END -->
+
 ## Notions essentielles
 
 Une assertion est une phrase mathématique vraie ou fausse. Une phrase ouverte dépend d'une variable : elle devient une assertion lorsqu'une valeur est fixée.
