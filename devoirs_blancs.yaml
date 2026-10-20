@@ -30,7 +30,7 @@ devoirs_blancs:
     corrige: CORRIGE_DEVOIR_BLANC_MT2_1S.pdf
     sujet_prevu: 2026-11-02
     corrige_prevu: 2026-11-06
-    etat: annonce
+    etat: sujet
 
   - id: DS1
     date: 2026-11-23

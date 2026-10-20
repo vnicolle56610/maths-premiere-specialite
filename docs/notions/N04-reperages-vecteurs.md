@@ -29,7 +29,7 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 <!-- AUTO-DOCS:END -->
 
 <!-- AUTO-EVAL:START -->
-- 🎯 Évaluée au mini-test 2 du lundi 9 novembre : [devoir blanc en ligne le lundi 2 novembre](../preparer-evaluation/index.md#mt2-2026-2027)
+- 🎯 Évaluée au mini-test 2 du lundi 9 novembre : [voir le devoir blanc](../preparer-evaluation/index.md#mt2-2026-2027)
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
 <!-- AUTO-EVAL:END -->
 
