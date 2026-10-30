@@ -44,6 +44,16 @@ Le cercle de centre `Ω(3 ; -2)` et de rayon `4` a pour équation `(x-3)²+(y+2)
 
 Le point `A(7 ; -2)` appartient à ce cercle, car `(7-3)² + (-2+2)² = 16`.
 
+## Repère historique — Pourquoi chercher les intersections de deux courbes ?
+
+Au XVIIe siècle, Fermat utilise des courbes pour résoudre des problèmes géométriques et algébriques. Il montre notamment comment certaines équations peuvent se résoudre à l’aide des intersections d’une parabole et d’un cercle. Cette approche permet de passer d’une relation entre nombres à une construction géométrique, puis de revenir au calcul.
+
+**Le lien avec le cours :** avec nos notations actuelles, cherchons les points communs au cercle `x² + y² = 25` et à la droite `y = 3`. Remplacer `y` par 3 donne `x² + 9 = 25`, donc `x = −4` ou `x = 4`. Les deux points d’intersection sont `(−4 ; 3)` et `(4 ; 3)`.
+
+Pour vérifier la réponse, leurs coordonnées doivent satisfaire les deux équations. Cet exemple réunit plusieurs outils de l’année : équation de cercle, équation de droite et résolution algébrique. Le dessin aide à prévoir les intersections ; le calcul permet de les déterminer exactement et de justifier la conclusion.
+
+*Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N15](N15-droites-equations.md) (Les équations de droites sont fréquemment utilisées.)

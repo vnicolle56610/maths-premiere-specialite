@@ -44,6 +44,16 @@ Une population de bactéries est modélisée par `N(t)=500×e^(0,18t)`, `t` en h
 
 On a `N(0)=500`, et `N′(t)=0,18×N(t)` : la vitesse instantanée d'évolution est proportionnelle à la population présente.
 
+## Repère historique — Une population peut-elle croître indéfiniment au même rythme ?
+
+Dans son essai sur la population publié en 1798, Thomas Robert Malthus oppose une croissance géométrique de la population, en l’absence de freins, à une progression arithmétique des ressources alimentaires. Ce raisonnement historique met en évidence l’effet d’une multiplication répétée. Ses hypothèses et ses conclusions ont été discutées ; il ne constitue pas une loi universelle d’évolution des populations.
+
+**Le lien avec le cours :** une suite `uₙ = C × qⁿ` représente une évolution à coefficient multiplicateur constant. Dans un modèle continu actuel, `N(t) = C × e^(kt)` vérifie `N′(t) = k × N(t)` : la vitesse de croissance est proportionnelle à la quantité présente.
+
+Pour `k > 0`, le quotient `N(t+1)/N(t) = e^k` reste constant. La croissance absolue devient pourtant de plus en plus grande. Le choix de ce modèle demande donc de préciser les hypothèses et la période sur laquelle elles sont plausibles, notamment lorsque les ressources sont limitées.
+
+*Source : [Jesus College, université de Cambridge — Thomas Robert Malthus](https://www.jesus.cam.ac.uk/college/about-us/history/people-note/thomas-robert-malthus) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N20](N20-fonction-exponentielle.md) (Les propriétés de base sont indispensables.)

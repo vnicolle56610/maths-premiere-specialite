@@ -46,6 +46,16 @@ Une variable aléatoire `X` prend les valeurs `-1`, `1` et `4` avec les probabil
 
 En moyenne, sur un grand nombre de répétitions, `X` vaut `0,6`.
 
+## Repère historique — Comment donner une valeur à un gain incertain ?
+
+En 1657, Christiaan Huygens publie un traité sur les jeux de hasard dans lequel il formule le concept d’espérance. Une question centrale est de donner une valeur à une situation où plusieurs gains sont possibles. Cette démarche prépare le calcul actuel d’une moyenne pondérée par les probabilités.
+
+**Le lien avec le cours :** dans un jeu moderne, une pièce équilibrée donne un gain brut de 4 unités pour pile et de 0 pour face. Si `X` désigne ce gain, alors `E(X) = 4 × 0,5 + 0 × 0,5 = 2`. Avec une mise de 2 unités, le gain net `G = X − 2` a pour espérance zéro : le jeu est équitable au sens de l’espérance.
+
+Cela ne signifie pas que chaque partie se termine sans gain ni perte : `G` vaut 2 ou −2. L’espérance décrit le gain moyen du modèle, tandis que la dispersion renseigne sur les écarts possibles autour de cette moyenne.
+
+*Source : [Bibliothèque de l’ETH Zurich — From games of chance to probability theory](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N22](N22-probabilites-conditionnelles.md) (Les probabilités de base alimentent la loi.)

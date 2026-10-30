@@ -44,6 +44,16 @@ Si `P(A)=0,4`, `P(B)=0,3` et `P(A∩B)=0,12` :
 
 `P(A)×P(B) = 0,4×0,3 = 0,12 = P(A∩B)`, donc `A` et `B` sont indépendants.
 
+## Repère historique — Pourquoi répéter un lancer change-t-il les chances de gagner ?
+
+Dans leurs échanges de 1654, Pascal et Fermat abordent des problèmes de jeux de hasard, dont celui de l’apparition d’un double six avec deux dés. Pour comprendre ces situations, il faut tenir compte de toutes les issues possibles et de la répétition des épreuves, plutôt que multiplier directement une probabilité par un nombre de tentatives.
+
+**Le lien avec le cours :** dans un modèle actuel avec deux dés équilibrés et indépendants, la probabilité d’un double six à un lancer est `1/36`. Pour `n` lancers indépendants, la probabilité de n’obtenir aucun double six vaut `(35/36)^n`. Celle d’en obtenir au moins un vaut donc `1 − (35/36)^n`.
+
+Cette formule combine le passage à l’événement contraire et l’indépendance. Les branches correspondant à l’échec gardent la même probabilité à chaque étape. L’indépendance signifie que les résultats passés ne modifient pas les probabilités du lancer suivant ; une longue série d’échecs ne rend donc pas le prochain double six plus probable.
+
+*Source : [Bibliothèque de l’ETH Zurich — From games of chance to probability theory](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N22](N22-probabilites-conditionnelles.md) (Les probabilités conditionnelles donnent les formules.)

@@ -44,6 +44,16 @@ Simplifions `e^(2x+1) / e^(x-3)` pour tout réel `x` :
 
 `e^(2x+1) / e^(x-3) = e^((2x+1)-(x-3)) = e^(x+4)`
 
+## Repère historique — D’où vient la notation e ?
+
+Au XVIIIe siècle, Leonhard Euler joue un rôle majeur dans l’étude de l’exponentielle et dans la diffusion de la notation `e`. Dans son *Introductio in analysin infinitorum* de 1748, il développe les propriétés de ce nombre et en donne une approximation précise. Ce travail prolonge des recherches antérieures sur les logarithmes et les calculs exponentiels : l’histoire de la notion ne se réduit pas au choix d’une lettre.
+
+**Le lien avec le cours :** `e` désigne un nombre particulier, environ égal à 2,718, tandis que `exp` désigne une fonction. L’écriture `e^x` permet d’exprimer ses propriétés sous une forme proche des règles sur les puissances : `e^(x+y) = e^x × e^y`.
+
+Dans le cadre du cours, l’exponentielle est caractérisée par `exp′ = exp` et `exp(0) = 1`. On peut ainsi relier ses propriétés algébriques à la dérivation, en distinguant le nombre `e = exp(1)` de la fonction entière.
+
+*Source : [MacTutor, université de St Andrews — The number e](https://mathshistory.st-andrews.ac.uk/HistTopics/e/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N10](N10-variations-extremums.md) (Les variations donnent le cadre d’étude.)

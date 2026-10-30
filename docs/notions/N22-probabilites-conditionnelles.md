@@ -46,6 +46,16 @@ Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :
 
 La probabilité que A et B se réalisent est donc égale à 0,10.
 
+## Repère historique — Comment une information modifie-t-elle une probabilité ?
+
+Au XVIIIe siècle, Thomas Bayes étudie comment tirer une information probabiliste d’observations. Son mémoire, communiqué après sa mort par Richard Price en 1763, devient un jalon de l’histoire de l’inférence probabiliste. Les probabilités conditionnelles du cours fournissent un langage actuel pour distinguer une probabilité initiale d’une probabilité calculée lorsqu’une information est connue.
+
+**Le lien avec le cours :** prenons un exemple moderne. Une boîte contient trois jetons rouges et deux bleus, tous indiscernables au toucher. On en tire deux sans remise. Notons `A` l’événement « le premier jeton est rouge » et `B` l’événement « le second est rouge ». On a `P(A) = 3/5` et `P_A(B) = 2/4`, car après un premier rouge, il reste deux rouges parmi quatre jetons.
+
+La probabilité d’obtenir deux rouges vaut donc `(3/5) × (2/4) = 3/10`. L’arbre pondéré organise ces informations successives. Cet exemple illustre le conditionnement, sans reproduire le problème historique de Bayes.
+
+*Source : [Université de Cambridge — Bayes’ probability, Statistics 1B Interludes](https://www.statslab.cam.ac.uk/Dept/People/djsteaching/interlude-6-bayesian.pdf) (PDF en anglais).*
+
 ## Voir aussi
 
 - PROLONGEMENT : [N23](N23-independance-arbres.md) (L’indépendance prolonge les calculs conditionnels.)
