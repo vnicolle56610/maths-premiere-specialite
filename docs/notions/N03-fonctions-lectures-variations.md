@@ -49,6 +49,16 @@ Si `f(2)=5` et `f(7)=5`, alors 5 possède au moins deux antécédents par `f` : 
 
 En revanche, 2 possède une seule image par `f`, qui est ici égale à 5.
 
+## Repère historique — Comment décrire une grandeur qui dépend d’une autre ?
+
+La notion de fonction s’est construite progressivement. Au XVIIe siècle, les travaux de Galilée sur le mouvement et ceux de Descartes reliant algèbre et géométrie contribuent à l’étude des relations entre grandeurs variables. Au XVIIIe siècle, Euler joue un rôle majeur dans le développement du langage des fonctions ; il emploie notamment la notation `f(x)`.
+
+Ces étapes ne correspondent pas encore toutes à la définition générale utilisée aujourd’hui. Elles montrent comment une question concrète — décrire la dépendance entre deux grandeurs — conduit à rapprocher calculs et représentations.
+
+**Le lien avec le cours :** une même dépendance peut se lire dans un tableau, sur une courbe ou dans une expression. Par exemple, la formule `A(c) = c²`, pour `c > 0`, associe au côté d’un carré son aire. Étudier les variations permet ensuite de préciser comment l’aire évolue lorsque le côté augmente.
+
+*Source : [MacTutor, université de St Andrews — Histoire de la notion de fonction](https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/) (en anglais).*
+
 ## Voir aussi
 
 - PROLONGEMENT : [N07](N07-taux-de-variation.md) (Le taux de variation quantifie l’évolution d’une fonction.)

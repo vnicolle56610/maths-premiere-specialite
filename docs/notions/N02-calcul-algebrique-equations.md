@@ -53,6 +53,16 @@ Pour résoudre `(x - 7)(x - 1) = 0`, on utilise la propriété du produit nul.
 
 Donc `x = 7` ou `x = 1`, et `S = {1 ; 7}`.
 
+## Repère historique — Pourquoi transformer une équation ?
+
+Au IXe siècle, à Bagdad, Al-Khwarizmi rédige un traité consacré à la résolution d’équations. Il présente ces méthodes comme utiles à des problèmes de partage, de commerce ou de mesure des terrains. Le mot « algèbre » vient d’*al-jabr*, un terme du titre de cet ouvrage, associé à une opération de restauration dans les équations.
+
+Ses raisonnements sont rédigés avec des mots, sans notre écriture symbolique actuelle. Ils organisent pourtant une démarche familière : transformer un problème pour le ramener à une forme que l’on sait résoudre.
+
+**Le lien avec le cours :** en notation moderne, passer de `x + 5 = 12` à `x = 7` consiste à soustraire 5 aux deux membres pour conserver les solutions. Développer ou factoriser répond au même souci de choisir une écriture utile. Les lettres et les symboles rendent ces transformations plus compactes ; chaque étape doit rester justifiée.
+
+*Source : [MacTutor, université de St Andrews — Al-Khwarizmi](https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N01](N01-logique-ensembles.md) (Les notations et la rédaction guident les résolutions.)

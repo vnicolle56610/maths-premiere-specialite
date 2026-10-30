@@ -53,3 +53,13 @@ La partie commune aux deux intervalles est `A ∩ B = ]0 ; 2]`.
 La réunion des deux intervalles est `A ∪ B = [-3 ; 5[`.
 
 La partie de `A` qui n'appartient pas à `B` est `A \ B = [-3 ; 0]`.
+
+## Repère historique — Peut-on calculer avec des raisonnements ?
+
+Au XIXe siècle, George Boole cherche à appliquer les méthodes de l’algèbre à la logique. Dans deux ouvrages parus en 1847 et en 1854, il développe un langage symbolique pour analyser des raisonnements. L’idée est de rendre explicites les règles qui permettent de passer de certaines affirmations à une conclusion.
+
+Cette démarche éclaire le rôle des notations du chapitre : elles permettent de distinguer des phrases qui se ressemblent, mais qui n’affirment pas la même chose. Avec les notations actuelles, « appartenir à A **et** à B » décrit l’intersection `A ∩ B`, tandis que « appartenir à A **ou** à B » décrit la réunion `A ∪ B`, en acceptant l’appartenance aux deux ensembles.
+
+**Le lien avec le cours :** traduire une phrase avec précision permet de contrôler un raisonnement. L’écriture symbolique accompagne l’explication ; elle exige de connaître le sens de chaque opération.
+
+*Source : [Stanford Encyclopedia of Philosophy — George Boole](https://plato.stanford.edu/entries/boole/) (en anglais).*
