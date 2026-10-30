@@ -51,6 +51,16 @@ print(u)
 
 La boucle est exécutée `8` fois : on passe de `u₀` à `u₈`.
 
+## Repère historique — Un algorithme existait-il avant les ordinateurs ?
+
+Le livre VII des *Éléments* d’Euclide décrit une procédure pour trouver la plus grande mesure commune de deux nombres, que nous appelons leur PGCD. Elle repose sur la répétition de soustractions. Une méthode de calcul peut donc être organisée en étapes bien avant l’apparition des ordinateurs et des langages de programmation.
+
+**Le lien avec le cours :** dans une version moderne utilisant les restes des divisions, on remplace un couple `(a ; b)` par `(b ; reste de a par b)`, tant que le second nombre est non nul. Avec 48 et 18, on obtient successivement `(48 ; 18)`, `(18 ; 12)`, `(12 ; 6)`, puis `(6 ; 0)`. Le PGCD vaut 6.
+
+Cet exemple réunit des éléments du chapitre : des variables mémorisent les valeurs, une boucle répète la transformation et une condition fixe l’arrêt. Les restes positifs deviennent strictement plus petits, ce qui garantit la fin du calcul. Programmer consiste aussi à expliquer pourquoi les instructions donnent le résultat attendu.
+
+*Source : [Euclide, Éléments, livre VII, proposition 2 — édition commentée par David E. Joyce, université Clark](https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII2.html) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N13](N13-sommes-modeles-discrets.md) (Les modèles discrets se programment naturellement.)

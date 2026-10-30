@@ -46,6 +46,16 @@ Pour `A(1 ; 2)` : `2×1 - 3×2 + 4 = 0`, donc `A∈d`.
 
 Pour `B(4 ; 3)` : `2×4 - 3×3 + 4 = 3`, donc `B∉d`.
 
+## Repère historique — Comment une équation peut-elle décrire une droite ?
+
+Au XVIIe siècle, Pierre de Fermat étudie les lieux géométriques : les ensembles de points qui satisfont une même condition. Dans son travail sur la géométrie analytique, il relie des équations à deux inconnues à des droites ou à des courbes. Son dispositif utilise un axe et des longueurs variables ; il diffère du repère à deux axes fixes utilisé aujourd’hui.
+
+**Le lien avec le cours :** en notation actuelle, l’équation `2x − 3y + 4 = 0` décrit tous les points dont les coordonnées vérifient cette relation. Elle peut se réécrire `y = (2/3)x + 4/3`, ce qui fait apparaître le coefficient directeur et l’ordonnée à l’origine.
+
+Ces deux écritures décrivent la même droite. La forme cartésienne permet aussi de traiter les droites verticales, comme `x = 2`, qui ne possèdent pas d’équation de la forme `y = mx + p`. Une équation est ainsi un outil pour caractériser un ensemble de points et calculer ses intersections avec d’autres figures.
+
+*Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N04](N04-reperages-vecteurs.md) (Le repérage fournit les coordonnées et vecteurs.)

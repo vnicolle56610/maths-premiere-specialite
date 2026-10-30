@@ -44,6 +44,16 @@ Calculons `3+6+12+24+48`, une somme géométrique de premier terme `3`, de raiso
 
 `3+6+12+24+48 = 3 × (1-2⁵)/(1-2) = 3×31 = 93`
 
+## Repère historique — Comment additionner une progression sans tout calculer ?
+
+Dans le livre IX des *Éléments*, Euclide établit une relation entre des nombres « en proportion continue » et leur somme. La proposition 35 correspond, dans notre langage, à un résultat sur les sommes géométriques. Sa présentation repose sur des rapports de nombres, sans notre notation des suites ni le symbole de sommation.
+
+**Le lien avec le cours :** reprenons une somme avec des outils actuels. Si `S = 3 + 6 + 12 + 24 + 48`, alors `2S = 6 + 12 + 24 + 48 + 96`. En soustrayant les deux égalités, les termes intermédiaires disparaissent : `2S − S = 96 − 3`, donc `S = 93`.
+
+Cette comparaison entre une somme et son multiple explique la formule du cours. Elle permet aussi de contrôler les indices : la somme initiale comporte cinq termes et le terme supplémentaire obtenu après multiplication est `3 × 2⁵`. Le rang du dernier terme et le nombre de termes doivent être distingués.
+
+*Source : [Euclide, Éléments, livre IX, proposition 35 — édition commentée par David E. Joyce, université Clark](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX35.html) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N12](N12-suites-arithmetiques-geometriiques.md) (Les suites usuelles donnent les formules de base.)

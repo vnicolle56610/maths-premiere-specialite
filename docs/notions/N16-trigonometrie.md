@@ -44,6 +44,16 @@ Déterminons `cos(5π/6)`. On écrit `5π/6 = π - π/6`, donc :
 
 `cos(5π/6) = -cos(π/6) = -√3/2`
 
+## Repère historique — Pourquoi les astronomes calculaient-ils des cordes ?
+
+Au IIe siècle de notre ère, Ptolémée présente dans l’*Almageste* des tables de cordes destinées aux calculs astronomiques. Une corde est le segment qui relie deux points d’un cercle. Ses tables associent à un angle au centre une longueur de corde, pour un cercle de rayon 60. Elles permettent de passer des angles aux longueurs sans refaire chaque construction géométrique.
+
+**Le lien avec le cours :** avec les notations actuelles, une corde qui intercepte un angle au centre `α`, pour `0 ≤ α ≤ π`, a pour longueur `2R × sin(α/2)` dans un cercle de rayon `R`. Cette relation se retrouve en partageant le triangle isocèle formé par les deux rayons en deux triangles rectangles.
+
+Le cercle trigonométrique du cours choisit un rayon égal à 1 et définit cosinus et sinus comme des coordonnées. Il prolonge le lien entre angles et longueurs, avec un cadre adapté aux angles orientés et à la périodicité. Il se distingue donc des tables anciennes de cordes.
+
+*Source : [Heinz Klaus Strick — Claudius Ptolemy, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/Strick/ptolemy.pdf) (PDF en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N04](N04-reperages-vecteurs.md) (Le repérage aide à lire le cercle trigonométrique.)
