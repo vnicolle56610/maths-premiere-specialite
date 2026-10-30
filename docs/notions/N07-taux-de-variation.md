@@ -46,6 +46,16 @@ Pour `f(x)=x²`, entre `1` et `3`, on a `f(1)=1` et `f(3)=9`.
 
 En moyenne, lorsque `x` augmente de `1`, l'image augmente de `4` sur cet intervalle.
 
+## Repère historique — Comment mesurer une vitesse qui change ?
+
+Au XVIIe siècle, Isaac Newton développe une manière d’étudier des grandeurs qui évoluent avec le temps. Il appelle « fluxions » leurs vitesses de variation. Cette approche contribue à la naissance du calcul différentiel et éclaire une question essentielle : comment passer d’une évolution mesurée sur une durée à une variation à un instant ?
+
+**Le lien avec le cours :** dans un exemple moderne, supposons qu’un mobile avance sur un axe et que sa position, en mètres, soit `s(t) = t²`, avec `t` en secondes et `t ≥ 0`. Entre 1 et 3 secondes, sa vitesse moyenne est `(9 − 1)/(3 − 1) = 4` mètres par seconde. Entre 1 et 2 secondes, elle vaut 3 mètres par seconde.
+
+Le résultat dépend donc de l’intervalle choisi. Le taux de variation décrit une évolution moyenne ; il ne donne pas directement la vitesse à un instant. Raccourcir l’intervalle prépare la question du nombre dérivé étudiée ensuite.
+
+*Source : [MacTutor, université de St Andrews — A history of the calculus](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N03](N03-fonctions-lectures-variations.md) (Les lectures de fonctions donnent le cadre.)

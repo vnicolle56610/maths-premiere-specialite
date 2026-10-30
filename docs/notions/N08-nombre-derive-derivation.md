@@ -44,6 +44,16 @@ Pour `f(x)=x²`, calculons le nombre dérivé en `2`. On a `f(2)=4` et `f(2+h)=4
 
 Lorsque `h` se rapproche de `0`, `4+h` se rapproche de `4`. Donc `f′(2)=4`, et la tangente au point d'abscisse `2` a pour équation `y = 4(x-2)+4`, soit `y = 4x-4`.
 
+## Repère historique — Comment trouver la direction d’une courbe en un point ?
+
+Avant que le calcul différentiel soit organisé en une méthode générale, les mathématiciens cherchent déjà à construire des tangentes. Au XVIIe siècle, Pierre de Fermat développe des méthodes pour les tangentes ainsi que pour les maxima et minima. Ses travaux font partie des étapes qui préparent la dérivation ; leur présentation diffère de la définition moderne par une limite.
+
+**Le lien avec le cours :** avec nos notations actuelles, deux points distincts d’une courbe déterminent une sécante. Pour `f(x) = x²`, les points d’abscisses 2 et `2 + h`, avec `h ≠ 0`, donnent une pente égale à `4 + h`. Lorsque `h` se rapproche de zéro, cette pente se rapproche de 4 : on obtient le coefficient directeur de la tangente au point d’abscisse 2.
+
+Le nombre dérivé relie ainsi une question géométrique à un calcul. Il faut toutefois vérifier que les pentes se rapprochent bien d’un même nombre réel : toutes les courbes ne possèdent pas une telle tangente en chaque point.
+
+*Source : [MacTutor, université de St Andrews — Pierre de Fermat](https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N07](N07-taux-de-variation.md) (Le taux de variation prépare la dérivée.)
