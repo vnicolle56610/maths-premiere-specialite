@@ -42,6 +42,16 @@ Pour étudier les variations de `f`, on calcule `f′(x)`, on résout `f′(x)=0
 
 Avec `f(-3)=-17`, `f(-1)=3`, `f(1)=-1` et `f(3)=19`, le tableau de variations montre que `f` admet un maximum local égal à `3` en `x=-1`, puis un minimum local égal à `-1` en `x=1`.
 
+## Repère historique — Comment partager une longueur pour obtenir le plus grand produit ?
+
+Au XVIIe siècle, Pierre de Fermat étudie des problèmes de maxima et de minima. Parmi eux figure le partage d’un segment en deux parties dont le produit doit être le plus grand possible. La question peut aussi s’interpréter comme une recherche d’aire : parmi les rectangles de périmètre fixé, lequel a la plus grande aire ?
+
+**Le lien avec le cours :** reprenons ce problème avec nos outils actuels. Si la longueur totale des deux parties est 10, on note leurs longueurs `x` et `10 − x`, avec `0 ≤ x ≤ 10`. Leur produit est `A(x) = x(10 − x)`. La dérivée `A′(x) = 10 − 2x` est positive avant 5, nulle en 5 et négative après 5.
+
+Le produit atteint donc son maximum pour deux parties égales, de longueur 5. Ce raisonnement illustre l’intérêt du tableau de variations : annuler la dérivée fournit un candidat, puis son changement de signe justifie le maximum. Cette présentation utilise le langage moderne de la dérivation, distinct de celui de Fermat.
+
+*Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N09](N09-derivees-usuelles.md) (Les dérivées usuelles alimentent l’étude.)

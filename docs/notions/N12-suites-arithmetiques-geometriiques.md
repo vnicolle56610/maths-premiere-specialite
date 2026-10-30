@@ -42,6 +42,16 @@ Soit `(uₙ)` arithmétique telle que `u₀=12` et `r=5`. Alors `uₙ=12+5n`, do
 
 `u₂₀ = 12 + 5×20 = 112`
 
+## Repère historique — Que relie une addition régulière à une multiplication régulière ?
+
+Dans son *Arithmetica integra*, publiée en 1544, Michael Stifel met en correspondance les nombres `1, 2, 3, 4, 5…` et les puissances `2, 4, 8, 16, 32…`. Il prolonge aussi cette correspondance : 0 est associé à 1, puis −1 à la moitié et −2 au quart. Ce rapprochement entre progressions arithmétiques et géométriques constitue un jalon de l’histoire des logarithmes.
+
+**Le lien avec le cours :** en notation actuelle, limitons-nous aux rangs `n ≥ 0`. Les suites `aₙ = n` et `bₙ = 2ⁿ` sont respectivement arithmétique de raison 1 et géométrique de raison 2. Passer au rang suivant revient à ajouter 1 dans la première et à multiplier par 2 dans la seconde.
+
+La règle `2³ × 2⁴ = 2⁷` montre aussi qu’une multiplication de puissances correspond à une addition de leurs exposants. Pour reconnaître les deux modèles, on examine donc ce qui reste constant : la différence ou, lorsque les termes sont non nuls, le quotient de deux termes consécutifs.
+
+*Source : [MacTutor, université de St Andrews — Michael Stifel](https://mathshistory.st-andrews.ac.uk/Biographies/Stifel/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N11](N11-suites-definition.md) (Les définitions de suites sont nécessaires.)

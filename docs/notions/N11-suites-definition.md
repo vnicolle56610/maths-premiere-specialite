@@ -45,6 +45,16 @@ Soit la suite définie pour tout `n∈ℕ` par `uₙ=2n²-3n+1`.
 
 Avec une formule explicite, on calcule directement `u₁₀` sans passer par tous les termes précédents.
 
+## Repère historique — Pourquoi les lapins de Fibonacci donnent-ils une suite ?
+
+Dans le *Liber abaci*, dont une première version date de 1202, Léonard de Pise, dit Fibonacci, propose un problème de reproduction de lapins. Le modèle suppose notamment que les couples ne meurent pas et qu’après une période de maturation, chaque couple donne naissance régulièrement à un nouveau couple. Ces hypothèses idéalisées permettent de compter la population mois après mois ; elles ne constituent pas une description biologique réaliste.
+
+**Le lien avec le cours :** dans une écriture actuelle commençant par `u₁ = 1` et `u₂ = 1`, le comptage conduit à `uₙ₊₂ = uₙ₊₁ + uₙ`. On obtient successivement `1, 1, 2, 3, 5, 8…` : chaque nouveau terme dépend des deux précédents.
+
+Cet exemple élargit la définition récurrente vue avec un seul terme précédent. Les deux valeurs initiales et la relation de calcul déterminent ici toute la suite. Définir une suite par récurrence explique comment construire ses termes ; cela se distingue d’une démonstration par récurrence.
+
+*Source : [Université Stony Brook — Fibonacci, présentation et traduction du problème des lapins par Tony Phillips](https://www.math.stonybrook.edu/~tony/archive/118s13/fibonacci.html) (en anglais).*
+
 ## Voir aussi
 
 - PROLONGEMENT : [N12](N12-suites-arithmetiques-geometriiques.md) (Les suites usuelles donnent des modèles rapides.)
