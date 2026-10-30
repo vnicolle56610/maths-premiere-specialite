@@ -51,6 +51,16 @@ Mettons `x²+6x+5` sous forme canonique.
 
 La parabole a donc pour sommet `S(-3 ; -4)`, pour axe `x=-3`, et la fonction admet un minimum égal à `-4`.
 
+## Repère historique — Pourquoi dit-on « compléter le carré » ?
+
+Au IXe siècle, Al-Khwarizmi accompagne ses méthodes de résolution d’équations par des justifications géométriques. L’un de ses exemples correspond, dans notre notation, à `x² + 10x = 39`. Pour une longueur positive `x`, on peut représenter `x²` par l’aire d’un carré et `10x` par celles de deux rectangles de côtés `x` et 5.
+
+En plaçant ces rectangles sur deux côtés adjacents du carré, il manque un petit carré de côté 5 pour former un grand carré de côté `x + 5`. Ajouter son aire, 25, conduit à `(x + 5)² = 64`. L’expression « compléter le carré » prend ici un sens concret.
+
+**Le lien avec le cours :** la forme canonique reprend algébriquement cette idée. Par exemple, `x² + 6x + 5 = (x + 3)² − 4`. L’identité est aujourd’hui valable pour tout réel `x`, au-delà de l’interprétation initiale en longueurs positives, et permet de lire le minimum de la fonction.
+
+*Source : [American Mathematical Society — Completing the Square, par Tony Phillips](https://mathvoices.ams.org/featurecolumn/2020/11/01/fc-2020-10-2/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N02](N02-calcul-algebrique-equations.md) (Les transformations algébriques sont centrales.)

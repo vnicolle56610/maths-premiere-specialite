@@ -53,6 +53,16 @@ On calcule `3 × (-4) - 6 × (-2) = -12 + 12 = 0`.
 
 Les vecteurs `AB` et `AC` sont colinéaires, donc les points A, B et C sont alignés.
 
+## Repère historique — Comment transformer une question de géométrie en calcul ?
+
+En 1637, dans *La Géométrie*, René Descartes expose une méthode qui rapproche l’algèbre et la géométrie. Des longueurs inconnues sont désignées par des lettres ; les relations imposées par une figure deviennent des équations. Résoudre un problème géométrique peut alors passer par des transformations algébriques, avant de revenir à la construction ou à l’interprétation de la figure.
+
+Cette démarche est une étape majeure vers la géométrie analytique. Il faut toutefois distinguer les méthodes de Descartes du langage vectoriel utilisé aujourd’hui : les outils du chapitre ne sont pas tous apparus ensemble.
+
+**Le lien avec le cours :** dans un repère actuel, les coordonnées permettent de traduire une propriété géométrique en une égalité à vérifier. Pour établir un alignement, on calcule les coordonnées de deux vecteurs, puis on teste leur colinéarité. Le calcul fournit ainsi une démonstration qui complète l’observation du dessin.
+
+*Source : [Stanford Encyclopedia of Philosophy — Descartes’ Mathematics](https://plato.stanford.edu/entries/descartes-mathematics/) (en anglais).*
+
 ## Voir aussi
 
 - PROLONGEMENT : [N15](N15-droites-equations.md) (Les équations de droites prolongent le travail vectoriel.)

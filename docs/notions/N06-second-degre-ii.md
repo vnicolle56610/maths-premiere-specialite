@@ -59,6 +59,16 @@ Comme `Δ>0`, l'équation possède deux solutions :
 
 Donc `S = {-0,5 ; 3}`.
 
+## Repère historique — Une équation peut-elle avoir deux solutions ?
+
+Dans son traité d’algèbre du IXe siècle, Al-Khwarizmi étudie un problème que nous écrivons `x² + 21 = 10x`. Sa méthode fait apparaître deux réponses positives : 3 et 7. Il distingue aussi les situations où une équation de ce type n’a pas de solution et celle où les deux réponses se rejoignent. Il expose ces cas avec des mots, sans notre notation du discriminant.
+
+**Le lien avec le cours :** en écriture actuelle, l’équation devient `x² − 10x + 21 = 0`, et son discriminant vaut `100 − 84 = 16`. La forme canonique donne `(x − 5)² = 4`, d’où les deux solutions 3 et 7.
+
+Si l’on remplace 21 par 25, on obtient une seule racine, 5 ; avec 26, aucune racine réelle. Le discriminant rassemble ces trois situations dans une même règle. Il indique le nombre de racines réelles ; pour déterminer le signe du trinôme, il faut aussi tenir compte du coefficient de `x²`.
+
+*Source : [MacTutor, université de St Andrews — Al-Khwarizmi and quadratic equations](https://mathshistory.st-andrews.ac.uk/Extras/Al-Khwarizmi_quadratics/) (en anglais).*
+
 ## Voir aussi
 
 - PRÉREQUIS : [N05](N05-second-degre-i.md) (La forme canonique éclaire la parabole.)
