@@ -71,8 +71,8 @@
     etiquette.className = "frise-annee";
     etiquette.textContent = el.dataset.etiquette ||
       (isNaN(fin) ? formater(annee) : formater(annee) + "–" + formater(fin));
-    if (x < 8) etiquette.className += " frise-annee--gauche";
-    if (x > 92) etiquette.className += " frise-annee--droite";
+    if (x < 15) etiquette.className += " frise-annee--gauche";
+    if (x > 85) etiquette.className += " frise-annee--droite";
     point.appendChild(etiquette);
     frise.appendChild(point);
 
