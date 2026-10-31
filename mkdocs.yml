@@ -67,5 +67,6 @@ extra_css:
 extra_javascript:
   - javascripts/pdf-new-tab.js
   - javascripts/toutatice-header.js
+  - javascripts/frise.js
   - javascripts/goatcounter.js
   - javascripts/compteur-visites.js

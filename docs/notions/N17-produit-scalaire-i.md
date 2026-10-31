@@ -16,9 +16,11 @@ Le produit scalaire permet de calculer avec les longueurs, les angles et l’ort
 
 ## Objectifs
 
-- Calculer un produit scalaire avec une formule adaptée.
-- Utiliser projection et coordonnées.
-- Reconnaître ou prouver une orthogonalité.
+!!! objectifs ""
+
+    - Calculer un produit scalaire avec une formule adaptée.
+    - Utiliser projection et coordonnées.
+    - Reconnaître ou prouver une orthogonalité.
 
 ## Documents
 
@@ -30,29 +32,38 @@ Le produit scalaire permet de calculer avec les longueurs, les angles et l’ort
 
 ## Notions essentielles
 
-Le produit scalaire de deux vecteurs `u⃗` et `v⃗` est un nombre réel, noté `u⃗·v⃗` — pas un vecteur. Lorsque `u⃗` et `v⃗` sont non nuls : `u⃗·v⃗>0` si l'angle entre eux est aigu, `u⃗·v⃗=0` si l'angle est droit, `u⃗·v⃗<0` si l'angle est obtus.
+!!! essentiel ""
 
-Avec un angle `θ` entre `0` et `π` : `u⃗·v⃗ = ‖u⃗‖ × ‖v⃗‖ × cos θ`.
+    Le produit scalaire de deux vecteurs `u⃗` et `v⃗` est un nombre réel, noté `u⃗·v⃗` — pas un vecteur. Lorsque `u⃗` et `v⃗` sont non nuls : `u⃗·v⃗>0` si l'angle entre eux est aigu, `u⃗·v⃗=0` si l'angle est droit, `u⃗·v⃗<0` si l'angle est obtus.
 
-Dans un repère **orthonormé**, si `u⃗(x ; y)` et `v⃗(x′ ; y′)`, alors `u⃗·v⃗ = xx′+yy′`.
+    Avec un angle `θ` entre `0` et `π` : `u⃗·v⃗ = ‖u⃗‖ × ‖v⃗‖ × cos θ`.
 
-Deux vecteurs `u⃗` et `v⃗` sont orthogonaux si et seulement si `u⃗·v⃗=0`. Deux droites de vecteurs directeurs `u⃗` et `v⃗` sont perpendiculaires si et seulement si `u⃗·v⃗=0`.
+    Dans un repère **orthonormé**, si `u⃗(x ; y)` et `v⃗(x′ ; y′)`, alors `u⃗·v⃗ = xx′+yy′`.
+
+    Deux vecteurs `u⃗` et `v⃗` sont orthogonaux si et seulement si `u⃗·v⃗=0`. Deux droites de vecteurs directeurs `u⃗` et `v⃗` sont perpendiculaires si et seulement si `u⃗·v⃗=0`.
 
 ## Exemple
 
-Soient `u⃗(3 ; -2)` et `v⃗(5 ; 4)`, dans un repère orthonormé :
+!!! exemple ""
 
-`u⃗·v⃗ = 3×5 + (-2)×4 = 15-8 = 7`
+    Soient `u⃗(3 ; -2)` et `v⃗(5 ; 4)`, dans un repère orthonormé :
+
+    `u⃗·v⃗ = 3×5 + (-2)×4 = 15-8 = 7`
 
 ## Repère historique — Pourquoi tenir compte de la direction dans un calcul ?
 
-Au XIXe siècle, plusieurs mathématiciens développent des calculs portant sur des grandeurs orientées. En 1844, Hermann Grassmann publie son *Ausdehnungslehre*, qui organise algébriquement des objets géométriques et leurs opérations. Ses travaux constituent une étape importante de l’histoire du calcul vectoriel ; ils ne se confondent pas avec la présentation scolaire actuelle du produit scalaire.
+!!! historique ""
 
-**Le lien avec le cours :** multiplier seulement deux longueurs ne suffit pas à tenir compte de la direction des vecteurs. Le produit scalaire introduit le cosinus de leur angle : pour deux vecteurs de normes 3 et 4, il vaut 12 s’ils ont même direction et même sens, 0 s’ils sont perpendiculaires et −12 s’ils sont de sens opposés.
+    Hermann Grassmann, *Ausdehnungslehre*, 1844
+    {: .frise data-annee="1844" }
 
-La projection permet de comprendre ces résultats : seule la composante d’un vecteur dans la direction de l’autre intervient. Dans un repère orthonormé, la formule `xx′ + yy′` traduit cette information géométrique en un calcul sur les coordonnées. Le résultat est un nombre réel, dont le signe renseigne sur l’angle.
+    Au XIXe siècle, plusieurs mathématiciens développent des calculs portant sur des grandeurs orientées. En 1844, Hermann Grassmann publie son *Ausdehnungslehre*, qui organise algébriquement des objets géométriques et leurs opérations. Ses travaux constituent une étape importante de l’histoire du calcul vectoriel ; ils ne se confondent pas avec la présentation scolaire actuelle du produit scalaire.
 
-*Source : [MacTutor, université de St Andrews — Hermann Grassmann](https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/) (en anglais).*
+    **Le lien avec le cours :** multiplier seulement deux longueurs ne suffit pas à tenir compte de la direction des vecteurs. Le produit scalaire introduit le cosinus de leur angle : pour deux vecteurs de normes 3 et 4, il vaut 12 s’ils ont même direction et même sens, 0 s’ils sont perpendiculaires et −12 s’ils sont de sens opposés.
+
+    La projection permet de comprendre ces résultats : seule la composante d’un vecteur dans la direction de l’autre intervient. Dans un repère orthonormé, la formule `xx′ + yy′` traduit cette information géométrique en un calcul sur les coordonnées. Le résultat est un nombre réel, dont le signe renseigne sur l’angle.
+
+    *Source : [MacTutor, université de St Andrews — Hermann Grassmann](https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/) (en anglais).*
 
 ## Voir aussi
 

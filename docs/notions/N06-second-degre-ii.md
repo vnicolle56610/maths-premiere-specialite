@@ -16,9 +16,11 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 
 ## Objectifs
 
-- Calculer un discriminant et interpréter les racines.
-- Dresser et utiliser un tableau de signe.
-- Résoudre des inéquations et problèmes du second degré.
+!!! objectifs ""
+
+    - Calculer un discriminant et interpréter les racines.
+    - Dresser et utiliser un tableau de signe.
+    - Résoudre des inéquations et problèmes du second degré.
 
 ## Documents
 
@@ -37,37 +39,46 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 
 ## Notions essentielles
 
-Pour `P(x)=ax²+bx+c`, avec `a≠0`, un réel `r` est une racine de `P` lorsque `P(r)=0`. Le discriminant `Δ=b²-4ac` donne le nombre de racines réelles :
+!!! essentiel ""
 
-- si `Δ>0`, deux racines distinctes `x₁` et `x₂` ;
-- si `Δ=0`, une racine double `x₀=-b/2a` ;
-- si `Δ<0`, aucune racine réelle.
+    Pour `P(x)=ax²+bx+c`, avec `a≠0`, un réel `r` est une racine de `P` lorsque `P(r)=0`. Le discriminant `Δ=b²-4ac` donne le nombre de racines réelles :
 
-Avec deux racines `x₁<x₂`, le trinôme est du signe de `a` à l'extérieur des racines et du signe opposé entre elles. Avec une racine double, il garde le signe de `a` et s'annule seulement en `x₀`. Sans racine réelle, il garde le signe de `a` sur `ℝ`.
+    - si `Δ>0`, deux racines distinctes `x₁` et `x₂` ;
+    - si `Δ=0`, une racine double `x₀=-b/2a` ;
+    - si `Δ<0`, aucune racine réelle.
 
-Pour résoudre une inéquation du second degré, on ramène tout dans un membre, on détermine les racines ou une factorisation, puis on dresse le tableau de signes avant de conclure. Une racine appartient à l'ensemble des solutions pour `⩽` ou `⩾`, mais pas pour `<` ou `>`.
+    Avec deux racines `x₁<x₂`, le trinôme est du signe de `a` à l'extérieur des racines et du signe opposé entre elles. Avec une racine double, il garde le signe de `a` et s'annule seulement en `x₀`. Sans racine réelle, il garde le signe de `a` sur `ℝ`.
+
+    Pour résoudre une inéquation du second degré, on ramène tout dans un membre, on détermine les racines ou une factorisation, puis on dresse le tableau de signes avant de conclure. Une racine appartient à l'ensemble des solutions pour `⩽` ou `⩾`, mais pas pour `<` ou `>`.
 
 ## Exemple
 
-Résolvons `2x² - 5x - 3 = 0`. Ici `a=2`, `b=-5`, `c=-3`.
+!!! exemple ""
 
-`Δ = (-5)² - 4×2×(-3) = 49`
+    Résolvons `2x² - 5x - 3 = 0`. Ici `a=2`, `b=-5`, `c=-3`.
 
-Comme `Δ>0`, l'équation possède deux solutions :
+    `Δ = (-5)² - 4×2×(-3) = 49`
 
-`x₁ = (5-7)/4 = -0,5` et `x₂ = (5+7)/4 = 3`
+    Comme `Δ>0`, l'équation possède deux solutions :
 
-Donc `S = {-0,5 ; 3}`.
+    `x₁ = (5-7)/4 = -0,5` et `x₂ = (5+7)/4 = 3`
+
+    Donc `S = {-0,5 ; 3}`.
 
 ## Repère historique — Une équation peut-elle avoir deux solutions ?
 
-Dans son traité d’algèbre du IXe siècle, Al-Khwarizmi étudie un problème que nous écrivons `x² + 21 = 10x`. Sa méthode fait apparaître deux réponses positives : 3 et 7. Il distingue aussi les situations où une équation de ce type n’a pas de solution et celle où les deux réponses se rejoignent. Il expose ces cas avec des mots, sans notre notation du discriminant.
+!!! historique ""
 
-**Le lien avec le cours :** en écriture actuelle, l’équation devient `x² − 10x + 21 = 0`, et son discriminant vaut `100 − 84 = 16`. La forme canonique donne `(x − 5)² = 4`, d’où les deux solutions 3 et 7.
+    Al-Khwarizmi, Bagdad, IXe siècle
+    {: .frise data-annee="820" data-etiquette="v. 820" }
 
-Si l’on remplace 21 par 25, on obtient une seule racine, 5 ; avec 26, aucune racine réelle. Le discriminant rassemble ces trois situations dans une même règle. Il indique le nombre de racines réelles ; pour déterminer le signe du trinôme, il faut aussi tenir compte du coefficient de `x²`.
+    Dans son traité d’algèbre du IXe siècle, Al-Khwarizmi étudie un problème que nous écrivons `x² + 21 = 10x`. Sa méthode fait apparaître deux réponses positives : 3 et 7. Il distingue aussi les situations où une équation de ce type n’a pas de solution et celle où les deux réponses se rejoignent. Il expose ces cas avec des mots, sans notre notation du discriminant.
 
-*Source : [MacTutor, université de St Andrews — Al-Khwarizmi and quadratic equations](https://mathshistory.st-andrews.ac.uk/Extras/Al-Khwarizmi_quadratics/) (en anglais).*
+    **Le lien avec le cours :** en écriture actuelle, l’équation devient `x² − 10x + 21 = 0`, et son discriminant vaut `100 − 84 = 16`. La forme canonique donne `(x − 5)² = 4`, d’où les deux solutions 3 et 7.
+
+    Si l’on remplace 21 par 25, on obtient une seule racine, 5 ; avec 26, aucune racine réelle. Le discriminant rassemble ces trois situations dans une même règle. Il indique le nombre de racines réelles ; pour déterminer le signe du trinôme, il faut aussi tenir compte du coefficient de `x²`.
+
+    *Source : [MacTutor, université de St Andrews — Al-Khwarizmi and quadratic equations](https://mathshistory.st-andrews.ac.uk/Extras/Al-Khwarizmi_quadratics/) (en anglais).*
 
 ## Voir aussi
 

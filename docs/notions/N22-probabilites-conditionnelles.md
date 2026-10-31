@@ -16,9 +16,11 @@ Les probabilités conditionnelles permettent de calculer une probabilité en ten
 
 ## Objectifs
 
-- Lire et compléter un arbre pondéré.
-- Calculer une probabilité conditionnelle.
-- Utiliser les intersections d'événements dans un raisonnement.
+!!! objectifs ""
+
+    - Lire et compléter un arbre pondéré.
+    - Calculer une probabilité conditionnelle.
+    - Utiliser les intersections d'événements dans un raisonnement.
 
 ## Documents
 
@@ -30,31 +32,40 @@ Les probabilités conditionnelles permettent de calculer une probabilité en ten
 
 ## Notions essentielles
 
-Si P(A)>0, la probabilité de B sachant A se note P<sub>A</sub>(B).
+!!! essentiel ""
 
-On a alors :
+    Si P(A)>0, la probabilité de B sachant A se note P<sub>A</sub>(B).
 
-**P(A ∩ B) = P(A) × P<sub>A</sub>(B)**
+    On a alors :
 
-Dans un arbre pondéré, les probabilités inscrites sur les branches de deuxième niveau sont des probabilités conditionnelles. La probabilité d'un chemin s'obtient en multipliant les probabilités inscrites sur ses branches.
+    **P(A ∩ B) = P(A) × P<sub>A</sub>(B)**
+
+    Dans un arbre pondéré, les probabilités inscrites sur les branches de deuxième niveau sont des probabilités conditionnelles. La probabilité d'un chemin s'obtient en multipliant les probabilités inscrites sur ses branches.
 
 ## Exemple
 
-Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :
+!!! exemple ""
 
-**P(A ∩ B) = 0,4 × 0,25 = 0,10**
+    Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :
 
-La probabilité que A et B se réalisent est donc égale à 0,10.
+    **P(A ∩ B) = 0,4 × 0,25 = 0,10**
+
+    La probabilité que A et B se réalisent est donc égale à 0,10.
 
 ## Repère historique — Comment une information modifie-t-elle une probabilité ?
 
-Au XVIIIe siècle, Thomas Bayes étudie comment tirer une information probabiliste d’observations. Son mémoire, communiqué après sa mort par Richard Price en 1763, devient un jalon de l’histoire de l’inférence probabiliste. Les probabilités conditionnelles du cours fournissent un langage actuel pour distinguer une probabilité initiale d’une probabilité calculée lorsqu’une information est connue.
+!!! historique ""
 
-**Le lien avec le cours :** prenons un exemple moderne. Une boîte contient trois jetons rouges et deux bleus, tous indiscernables au toucher. On en tire deux sans remise. Notons `A` l’événement « le premier jeton est rouge » et `B` l’événement « le second est rouge ». On a `P(A) = 3/5` et `P_A(B) = 2/4`, car après un premier rouge, il reste deux rouges parmi quatre jetons.
+    Thomas Bayes, mémoire publié par Richard Price, 1763
+    {: .frise data-annee="1763" }
 
-La probabilité d’obtenir deux rouges vaut donc `(3/5) × (2/4) = 3/10`. L’arbre pondéré organise ces informations successives. Cet exemple illustre le conditionnement, sans reproduire le problème historique de Bayes.
+    Au XVIIIe siècle, Thomas Bayes étudie comment tirer une information probabiliste d’observations. Son mémoire, communiqué après sa mort par Richard Price en 1763, devient un jalon de l’histoire de l’inférence probabiliste. Les probabilités conditionnelles du cours fournissent un langage actuel pour distinguer une probabilité initiale d’une probabilité calculée lorsqu’une information est connue.
 
-*Source : [Université de Cambridge — Bayes’ probability, Statistics 1B Interludes](https://www.statslab.cam.ac.uk/Dept/People/djsteaching/interlude-6-bayesian.pdf) (PDF en anglais).*
+    **Le lien avec le cours :** prenons un exemple moderne. Une boîte contient trois jetons rouges et deux bleus, tous indiscernables au toucher. On en tire deux sans remise. Notons `A` l’événement « le premier jeton est rouge » et `B` l’événement « le second est rouge ». On a `P(A) = 3/5` et `P_A(B) = 2/4`, car après un premier rouge, il reste deux rouges parmi quatre jetons.
+
+    La probabilité d’obtenir deux rouges vaut donc `(3/5) × (2/4) = 3/10`. L’arbre pondéré organise ces informations successives. Cet exemple illustre le conditionnement, sans reproduire le problème historique de Bayes.
+
+    *Source : [Université de Cambridge — Bayes’ probability, Statistics 1B Interludes](https://www.statslab.cam.ac.uk/Dept/People/djsteaching/interlude-6-bayesian.pdf) (PDF en anglais).*
 
 ## Voir aussi
 

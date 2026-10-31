@@ -15,9 +15,11 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 
 ## Objectifs
 
-- Utiliser correctement les notations d’ensembles et d’intervalles.
-- Traduire une phrase mathématique en écriture symbolique.
-- Rédiger un raisonnement court et lisible.
+!!! objectifs ""
+
+    - Utiliser correctement les notations d’ensembles et d’intervalles.
+    - Traduire une phrase mathématique en écriture symbolique.
+    - Rédiger un raisonnement court et lisible.
 
 ## Documents
 
@@ -34,32 +36,41 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 
 ## Notions essentielles
 
-Une assertion est une phrase mathématique vraie ou fausse. Une phrase ouverte dépend d'une variable : elle devient une assertion lorsqu'une valeur est fixée.
+!!! essentiel ""
 
-Une implication `P ⇒ Q` signifie que chaque fois que `P` est vraie, `Q` est vraie. Sa réciproque `Q ⇒ P` est une affirmation différente, à étudier séparément.
+    Une assertion est une phrase mathématique vraie ou fausse. Une phrase ouverte dépend d'une variable : elle devient une assertion lorsqu'une valeur est fixée.
 
-Pour réfuter une implication, un seul contre-exemple suffit : il faut trouver une situation où l'hypothèse est vraie et la conclusion fausse.
+    Une implication `P ⇒ Q` signifie que chaque fois que `P` est vraie, `Q` est vraie. Sa réciproque `Q ⇒ P` est une affirmation différente, à étudier séparément.
 
-La contraposée de `P ⇒ Q` est `non Q ⇒ non P`. Elle a la même valeur de vérité que l'implication de départ.
+    Pour réfuter une implication, un seul contre-exemple suffit : il faut trouver une situation où l'hypothèse est vraie et la conclusion fausse.
 
-L'appartenance `x ∈ E` relie un élément à un ensemble ; l'inclusion `A ⊂ B` relie deux ensembles. Les opérations `A ∩ B`, `A ∪ B` et `A \ B` se lisent souvent efficacement sur une représentation d'intervalles.
+    La contraposée de `P ⇒ Q` est `non Q ⇒ non P`. Elle a la même valeur de vérité que l'implication de départ.
+
+    L'appartenance `x ∈ E` relie un élément à un ensemble ; l'inclusion `A ⊂ B` relie deux ensembles. Les opérations `A ∩ B`, `A ∪ B` et `A \ B` se lisent souvent efficacement sur une représentation d'intervalles.
 
 ## Exemple
 
-Soient `A=[-3 ; 2]` et `B=]0 ; 5[`.
+!!! exemple ""
 
-La partie commune aux deux intervalles est `A ∩ B = ]0 ; 2]`.
+    Soient `A=[-3 ; 2]` et `B=]0 ; 5[`.
 
-La réunion des deux intervalles est `A ∪ B = [-3 ; 5[`.
+    La partie commune aux deux intervalles est `A ∩ B = ]0 ; 2]`.
 
-La partie de `A` qui n'appartient pas à `B` est `A \ B = [-3 ; 0]`.
+    La réunion des deux intervalles est `A ∪ B = [-3 ; 5[`.
+
+    La partie de `A` qui n'appartient pas à `B` est `A \ B = [-3 ; 0]`.
 
 ## Repère historique — Peut-on calculer avec des raisonnements ?
 
-Au XIXe siècle, George Boole cherche à appliquer les méthodes de l’algèbre à la logique. Dans deux ouvrages parus en 1847 et en 1854, il développe un langage symbolique pour analyser des raisonnements. L’idée est de rendre explicites les règles qui permettent de passer de certaines affirmations à une conclusion.
+!!! historique ""
 
-Cette démarche éclaire le rôle des notations du chapitre : elles permettent de distinguer des phrases qui se ressemblent, mais qui n’affirment pas la même chose. Avec les notations actuelles, « appartenir à A **et** à B » décrit l’intersection `A ∩ B`, tandis que « appartenir à A **ou** à B » décrit la réunion `A ∪ B`, en acceptant l’appartenance aux deux ensembles.
+    George Boole, Angleterre puis Irlande, 1847–1854
+    {: .frise data-annee="1847" data-fin="1854" }
 
-**Le lien avec le cours :** traduire une phrase avec précision permet de contrôler un raisonnement. L’écriture symbolique accompagne l’explication ; elle exige de connaître le sens de chaque opération.
+    Au XIXe siècle, George Boole cherche à appliquer les méthodes de l’algèbre à la logique. Dans deux ouvrages parus en 1847 et en 1854, il développe un langage symbolique pour analyser des raisonnements. L’idée est de rendre explicites les règles qui permettent de passer de certaines affirmations à une conclusion.
 
-*Source : [Stanford Encyclopedia of Philosophy — George Boole](https://plato.stanford.edu/entries/boole/) (en anglais).*
+    Cette démarche éclaire le rôle des notations du chapitre : elles permettent de distinguer des phrases qui se ressemblent, mais qui n’affirment pas la même chose. Avec les notations actuelles, « appartenir à A **et** à B » décrit l’intersection `A ∩ B`, tandis que « appartenir à A **ou** à B » décrit la réunion `A ∪ B`, en acceptant l’appartenance aux deux ensembles.
+
+    **Le lien avec le cours :** traduire une phrase avec précision permet de contrôler un raisonnement. L’écriture symbolique accompagne l’explication ; elle exige de connaître le sens de chaque opération.
+
+    *Source : [Stanford Encyclopedia of Philosophy — George Boole](https://plato.stanford.edu/entries/boole/) (en anglais).*

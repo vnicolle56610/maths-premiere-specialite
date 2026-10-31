@@ -16,9 +16,11 @@ L’étude des variations met la dérivée au service de la résolution de probl
 
 ## Objectifs
 
-- Étudier le signe d’une dérivée.
-- Construire et exploiter un tableau de variations.
-- Déterminer un maximum ou un minimum.
+!!! objectifs ""
+
+    - Étudier le signe d’une dérivée.
+    - Construire et exploiter un tableau de variations.
+    - Déterminer un maximum ou un minimum.
 
 ## Documents
 
@@ -30,27 +32,36 @@ L’étude des variations met la dérivée au service de la résolution de probl
 
 ## Notions essentielles
 
-Soit `f` une fonction dérivable sur un intervalle `I`. Si `f′(x)>0` sur `I`, alors `f` est strictement croissante sur `I`. Si `f′(x)<0` sur `I`, alors `f` est strictement décroissante sur `I`. Si `f′(x)=0` sur `I`, alors `f` est constante sur `I`.
+!!! essentiel ""
 
-Pour étudier les variations de `f`, on calcule `f′(x)`, on résout `f′(x)=0` et on étudie le signe de `f′`, puis on traduit ce signe dans un tableau de variations.
+    Soit `f` une fonction dérivable sur un intervalle `I`. Si `f′(x)>0` sur `I`, alors `f` est strictement croissante sur `I`. Si `f′(x)<0` sur `I`, alors `f` est strictement décroissante sur `I`. Si `f′(x)=0` sur `I`, alors `f` est constante sur `I`.
 
-`f` admet un maximum `M` sur `I` lorsque `f(x)⩽M` pour tout `x` de `I` ; elle admet un minimum `m` lorsque `f(x)⩾m` pour tout `x` de `I`. Si `f` est dérivable et admet un extremum local en un point intérieur `a`, alors `f′(a)=0` — mais cette condition seule ne suffit pas à garantir un extremum : il faut regarder le signe de `f′` de part et d'autre de `a`. Si `f′` change de signe en `a`, `f` admet un extremum local en `a`.
+    Pour étudier les variations de `f`, on calcule `f′(x)`, on résout `f′(x)=0` et on étudie le signe de `f′`, puis on traduit ce signe dans un tableau de variations.
+
+    `f` admet un maximum `M` sur `I` lorsque `f(x)⩽M` pour tout `x` de `I` ; elle admet un minimum `m` lorsque `f(x)⩾m` pour tout `x` de `I`. Si `f` est dérivable et admet un extremum local en un point intérieur `a`, alors `f′(a)=0` — mais cette condition seule ne suffit pas à garantir un extremum : il faut regarder le signe de `f′` de part et d'autre de `a`. Si `f′` change de signe en `a`, `f` admet un extremum local en `a`.
 
 ## Exemple
 
-Étudions `f(x)=x³-3x+1` sur `[-3 ; 3]`. On a `f′(x)=3x²-3=3(x-1)(x+1)`, donc `f′(x)=0` pour `x=-1` ou `x=1`.
+!!! exemple ""
 
-Avec `f(-3)=-17`, `f(-1)=3`, `f(1)=-1` et `f(3)=19`, le tableau de variations montre que `f` admet un maximum local égal à `3` en `x=-1`, puis un minimum local égal à `-1` en `x=1`.
+    Étudions `f(x)=x³-3x+1` sur `[-3 ; 3]`. On a `f′(x)=3x²-3=3(x-1)(x+1)`, donc `f′(x)=0` pour `x=-1` ou `x=1`.
+
+    Avec `f(-3)=-17`, `f(-1)=3`, `f(1)=-1` et `f(3)=19`, le tableau de variations montre que `f` admet un maximum local égal à `3` en `x=-1`, puis un minimum local égal à `-1` en `x=1`.
 
 ## Repère historique — Comment partager une longueur pour obtenir le plus grand produit ?
 
-Au XVIIe siècle, Pierre de Fermat étudie des problèmes de maxima et de minima. Parmi eux figure le partage d’un segment en deux parties dont le produit doit être le plus grand possible. La question peut aussi s’interpréter comme une recherche d’aire : parmi les rectangles de périmètre fixé, lequel a la plus grande aire ?
+!!! historique ""
 
-**Le lien avec le cours :** reprenons ce problème avec nos outils actuels. Si la longueur totale des deux parties est 10, on note leurs longueurs `x` et `10 − x`, avec `0 ≤ x ≤ 10`. Leur produit est `A(x) = x(10 − x)`. La dérivée `A′(x) = 10 − 2x` est positive avant 5, nulle en 5 et négative après 5.
+    Pierre de Fermat, Toulouse, XVIIe siècle
+    {: .frise data-annee="1636" data-etiquette="v. 1636" }
 
-Le produit atteint donc son maximum pour deux parties égales, de longueur 5. Ce raisonnement illustre l’intérêt du tableau de variations : annuler la dérivée fournit un candidat, puis son changement de signe justifie le maximum. Cette présentation utilise le langage moderne de la dérivation, distinct de celui de Fermat.
+    Au XVIIe siècle, Pierre de Fermat étudie des problèmes de maxima et de minima. Parmi eux figure le partage d’un segment en deux parties dont le produit doit être le plus grand possible. La question peut aussi s’interpréter comme une recherche d’aire : parmi les rectangles de périmètre fixé, lequel a la plus grande aire ?
 
-*Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
+    **Le lien avec le cours :** reprenons ce problème avec nos outils actuels. Si la longueur totale des deux parties est 10, on note leurs longueurs `x` et `10 − x`, avec `0 ≤ x ≤ 10`. Leur produit est `A(x) = x(10 − x)`. La dérivée `A′(x) = 10 − 2x` est positive avant 5, nulle en 5 et négative après 5.
+
+    Le produit atteint donc son maximum pour deux parties égales, de longueur 5. Ce raisonnement illustre l’intérêt du tableau de variations : annuler la dérivée fournit un candidat, puis son changement de signe justifie le maximum. Cette présentation utilise le langage moderne de la dérivation, distinct de celui de Fermat.
+
+    *Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
 
 ## Voir aussi
 

@@ -16,9 +16,11 @@ La géométrie repérée rassemble les outils de coordonnées, droites, distance
 
 ## Objectifs
 
-- Modéliser une configuration dans un repère.
-- Calculer distances, milieux, droites ou orthogonalités.
-- Rédiger une conclusion géométrique à partir de calculs.
+!!! objectifs ""
+
+    - Modéliser une configuration dans un repère.
+    - Calculer distances, milieux, droites ou orthogonalités.
+    - Rédiger une conclusion géométrique à partir de calculs.
 
 ## Documents
 
@@ -30,29 +32,38 @@ La géométrie repérée rassemble les outils de coordonnées, droites, distance
 
 ## Notions essentielles
 
-Dans un repère orthonormé, si une droite `d` a pour équation `ax+by+c=0`, alors `n⃗(a ; b)` est un vecteur normal à `d`, et un point `M(x ; y)` appartient à `d` si et seulement si `ax+by+c=0`.
+!!! essentiel ""
 
-Le **projeté orthogonal** de `M` sur `d` est le point `H∈d` tel que `(MH)⊥d` — c'est aussi le point de `d` le plus proche de `M`.
+    Dans un repère orthonormé, si une droite `d` a pour équation `ax+by+c=0`, alors `n⃗(a ; b)` est un vecteur normal à `d`, et un point `M(x ; y)` appartient à `d` si et seulement si `ax+by+c=0`.
 
-Le cercle de centre `Ω(a ; b)` et de rayon `r>0` a pour équation `(x-a)²+(y-b)²=r²`. Une équation de la forme `x²+y²+αx+βy+γ=0` se ramène à cette forme en complétant les carrés ; l'ensemble n'est un cercle que si le carré du rayon obtenu est strictement positif.
+    Le **projeté orthogonal** de `M` sur `d` est le point `H∈d` tel que `(MH)⊥d` — c'est aussi le point de `d` le plus proche de `M`.
 
-Pour étudier une configuration dans un repère : identifier les objets (points, droites, cercles), choisir l'outil adapté (vecteurs, produit scalaire, équations, projection), effectuer les calculs, puis conclure géométriquement.
+    Le cercle de centre `Ω(a ; b)` et de rayon `r>0` a pour équation `(x-a)²+(y-b)²=r²`. Une équation de la forme `x²+y²+αx+βy+γ=0` se ramène à cette forme en complétant les carrés ; l'ensemble n'est un cercle que si le carré du rayon obtenu est strictement positif.
+
+    Pour étudier une configuration dans un repère : identifier les objets (points, droites, cercles), choisir l'outil adapté (vecteurs, produit scalaire, équations, projection), effectuer les calculs, puis conclure géométriquement.
 
 ## Exemple
 
-Le cercle de centre `Ω(3 ; -2)` et de rayon `4` a pour équation `(x-3)²+(y+2)²=16`.
+!!! exemple ""
 
-Le point `A(7 ; -2)` appartient à ce cercle, car `(7-3)² + (-2+2)² = 16`.
+    Le cercle de centre `Ω(3 ; -2)` et de rayon `4` a pour équation `(x-3)²+(y+2)²=16`.
+
+    Le point `A(7 ; -2)` appartient à ce cercle, car `(7-3)² + (-2+2)² = 16`.
 
 ## Repère historique — Pourquoi chercher les intersections de deux courbes ?
 
-Au XVIIe siècle, Fermat utilise des courbes pour résoudre des problèmes géométriques et algébriques. Il montre notamment comment certaines équations peuvent se résoudre à l’aide des intersections d’une parabole et d’un cercle. Cette approche permet de passer d’une relation entre nombres à une construction géométrique, puis de revenir au calcul.
+!!! historique ""
 
-**Le lien avec le cours :** avec nos notations actuelles, cherchons les points communs au cercle `x² + y² = 25` et à la droite `y = 3`. Remplacer `y` par 3 donne `x² + 9 = 25`, donc `x = −4` ou `x = 4`. Les deux points d’intersection sont `(−4 ; 3)` et `(4 ; 3)`.
+    Pierre de Fermat, Toulouse, XVIIe siècle
+    {: .frise data-annee="1640" data-etiquette="XVIIe s." }
 
-Pour vérifier la réponse, leurs coordonnées doivent satisfaire les deux équations. Cet exemple réunit plusieurs outils de l’année : équation de cercle, équation de droite et résolution algébrique. Le dessin aide à prévoir les intersections ; le calcul permet de les déterminer exactement et de justifier la conclusion.
+    Au XVIIe siècle, Fermat utilise des courbes pour résoudre des problèmes géométriques et algébriques. Il montre notamment comment certaines équations peuvent se résoudre à l’aide des intersections d’une parabole et d’un cercle. Cette approche permet de passer d’une relation entre nombres à une construction géométrique, puis de revenir au calcul.
 
-*Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
+    **Le lien avec le cours :** avec nos notations actuelles, cherchons les points communs au cercle `x² + y² = 25` et à la droite `y = 3`. Remplacer `y` par 3 donne `x² + 9 = 25`, donc `x = −4` ou `x = 4`. Les deux points d’intersection sont `(−4 ; 3)` et `(4 ; 3)`.
+
+    Pour vérifier la réponse, leurs coordonnées doivent satisfaire les deux équations. Cet exemple réunit plusieurs outils de l’année : équation de cercle, équation de droite et résolution algébrique. Le dessin aide à prévoir les intersections ; le calcul permet de les déterminer exactement et de justifier la conclusion.
+
+    *Source : [Dictionary of Scientific Biography — Pierre de Fermat, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Fermat.pdf) (PDF en anglais).*
 
 ## Voir aussi
 

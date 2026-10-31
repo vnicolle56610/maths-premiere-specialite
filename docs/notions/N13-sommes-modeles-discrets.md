@@ -16,9 +16,11 @@ Les sommes permettent d’additionner les termes d’une suite et de modéliser 
 
 ## Objectifs
 
-- Calculer une somme de termes consécutifs.
-- Choisir une formule adaptée au type de suite.
-- Interpréter une accumulation dans un modèle discret.
+!!! objectifs ""
+
+    - Calculer une somme de termes consécutifs.
+    - Choisir une formule adaptée au type de suite.
+    - Interpréter une accumulation dans un modèle discret.
 
 ## Documents
 
@@ -30,29 +32,38 @@ Les sommes permettent d’additionner les termes d’une suite et de modéliser 
 
 ## Notions essentielles
 
-Une somme cumulée additionne plusieurs termes consécutifs d'une suite. La notation `Σ` (sigma) `Σₖ₌₀ⁿ uₖ` se lit « somme des `uₖ`, pour `k` allant de `0` à `n` » et signifie `u₀+u₁+⋯+uₙ`.
+!!! essentiel ""
 
-Pour une suite **arithmétique**, la somme de termes consécutifs vaut : nombre de termes × (premier terme + dernier terme) / 2. En particulier, `u₀+u₁+⋯+uₙ = (n+1) × (u₀+uₙ)/2`.
+    Une somme cumulée additionne plusieurs termes consécutifs d'une suite. La notation `Σ` (sigma) `Σₖ₌₀ⁿ uₖ` se lit « somme des `uₖ`, pour `k` allant de `0` à `n` » et signifie `u₀+u₁+⋯+uₙ`.
 
-Pour une suite **géométrique** de premier terme `u₀` et de raison `q≠1` : `u₀+u₁+⋯+uₙ = u₀ × (1-qⁿ⁺¹)/(1-q)`.
+    Pour une suite **arithmétique**, la somme de termes consécutifs vaut : nombre de termes × (premier terme + dernier terme) / 2. En particulier, `u₀+u₁+⋯+uₙ = (n+1) × (u₀+uₙ)/2`.
 
-Un terme isolé `uₙ` est une valeur ; une somme `u₀+⋯+uₙ` est un total : il ne faut pas confondre les deux.
+    Pour une suite **géométrique** de premier terme `u₀` et de raison `q≠1` : `u₀+u₁+⋯+uₙ = u₀ × (1-qⁿ⁺¹)/(1-q)`.
+
+    Un terme isolé `uₙ` est une valeur ; une somme `u₀+⋯+uₙ` est un total : il ne faut pas confondre les deux.
 
 ## Exemple
 
-Calculons `3+6+12+24+48`, une somme géométrique de premier terme `3`, de raison `2`, avec `5` termes :
+!!! exemple ""
 
-`3+6+12+24+48 = 3 × (1-2⁵)/(1-2) = 3×31 = 93`
+    Calculons `3+6+12+24+48`, une somme géométrique de premier terme `3`, de raison `2`, avec `5` termes :
+
+    `3+6+12+24+48 = 3 × (1-2⁵)/(1-2) = 3×31 = 93`
 
 ## Repère historique — Comment additionner une progression sans tout calculer ?
 
-Dans le livre IX des *Éléments*, Euclide établit une relation entre des nombres « en proportion continue » et leur somme. La proposition 35 correspond, dans notre langage, à un résultat sur les sommes géométriques. Sa présentation repose sur des rapports de nombres, sans notre notation des suites ni le symbole de sommation.
+!!! historique ""
 
-**Le lien avec le cours :** reprenons une somme avec des outils actuels. Si `S = 3 + 6 + 12 + 24 + 48`, alors `2S = 6 + 12 + 24 + 48 + 96`. En soustrayant les deux égalités, les termes intermédiaires disparaissent : `2S − S = 96 − 3`, donc `S = 93`.
+    Euclide, *Éléments*, Alexandrie, vers −300
+    {: .frise data-annee="-300" data-etiquette="v. −300" }
 
-Cette comparaison entre une somme et son multiple explique la formule du cours. Elle permet aussi de contrôler les indices : la somme initiale comporte cinq termes et le terme supplémentaire obtenu après multiplication est `3 × 2⁵`. Le rang du dernier terme et le nombre de termes doivent être distingués.
+    Dans le livre IX des *Éléments*, Euclide établit une relation entre des nombres « en proportion continue » et leur somme. La proposition 35 correspond, dans notre langage, à un résultat sur les sommes géométriques. Sa présentation repose sur des rapports de nombres, sans notre notation des suites ni le symbole de sommation.
 
-*Source : [Euclide, Éléments, livre IX, proposition 35 — édition commentée par David E. Joyce, université Clark](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX35.html) (en anglais).*
+    **Le lien avec le cours :** reprenons une somme avec des outils actuels. Si `S = 3 + 6 + 12 + 24 + 48`, alors `2S = 6 + 12 + 24 + 48 + 96`. En soustrayant les deux égalités, les termes intermédiaires disparaissent : `2S − S = 96 − 3`, donc `S = 93`.
+
+    Cette comparaison entre une somme et son multiple explique la formule du cours. Elle permet aussi de contrôler les indices : la somme initiale comporte cinq termes et le terme supplémentaire obtenu après multiplication est `3 × 2⁵`. Le rang du dernier terme et le nombre de termes doivent être distingués.
+
+    *Source : [Euclide, Éléments, livre IX, proposition 35 — édition commentée par David E. Joyce, université Clark](https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX35.html) (en anglais).*
 
 ## Voir aussi
 

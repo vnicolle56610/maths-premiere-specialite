@@ -16,9 +16,11 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 
 ## Objectifs
 
-- Transformer une expression selon l'objectif du problème.
-- Résoudre des équations avec une rédaction claire.
-- Choisir entre développer, factoriser ou isoler.
+!!! objectifs ""
+
+    - Transformer une expression selon l'objectif du problème.
+    - Résoudre des équations avec une rédaction claire.
+    - Choisir entre développer, factoriser ou isoler.
 
 ## Documents
 
@@ -35,33 +37,42 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 
 ## Notions essentielles
 
-Une même expression peut avoir plusieurs écritures : développée, factorisée ou faisant apparaître une identité remarquable.
+!!! essentiel ""
 
-Développer transforme un produit en somme ; factoriser transforme une somme en produit. Les identités remarquables peuvent être utilisées dans les deux sens.
+    Une même expression peut avoir plusieurs écritures : développée, factorisée ou faisant apparaître une identité remarquable.
 
-La forme utile dépend de la question posée : développer n'est pas toujours la meilleure stratégie, et une forme factorisée peut par exemple faciliter la résolution d'une équation.
+    Développer transforme un produit en somme ; factoriser transforme une somme en produit. Les identités remarquables peuvent être utilisées dans les deux sens.
 
-Lors d'une résolution, chaque transformation doit conserver le même ensemble de solutions. La résolution se termine par l'indication de l'ensemble des solutions.
+    La forme utile dépend de la question posée : développer n'est pas toujours la meilleure stratégie, et une forme factorisée peut par exemple faciliter la résolution d'une équation.
 
-Pour une inéquation, multiplier ou diviser les deux membres par un nombre strictement négatif change le sens de l'inégalité.
+    Lors d'une résolution, chaque transformation doit conserver le même ensemble de solutions. La résolution se termine par l'indication de l'ensemble des solutions.
+
+    Pour une inéquation, multiplier ou diviser les deux membres par un nombre strictement négatif change le sens de l'inégalité.
 
 ## Exemple
 
-Pour résoudre `(x - 7)(x - 1) = 0`, on utilise la propriété du produit nul.
+!!! exemple ""
 
-`(x - 7)(x - 1) = 0 ⇔ x - 7 = 0 ou x - 1 = 0`
+    Pour résoudre `(x - 7)(x - 1) = 0`, on utilise la propriété du produit nul.
 
-Donc `x = 7` ou `x = 1`, et `S = {1 ; 7}`.
+    `(x - 7)(x - 1) = 0 ⇔ x - 7 = 0 ou x - 1 = 0`
+
+    Donc `x = 7` ou `x = 1`, et `S = {1 ; 7}`.
 
 ## Repère historique — Pourquoi transformer une équation ?
 
-Au IXe siècle, à Bagdad, Al-Khwarizmi rédige un traité consacré à la résolution d’équations. Il présente ces méthodes comme utiles à des problèmes de partage, de commerce ou de mesure des terrains. Le mot « algèbre » vient d’*al-jabr*, un terme du titre de cet ouvrage, associé à une opération de restauration dans les équations.
+!!! historique ""
 
-Ses raisonnements sont rédigés avec des mots, sans notre écriture symbolique actuelle. Ils organisent pourtant une démarche familière : transformer un problème pour le ramener à une forme que l’on sait résoudre.
+    Al-Khwarizmi, Bagdad, IXe siècle
+    {: .frise data-annee="820" data-etiquette="v. 820" }
 
-**Le lien avec le cours :** en notation moderne, passer de `x + 5 = 12` à `x = 7` consiste à soustraire 5 aux deux membres pour conserver les solutions. Développer ou factoriser répond au même souci de choisir une écriture utile. Les lettres et les symboles rendent ces transformations plus compactes ; chaque étape doit rester justifiée.
+    Au IXe siècle, à Bagdad, Al-Khwarizmi rédige un traité consacré à la résolution d’équations. Il présente ces méthodes comme utiles à des problèmes de partage, de commerce ou de mesure des terrains. Le mot « algèbre » vient d’*al-jabr*, un terme du titre de cet ouvrage, associé à une opération de restauration dans les équations.
 
-*Source : [MacTutor, université de St Andrews — Al-Khwarizmi](https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/) (en anglais).*
+    Ses raisonnements sont rédigés avec des mots, sans notre écriture symbolique actuelle. Ils organisent pourtant une démarche familière : transformer un problème pour le ramener à une forme que l’on sait résoudre.
+
+    **Le lien avec le cours :** en notation moderne, passer de `x + 5 = 12` à `x = 7` consiste à soustraire 5 aux deux membres pour conserver les solutions. Développer ou factoriser répond au même souci de choisir une écriture utile. Les lettres et les symboles rendent ces transformations plus compactes ; chaque étape doit rester justifiée.
+
+    *Source : [MacTutor, université de St Andrews — Al-Khwarizmi](https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/) (en anglais).*
 
 ## Voir aussi
 

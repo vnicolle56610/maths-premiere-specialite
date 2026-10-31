@@ -16,9 +16,11 @@ Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie 
 
 ## Objectifs
 
-- Calculer un taux de variation sur un intervalle.
-- Interpréter graphiquement une pente de sécante.
-- Préparer le passage au nombre dérivé.
+!!! objectifs ""
+
+    - Calculer un taux de variation sur un intervalle.
+    - Interpréter graphiquement une pente de sécante.
+    - Préparer le passage au nombre dérivé.
 
 ## Documents
 
@@ -30,31 +32,40 @@ Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie 
 
 ## Notions essentielles
 
-Entre deux réels distincts `a` et `b`, l'accroissement de la variable est `b-a`, et l'accroissement de l'image est `f(b)-f(a)`. Le taux de variation de `f` entre `a` et `b` est le quotient `τf(a;b) = (f(b)-f(a)) / (b-a)` : il mesure l'accroissement moyen de `f(x)` par unité d'accroissement de `x`.
+!!! essentiel ""
 
-Ce taux est le coefficient directeur de la droite sécante passant par `A(a ; f(a))` et `B(b ; f(b))`. Un taux positif indique que l'image augmente en moyenne entre `a` et `b` ; un taux négatif indique qu'elle diminue.
+    Entre deux réels distincts `a` et `b`, l'accroissement de la variable est `b-a`, et l'accroissement de l'image est `f(b)-f(a)`. Le taux de variation de `f` entre `a` et `b` est le quotient `τf(a;b) = (f(b)-f(a)) / (b-a)` : il mesure l'accroissement moyen de `f(x)` par unité d'accroissement de `x`.
 
-Pour une fonction affine, le taux de variation entre deux réels distincts est toujours le même : la pente est constante. Pour une fonction non affine, le taux dépend en général de l'intervalle choisi.
+    Ce taux est le coefficient directeur de la droite sécante passant par `A(a ; f(a))` et `B(b ; f(b))`. Un taux positif indique que l'image augmente en moyenne entre `a` et `b` ; un taux négatif indique qu'elle diminue.
 
-L'écriture `(f(a+h)-f(a)) / h`, avec `h≠0`, permet de rapprocher progressivement le second point du premier : elle prépare la notion de nombre dérivé, étudiée par la suite.
+    Pour une fonction affine, le taux de variation entre deux réels distincts est toujours le même : la pente est constante. Pour une fonction non affine, le taux dépend en général de l'intervalle choisi.
+
+    L'écriture `(f(a+h)-f(a)) / h`, avec `h≠0`, permet de rapprocher progressivement le second point du premier : elle prépare la notion de nombre dérivé, étudiée par la suite.
 
 ## Exemple
 
-Pour `f(x)=x²`, entre `1` et `3`, on a `f(1)=1` et `f(3)=9`.
+!!! exemple ""
 
-`τf(1;3) = (9-1) / (3-1) = 4`
+    Pour `f(x)=x²`, entre `1` et `3`, on a `f(1)=1` et `f(3)=9`.
 
-En moyenne, lorsque `x` augmente de `1`, l'image augmente de `4` sur cet intervalle.
+    `τf(1;3) = (9-1) / (3-1) = 4`
+
+    En moyenne, lorsque `x` augmente de `1`, l'image augmente de `4` sur cet intervalle.
 
 ## Repère historique — Comment mesurer une vitesse qui change ?
 
-Au XVIIe siècle, Isaac Newton développe une manière d’étudier des grandeurs qui évoluent avec le temps. Il appelle « fluxions » leurs vitesses de variation. Cette approche contribue à la naissance du calcul différentiel et éclaire une question essentielle : comment passer d’une évolution mesurée sur une durée à une variation à un instant ?
+!!! historique ""
 
-**Le lien avec le cours :** dans un exemple moderne, supposons qu’un mobile avance sur un axe et que sa position, en mètres, soit `s(t) = t²`, avec `t` en secondes et `t ≥ 0`. Entre 1 et 3 secondes, sa vitesse moyenne est `(9 − 1)/(3 − 1) = 4` mètres par seconde. Entre 1 et 2 secondes, elle vaut 3 mètres par seconde.
+    Isaac Newton, Angleterre, XVIIe siècle
+    {: .frise data-annee="1665" data-fin="1671" data-etiquette="v. 1665–1671" }
 
-Le résultat dépend donc de l’intervalle choisi. Le taux de variation décrit une évolution moyenne ; il ne donne pas directement la vitesse à un instant. Raccourcir l’intervalle prépare la question du nombre dérivé étudiée ensuite.
+    Au XVIIe siècle, Isaac Newton développe une manière d’étudier des grandeurs qui évoluent avec le temps. Il appelle « fluxions » leurs vitesses de variation. Cette approche contribue à la naissance du calcul différentiel et éclaire une question essentielle : comment passer d’une évolution mesurée sur une durée à une variation à un instant ?
 
-*Source : [MacTutor, université de St Andrews — A history of the calculus](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/) (en anglais).*
+    **Le lien avec le cours :** dans un exemple moderne, supposons qu’un mobile avance sur un axe et que sa position, en mètres, soit `s(t) = t²`, avec `t` en secondes et `t ≥ 0`. Entre 1 et 3 secondes, sa vitesse moyenne est `(9 − 1)/(3 − 1) = 4` mètres par seconde. Entre 1 et 2 secondes, elle vaut 3 mètres par seconde.
+
+    Le résultat dépend donc de l’intervalle choisi. Le taux de variation décrit une évolution moyenne ; il ne donne pas directement la vitesse à un instant. Raccourcir l’intervalle prépare la question du nombre dérivé étudiée ensuite.
+
+    *Source : [MacTutor, université de St Andrews — A history of the calculus](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/) (en anglais).*
 
 ## Voir aussi
 

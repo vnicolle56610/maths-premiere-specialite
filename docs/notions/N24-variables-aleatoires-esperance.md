@@ -16,9 +16,11 @@ Les variables aléatoires transforment une expérience en valeurs numériques. C
 
 ## Objectifs
 
-- Définir une variable aléatoire et sa loi.
-- Calculer et interpréter une espérance.
-- Résoudre un problème de décision avec un modèle probabiliste.
+!!! objectifs ""
+
+    - Définir une variable aléatoire et sa loi.
+    - Calculer et interpréter une espérance.
+    - Résoudre un problème de décision avec un modèle probabiliste.
 
 ## Documents
 
@@ -30,31 +32,40 @@ Les variables aléatoires transforment une expérience en valeurs numériques. C
 
 ## Notions essentielles
 
-Une **variable aléatoire réelle** `X` est une fonction qui associe un nombre réel à chaque issue d'une expérience aléatoire. Si `X` prend les valeurs `x₁,...,xₙ` avec les probabilités `p₁,...,pₙ`, sa **loi de probabilité** vérifie `p₁+p₂+...+pₙ=1`.
+!!! essentiel ""
 
-L'**espérance** de `X` est `E(X) = x₁p₁+x₂p₂+...+xₙpₙ`. Ce n'est pas forcément une valeur prise par `X` : elle s'interprète comme une moyenne à long terme, jamais comme un résultat garanti pour une seule expérience. Pour tous réels `a` et `b` : `E(aX+b) = a×E(X)+b`.
+    Une **variable aléatoire réelle** `X` est une fonction qui associe un nombre réel à chaque issue d'une expérience aléatoire. Si `X` prend les valeurs `x₁,...,xₙ` avec les probabilités `p₁,...,pₙ`, sa **loi de probabilité** vérifie `p₁+p₂+...+pₙ=1`.
 
-La **variance** de `X` est `V(X) = Σ pᵢ(xᵢ-E(X))²`, et son **écart-type** est `σ(X)=√V(X)`. La formule de König-Huygens donne `V(X) = E(X²) - (E(X))²`, plus pratique en calcul. Une variance n'est jamais négative.
+    L'**espérance** de `X` est `E(X) = x₁p₁+x₂p₂+...+xₙpₙ`. Ce n'est pas forcément une valeur prise par `X` : elle s'interprète comme une moyenne à long terme, jamais comme un résultat garanti pour une seule expérience. Pour tous réels `a` et `b` : `E(aX+b) = a×E(X)+b`.
 
-Lorsqu'on répète l'expérience un grand nombre de fois, la moyenne observée sur l'échantillon se rapproche de `E(X)`, sans jamais lui être exactement égale sur un échantillon fini.
+    La **variance** de `X` est `V(X) = Σ pᵢ(xᵢ-E(X))²`, et son **écart-type** est `σ(X)=√V(X)`. La formule de König-Huygens donne `V(X) = E(X²) - (E(X))²`, plus pratique en calcul. Une variance n'est jamais négative.
+
+    Lorsqu'on répète l'expérience un grand nombre de fois, la moyenne observée sur l'échantillon se rapproche de `E(X)`, sans jamais lui être exactement égale sur un échantillon fini.
 
 ## Exemple
 
-Une variable aléatoire `X` prend les valeurs `-1`, `1` et `4` avec les probabilités `0,5`, `0,3` et `0,2`.
+!!! exemple ""
 
-`E(X) = (-1)×0,5 + 1×0,3 + 4×0,2 = -0,5+0,3+0,8 = 0,6`
+    Une variable aléatoire `X` prend les valeurs `-1`, `1` et `4` avec les probabilités `0,5`, `0,3` et `0,2`.
 
-En moyenne, sur un grand nombre de répétitions, `X` vaut `0,6`.
+    `E(X) = (-1)×0,5 + 1×0,3 + 4×0,2 = -0,5+0,3+0,8 = 0,6`
+
+    En moyenne, sur un grand nombre de répétitions, `X` vaut `0,6`.
 
 ## Repère historique — Comment donner une valeur à un gain incertain ?
 
-En 1657, Christiaan Huygens publie un traité sur les jeux de hasard dans lequel il formule le concept d’espérance. Une question centrale est de donner une valeur à une situation où plusieurs gains sont possibles. Cette démarche prépare le calcul actuel d’une moyenne pondérée par les probabilités.
+!!! historique ""
 
-**Le lien avec le cours :** dans un jeu moderne, une pièce équilibrée donne un gain brut de 4 unités pour pile et de 0 pour face. Si `X` désigne ce gain, alors `E(X) = 4 × 0,5 + 0 × 0,5 = 2`. Avec une mise de 2 unités, le gain net `G = X − 2` a pour espérance zéro : le jeu est équitable au sens de l’espérance.
+    Christiaan Huygens, traité sur les jeux de hasard, 1657
+    {: .frise data-annee="1657" }
 
-Cela ne signifie pas que chaque partie se termine sans gain ni perte : `G` vaut 2 ou −2. L’espérance décrit le gain moyen du modèle, tandis que la dispersion renseigne sur les écarts possibles autour de cette moyenne.
+    En 1657, Christiaan Huygens publie un traité sur les jeux de hasard dans lequel il formule le concept d’espérance. Une question centrale est de donner une valeur à une situation où plusieurs gains sont possibles. Cette démarche prépare le calcul actuel d’une moyenne pondérée par les probabilités.
 
-*Source : [Bibliothèque de l’ETH Zurich — From games of chance to probability theory](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) (en anglais).*
+    **Le lien avec le cours :** dans un jeu moderne, une pièce équilibrée donne un gain brut de 4 unités pour pile et de 0 pour face. Si `X` désigne ce gain, alors `E(X) = 4 × 0,5 + 0 × 0,5 = 2`. Avec une mise de 2 unités, le gain net `G = X − 2` a pour espérance zéro : le jeu est équitable au sens de l’espérance.
+
+    Cela ne signifie pas que chaque partie se termine sans gain ni perte : `G` vaut 2 ou −2. L’espérance décrit le gain moyen du modèle, tandis que la dispersion renseigne sur les écarts possibles autour de cette moyenne.
+
+    *Source : [Bibliothèque de l’ETH Zurich — From games of chance to probability theory](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) (en anglais).*
 
 ## Voir aussi
 

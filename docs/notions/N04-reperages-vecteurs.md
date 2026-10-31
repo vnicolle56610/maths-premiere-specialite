@@ -16,9 +16,11 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 
 ## Objectifs
 
-- Calculer les coordonnées de points et de vecteurs.
-- Démontrer un alignement ou un parallélisme.
-- Utiliser les milieux et translations dans un repère.
+!!! objectifs ""
+
+    - Calculer les coordonnées de points et de vecteurs.
+    - Démontrer un alignement ou un parallélisme.
+    - Utiliser les milieux et translations dans un repère.
 
 ## Documents
 
@@ -35,33 +37,42 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 
 ## Notions essentielles
 
-Dans un repère, un point se note `A(xA ; yA)`. L'abscisse se lit horizontalement et l'ordonnée verticalement.
+!!! essentiel ""
 
-Un vecteur représente un déplacement. Si `A(xA ; yA)` et `B(xB ; yB)`, alors le vecteur `AB` a pour coordonnées `(xB - xA ; yB - yA)` : arrivée moins départ.
+    Dans un repère, un point se note `A(xA ; yA)`. L'abscisse se lit horizontalement et l'ordonnée verticalement.
 
-Deux vecteurs sont égaux lorsqu'ils ont les mêmes coordonnées. Dans un parallélogramme `ABCD`, on peut par exemple utiliser l'égalité des vecteurs `AB` et `DC`.
+    Un vecteur représente un déplacement. Si `A(xA ; yA)` et `B(xB ; yB)`, alors le vecteur `AB` a pour coordonnées `(xB - xA ; yB - yA)` : arrivée moins départ.
 
-Deux vecteurs non nuls sont colinéaires lorsqu'ils ont la même direction. Pour `u=(x ; y)` et `v=(x' ; y')`, on peut tester la colinéarité avec `xy' - yx' = 0`.
+    Deux vecteurs sont égaux lorsqu'ils ont les mêmes coordonnées. Dans un parallélogramme `ABCD`, on peut par exemple utiliser l'égalité des vecteurs `AB` et `DC`.
 
-Pour montrer que trois points sont alignés, on calcule deux vecteurs issus d'un même point, puis on teste leur colinéarité.
+    Deux vecteurs non nuls sont colinéaires lorsqu'ils ont la même direction. Pour `u=(x ; y)` et `v=(x' ; y')`, on peut tester la colinéarité avec `xy' - yx' = 0`.
+
+    Pour montrer que trois points sont alignés, on calcule deux vecteurs issus d'un même point, puis on teste leur colinéarité.
 
 ## Exemple
 
-Avec `A(1 ; 2)`, `B(4 ; 8)` et `C(-1 ; -2)`, on obtient `AB=(3 ; 6)` et `AC=(-2 ; -4)`.
+!!! exemple ""
 
-On calcule `3 × (-4) - 6 × (-2) = -12 + 12 = 0`.
+    Avec `A(1 ; 2)`, `B(4 ; 8)` et `C(-1 ; -2)`, on obtient `AB=(3 ; 6)` et `AC=(-2 ; -4)`.
 
-Les vecteurs `AB` et `AC` sont colinéaires, donc les points A, B et C sont alignés.
+    On calcule `3 × (-4) - 6 × (-2) = -12 + 12 = 0`.
+
+    Les vecteurs `AB` et `AC` sont colinéaires, donc les points A, B et C sont alignés.
 
 ## Repère historique — Comment transformer une question de géométrie en calcul ?
 
-En 1637, dans *La Géométrie*, René Descartes expose une méthode qui rapproche l’algèbre et la géométrie. Des longueurs inconnues sont désignées par des lettres ; les relations imposées par une figure deviennent des équations. Résoudre un problème géométrique peut alors passer par des transformations algébriques, avant de revenir à la construction ou à l’interprétation de la figure.
+!!! historique ""
 
-Cette démarche est une étape majeure vers la géométrie analytique. Il faut toutefois distinguer les méthodes de Descartes du langage vectoriel utilisé aujourd’hui : les outils du chapitre ne sont pas tous apparus ensemble.
+    René Descartes, *La Géométrie*, 1637
+    {: .frise data-annee="1637" }
 
-**Le lien avec le cours :** dans un repère actuel, les coordonnées permettent de traduire une propriété géométrique en une égalité à vérifier. Pour établir un alignement, on calcule les coordonnées de deux vecteurs, puis on teste leur colinéarité. Le calcul fournit ainsi une démonstration qui complète l’observation du dessin.
+    En 1637, dans *La Géométrie*, René Descartes expose une méthode qui rapproche l’algèbre et la géométrie. Des longueurs inconnues sont désignées par des lettres ; les relations imposées par une figure deviennent des équations. Résoudre un problème géométrique peut alors passer par des transformations algébriques, avant de revenir à la construction ou à l’interprétation de la figure.
 
-*Source : [Stanford Encyclopedia of Philosophy — Descartes’ Mathematics](https://plato.stanford.edu/entries/descartes-mathematics/) (en anglais).*
+    Cette démarche est une étape majeure vers la géométrie analytique. Il faut toutefois distinguer les méthodes de Descartes du langage vectoriel utilisé aujourd’hui : les outils du chapitre ne sont pas tous apparus ensemble.
+
+    **Le lien avec le cours :** dans un repère actuel, les coordonnées permettent de traduire une propriété géométrique en une égalité à vérifier. Pour établir un alignement, on calcule les coordonnées de deux vecteurs, puis on teste leur colinéarité. Le calcul fournit ainsi une démonstration qui complète l’observation du dessin.
+
+    *Source : [Stanford Encyclopedia of Philosophy — Descartes’ Mathematics](https://plato.stanford.edu/entries/descartes-mathematics/) (en anglais).*
 
 ## Voir aussi
 

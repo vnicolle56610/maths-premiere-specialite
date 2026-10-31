@@ -16,9 +16,11 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 
 ## Objectifs
 
-- Reconnaître et exploiter une forme canonique.
-- Lire le sommet et les variations d’une parabole.
-- Relier expression algébrique et représentation graphique.
+!!! objectifs ""
+
+    - Reconnaître et exploiter une forme canonique.
+    - Lire le sommet et les variations d’une parabole.
+    - Relier expression algébrique et représentation graphique.
 
 ## Documents
 
@@ -35,31 +37,40 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 
 ## Notions essentielles
 
-La fonction carré est définie sur `ℝ` par `f(x)=x²`. Sa courbe est une parabole de sommet `O(0 ; 0)`, symétrique par rapport à l'axe des ordonnées. Elle est décroissante sur `]-∞ ; 0]`, puis croissante sur `[0 ; +∞[`.
+!!! essentiel ""
 
-Une fonction de la forme `a(x-α)²+β`, avec `a≠0`, a pour courbe une parabole de sommet `S(α ; β)` et d'axe de symétrie la droite `x=α`. Si `a>0`, `f` admet un minimum égal à `β` ; si `a<0`, `f` admet un maximum égal à `β`.
+    La fonction carré est définie sur `ℝ` par `f(x)=x²`. Sa courbe est une parabole de sommet `O(0 ; 0)`, symétrique par rapport à l'axe des ordonnées. Elle est décroissante sur `]-∞ ; 0]`, puis croissante sur `[0 ; +∞[`.
 
-L'écriture `a(x-α)²+β` s'appelle la forme canonique. Elle est la plus efficace pour lire un sommet ou un extremum, alors que la forme développée facilite le calcul d'images et la forme factorisée la lecture des zéros.
+    Une fonction de la forme `a(x-α)²+β`, avec `a≠0`, a pour courbe une parabole de sommet `S(α ; β)` et d'axe de symétrie la droite `x=α`. Si `a>0`, `f` admet un minimum égal à `β` ; si `a<0`, `f` admet un maximum égal à `β`.
 
-Pour transformer `x²+bx+c` en forme canonique, on utilise l'identité `x²+2px=(x+p)²-p²` : on fait apparaître le carré qui possède le même terme en `x`, puis on ajuste la constante.
+    L'écriture `a(x-α)²+β` s'appelle la forme canonique. Elle est la plus efficace pour lire un sommet ou un extremum, alors que la forme développée facilite le calcul d'images et la forme factorisée la lecture des zéros.
+
+    Pour transformer `x²+bx+c` en forme canonique, on utilise l'identité `x²+2px=(x+p)²-p²` : on fait apparaître le carré qui possède le même terme en `x`, puis on ajuste la constante.
 
 ## Exemple
 
-Mettons `x²+6x+5` sous forme canonique.
+!!! exemple ""
 
-`x²+6x+5 = (x+3)² - 9 + 5 = (x+3)² - 4`
+    Mettons `x²+6x+5` sous forme canonique.
 
-La parabole a donc pour sommet `S(-3 ; -4)`, pour axe `x=-3`, et la fonction admet un minimum égal à `-4`.
+    `x²+6x+5 = (x+3)² - 9 + 5 = (x+3)² - 4`
+
+    La parabole a donc pour sommet `S(-3 ; -4)`, pour axe `x=-3`, et la fonction admet un minimum égal à `-4`.
 
 ## Repère historique — Pourquoi dit-on « compléter le carré » ?
 
-Au IXe siècle, Al-Khwarizmi accompagne ses méthodes de résolution d’équations par des justifications géométriques. L’un de ses exemples correspond, dans notre notation, à `x² + 10x = 39`. Pour une longueur positive `x`, on peut représenter `x²` par l’aire d’un carré et `10x` par celles de deux rectangles de côtés `x` et 5.
+!!! historique ""
 
-En plaçant ces rectangles sur deux côtés adjacents du carré, il manque un petit carré de côté 5 pour former un grand carré de côté `x + 5`. Ajouter son aire, 25, conduit à `(x + 5)² = 64`. L’expression « compléter le carré » prend ici un sens concret.
+    Al-Khwarizmi, Bagdad, IXe siècle
+    {: .frise data-annee="820" data-etiquette="v. 820" }
 
-**Le lien avec le cours :** la forme canonique reprend algébriquement cette idée. Par exemple, `x² + 6x + 5 = (x + 3)² − 4`. L’identité est aujourd’hui valable pour tout réel `x`, au-delà de l’interprétation initiale en longueurs positives, et permet de lire le minimum de la fonction.
+    Au IXe siècle, Al-Khwarizmi accompagne ses méthodes de résolution d’équations par des justifications géométriques. L’un de ses exemples correspond, dans notre notation, à `x² + 10x = 39`. Pour une longueur positive `x`, on peut représenter `x²` par l’aire d’un carré et `10x` par celles de deux rectangles de côtés `x` et 5.
 
-*Source : [American Mathematical Society — Completing the Square, par Tony Phillips](https://mathvoices.ams.org/featurecolumn/2020/11/01/fc-2020-10-2/) (en anglais).*
+    En plaçant ces rectangles sur deux côtés adjacents du carré, il manque un petit carré de côté 5 pour former un grand carré de côté `x + 5`. Ajouter son aire, 25, conduit à `(x + 5)² = 64`. L’expression « compléter le carré » prend ici un sens concret.
+
+    **Le lien avec le cours :** la forme canonique reprend algébriquement cette idée. Par exemple, `x² + 6x + 5 = (x + 3)² − 4`. L’identité est aujourd’hui valable pour tout réel `x`, au-delà de l’interprétation initiale en longueurs positives, et permet de lire le minimum de la fonction.
+
+    *Source : [American Mathematical Society — Completing the Square, par Tony Phillips](https://mathvoices.ams.org/featurecolumn/2020/11/01/fc-2020-10-2/) (en anglais).*
 
 ## Voir aussi
 

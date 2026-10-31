@@ -16,9 +16,11 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 
 ## Objectifs
 
-- Lire image, antécédent, signe et variations sur un graphique.
-- Exploiter un tableau de valeurs ou de variations.
-- Interpréter une information fonctionnelle dans un contexte.
+!!! objectifs ""
+
+    - Lire image, antécédent, signe et variations sur un graphique.
+    - Exploiter un tableau de valeurs ou de variations.
+    - Interpréter une information fonctionnelle dans un contexte.
 
 ## Documents
 
@@ -35,29 +37,38 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 
 ## Notions essentielles
 
-Si `f(a) = b`, alors `b` est l'image de `a` par la fonction `f`, et `a` est un antécédent de `b`. Une valeur peut avoir aucun, un ou plusieurs antécédents.
+!!! essentiel ""
 
-Une fonction peut être représentée par une expression, un tableau, une courbe ou une situation. La représentation la plus efficace dépend de la question posée.
+    Si `f(a) = b`, alors `b` est l'image de `a` par la fonction `f`, et `a` est un antécédent de `b`. Une valeur peut avoir aucun, un ou plusieurs antécédents.
 
-Sur une courbe, `f(x)>0` lorsque la courbe est au-dessus de l'axe des abscisses, et `f(x)<0` lorsqu'elle est au-dessous.
+    Une fonction peut être représentée par une expression, un tableau, une courbe ou une situation. La représentation la plus efficace dépend de la question posée.
 
-Les variations indiquent comment évoluent les images lorsque `x` parcourt un intervalle : la fonction peut notamment être croissante ou décroissante.
+    Sur une courbe, `f(x)>0` lorsque la courbe est au-dessus de l'axe des abscisses, et `f(x)<0` lorsqu'elle est au-dessous.
+
+    Les variations indiquent comment évoluent les images lorsque `x` parcourt un intervalle : la fonction peut notamment être croissante ou décroissante.
 
 ## Exemple
 
-Si `f(2)=5` et `f(7)=5`, alors 5 possède au moins deux antécédents par `f` : 2 et 7.
+!!! exemple ""
 
-En revanche, 2 possède une seule image par `f`, qui est ici égale à 5.
+    Si `f(2)=5` et `f(7)=5`, alors 5 possède au moins deux antécédents par `f` : 2 et 7.
+
+    En revanche, 2 possède une seule image par `f`, qui est ici égale à 5.
 
 ## Repère historique — Comment décrire une grandeur qui dépend d’une autre ?
 
-La notion de fonction s’est construite progressivement. Au XVIIe siècle, les travaux de Galilée sur le mouvement et ceux de Descartes reliant algèbre et géométrie contribuent à l’étude des relations entre grandeurs variables. Au XVIIIe siècle, Euler joue un rôle majeur dans le développement du langage des fonctions ; il emploie notamment la notation `f(x)`.
+!!! historique ""
 
-Ces étapes ne correspondent pas encore toutes à la définition générale utilisée aujourd’hui. Elles montrent comment une question concrète — décrire la dépendance entre deux grandeurs — conduit à rapprocher calculs et représentations.
+    Galilée et Descartes (XVIIe siècle), puis Euler (XVIIIe siècle)
+    {: .frise data-annee="1638" data-fin="1748" data-etiquette="XVIIe–XVIIIe s." }
 
-**Le lien avec le cours :** une même dépendance peut se lire dans un tableau, sur une courbe ou dans une expression. Par exemple, la formule `A(c) = c²`, pour `c > 0`, associe au côté d’un carré son aire. Étudier les variations permet ensuite de préciser comment l’aire évolue lorsque le côté augmente.
+    La notion de fonction s’est construite progressivement. Au XVIIe siècle, les travaux de Galilée sur le mouvement et ceux de Descartes reliant algèbre et géométrie contribuent à l’étude des relations entre grandeurs variables. Au XVIIIe siècle, Euler joue un rôle majeur dans le développement du langage des fonctions ; il emploie notamment la notation `f(x)`.
 
-*Source : [MacTutor, université de St Andrews — Histoire de la notion de fonction](https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/) (en anglais).*
+    Ces étapes ne correspondent pas encore toutes à la définition générale utilisée aujourd’hui. Elles montrent comment une question concrète — décrire la dépendance entre deux grandeurs — conduit à rapprocher calculs et représentations.
+
+    **Le lien avec le cours :** une même dépendance peut se lire dans un tableau, sur une courbe ou dans une expression. Par exemple, la formule `A(c) = c²`, pour `c > 0`, associe au côté d’un carré son aire. Étudier les variations permet ensuite de préciser comment l’aire évolue lorsque le côté augmente.
+
+    *Source : [MacTutor, université de St Andrews — Histoire de la notion de fonction](https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/) (en anglais).*
 
 ## Voir aussi
 

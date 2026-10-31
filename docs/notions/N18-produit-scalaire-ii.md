@@ -16,9 +16,11 @@ Cette seconde partie du produit scalaire développe les identités utiles et les
 
 ## Objectifs
 
-- Utiliser les identités du produit scalaire.
-- Appliquer le théorème d’Al-Kashi.
-- Résoudre des problèmes de géométrie avec un choix de formule.
+!!! objectifs ""
+
+    - Utiliser les identités du produit scalaire.
+    - Appliquer le théorème d’Al-Kashi.
+    - Résoudre des problèmes de géométrie avec un choix de formule.
 
 ## Documents
 
@@ -30,27 +32,36 @@ Cette seconde partie du produit scalaire développe les identités utiles et les
 
 ## Notions essentielles
 
-Pour tous vecteurs `u⃗` et `v⃗` : `‖u⃗+v⃗‖² = ‖u⃗‖² + 2×u⃗·v⃗ + ‖v⃗‖²` et `‖u⃗-v⃗‖² = ‖u⃗‖² - 2×u⃗·v⃗ + ‖v⃗‖²`.
+!!! essentiel ""
 
-Dans un triangle `ABC`, avec `a=BC`, `b=AC`, `c=AB`, la **formule d'Al-Kashi** généralise Pythagore : `BC² = AB² + AC² - 2×AB×AC×cos(Â)`. Elle permet aussi de calculer un angle à partir des trois longueurs : `cos(Â) = (AB²+AC²-BC²) / (2×AB×AC)`.
+    Pour tous vecteurs `u⃗` et `v⃗` : `‖u⃗+v⃗‖² = ‖u⃗‖² + 2×u⃗·v⃗ + ‖v⃗‖²` et `‖u⃗-v⃗‖² = ‖u⃗‖² - 2×u⃗·v⃗ + ‖v⃗‖²`.
 
-Pour deux points distincts `A` et `B`, l'ensemble des points `M` tels que `MA⃗·MB⃗=0` est le cercle de diamètre `[AB]` (`A` et `B` inclus) : cela revient à dire que le triangle `AMB` est rectangle en `M`.
+    Dans un triangle `ABC`, avec `a=BC`, `b=AC`, `c=AB`, la **formule d'Al-Kashi** généralise Pythagore : `BC² = AB² + AC² - 2×AB×AC×cos(Â)`. Elle permet aussi de calculer un angle à partir des trois longueurs : `cos(Â) = (AB²+AC²-BC²) / (2×AB×AC)`.
+
+    Pour deux points distincts `A` et `B`, l'ensemble des points `M` tels que `MA⃗·MB⃗=0` est le cercle de diamètre `[AB]` (`A` et `B` inclus) : cela revient à dire que le triangle `AMB` est rectangle en `M`.
 
 ## Exemple
 
-Dans un triangle `ABC` avec `AB=6`, `AC=5` et `Â=60°` :
+!!! exemple ""
 
-`BC² = 6² + 5² - 2×6×5×cos 60° = 36+25-60×0,5 = 31`, donc `BC = √31`.
+    Dans un triangle `ABC` avec `AB=6`, `AC=5` et `Â=60°` :
+
+    `BC² = 6² + 5² - 2×6×5×cos 60° = 36+25-60×0,5 = 31`, donc `BC = √31`.
 
 ## Repère historique — Comment calculer au-delà du triangle rectangle ?
 
-Au XVe siècle, Jamshid Al-Kashi travaille sur l’astronomie et sur des méthodes de calcul très précises. Sa *Clé de l’arithmétique*, achevée en 1427, traite notamment de la mesure des figures et répond aux besoins de calculateurs, d’astronomes et d’arpenteurs. Ce contexte rappelle que relier longueurs et angles permet de déterminer des mesures inconnues à partir de données accessibles.
+!!! historique ""
 
-**Le lien avec le cours :** la formule appelée « formule d’Al-Kashi » dans ce chapitre s’écrit aujourd’hui `a² = b² + c² − 2bc × cos A`, où `A` est l’angle entre les côtés de longueurs `b` et `c`. L’écriture vectorielle du cours en fournit une démonstration moderne, sans attribuer ce langage à Al-Kashi.
+    Al-Kashi, *Clé de l’arithmétique*, Samarcande, 1427
+    {: .frise data-annee="1427" }
 
-Si `A = 90°`, le cosinus est nul et l’on retrouve Pythagore. Pour un angle aigu, le terme soustrait est positif ; pour un angle obtus, il est négatif. La formule traite ainsi les triangles non rectangles et peut aussi servir à retrouver un angle lorsque les trois côtés sont connus.
+    Au XVe siècle, Jamshid Al-Kashi travaille sur l’astronomie et sur des méthodes de calcul très précises. Sa *Clé de l’arithmétique*, achevée en 1427, traite notamment de la mesure des figures et répond aux besoins de calculateurs, d’astronomes et d’arpenteurs. Ce contexte rappelle que relier longueurs et angles permet de déterminer des mesures inconnues à partir de données accessibles.
 
-*Source : [Dictionary of Scientific Biography — Al-Kashi, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Al-Kashi.pdf) (PDF en anglais).*
+    **Le lien avec le cours :** la formule appelée « formule d’Al-Kashi » dans ce chapitre s’écrit aujourd’hui `a² = b² + c² − 2bc × cos A`, où `A` est l’angle entre les côtés de longueurs `b` et `c`. L’écriture vectorielle du cours en fournit une démonstration moderne, sans attribuer ce langage à Al-Kashi.
+
+    Si `A = 90°`, le cosinus est nul et l’on retrouve Pythagore. Pour un angle aigu, le terme soustrait est positif ; pour un angle obtus, il est négatif. La formule traite ainsi les triangles non rectangles et peut aussi servir à retrouver un angle lorsque les trois côtés sont connus.
+
+    *Source : [Dictionary of Scientific Biography — Al-Kashi, texte hébergé par l’université de St Andrews](https://mathshistory.st-andrews.ac.uk/DSB/Al-Kashi.pdf) (PDF en anglais).*
 
 ## Voir aussi
 
