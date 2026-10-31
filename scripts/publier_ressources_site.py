@@ -102,7 +102,7 @@ EXCLUDED_SOURCE_DIR_PREFIXES = (
     "_ANCIEN",
     "_ARCHIVE",
     "_SAUVEGARDE",
-    "_A_TELEVERSER_GPT_",
+    "A_telecharger_dans_GPT",
 )
 NOTION_DIR_PATTERN = re.compile(r"^N\d{2}_")
 
