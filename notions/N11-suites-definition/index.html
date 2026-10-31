@@ -1614,11 +1614,13 @@
 
 <p>Les suites décrivent des phénomènes discrets, étape par étape. Cette notion introduit les définitions explicites ou récurrentes, le calcul de termes et les premiers raisonnements sur le sens de variation. Elle prépare les suites arithmétiques, géométriques et les modèles discrets.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Calculer des termes d’une suite.</li>
 <li>Passer entre définition explicite et récurrente simple.</li>
 <li>Étudier les premières propriétés d’une suite.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1628,19 +1630,26 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Une suite numérique associe à chaque rang <code>n</code> un nombre noté <code>uₙ</code> ; on note la suite <code>(uₙ)</code>. Dans l'écriture <code>uₙ</code>, <code>n</code> est le rang et <code>uₙ</code> le terme de rang <code>n</code> ; le premier terme peut être <code>u₀</code> ou <code>u₁</code> selon l'énoncé.</p>
 <p>Une suite est définie par une <strong>formule explicite</strong> lorsque <code>uₙ</code> est donné directement en fonction de <code>n</code> : on peut alors calculer un terme sans connaître les précédents.</p>
 <p>Une suite est définie <strong>par récurrence</strong> lorsqu'on donne un terme initial et une relation permettant de calculer chaque terme à partir du précédent, par exemple <code>u₀</code> et <code>uₙ₊₁=2uₙ+3</code>. Sans terme initial, la suite n'est pas entièrement déterminée.</p>
 <p>Une suite <code>(uₙ)</code> peut être représentée par les points de coordonnées <code>(n ; uₙ)</code> : les abscisses étant des entiers, on obtient un nuage de points, pas une courbe continue.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Soit la suite définie pour tout <code>n∈ℕ</code> par <code>uₙ=2n²-3n+1</code>.</p>
 <p><code>u₂ = 2×4 - 3×2 + 1 = 3</code> et <code>u₁₀ = 2×100 - 3×10 + 1 = 171</code></p>
 <p>Avec une formule explicite, on calcule directement <code>u₁₀</code> sans passer par tous les termes précédents.</p>
+</div>
 <h2 id="repere-historique-pourquoi-les-lapins-de-fibonacci-donnent-ils-une-suite">Repère historique — Pourquoi les lapins de Fibonacci donnent-ils une suite ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1202">Léonard de Pise (Fibonacci), <em>Liber abaci</em>, 1202</p>
 <p>Dans le <em>Liber abaci</em>, dont une première version date de 1202, Léonard de Pise, dit Fibonacci, propose un problème de reproduction de lapins. Le modèle suppose notamment que les couples ne meurent pas et qu’après une période de maturation, chaque couple donne naissance régulièrement à un nouveau couple. Ces hypothèses idéalisées permettent de compter la population mois après mois ; elles ne constituent pas une description biologique réaliste.</p>
 <p><strong>Le lien avec le cours :</strong> dans une écriture actuelle commençant par <code>u₁ = 1</code> et <code>u₂ = 1</code>, le comptage conduit à <code>uₙ₊₂ = uₙ₊₁ + uₙ</code>. On obtient successivement <code>1, 1, 2, 3, 5, 8…</code> : chaque nouveau terme dépend des deux précédents.</p>
 <p>Cet exemple élargit la définition récurrente vue avec un seul terme précédent. Les deux valeurs initiales et la relation de calcul déterminent ici toute la suite. Définir une suite par récurrence explique comment construire ses termes ; cela se distingue d’une démonstration par récurrence.</p>
 <p><em>Source : <a href="https://www.math.stonybrook.edu/~tony/archive/118s13/fibonacci.html">Université Stony Brook — Fibonacci, présentation et traduction du problème des lapins par Tony Phillips</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PROLONGEMENT : <a href="../N12-suites-arithmetiques-geometriiques/">N12</a> (Les suites usuelles donnent des modèles rapides.)</li>
@@ -1716,6 +1725,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

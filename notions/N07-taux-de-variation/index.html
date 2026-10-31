@@ -1614,11 +1614,13 @@
 
 <p>Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie les fonctions aux pentes de sécantes et prépare naturellement la notion de nombre dérivé. Les exercices alternent calculs, graphiques et interprétations dans des situations variées.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Calculer un taux de variation sur un intervalle.</li>
 <li>Interpréter graphiquement une pente de sécante.</li>
 <li>Préparer le passage au nombre dérivé.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,19 +1631,26 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Entre deux réels distincts <code>a</code> et <code>b</code>, l'accroissement de la variable est <code>b-a</code>, et l'accroissement de l'image est <code>f(b)-f(a)</code>. Le taux de variation de <code>f</code> entre <code>a</code> et <code>b</code> est le quotient <code>τf(a;b) = (f(b)-f(a)) / (b-a)</code> : il mesure l'accroissement moyen de <code>f(x)</code> par unité d'accroissement de <code>x</code>.</p>
 <p>Ce taux est le coefficient directeur de la droite sécante passant par <code>A(a ; f(a))</code> et <code>B(b ; f(b))</code>. Un taux positif indique que l'image augmente en moyenne entre <code>a</code> et <code>b</code> ; un taux négatif indique qu'elle diminue.</p>
 <p>Pour une fonction affine, le taux de variation entre deux réels distincts est toujours le même : la pente est constante. Pour une fonction non affine, le taux dépend en général de l'intervalle choisi.</p>
 <p>L'écriture <code>(f(a+h)-f(a)) / h</code>, avec <code>h≠0</code>, permet de rapprocher progressivement le second point du premier : elle prépare la notion de nombre dérivé, étudiée par la suite.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Pour <code>f(x)=x²</code>, entre <code>1</code> et <code>3</code>, on a <code>f(1)=1</code> et <code>f(3)=9</code>.</p>
 <p><code>τf(1;3) = (9-1) / (3-1) = 4</code></p>
 <p>En moyenne, lorsque <code>x</code> augmente de <code>1</code>, l'image augmente de <code>4</code> sur cet intervalle.</p>
+</div>
 <h2 id="repere-historique-comment-mesurer-une-vitesse-qui-change">Repère historique — Comment mesurer une vitesse qui change ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1665" data-etiquette="v. 1665–1671" data-fin="1671">Isaac Newton, Angleterre, XVIIe siècle</p>
 <p>Au XVIIe siècle, Isaac Newton développe une manière d’étudier des grandeurs qui évoluent avec le temps. Il appelle « fluxions » leurs vitesses de variation. Cette approche contribue à la naissance du calcul différentiel et éclaire une question essentielle : comment passer d’une évolution mesurée sur une durée à une variation à un instant ?</p>
 <p><strong>Le lien avec le cours :</strong> dans un exemple moderne, supposons qu’un mobile avance sur un axe et que sa position, en mètres, soit <code>s(t) = t²</code>, avec <code>t</code> en secondes et <code>t ≥ 0</code>. Entre 1 et 3 secondes, sa vitesse moyenne est <code>(9 − 1)/(3 − 1) = 4</code> mètres par seconde. Entre 1 et 2 secondes, elle vaut 3 mètres par seconde.</p>
 <p>Le résultat dépend donc de l’intervalle choisi. Le taux de variation décrit une évolution moyenne ; il ne donne pas directement la vitesse à un instant. Raccourcir l’intervalle prépare la question du nombre dérivé étudiée ensuite.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/">MacTutor, université de St Andrews — A history of the calculus</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N03-fonctions-lectures-variations/">N03</a> (Les lectures de fonctions donnent le cadre.)</li>
@@ -1718,6 +1727,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

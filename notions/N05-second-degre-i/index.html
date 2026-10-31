@@ -1614,11 +1614,13 @@
 
 <p>Le second degré commence par l’étude de la fonction carré et des paraboles. La forme canonique permet de lire un extremum et de comprendre le rôle des transformations algébriques. Cette étape prépare les racines, le discriminant, le signe et les problèmes d’optimisation.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Reconnaître et exploiter une forme canonique.</li>
 <li>Lire le sommet et les variations d’une parabole.</li>
 <li>Relier expression algébrique et représentation graphique.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1636,19 +1638,26 @@
 <!-- AUTO-EVAL:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>La fonction carré est définie sur <code>ℝ</code> par <code>f(x)=x²</code>. Sa courbe est une parabole de sommet <code>O(0 ; 0)</code>, symétrique par rapport à l'axe des ordonnées. Elle est décroissante sur <code>]-∞ ; 0]</code>, puis croissante sur <code>[0 ; +∞[</code>.</p>
 <p>Une fonction de la forme <code>a(x-α)²+β</code>, avec <code>a≠0</code>, a pour courbe une parabole de sommet <code>S(α ; β)</code> et d'axe de symétrie la droite <code>x=α</code>. Si <code>a&gt;0</code>, <code>f</code> admet un minimum égal à <code>β</code> ; si <code>a&lt;0</code>, <code>f</code> admet un maximum égal à <code>β</code>.</p>
 <p>L'écriture <code>a(x-α)²+β</code> s'appelle la forme canonique. Elle est la plus efficace pour lire un sommet ou un extremum, alors que la forme développée facilite le calcul d'images et la forme factorisée la lecture des zéros.</p>
 <p>Pour transformer <code>x²+bx+c</code> en forme canonique, on utilise l'identité <code>x²+2px=(x+p)²-p²</code> : on fait apparaître le carré qui possède le même terme en <code>x</code>, puis on ajuste la constante.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Mettons <code>x²+6x+5</code> sous forme canonique.</p>
 <p><code>x²+6x+5 = (x+3)² - 9 + 5 = (x+3)² - 4</code></p>
 <p>La parabole a donc pour sommet <code>S(-3 ; -4)</code>, pour axe <code>x=-3</code>, et la fonction admet un minimum égal à <code>-4</code>.</p>
+</div>
 <h2 id="repere-historique-pourquoi-dit-on-completer-le-carre">Repère historique — Pourquoi dit-on « compléter le carré » ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="820" data-etiquette="v. 820">Al-Khwarizmi, Bagdad, IXe siècle</p>
 <p>Au IXe siècle, Al-Khwarizmi accompagne ses méthodes de résolution d’équations par des justifications géométriques. L’un de ses exemples correspond, dans notre notation, à <code>x² + 10x = 39</code>. Pour une longueur positive <code>x</code>, on peut représenter <code>x²</code> par l’aire d’un carré et <code>10x</code> par celles de deux rectangles de côtés <code>x</code> et 5.</p>
 <p>En plaçant ces rectangles sur deux côtés adjacents du carré, il manque un petit carré de côté 5 pour former un grand carré de côté <code>x + 5</code>. Ajouter son aire, 25, conduit à <code>(x + 5)² = 64</code>. L’expression « compléter le carré » prend ici un sens concret.</p>
 <p><strong>Le lien avec le cours :</strong> la forme canonique reprend algébriquement cette idée. Par exemple, <code>x² + 6x + 5 = (x + 3)² − 4</code>. L’identité est aujourd’hui valable pour tout réel <code>x</code>, au-delà de l’interprétation initiale en longueurs positives, et permet de lire le minimum de la fonction.</p>
 <p><em>Source : <a href="https://mathvoices.ams.org/featurecolumn/2020/11/01/fc-2020-10-2/">American Mathematical Society — Completing the Square, par Tony Phillips</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N02-calcul-algebrique-equations/">N02</a> (Les transformations algébriques sont centrales.)</li>
@@ -1725,6 +1734,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

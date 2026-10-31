@@ -1614,11 +1614,13 @@
 
 <p>Les probabilités conditionnelles permettent de calculer une probabilité en tenant compte d'une information déjà connue. On cherche par exemple la probabilité qu'un événement B se réalise sachant qu'un événement A est déjà réalisé. Les arbres pondérés permettent de représenter simplement ce type de situation.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Lire et compléter un arbre pondéré.</li>
 <li>Calculer une probabilité conditionnelle.</li>
 <li>Utiliser les intersections d'événements dans un raisonnement.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,19 +1631,26 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Si P(A)&gt;0, la probabilité de B sachant A se note P<sub>A</sub>(B).</p>
 <p>On a alors :</p>
 <p><strong>P(A ∩ B) = P(A) × P<sub>A</sub>(B)</strong></p>
 <p>Dans un arbre pondéré, les probabilités inscrites sur les branches de deuxième niveau sont des probabilités conditionnelles. La probabilité d'un chemin s'obtient en multipliant les probabilités inscrites sur ses branches.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Si P(A)=0,4 et P<sub>A</sub>(B)=0,25, alors :</p>
 <p><strong>P(A ∩ B) = 0,4 × 0,25 = 0,10</strong></p>
 <p>La probabilité que A et B se réalisent est donc égale à 0,10.</p>
+</div>
 <h2 id="repere-historique-comment-une-information-modifie-t-elle-une-probabilite">Repère historique — Comment une information modifie-t-elle une probabilité ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1763">Thomas Bayes, mémoire publié par Richard Price, 1763</p>
 <p>Au XVIIIe siècle, Thomas Bayes étudie comment tirer une information probabiliste d’observations. Son mémoire, communiqué après sa mort par Richard Price en 1763, devient un jalon de l’histoire de l’inférence probabiliste. Les probabilités conditionnelles du cours fournissent un langage actuel pour distinguer une probabilité initiale d’une probabilité calculée lorsqu’une information est connue.</p>
 <p><strong>Le lien avec le cours :</strong> prenons un exemple moderne. Une boîte contient trois jetons rouges et deux bleus, tous indiscernables au toucher. On en tire deux sans remise. Notons <code>A</code> l’événement « le premier jeton est rouge » et <code>B</code> l’événement « le second est rouge ». On a <code>P(A) = 3/5</code> et <code>P_A(B) = 2/4</code>, car après un premier rouge, il reste deux rouges parmi quatre jetons.</p>
 <p>La probabilité d’obtenir deux rouges vaut donc <code>(3/5) × (2/4) = 3/10</code>. L’arbre pondéré organise ces informations successives. Cet exemple illustre le conditionnement, sans reproduire le problème historique de Bayes.</p>
 <p><em>Source : <a href="https://www.statslab.cam.ac.uk/Dept/People/djsteaching/interlude-6-bayesian.pdf">Université de Cambridge — Bayes’ probability, Statistics 1B Interludes</a> (PDF en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PROLONGEMENT : <a href="../N23-independance-arbres/">N23</a> (L’indépendance prolonge les calculs conditionnels.)</li>
@@ -1717,6 +1726,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

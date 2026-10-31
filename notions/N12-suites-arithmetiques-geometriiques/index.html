@@ -1614,11 +1614,13 @@
 
 <p>Les suites arithmétiques et géométriques modélisent des évolutions régulières. On apprend à reconnaître le type de suite, calculer un terme général et interpréter la raison. Ces modèles serviront ensuite pour les sommes, les algorithmes et les situations d’évolution.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Identifier une suite arithmétique ou géométrique.</li>
 <li>Calculer un terme général et une raison.</li>
 <li>Interpréter un modèle discret dans un contexte.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,17 +1631,24 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Une suite <code>(uₙ)</code> est <strong>arithmétique</strong> lorsqu'il existe un réel <code>r</code> tel que, pour tout rang <code>n</code>, <code>uₙ₊₁=uₙ+r</code> ; <code>r</code> est la raison. La différence entre deux termes consécutifs est alors constante. Si le premier terme est <code>u₀</code>, alors <code>uₙ=u₀+nr</code> pour tout <code>n</code>.</p>
 <p>Une suite <code>(uₙ)</code> est <strong>géométrique</strong> lorsqu'il existe un réel <code>q</code> tel que, pour tout rang <code>n</code>, <code>uₙ₊₁=q×uₙ</code> ; <code>q</code> est la raison. Si les termes sont non nuls, le quotient entre deux termes consécutifs est alors constant. Si le premier terme est <code>u₀</code>, alors <code>uₙ=u₀×qⁿ</code> pour tout <code>n</code>.</p>
 <p>Une évolution avec ajout constant se modélise par une suite arithmétique ; une évolution à taux fixe se modélise par une suite géométrique.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Soit <code>(uₙ)</code> arithmétique telle que <code>u₀=12</code> et <code>r=5</code>. Alors <code>uₙ=12+5n</code>, donc :</p>
 <p><code>u₂₀ = 12 + 5×20 = 112</code></p>
+</div>
 <h2 id="repere-historique-que-relie-une-addition-reguliere-a-une-multiplication-reguliere">Repère historique — Que relie une addition régulière à une multiplication régulière ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1544">Michael Stifel, <em>Arithmetica integra</em>, 1544</p>
 <p>Dans son <em>Arithmetica integra</em>, publiée en 1544, Michael Stifel met en correspondance les nombres <code>1, 2, 3, 4, 5…</code> et les puissances <code>2, 4, 8, 16, 32…</code>. Il prolonge aussi cette correspondance : 0 est associé à 1, puis −1 à la moitié et −2 au quart. Ce rapprochement entre progressions arithmétiques et géométriques constitue un jalon de l’histoire des logarithmes.</p>
 <p><strong>Le lien avec le cours :</strong> en notation actuelle, limitons-nous aux rangs <code>n ≥ 0</code>. Les suites <code>aₙ = n</code> et <code>bₙ = 2ⁿ</code> sont respectivement arithmétique de raison 1 et géométrique de raison 2. Passer au rang suivant revient à ajouter 1 dans la première et à multiplier par 2 dans la seconde.</p>
 <p>La règle <code>2³ × 2⁴ = 2⁷</code> montre aussi qu’une multiplication de puissances correspond à une addition de leurs exposants. Pour reconnaître les deux modèles, on examine donc ce qui reste constant : la différence ou, lorsque les termes sont non nuls, le quotient de deux termes consécutifs.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Stifel/">MacTutor, université de St Andrews — Michael Stifel</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N11-suites-definition/">N11</a> (Les définitions de suites sont nécessaires.)</li>
@@ -1716,6 +1725,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

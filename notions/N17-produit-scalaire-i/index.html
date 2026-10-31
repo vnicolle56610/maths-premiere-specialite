@@ -1614,11 +1614,13 @@
 
 <p>Le produit scalaire permet de calculer avec les longueurs, les angles et l’orthogonalité. Cette première partie introduit les définitions, la projection et les expressions en coordonnées. Elle donne une méthode efficace pour traiter des configurations géométriques.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Calculer un produit scalaire avec une formule adaptée.</li>
 <li>Utiliser projection et coordonnées.</li>
 <li>Reconnaître ou prouver une orthogonalité.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,18 +1631,25 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Le produit scalaire de deux vecteurs <code>u⃗</code> et <code>v⃗</code> est un nombre réel, noté <code>u⃗·v⃗</code> — pas un vecteur. Lorsque <code>u⃗</code> et <code>v⃗</code> sont non nuls : <code>u⃗·v⃗&gt;0</code> si l'angle entre eux est aigu, <code>u⃗·v⃗=0</code> si l'angle est droit, <code>u⃗·v⃗&lt;0</code> si l'angle est obtus.</p>
 <p>Avec un angle <code>θ</code> entre <code>0</code> et <code>π</code> : <code>u⃗·v⃗ = ‖u⃗‖ × ‖v⃗‖ × cos θ</code>.</p>
 <p>Dans un repère <strong>orthonormé</strong>, si <code>u⃗(x ; y)</code> et <code>v⃗(x′ ; y′)</code>, alors <code>u⃗·v⃗ = xx′+yy′</code>.</p>
 <p>Deux vecteurs <code>u⃗</code> et <code>v⃗</code> sont orthogonaux si et seulement si <code>u⃗·v⃗=0</code>. Deux droites de vecteurs directeurs <code>u⃗</code> et <code>v⃗</code> sont perpendiculaires si et seulement si <code>u⃗·v⃗=0</code>.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Soient <code>u⃗(3 ; -2)</code> et <code>v⃗(5 ; 4)</code>, dans un repère orthonormé :</p>
 <p><code>u⃗·v⃗ = 3×5 + (-2)×4 = 15-8 = 7</code></p>
+</div>
 <h2 id="repere-historique-pourquoi-tenir-compte-de-la-direction-dans-un-calcul">Repère historique — Pourquoi tenir compte de la direction dans un calcul ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1844">Hermann Grassmann, <em>Ausdehnungslehre</em>, 1844</p>
 <p>Au XIXe siècle, plusieurs mathématiciens développent des calculs portant sur des grandeurs orientées. En 1844, Hermann Grassmann publie son <em>Ausdehnungslehre</em>, qui organise algébriquement des objets géométriques et leurs opérations. Ses travaux constituent une étape importante de l’histoire du calcul vectoriel ; ils ne se confondent pas avec la présentation scolaire actuelle du produit scalaire.</p>
 <p><strong>Le lien avec le cours :</strong> multiplier seulement deux longueurs ne suffit pas à tenir compte de la direction des vecteurs. Le produit scalaire introduit le cosinus de leur angle : pour deux vecteurs de normes 3 et 4, il vaut 12 s’ils ont même direction et même sens, 0 s’ils sont perpendiculaires et −12 s’ils sont de sens opposés.</p>
 <p>La projection permet de comprendre ces résultats : seule la composante d’un vecteur dans la direction de l’autre intervient. Dans un repère orthonormé, la formule <code>xx′ + yy′</code> traduit cette information géométrique en un calcul sur les coordonnées. Le résultat est un nombre réel, dont le signe renseigne sur l’angle.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/">MacTutor, université de St Andrews — Hermann Grassmann</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N04-reperages-vecteurs/">N04</a> (Les vecteurs sont le langage de base.)</li>
@@ -1717,6 +1726,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

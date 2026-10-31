@@ -1614,11 +1614,13 @@
 
 <p>Le repérage donne un langage efficace pour traiter la géométrie par le calcul. Les ressources portent sur les coordonnées, les vecteurs, les milieux, les alignements et les translations. Ces outils seront réutilisés pour les droites, la trigonométrie et le produit scalaire.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Calculer les coordonnées de points et de vecteurs.</li>
 <li>Démontrer un alignement ou un parallélisme.</li>
 <li>Utiliser les milieux et translations dans un repère.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1636,20 +1638,27 @@
 <!-- AUTO-EVAL:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Dans un repère, un point se note <code>A(xA ; yA)</code>. L'abscisse se lit horizontalement et l'ordonnée verticalement.</p>
 <p>Un vecteur représente un déplacement. Si <code>A(xA ; yA)</code> et <code>B(xB ; yB)</code>, alors le vecteur <code>AB</code> a pour coordonnées <code>(xB - xA ; yB - yA)</code> : arrivée moins départ.</p>
 <p>Deux vecteurs sont égaux lorsqu'ils ont les mêmes coordonnées. Dans un parallélogramme <code>ABCD</code>, on peut par exemple utiliser l'égalité des vecteurs <code>AB</code> et <code>DC</code>.</p>
 <p>Deux vecteurs non nuls sont colinéaires lorsqu'ils ont la même direction. Pour <code>u=(x ; y)</code> et <code>v=(x' ; y')</code>, on peut tester la colinéarité avec <code>xy' - yx' = 0</code>.</p>
 <p>Pour montrer que trois points sont alignés, on calcule deux vecteurs issus d'un même point, puis on teste leur colinéarité.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Avec <code>A(1 ; 2)</code>, <code>B(4 ; 8)</code> et <code>C(-1 ; -2)</code>, on obtient <code>AB=(3 ; 6)</code> et <code>AC=(-2 ; -4)</code>.</p>
 <p>On calcule <code>3 × (-4) - 6 × (-2) = -12 + 12 = 0</code>.</p>
 <p>Les vecteurs <code>AB</code> et <code>AC</code> sont colinéaires, donc les points A, B et C sont alignés.</p>
+</div>
 <h2 id="repere-historique-comment-transformer-une-question-de-geometrie-en-calcul">Repère historique — Comment transformer une question de géométrie en calcul ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1637">René Descartes, <em>La Géométrie</em>, 1637</p>
 <p>En 1637, dans <em>La Géométrie</em>, René Descartes expose une méthode qui rapproche l’algèbre et la géométrie. Des longueurs inconnues sont désignées par des lettres ; les relations imposées par une figure deviennent des équations. Résoudre un problème géométrique peut alors passer par des transformations algébriques, avant de revenir à la construction ou à l’interprétation de la figure.</p>
 <p>Cette démarche est une étape majeure vers la géométrie analytique. Il faut toutefois distinguer les méthodes de Descartes du langage vectoriel utilisé aujourd’hui : les outils du chapitre ne sont pas tous apparus ensemble.</p>
 <p><strong>Le lien avec le cours :</strong> dans un repère actuel, les coordonnées permettent de traduire une propriété géométrique en une égalité à vérifier. Pour établir un alignement, on calcule les coordonnées de deux vecteurs, puis on teste leur colinéarité. Le calcul fournit ainsi une démonstration qui complète l’observation du dessin.</p>
 <p><em>Source : <a href="https://plato.stanford.edu/entries/descartes-mathematics/">Stanford Encyclopedia of Philosophy — Descartes’ Mathematics</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PROLONGEMENT : <a href="../N15-droites-equations/">N15</a> (Les équations de droites prolongent le travail vectoriel.)</li>
@@ -1725,6 +1734,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

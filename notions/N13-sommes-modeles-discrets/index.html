@@ -1614,11 +1614,13 @@
 
 <p>Les sommes permettent d’additionner les termes d’une suite et de modéliser des accumulations. Cette notion travaille les formules utiles, les interprétations et les choix de modèle. Elle prépare aussi le dialogue avec l’algorithmique.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Calculer une somme de termes consécutifs.</li>
 <li>Choisir une formule adaptée au type de suite.</li>
 <li>Interpréter une accumulation dans un modèle discret.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,18 +1631,25 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Une somme cumulée additionne plusieurs termes consécutifs d'une suite. La notation <code>Σ</code> (sigma) <code>Σₖ₌₀ⁿ uₖ</code> se lit « somme des <code>uₖ</code>, pour <code>k</code> allant de <code>0</code> à <code>n</code> » et signifie <code>u₀+u₁+⋯+uₙ</code>.</p>
 <p>Pour une suite <strong>arithmétique</strong>, la somme de termes consécutifs vaut : nombre de termes × (premier terme + dernier terme) / 2. En particulier, <code>u₀+u₁+⋯+uₙ = (n+1) × (u₀+uₙ)/2</code>.</p>
 <p>Pour une suite <strong>géométrique</strong> de premier terme <code>u₀</code> et de raison <code>q≠1</code> : <code>u₀+u₁+⋯+uₙ = u₀ × (1-qⁿ⁺¹)/(1-q)</code>.</p>
 <p>Un terme isolé <code>uₙ</code> est une valeur ; une somme <code>u₀+⋯+uₙ</code> est un total : il ne faut pas confondre les deux.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Calculons <code>3+6+12+24+48</code>, une somme géométrique de premier terme <code>3</code>, de raison <code>2</code>, avec <code>5</code> termes :</p>
 <p><code>3+6+12+24+48 = 3 × (1-2⁵)/(1-2) = 3×31 = 93</code></p>
+</div>
 <h2 id="repere-historique-comment-additionner-une-progression-sans-tout-calculer">Repère historique — Comment additionner une progression sans tout calculer ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="-300" data-etiquette="v. −300">Euclide, <em>Éléments</em>, Alexandrie, vers −300</p>
 <p>Dans le livre IX des <em>Éléments</em>, Euclide établit une relation entre des nombres « en proportion continue » et leur somme. La proposition 35 correspond, dans notre langage, à un résultat sur les sommes géométriques. Sa présentation repose sur des rapports de nombres, sans notre notation des suites ni le symbole de sommation.</p>
 <p><strong>Le lien avec le cours :</strong> reprenons une somme avec des outils actuels. Si <code>S = 3 + 6 + 12 + 24 + 48</code>, alors <code>2S = 6 + 12 + 24 + 48 + 96</code>. En soustrayant les deux égalités, les termes intermédiaires disparaissent : <code>2S − S = 96 − 3</code>, donc <code>S = 93</code>.</p>
 <p>Cette comparaison entre une somme et son multiple explique la formule du cours. Elle permet aussi de contrôler les indices : la somme initiale comporte cinq termes et le terme supplémentaire obtenu après multiplication est <code>3 × 2⁵</code>. Le rang du dernier terme et le nombre de termes doivent être distingués.</p>
 <p><em>Source : <a href="https://mathcs.clarku.edu/~djoyce/elements/bookIX/propIX35.html">Euclide, Éléments, livre IX, proposition 35 — édition commentée par David E. Joyce, université Clark</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N12-suites-arithmetiques-geometriiques/">N12</a> (Les suites usuelles donnent les formules de base.)</li>
@@ -1717,6 +1726,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

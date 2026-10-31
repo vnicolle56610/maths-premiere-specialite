@@ -1614,11 +1614,13 @@
 
 <p>Cette seconde partie du produit scalaire développe les identités utiles et les applications aux problèmes. Les ressources mobilisent Al-Kashi, les calculs de longueurs, les angles et certains lieux de points. On apprend à choisir une formule selon la configuration.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Utiliser les identités du produit scalaire.</li>
 <li>Appliquer le théorème d’Al-Kashi.</li>
 <li>Résoudre des problèmes de géométrie avec un choix de formule.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,17 +1631,24 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Pour tous vecteurs <code>u⃗</code> et <code>v⃗</code> : <code>‖u⃗+v⃗‖² = ‖u⃗‖² + 2×u⃗·v⃗ + ‖v⃗‖²</code> et <code>‖u⃗-v⃗‖² = ‖u⃗‖² - 2×u⃗·v⃗ + ‖v⃗‖²</code>.</p>
 <p>Dans un triangle <code>ABC</code>, avec <code>a=BC</code>, <code>b=AC</code>, <code>c=AB</code>, la <strong>formule d'Al-Kashi</strong> généralise Pythagore : <code>BC² = AB² + AC² - 2×AB×AC×cos(Â)</code>. Elle permet aussi de calculer un angle à partir des trois longueurs : <code>cos(Â) = (AB²+AC²-BC²) / (2×AB×AC)</code>.</p>
 <p>Pour deux points distincts <code>A</code> et <code>B</code>, l'ensemble des points <code>M</code> tels que <code>MA⃗·MB⃗=0</code> est le cercle de diamètre <code>[AB]</code> (<code>A</code> et <code>B</code> inclus) : cela revient à dire que le triangle <code>AMB</code> est rectangle en <code>M</code>.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Dans un triangle <code>ABC</code> avec <code>AB=6</code>, <code>AC=5</code> et <code>Â=60°</code> :</p>
 <p><code>BC² = 6² + 5² - 2×6×5×cos 60° = 36+25-60×0,5 = 31</code>, donc <code>BC = √31</code>.</p>
+</div>
 <h2 id="repere-historique-comment-calculer-au-dela-du-triangle-rectangle">Repère historique — Comment calculer au-delà du triangle rectangle ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1427">Al-Kashi, <em>Clé de l’arithmétique</em>, Samarcande, 1427</p>
 <p>Au XVe siècle, Jamshid Al-Kashi travaille sur l’astronomie et sur des méthodes de calcul très précises. Sa <em>Clé de l’arithmétique</em>, achevée en 1427, traite notamment de la mesure des figures et répond aux besoins de calculateurs, d’astronomes et d’arpenteurs. Ce contexte rappelle que relier longueurs et angles permet de déterminer des mesures inconnues à partir de données accessibles.</p>
 <p><strong>Le lien avec le cours :</strong> la formule appelée « formule d’Al-Kashi » dans ce chapitre s’écrit aujourd’hui <code>a² = b² + c² − 2bc × cos A</code>, où <code>A</code> est l’angle entre les côtés de longueurs <code>b</code> et <code>c</code>. L’écriture vectorielle du cours en fournit une démonstration moderne, sans attribuer ce langage à Al-Kashi.</p>
 <p>Si <code>A = 90°</code>, le cosinus est nul et l’on retrouve Pythagore. Pour un angle aigu, le terme soustrait est positif ; pour un angle obtus, il est négatif. La formule traite ainsi les triangles non rectangles et peut aussi servir à retrouver un angle lorsque les trois côtés sont connus.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/DSB/Al-Kashi.pdf">Dictionary of Scientific Biography — Al-Kashi, texte hébergé par l’université de St Andrews</a> (PDF en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N17-produit-scalaire-i/">N17</a> (Les définitions du produit scalaire sont nécessaires.)</li>
@@ -1716,6 +1725,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

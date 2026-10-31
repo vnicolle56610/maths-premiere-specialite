@@ -1614,11 +1614,13 @@
 
 <p>La fonction exponentielle modélise des évolutions où le taux de variation garde une structure particulière. Cette première approche installe la définition, les propriétés algébriques et les premières lectures graphiques. Elle sera prolongée par des modèles plus complets.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Connaître les premières propriétés de l’exponentielle.</li>
 <li>Calculer avec les règles algébriques de l’exponentielle.</li>
 <li>Lire et interpréter sa courbe.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,18 +1631,25 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Il existe une unique fonction <code>f</code> dérivable sur <code>ℝ</code> telle que <code>f′=f</code> et <code>f(0)=1</code> : c'est la fonction <strong>exponentielle</strong>, notée <code>exp</code>. On note <code>e=exp(1)≈2,718</code>, et pour tout réel <code>x</code>, <code>exp(x)=e^x</code>.</p>
 <p>Pour tous réels <code>x</code> et <code>y</code> : <code>e^(x+y) = e^x × e^y</code>, et <code>e^x × e^(-x) = 1</code>.</p>
 <p>Pour tout réel <code>x</code>, <code>e^x&gt;0</code>. Comme <code>exp′=exp</code>, la fonction exponentielle est <strong>strictement croissante</strong> sur <code>ℝ</code>.</p>
 <p>Pour tout réel <code>a</code>, la fonction <code>t↦e^(at)</code> est dérivable sur <code>ℝ</code> et <code>(e^(at))′ = a×e^(at)</code>.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Simplifions <code>e^(2x+1) / e^(x-3)</code> pour tout réel <code>x</code> :</p>
 <p><code>e^(2x+1) / e^(x-3) = e^((2x+1)-(x-3)) = e^(x+4)</code></p>
+</div>
 <h2 id="repere-historique-dou-vient-la-notation-e">Repère historique — D’où vient la notation e ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1748">Leonhard Euler, <em>Introductio in analysin infinitorum</em>, 1748</p>
 <p>Au XVIIIe siècle, Leonhard Euler joue un rôle majeur dans l’étude de l’exponentielle et dans la diffusion de la notation <code>e</code>. Dans son <em>Introductio in analysin infinitorum</em> de 1748, il développe les propriétés de ce nombre et en donne une approximation précise. Ce travail prolonge des recherches antérieures sur les logarithmes et les calculs exponentiels : l’histoire de la notion ne se réduit pas au choix d’une lettre.</p>
 <p><strong>Le lien avec le cours :</strong> <code>e</code> désigne un nombre particulier, environ égal à 2,718, tandis que <code>exp</code> désigne une fonction. L’écriture <code>e^x</code> permet d’exprimer ses propriétés sous une forme proche des règles sur les puissances : <code>e^(x+y) = e^x × e^y</code>.</p>
 <p>Dans le cadre du cours, l’exponentielle est caractérisée par <code>exp′ = exp</code> et <code>exp(0) = 1</code>. On peut ainsi relier ses propriétés algébriques à la dérivation, en distinguant le nombre <code>e = exp(1)</code> de la fonction entière.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/HistTopics/e/">MacTutor, université de St Andrews — The number e</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N10-variations-extremums/">N10</a> (Les variations donnent le cadre d’étude.)</li>
@@ -1717,6 +1726,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

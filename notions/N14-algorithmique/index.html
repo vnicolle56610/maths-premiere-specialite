@@ -1614,11 +1614,13 @@
 
 <p>L’algorithmique rend les raisonnements exécutables étape par étape. Les exercices portent sur variables, boucles, conditions et simulations, notamment autour des suites. L’objectif est de comprendre un programme court et de l’utiliser comme outil mathématique.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Lire un algorithme simple et prévoir sa sortie.</li>
 <li>Utiliser variables, conditions et boucles.</li>
 <li>Relier un programme à une situation mathématique.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,11 +1631,14 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>En Python, l'instruction <code>=</code> ne signifie pas « est égal à » comme en mathématiques : c'est une <strong>affectation</strong>, qui donne une valeur à une variable. Une variable est un nom qui désigne une valeur stockée en mémoire, valeur qui peut changer au cours de l'exécution.</p>
 <p>Une <strong>boucle bornée</strong> (<code>for</code>) répète un bloc d'instructions un nombre connu de fois : <code>range(n)</code> produit <code>n</code> répétitions, avec les valeurs <code>0, 1, …, n-1</code>.</p>
 <p>Une <strong>boucle conditionnelle</strong> (<code>while</code>) répète un bloc tant qu'une condition reste vraie ; elle est utile pour chercher un seuil, quand on ne connaît pas à l'avance le nombre d'étapes nécessaires. La condition est testée avant chaque répétition.</p>
 <p>Une <strong>fonction Python</strong>, définie avec <code>def</code>, est un bloc d'instructions nommé qui peut recevoir des paramètres et renvoyer un résultat avec <code>return</code>.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>On considère la suite définie par <code>u₀=500</code> et <code>uₙ₊₁=1,12×uₙ</code>. Le programme suivant calcule <code>u₈</code> :</p>
 <div class="highlight"><pre><span></span><code>u = 500
 for k in range(8):
@@ -1641,11 +1646,15 @@ for k in range(8):
 print(u)
 </code></pre></div>
 <p>La boucle est exécutée <code>8</code> fois : on passe de <code>u₀</code> à <code>u₈</code>.</p>
+</div>
 <h2 id="repere-historique-un-algorithme-existait-il-avant-les-ordinateurs">Repère historique — Un algorithme existait-il avant les ordinateurs ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="-300" data-etiquette="v. −300">Euclide, <em>Éléments</em>, Alexandrie, vers −300</p>
 <p>Le livre VII des <em>Éléments</em> d’Euclide décrit une procédure pour trouver la plus grande mesure commune de deux nombres, que nous appelons leur PGCD. Elle repose sur la répétition de soustractions. Une méthode de calcul peut donc être organisée en étapes bien avant l’apparition des ordinateurs et des langages de programmation.</p>
 <p><strong>Le lien avec le cours :</strong> dans une version moderne utilisant les restes des divisions, on remplace un couple <code>(a ; b)</code> par <code>(b ; reste de a par b)</code>, tant que le second nombre est non nul. Avec 48 et 18, on obtient successivement <code>(48 ; 18)</code>, <code>(18 ; 12)</code>, <code>(12 ; 6)</code>, puis <code>(6 ; 0)</code>. Le PGCD vaut 6.</p>
 <p>Cet exemple réunit des éléments du chapitre : des variables mémorisent les valeurs, une boucle répète la transformation et une condition fixe l’arrêt. Les restes positifs deviennent strictement plus petits, ce qui garantit la fin du calcul. Programmer consiste aussi à expliquer pourquoi les instructions donnent le résultat attendu.</p>
 <p><em>Source : <a href="https://mathcs.clarku.edu/~djoyce/elements/bookVII/propVII2.html">Euclide, Éléments, livre VII, proposition 2 — édition commentée par David E. Joyce, université Clark</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N13-sommes-modeles-discrets/">N13</a> (Les modèles discrets se programment naturellement.)</li>
@@ -1721,6 +1730,8 @@ print(u)
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       

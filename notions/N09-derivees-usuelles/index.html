@@ -1614,11 +1614,13 @@
 
 <p>Les dérivées usuelles fournissent une boîte à outils pour étudier rapidement une fonction. Les ressources consolident les formules, les combinaisons simples et les erreurs classiques. Elles préparent l’étude systématique des variations et des extremums.</p>
 <h2 id="objectifs">Objectifs</h2>
+<div class="admonition objectifs">
 <ul>
 <li>Connaître les dérivées des fonctions de référence.</li>
 <li>Dériver une somme, un produit par une constante ou une expression simple.</li>
 <li>Préparer l’étude du signe de la dérivée.</li>
 </ul>
+</div>
 <h2 id="documents">Documents</h2>
 <!-- AUTO-DOCS:START -->
 <ul>
@@ -1629,18 +1631,25 @@
 <!-- AUTO-DOCS:END -->
 
 <h2 id="notions-essentielles">Notions essentielles</h2>
+<div class="admonition essentiel">
 <p>Si <code>f</code> est dérivable en tout réel d'un intervalle <code>I</code>, la fonction qui à <code>x</code> associe <code>f′(x)</code> s'appelle la fonction dérivée de <code>f</code>, notée <code>f′</code>.</p>
 <p>Dérivées usuelles : une constante a pour dérivée <code>0</code> ; <code>(x)′=1</code> ; <code>(x²)′=2x</code> ; <code>(x³)′=3x²</code> ; <code>(xⁿ)′=nxⁿ⁻¹</code> là où <code>xⁿ</code> est définie ; <code>(1/x)′=-1/x²</code> sur <code>ℝ*</code> ; <code>(√x)′=1/(2√x)</code> sur <code>]0 ; +∞[</code>.</p>
 <p>Pour deux fonctions dérivables <code>u</code> et <code>v</code> et un réel <code>k</code> : <code>(u+v)′=u′+v′</code>, <code>(ku)′=ku′</code>, <code>(uv)′=u′v+uv′</code>, et si <code>v</code> ne s'annule pas, <code>(u/v)′=(u′v-uv′)/v²</code>.</p>
 <p>Pour une fonction composée avec une fonction affine, <code>f(x)=g(ax+b)</code> a pour dérivée <code>f′(x)=a×g′(ax+b)</code>.</p>
+</div>
 <h2 id="exemple">Exemple</h2>
+<div class="admonition exemple">
 <p>Pour <code>g(x)=x²(3x-1)</code>, on pose <code>u(x)=x²</code> et <code>v(x)=3x-1</code>, donc <code>u′(x)=2x</code> et <code>v′(x)=3</code>. Avec <code>(uv)′=u′v+uv′</code> :</p>
 <p><code>g′(x) = 2x(3x-1) + 3x² = 9x² - 2x</code></p>
+</div>
 <h2 id="repere-historique-comment-la-derivation-est-elle-devenue-un-calcul">Repère historique — Comment la dérivation est-elle devenue un calcul ?</h2>
+<div class="admonition historique">
+<p class="frise" data-annee="1684">Gottfried Wilhelm Leibniz, <em>Acta Eruditorum</em>, 1684</p>
 <p>En 1684, Gottfried Wilhelm Leibniz publie dans les <em>Acta Eruditorum</em> un article exposant son calcul différentiel. Il y présente notamment des règles pour les puissances, les produits et les quotients, avec la notation <code>d</code> des différentielles. Ces règles permettent d’organiser les calculs et de traiter de nombreuses expressions à partir de quelques opérations.</p>
 <p>Ce langage historique ne correspond pas encore à notre définition de la dérivée par une limite. Il contribue cependant à faire de la recherche des tangentes une méthode de calcul réutilisable.</p>
 <p><strong>Le lien avec le cours :</strong> les formules usuelles évitent de reprendre un taux de variation pour chaque nouvelle expression. En notation actuelle, pour <code>g(x) = x²(3x − 1)</code>, la règle du produit donne <code>g′(x) = 2x(3x − 1) + 3x²</code>. On peut vérifier le résultat en développant d’abord <code>g(x) = 3x³ − x²</code>, puis en dérivant terme à terme : les deux chemins conduisent à <code>9x² − 2x</code>.</p>
 <p><em>Source : <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/">MacTutor, université de St Andrews — Gottfried Wilhelm von Leibniz</a> (en anglais).</em></p>
+</div>
 <h2 id="voir-aussi">Voir aussi</h2>
 <ul>
 <li>PRÉREQUIS : <a href="../N08-nombre-derive-derivation/">N08</a> (Le sens de la dérivée vient du nombre dérivé.)</li>
@@ -1717,6 +1726,8 @@
         <script src="../../javascripts/pdf-new-tab.js"></script>
       
         <script src="../../javascripts/toutatice-header.js"></script>
+      
+        <script src="../../javascripts/frise.js"></script>
       
         <script src="../../javascripts/goatcounter.js"></script>
       
