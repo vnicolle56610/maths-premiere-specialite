@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 import tkinter as tk
+import webbrowser
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -105,6 +106,13 @@ def classify_git_status(porcelain: str) -> str:
     return "fichiers locaux non enregistrés dans Git"
 
 
+def local_dirty_note(project_root: Path) -> str | None:
+    status = run_git(project_root, "status", "--porcelain")
+    if status.returncode != 0 or not status.stdout.strip():
+        return None
+    return classify_git_status(status.stdout)
+
+
 def check_deploy_preflight(project_root: Path) -> DeployPreflightResult:
     technical_details: list[str] = []
 
@@ -124,25 +132,6 @@ def check_deploy_preflight(project_root: Path) -> DeployPreflightResult:
         return DeployPreflightResult(
             False,
             f"Déploiement bloqué : la branche courante est « {current} », pas « main ».",
-            "\n\n".join(technical_details),
-        )
-
-    status = run_git(project_root, "status", "--porcelain")
-    technical_details.append(f"$ git status --porcelain\n{git_output(status)}")
-    if status.returncode != 0:
-        return DeployPreflightResult(
-            False,
-            "Déploiement bloqué : impossible de vérifier l'état Git local.",
-            "\n\n".join(technical_details),
-        )
-    if status.stdout.strip():
-        reason = classify_git_status(status.stdout)
-        return DeployPreflightResult(
-            False,
-            (
-                "Déploiement bloqué : les fichiers locaux ne correspondent pas "
-                f"à la version enregistrée sur GitHub ({reason})."
-            ),
             "\n\n".join(technical_details),
         )
 
@@ -185,9 +174,21 @@ def check_deploy_preflight(project_root: Path) -> DeployPreflightResult:
             "\n\n".join(technical_details),
         )
 
+    dirty_note = local_dirty_note(project_root)
+    if dirty_note:
+        technical_details.append(
+            "$ git status --porcelain\n"
+            f"{dirty_note} détectés dans le dossier principal ; "
+            "ils seront ignorés car le déploiement partira d'un worktree "
+            "temporaire propre basé sur origin/main."
+        )
+
     return DeployPreflightResult(
         True,
-        "Pré-vol Git validé : main est propre et synchronisé avec origin/main.",
+        (
+            "Pré-vol Git validé : main est synchronisé avec origin/main. "
+            "Le déploiement partira d'un worktree temporaire propre."
+        ),
         "\n\n".join(technical_details),
     )
 
@@ -267,6 +268,16 @@ def format_git_state(state: GitStateSummary) -> str:
     return (
         f"Git : branche {state.branch} — local {local} / origin {remote} — {sync}"
     )
+
+
+def deployment_block_reason(state: GitStateSummary) -> str | None:
+    if state.error:
+        return "l'état Git distant n'a pas pu être vérifié"
+    if state.head_sha is None or state.origin_sha is None:
+        return "origin/main est indisponible"
+    if state.head_sha != state.origin_sha:
+        return "main local ne correspond pas encore à origin/main"
+    return None
 
 
 def add_section(lines: list[str], title: str, items: list[str]) -> None:
@@ -365,6 +376,9 @@ class PublicationApp:
         self.items_by_key: dict[pm.ResourceKey, pm.PublicationItem] = {}
         self.origin_sha_at_load: str | None = None
         self.mkdocs_process: subprocess.Popen[bytes] | None = None
+
+        self.mkdocs_url: str | None = None
+        self.preview_url_text = tk.StringVar()
 
         self.status = tk.StringVar(value="Analyse des ressources…")
         self.git_state_text = tk.StringVar(value="Git : …")
@@ -545,6 +559,20 @@ class PublicationApp:
             pady=(6, 0),
         )
 
+        self.preview_link = ttk.Label(
+            main,
+            textvariable=self.preview_url_text,
+            foreground="#1558b0",
+            cursor="hand2",
+            font=("TkDefaultFont", 10, "underline"),
+            takefocus=True,
+        )
+        self.preview_link.grid(row=12, column=0, sticky="w", pady=(4, 0))
+        self.preview_link.grid_remove()
+        self.preview_link.bind("<Button-1>", lambda event: self.open_local_preview())
+        self.preview_link.bind("<Return>", lambda event: self.open_local_preview())
+        self.preview_link.bind("<space>", lambda event: self.open_local_preview())
+
         self.resource_buttons = (
             self.safe_button,
             self.clear_button,
@@ -685,6 +713,10 @@ class PublicationApp:
             "Cochez/décochez l'état final souhaité, puis « Prévisualiser » "
             "avant d'appliquer."
         )
+        if git_state.ahead > 0:
+            self.push_button.configure(state="normal")
+        elif deployment_block_reason(git_state) is None:
+            self.deploy_button.configure(state="normal")
 
     def _offer_bootstrap_manifest(self) -> bool:
         confirmed = messagebox.askyesno(
@@ -987,7 +1019,7 @@ class PublicationApp:
         self.git_state_text.set(format_git_state(git_state))
         if git_state.ahead > 0:
             self.push_button.configure(state="normal")
-        if git_state.clean and git_state.head_sha == git_state.origin_sha:
+        elif deployment_block_reason(git_state) is None:
             self.deploy_button.configure(state="normal")
 
         if result.commit_sha:
@@ -1033,14 +1065,19 @@ class PublicationApp:
             self.status.set("Le push a échoué.")
             return
 
-        git_state = read_git_state(publisher.PROJECT_ROOT, fetch=False)
+        git_state = read_git_state(publisher.PROJECT_ROOT, fetch=True)
         self.git_state_text.set(format_git_state(git_state))
         self.push_button.configure(state="disabled")
-        if git_state.clean and git_state.head_sha == git_state.origin_sha:
+        block_reason = deployment_block_reason(git_state)
+        if block_reason is None:
             self.deploy_button.configure(state="normal")
             self.status.set("Poussé vers GitHub. Vous pouvez maintenant déployer.")
         else:
-            self.status.set("Poussé vers GitHub.")
+            self.deploy_button.configure(state="disabled")
+            self.status.set(
+                "Poussé vers GitHub, mais le déploiement reste bloqué : "
+                f"{block_reason}."
+            )
         messagebox.showinfo(
             "Push terminé",
             "main est maintenant aligné avec origin/main.",
@@ -1070,8 +1107,9 @@ class PublicationApp:
 
         confirmed = messagebox.askyesno(
             "Déployer le site public",
-            "Cette opération va reconstruire le site avec le contenu actuel "
-            "de docs/ puis le publier sur GitHub Pages.\n\n"
+            "Cette opération va reconstruire le site depuis une copie Git "
+            "temporaire propre de origin/main, puis le publier sur GitHub "
+            "Pages.\n\n"
             f"Adresse publique :\n{PUBLIC_SITE_URL}\n\n"
             "Continuer ?",
             parent=self.root,
@@ -1080,24 +1118,52 @@ class PublicationApp:
             return
 
         self._set_busy(True)
+        worktree_path: Path | None = None
         try:
             with tempfile.TemporaryDirectory(
-                prefix=f"{publisher.PROJECT_ROOT.name}-gh-pages-"
-            ) as site_directory:
-                completed = subprocess.run(
-                    [
-                        executable,
-                        "gh-deploy",
-                        "--strict",
-                        "--force",
-                        "--site-dir",
-                        site_directory,
-                    ],
-                    cwd=publisher.PROJECT_ROOT,
-                    text=True,
-                    capture_output=True,
-                    check=False,
+                prefix=f"{publisher.PROJECT_ROOT.name}-deploy-"
+            ) as deploy_directory:
+                worktree_path = Path(deploy_directory) / "worktree"
+                site_directory = Path(deploy_directory) / "site"
+                added_worktree = run_git(
+                    publisher.PROJECT_ROOT,
+                    "worktree",
+                    "add",
+                    "--detach",
+                    str(worktree_path),
+                    "origin/main",
                 )
+                if added_worktree.returncode != 0:
+                    completed = added_worktree
+                else:
+                    self._append_output(
+                        "WORKTREE DE DÉPLOIEMENT\n"
+                        "=======================\n\n"
+                        f"{git_output(added_worktree)}\n\n"
+                        f"Dossier temporaire : {worktree_path}"
+                    )
+                    completed = subprocess.run(
+                        [
+                            executable,
+                            "gh-deploy",
+                            "--strict",
+                            "--force",
+                            "--site-dir",
+                            str(site_directory),
+                        ],
+                        cwd=worktree_path,
+                        text=True,
+                        capture_output=True,
+                        check=False,
+                    )
+                if worktree_path.exists():
+                    run_git(
+                        publisher.PROJECT_ROOT,
+                        "worktree",
+                        "remove",
+                        "--force",
+                        str(worktree_path),
+                    )
         except OSError as error:
             messagebox.showerror(
                 "Déploiement impossible",
@@ -1109,12 +1175,12 @@ class PublicationApp:
         finally:
             self._set_busy(False)
 
-        command_output = "\n".join(
-            part.strip()
-            for part in (completed.stdout, completed.stderr)
-            if part.strip()
-        )
         if completed.returncode != 0:
+            command_output = "\n".join(
+                part.strip()
+                for part in (completed.stdout, completed.stderr)
+                if part.strip()
+            )
             details = command_output or (
                 f"mkdocs gh-deploy a renvoyé le code "
                 f"{completed.returncode}."
@@ -1133,16 +1199,23 @@ class PublicationApp:
             self.status.set("Le déploiement GitHub Pages a échoué.")
             return
 
+        command_output = "\n".join(
+            part.strip()
+            for part in (completed.stdout, completed.stderr)
+            if part.strip()
+        )
         self._append_output(
             "DÉPLOIEMENT GITHUB PAGES\n"
             "========================\n\n"
+            f"{command_output}\n\n"
             f"Site public actualisé : {PUBLIC_SITE_URL}\n\n"
-            "Le dossier site/ du projet n'a pas été modifié."
+            "Le dossier principal du projet n'a pas été modifié."
         )
         self.status.set(
             "Déploiement terminé. GitHub Pages peut demander quelques "
             "secondes pour actualiser le site public."
         )
+        self.deploy_button.configure(state="disabled")
         messagebox.showinfo(
             "Site public déployé",
             "Le déploiement GitHub Pages est terminé.\n\n"
@@ -1151,16 +1224,20 @@ class PublicationApp:
             parent=self.root,
         )
 
+    def open_local_preview(self) -> None:
+        if (
+            self.mkdocs_url
+            and self.mkdocs_process is not None
+            and self.mkdocs_process.poll() is None
+        ):
+            webbrowser.open(self.mkdocs_url)
+
     def launch_mkdocs(self) -> None:
         if (
             self.mkdocs_process is not None
             and self.mkdocs_process.poll() is None
         ):
-            messagebox.showinfo(
-                "Serveur déjà lancé",
-                "mkdocs serve est déjà en cours d'exécution.",
-                parent=self.root,
-            )
+            self.open_local_preview()
             return
 
         executable = self._mkdocs_executable_or_error()
@@ -1185,6 +1262,9 @@ class PublicationApp:
             self.status.set("Échec du lancement de MkDocs.")
             return
 
+        self.mkdocs_url = f"http://127.0.0.1:{port}/"
+        self.preview_url_text.set(f"Ouvrir l'aperçu local : {self.mkdocs_url}")
+        self.preview_link.grid()
         self.status.set(
             f"Aperçu local disponible sur http://127.0.0.1:{port}/ — "
             "il ne modifie pas le site public."
@@ -1219,6 +1299,8 @@ class PublicationApp:
                 parent=self.root,
             )
         self.mkdocs_process = None
+        self.mkdocs_url = None
+        self.preview_link.grid_remove()
 
     def quit(self) -> None:
         if (
