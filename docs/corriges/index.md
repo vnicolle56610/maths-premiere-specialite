@@ -14,4 +14,8 @@ Corrigés destinés aux élèves, classés par notion.
 ## N03 — Fonctions : lectures graphiques et variations
 
 - [Corrigé TD N03](CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
+
+## N05 — Second degré I : fonction carré et forme canonique
+
+- [Corrigé TD N05](CORRIGE_TD_N05_SECOND_DEGRE_I.pdf)
 <!-- AUTO-DOCS:END -->
