@@ -23,7 +23,7 @@ Avant chaque mini-test et chaque devoir surveillé, un **devoir blanc** est mis 
 Notions : [N03 — Fonctions : lectures graphiques et variations](../notions/N03-fonctions-lectures-variations.md) · [N04 — Repérage et vecteurs](../notions/N04-reperages-vecteurs.md) · [N05 — Second degré I : fonction carré et forme canonique](../notions/N05-second-degre-i.md)
 
 - 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_MT2_1S.pdf)
-- ✅ Corrigé et grille d'auto-évaluation : en ligne le vendredi 6 novembre.
+- ✅ [Corrigé et grille d'auto-évaluation](2026-2027/CORRIGE_DEVOIR_BLANC_MT2_1S.pdf)
 
 ### DS1 — lundi 23 novembre {#ds1-2026-2027}
 
