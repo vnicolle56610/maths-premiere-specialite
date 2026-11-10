@@ -32,7 +32,7 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 <!-- AUTO-DOCS:END -->
 
 <!-- AUTO-EVAL:START -->
-- 🎯 Évaluée au mini-test 2 du lundi 9 novembre : [voir le devoir blanc](../preparer-evaluation/index.md#mt2-2026-2027)
+- 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 <!-- AUTO-EVAL:END -->
 
 ## Notions essentielles
