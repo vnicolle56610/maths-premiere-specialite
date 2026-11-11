@@ -94,7 +94,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Identités avec le produit scalaire",
    "type": "flash",
    "enonce": "Avec les mêmes données, calculer <span class=\"arithmatex\">\\(\\|\\vec u-\\vec v\\|^2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Développer <span class=\"arithmatex\">\\(\\|\\vec u+\\vec v\\|^2\\)<\/span>.",
+    "<strong>Q2.<\/strong> Développer <span class=\"arithmatex\">\\(\\|\\vec u-\\vec v\\|^2\\)<\/span>.",
+    "<strong>Q3.<\/strong> Si <span class=\"arithmatex\">\\(\\|\\vec u\\|=3\\)<\/span>, <span class=\"arithmatex\">\\(\\|\\vec v\\|=5\\)<\/span>, <span class=\"arithmatex\">\\(\\vec u\\cdot\\vec v=4\\)<\/span>, calculer <span class=\"arithmatex\">\\(\\|\\vec u+\\vec v\\|^2\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(\\|\\vec u-\\vec v\\|^2=\\)<\/span><wbr><span class=\"arithmatex\">\\(9-2\\times4+25=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{26}\\)<\/span>.",
@@ -142,7 +146,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Théorème d'Al-Kashi",
    "type": "flash",
    "enonce": "En déduire <span class=\"arithmatex\">\\(BC\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Dans <span class=\"arithmatex\">\\(ABC\\)<\/span>, <span class=\"arithmatex\">\\(AB=5\\)<\/span>, <span class=\"arithmatex\">\\(AC=7\\)<\/span> et <span class=\"arithmatex\">\\(\\widehat{BAC}=60^\\circ\\)<\/span>. Calculer <span class=\"arithmatex\">\\(BC^2\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(BC=\\boxed{\\sqrt{39}}\\)<\/span>.",
@@ -214,7 +220,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Lieux géométriques",
    "type": "flash",
    "enonce": "Donner <span class=\"arithmatex\">\\(\\overrightarrow{MB}\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(0;0)\\)<\/span>, <span class=\"arithmatex\">\\(B(4;0)\\)<\/span>, <span class=\"arithmatex\">\\(M(x;y)\\)<\/span>. Donner <span class=\"arithmatex\">\\(\\overrightarrow{MA}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(\\overrightarrow{MB}\\left(\\begin{smallmatrix}4-x\\\\-y\\end{smallmatrix}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{\\left(\\begin{smallmatrix}4-x\\\\-y\\end{smallmatrix}\\right)}\\)<\/span>.",

@@ -70,7 +70,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Une variable aléatoire <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(0;1;2\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}2\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}5\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(X\\geqslant1)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(E(X)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0\\times0{,}2+1\\times0{,}5+2\\times0{,}3=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{1{,}1}\\)<\/span>.",
@@ -82,7 +84,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(E(X^2)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Une variable aléatoire <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(0;1;2\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}2\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}5\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(X\\geqslant1)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(E(X^2)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0+1^2\\times0{,}5+2^2\\times0{,}3=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{1{,}7}\\)<\/span>.",
@@ -94,7 +99,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(V(X)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Une variable aléatoire <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(0;1;2\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}2\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}5\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(X\\geqslant1)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X^2)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(V(X)=\\)<\/span><wbr><span class=\"arithmatex\">\\(1{,}7-1{,}1^2=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}49}\\)<\/span>.",
@@ -118,7 +127,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Interpréter <span class=\"arithmatex\">\\(E(X)\\)<\/span> en une phrase courte.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Une variable aléatoire <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(0;1;2\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}2\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}5\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(X\\geqslant1)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X^2)\\)<\/span>.",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(V(X)\\)<\/span>.",
+    "<strong>Q5.<\/strong> Donner une valeur approchée de <span class=\"arithmatex\">\\(\\sigma(X)\\)<\/span> au centième."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Sur un grand nombre d'expériences, la moyenne attendue est <span class=\"arithmatex\">\\(\\boxed{1{,}1}\\)<\/span>.",
@@ -142,7 +157,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(X&gt;0)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(-1;0;3\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}25\\)<\/span> ; <span class=\"arithmatex\">\\(p\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}35\\)<\/span>. Calculer <span class=\"arithmatex\">\\(p\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(X&gt;0)=\\)<\/span><wbr><span class=\"arithmatex\">\\(P(X=\\)<\/span><wbr><span class=\"arithmatex\">\\(3)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}35}\\)<\/span>.",
@@ -154,7 +171,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(-1;0;3\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}25\\)<\/span> ; <span class=\"arithmatex\">\\(p\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}35\\)<\/span>. Calculer <span class=\"arithmatex\">\\(p\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(X&gt;0)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(E(X)=\\)<\/span><wbr><span class=\"arithmatex\">\\(-1\\times0{,}25+3\\times0{,}35=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}80}\\)<\/span>.",
@@ -166,7 +186,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(E(X^2)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(-1;0;3\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}25\\)<\/span> ; <span class=\"arithmatex\">\\(p\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}35\\)<\/span>. Calculer <span class=\"arithmatex\">\\(p\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(X&gt;0)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(E(X^2)=\\)<\/span><wbr><span class=\"arithmatex\">\\(1\\times0{,}25+9\\times0{,}35=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{3{,}40}\\)<\/span>.",
@@ -178,7 +202,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(V(X)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(X\\)<\/span> prend les valeurs <span class=\"arithmatex\">\\(-1;0;3\\)<\/span> avec probabilités <span class=\"arithmatex\">\\(0{,}25\\)<\/span> ; <span class=\"arithmatex\">\\(p\\)<\/span> ; <span class=\"arithmatex\">\\(0{,}35\\)<\/span>. Calculer <span class=\"arithmatex\">\\(p\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(X&gt;0)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X)\\)<\/span>.",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(E(X^2)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(V(X)=\\)<\/span><wbr><span class=\"arithmatex\">\\(3{,}40-0{,}80^2=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{2{,}76}\\)<\/span>.",
@@ -214,7 +243,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Donner la loi de <span class=\"arithmatex\">\\(G\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Un jeu coûte <span class=\"arithmatex\">\\(2\\)<\/span> euros. Avec probabilité <span class=\"arithmatex\">\\(0{,}2\\)<\/span>, on gagne <span class=\"arithmatex\">\\(10\\)<\/span> euros, sinon on ne gagne rien. Donner les valeurs du gain algébrique <span class=\"arithmatex\">\\(G\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(G=8)=0{,}2\\)<\/span> et <span class=\"arithmatex\">\\(P(G=-2)=0{,}8\\)<\/span>.",
@@ -226,7 +257,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(E(G)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Un jeu coûte <span class=\"arithmatex\">\\(2\\)<\/span> euros. Avec probabilité <span class=\"arithmatex\">\\(0{,}2\\)<\/span>, on gagne <span class=\"arithmatex\">\\(10\\)<\/span> euros, sinon on ne gagne rien. Donner les valeurs du gain algébrique <span class=\"arithmatex\">\\(G\\)<\/span>.",
+    "<strong>Q2.<\/strong> Donner la loi de <span class=\"arithmatex\">\\(G\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(E(G)=\\)<\/span><wbr><span class=\"arithmatex\">\\(8\\times0{,}2+(-2)\\times0{,}8=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0}\\)<\/span>.",
@@ -250,7 +284,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(G&gt;0)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Un jeu coûte <span class=\"arithmatex\">\\(2\\)<\/span> euros. Avec probabilité <span class=\"arithmatex\">\\(0{,}2\\)<\/span>, on gagne <span class=\"arithmatex\">\\(10\\)<\/span> euros, sinon on ne gagne rien. Donner les valeurs du gain algébrique <span class=\"arithmatex\">\\(G\\)<\/span>.",
+    "<strong>Q2.<\/strong> Donner la loi de <span class=\"arithmatex\">\\(G\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(E(G)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(G&gt;0)=\\)<\/span><wbr><span class=\"arithmatex\">\\(P(G=\\)<\/span><wbr><span class=\"arithmatex\">\\(8)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}2}\\)<\/span>.",

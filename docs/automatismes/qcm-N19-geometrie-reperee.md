@@ -70,7 +70,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Distances, milieux et cercles",
    "type": "flash",
    "enonce": "Avec les mêmes points, calculer <span class=\"arithmatex\">\\(AB^2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(-1;3)\\)<\/span>, <span class=\"arithmatex\">\\(B(5;-1)\\)<\/span>. Calculer les coordonnées du milieu <span class=\"arithmatex\">\\(I\\)<\/span> de <span class=\"arithmatex\">\\([AB]\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(AB^2=\\)<\/span><wbr><span class=\"arithmatex\">\\((5+1)^2+(-1-3)^2=\\)<\/span><wbr><span class=\"arithmatex\">\\(36+16=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{52}\\)<\/span>.",
@@ -82,7 +84,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Distances, milieux et cercles",
    "type": "flash",
    "enonce": "En déduire <span class=\"arithmatex\">\\(AB\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(-1;3)\\)<\/span>, <span class=\"arithmatex\">\\(B(5;-1)\\)<\/span>. Calculer les coordonnées du milieu <span class=\"arithmatex\">\\(I\\)<\/span> de <span class=\"arithmatex\">\\([AB]\\)<\/span>.",
+    "<strong>Q2.<\/strong> Avec les mêmes points, calculer <span class=\"arithmatex\">\\(AB^2\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(AB=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\sqrt{52}=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{2\\sqrt{13}}\\)<\/span>.",
@@ -142,7 +147,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Droites en repère",
    "type": "flash",
    "enonce": "Donner un vecteur normal de cette droite.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Donner un vecteur directeur de la droite <span class=\"arithmatex\">\\(d:2x-3y+5=0\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Un vecteur normal est <span class=\"arithmatex\">\\(\\boxed{(2;-3)}\\)<\/span>.",
@@ -178,7 +185,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Droites en repère",
    "type": "flash",
    "enonce": "Donner une équation réduite de cette droite.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Donner un vecteur directeur de la droite <span class=\"arithmatex\">\\(d:2x-3y+5=0\\)<\/span>.",
+    "<strong>Q2.<\/strong> Donner un vecteur normal de cette droite.",
+    "<strong>Q3.<\/strong> Le point <span class=\"arithmatex\">\\(A(2;3)\\)<\/span> appartient-il à <span class=\"arithmatex\">\\(d\\)<\/span> ?",
+    "<strong>Q4.<\/strong> Trouver le coefficient directeur de la droite passant par <span class=\"arithmatex\">\\(A(1;2)\\)<\/span> et <span class=\"arithmatex\">\\(B(5;10)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "La droite a pour équation <span class=\"arithmatex\">\\(y=2x+p\\)<\/span>. Avec <span class=\"arithmatex\">\\(A\\)<\/span>, <span class=\"arithmatex\">\\(2=2+p\\)<\/span>, donc <span class=\"arithmatex\">\\(\\boxed{y=2x}\\)<\/span>.",
@@ -238,7 +250,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Configurations analytiques",
    "type": "flash",
    "enonce": "Calculer la distance de <span class=\"arithmatex\">\\(P\\)<\/span> à la droite <span class=\"arithmatex\">\\((AB)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q3.<\/strong> <span class=\"arithmatex\">\\(A(0;0)\\)<\/span>, <span class=\"arithmatex\">\\(B(4;0)\\)<\/span>, <span class=\"arithmatex\">\\(P(1;3)\\)<\/span>. Quel est le projeté orthogonal de <span class=\"arithmatex\">\\(P\\)<\/span> sur <span class=\"arithmatex\">\\((AB)\\)<\/span> ?"
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "La distance à l'axe des abscisses vaut <span class=\"arithmatex\">\\(\\boxed{3}\\)<\/span>.",

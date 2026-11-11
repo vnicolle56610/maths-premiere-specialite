@@ -142,7 +142,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Nombre dérivé par calcul",
    "type": "flash",
    "enonce": "En déduire le nombre dérivé de <span class=\"arithmatex\">\\(f(x)=x^2\\)<\/span> en <span class=\"arithmatex\">\\(2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(f(x)=x^2\\)<\/span>. Simplifier <span class=\"arithmatex\">\\(\\dfrac{f(2+h)-f(2)}{h}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Quand <span class=\"arithmatex\">\\(h\\)<\/span> tend vers <span class=\"arithmatex\">\\(0\\)<\/span>, <span class=\"arithmatex\">\\(4+h\\)<\/span> tend vers <span class=\"arithmatex\">\\(\\boxed{4}\\)<\/span>.",
@@ -167,6 +169,8 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "type": "flash",
    "enonce": "En déduire le nombre dérivé de <span class=\"arithmatex\">\\(g\\)<\/span> en <span class=\"arithmatex\">\\(1\\)<\/span>.",
    "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(f(x)=x^2\\)<\/span>. Simplifier <span class=\"arithmatex\">\\(\\dfrac{f(2+h)-f(2)}{h}\\)<\/span>.",
+    "<strong>Q2.<\/strong> En déduire le nombre dérivé de <span class=\"arithmatex\">\\(f(x)=x^2\\)<\/span> en <span class=\"arithmatex\">\\(2\\)<\/span>.",
     "<strong>Q3.<\/strong> <span class=\"arithmatex\">\\(g(x)=x^2+3x\\)<\/span>. Simplifier <span class=\"arithmatex\">\\(\\dfrac{g(1+h)-g(1)}{h}\\)<\/span>."
    ],
    "choix": [],
@@ -267,7 +271,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Tangente et approximation locale",
    "type": "flash",
    "enonce": "En déduire le nombre dérivé de <span class=\"arithmatex\">\\(u(x)=\\dfrac1x\\)<\/span> en <span class=\"arithmatex\">\\(1\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(f(x)=x^2\\)<\/span>. Équation de la tangente en <span class=\"arithmatex\">\\(a=3\\)<\/span>.",
+    "<strong>Q2.<\/strong> <span class=\"arithmatex\">\\(f(x)=x^2-4x\\)<\/span>. Calculer <span class=\"arithmatex\">\\(f(2)\\)<\/span> et interpréter <span class=\"arithmatex\">\\(f'(2)=0\\)<\/span>.",
+    "<strong>Q3.<\/strong> Approximer <span class=\"arithmatex\">\\(2{,}1^2\\)<\/span> à l'aide de la tangente à <span class=\"arithmatex\">\\(x^2\\)<\/span> en <span class=\"arithmatex\">\\(2\\)<\/span>.",
+    "<strong>Q4.<\/strong> On sait que <span class=\"arithmatex\">\\(f(1)=3\\)<\/span> et <span class=\"arithmatex\">\\(f'(1)=-2\\)<\/span>. Donner l'équation de la tangente en <span class=\"arithmatex\">\\(1\\)<\/span>.",
+    "<strong>Q5.<\/strong> <span class=\"arithmatex\">\\(u(x)=\\dfrac{1}{x}\\)<\/span>. Simplifier <span class=\"arithmatex\">\\(\\dfrac{u(1+h)-u(1)}{h}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Quand <span class=\"arithmatex\">\\(h\\)<\/span> tend vers <span class=\"arithmatex\">\\(0\\)<\/span>, <span class=\"arithmatex\">\\(-\\dfrac1{1+h}\\)<\/span> tend vers <span class=\"arithmatex\">\\(\\boxed{-1}\\)<\/span>.",

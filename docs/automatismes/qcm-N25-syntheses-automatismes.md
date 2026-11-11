@@ -229,7 +229,8 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "type": "flash",
    "enonce": "En déduire le sens de variation de <span class=\"arithmatex\">\\(f\\)<\/span>.",
    "contexte": [
-    "<strong>Q1.<\/strong> Soit <span class=\"arithmatex\">\\(f(x)=x^2-4x+1\\)<\/span>. Calculer <span class=\"arithmatex\">\\(f'(x)\\)<\/span>."
+    "<strong>Q1.<\/strong> Soit <span class=\"arithmatex\">\\(f(x)=x^2-4x+1\\)<\/span>. Calculer <span class=\"arithmatex\">\\(f'(x)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Déterminer le signe de <span class=\"arithmatex\">\\(f'(x)\\)<\/span>."
    ],
    "choix": [],
    "bonne": null,

@@ -260,7 +260,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(T)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Dans une classe de <span class=\"arithmatex\">\\(30\\)<\/span> élèves, <span class=\"arithmatex\">\\(18\\)<\/span> sont filles. Probabilité de choisir une fille ?",
+    "<strong>Q2.<\/strong> Parmi les <span class=\"arithmatex\">\\(18\\)<\/span> filles, <span class=\"arithmatex\">\\(6\\)<\/span> font option théâtre. Calculer <span class=\"arithmatex\">\\(P_F(T)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Dans la classe, <span class=\"arithmatex\">\\(10\\)<\/span> élèves font théâtre. Combien de garçons font théâtre ?",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(P(F\\cap T)\\)<\/span> avec les données précédentes."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(T)=\\)<\/span><wbr><span class=\"arithmatex\">\\(10/30=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{\\frac13}\\)<\/span>.",
@@ -272,7 +277,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P_T(F)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Dans une classe de <span class=\"arithmatex\">\\(30\\)<\/span> élèves, <span class=\"arithmatex\">\\(18\\)<\/span> sont filles. Probabilité de choisir une fille ?",
+    "<strong>Q2.<\/strong> Parmi les <span class=\"arithmatex\">\\(18\\)<\/span> filles, <span class=\"arithmatex\">\\(6\\)<\/span> font option théâtre. Calculer <span class=\"arithmatex\">\\(P_F(T)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Dans la classe, <span class=\"arithmatex\">\\(10\\)<\/span> élèves font théâtre. Combien de garçons font théâtre ?",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(P(F\\cap T)\\)<\/span> avec les données précédentes.",
+    "<strong>Q5.<\/strong> Calculer <span class=\"arithmatex\">\\(P(T)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P_T(F)=\\)<\/span><wbr><span class=\"arithmatex\">\\(6/10=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}6}\\)<\/span>.",

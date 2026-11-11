@@ -190,7 +190,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Lire une forme canonique",
    "type": "flash",
    "enonce": "Deux réels ayant la même image par <span class=\"arithmatex\">\\(x\\mapsto(x-1)^2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Sommet de <span class=\"arithmatex\">\\(x\\mapsto (x-3)^2-5\\)<\/span>.",
+    "<strong>Q2.<\/strong> Axe de <span class=\"arithmatex\">\\(x\\mapsto -2(x+4)^2+1\\)<\/span>.",
+    "<strong>Q3.<\/strong> Extremum de <span class=\"arithmatex\">\\(x\\mapsto 3(x-1)^2+7\\)<\/span>.",
+    "<strong>Q4.<\/strong> Orientation de <span class=\"arithmatex\">\\(x\\mapsto -\\dfrac12(x-5)^2-2\\)<\/span>.",
+    "<strong>Q5.<\/strong> Valeur de <span class=\"arithmatex\">\\(f(2)\\)<\/span> si <span class=\"arithmatex\">\\(f(x)=4(x-2)^2-3\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Par exemple <span class=\"arithmatex\">\\(0\\)<\/span> et <span class=\"arithmatex\">\\(2\\)<\/span>, symétriques par rapport à <span class=\"arithmatex\">\\(1\\)<\/span>.",

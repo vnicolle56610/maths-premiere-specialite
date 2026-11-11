@@ -106,7 +106,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Produit scalaire en coordonnées",
    "type": "flash",
    "enonce": "En déduire <span class=\"arithmatex\">\\(\\|\\vec m\\|\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Soit <span class=\"arithmatex\">\\(\\vec u\\left(\\begin{smallmatrix}3\\\\4\\end{smallmatrix}\\right)\\)<\/span> et <span class=\"arithmatex\">\\(\\vec v\\left(\\begin{smallmatrix}2\\\\-1\\end{smallmatrix}\\right)\\)<\/span>. Calculer <span class=\"arithmatex\">\\(\\vec u\\cdot\\vec v\\)<\/span>.",
+    "<strong>Q2.<\/strong> Soit <span class=\"arithmatex\">\\(\\vec a\\left(\\begin{smallmatrix}-5\\\\2\\end{smallmatrix}\\right)\\)<\/span> et <span class=\"arithmatex\">\\(\\vec b\\left(\\begin{smallmatrix}1\\\\3\\end{smallmatrix}\\right)\\)<\/span>. Calculer <span class=\"arithmatex\">\\(\\vec a\\cdot\\vec b\\)<\/span>.",
+    "<strong>Q3.<\/strong> Soit <span class=\"arithmatex\">\\(\\vec r\\left(\\begin{smallmatrix}6\\\\-2\\end{smallmatrix}\\right)\\)<\/span> et <span class=\"arithmatex\">\\(\\vec s\\left(\\begin{smallmatrix}1\\\\3\\end{smallmatrix}\\right)\\)<\/span>. Les vecteurs sont-ils orthogonaux ?",
+    "<strong>Q4.<\/strong> Soit <span class=\"arithmatex\">\\(\\vec m\\left(\\begin{smallmatrix}4\\\\3\\end{smallmatrix}\\right)\\)<\/span>. Calculer <span class=\"arithmatex\">\\(\\vec m\\cdot\\vec m\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(\\|\\vec m\\|=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\sqrt{25}=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{5}\\)<\/span>.",
@@ -226,7 +231,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Points et orthogonalité",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(B(4;3)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\)<\/span>.",
+    "<strong>Q2.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(C(2;-1)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AC}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\)<\/span><wbr><span class=\"arithmatex\">\\(3\\times1+1\\times(-3)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0}\\)<\/span>.",
@@ -238,7 +246,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Points et orthogonalité",
    "type": "flash",
    "enonce": "Que peut-on dire des droites <span class=\"arithmatex\">\\((AB)\\)<\/span> et <span class=\"arithmatex\">\\((AC)\\)<\/span> ?",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(B(4;3)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\)<\/span>.",
+    "<strong>Q2.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(C(2;-1)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AC}\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "Le produit scalaire est nul, donc <span class=\"arithmatex\">\\((AB)\\)<\/span> et <span class=\"arithmatex\">\\((AC)\\)<\/span> sont <span class=\"arithmatex\">\\(\\boxed{\\text{perpendiculaires}}\\)<\/span>.",
@@ -262,7 +274,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Points et orthogonalité",
    "type": "flash",
    "enonce": "En déduire la longueur <span class=\"arithmatex\">\\(DE\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(B(4;3)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\)<\/span>.",
+    "<strong>Q2.<\/strong> <span class=\"arithmatex\">\\(A(1;2)\\)<\/span>, <span class=\"arithmatex\">\\(C(2;-1)\\)<\/span>. Donner les coordonnées de <span class=\"arithmatex\">\\(\\overrightarrow{AC}\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(\\overrightarrow{AB}\\cdot\\overrightarrow{AC}\\)<\/span>.",
+    "<strong>Q4.<\/strong> Que peut-on dire des droites <span class=\"arithmatex\">\\((AB)\\)<\/span> et <span class=\"arithmatex\">\\((AC)\\)<\/span> ?",
+    "<strong>Q5.<\/strong> <span class=\"arithmatex\">\\(D(5;1)\\)<\/span>, <span class=\"arithmatex\">\\(E(2;7)\\)<\/span>. Calculer <span class=\"arithmatex\">\\(\\overrightarrow{DE}\\cdot\\overrightarrow{DE}\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(DE=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\sqrt{45}=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{3\\sqrt5}\\)<\/span>.",

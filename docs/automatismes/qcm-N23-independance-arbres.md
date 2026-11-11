@@ -142,7 +142,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(\\overline A\\cap B)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> On donne <span class=\"arithmatex\">\\(P(A)=0{,}3\\)<\/span>, <span class=\"arithmatex\">\\(P_A(B)=0{,}6\\)<\/span> et <span class=\"arithmatex\">\\(P_{\\overline A}(B)=0{,}2\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(A\\cap B)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(\\overline A\\cap B)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0{,}7\\times0{,}2=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}14}\\)<\/span>.",
@@ -154,7 +156,10 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(B)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> On donne <span class=\"arithmatex\">\\(P(A)=0{,}3\\)<\/span>, <span class=\"arithmatex\">\\(P_A(B)=0{,}6\\)<\/span> et <span class=\"arithmatex\">\\(P_{\\overline A}(B)=0{,}2\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(A\\cap B)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(\\overline A\\cap B)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(B)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0{,}18+0{,}14=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}32}\\)<\/span>.",
@@ -166,7 +171,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(A\\cap\\overline B)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> On donne <span class=\"arithmatex\">\\(P(A)=0{,}3\\)<\/span>, <span class=\"arithmatex\">\\(P_A(B)=0{,}6\\)<\/span> et <span class=\"arithmatex\">\\(P_{\\overline A}(B)=0{,}2\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(A\\cap B)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(\\overline A\\cap B)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(P(B)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(A\\cap\\overline B)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0{,}3\\times0{,}4=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}12}\\)<\/span>.",
@@ -178,7 +187,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P(\\overline B)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> On donne <span class=\"arithmatex\">\\(P(A)=0{,}3\\)<\/span>, <span class=\"arithmatex\">\\(P_A(B)=0{,}6\\)<\/span> et <span class=\"arithmatex\">\\(P_{\\overline A}(B)=0{,}2\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(A\\cap B)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(\\overline A\\cap B)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(P(B)\\)<\/span>.",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(P(A\\cap\\overline B)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(\\overline B)=\\)<\/span><wbr><span class=\"arithmatex\">\\(1-0{,}32=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}68}\\)<\/span>.",
@@ -190,7 +204,13 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer <span class=\"arithmatex\">\\(P_B(A)\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> On donne <span class=\"arithmatex\">\\(P(A)=0{,}3\\)<\/span>, <span class=\"arithmatex\">\\(P_A(B)=0{,}6\\)<\/span> et <span class=\"arithmatex\">\\(P_{\\overline A}(B)=0{,}2\\)<\/span>. Calculer <span class=\"arithmatex\">\\(P(A\\cap B)\\)<\/span>.",
+    "<strong>Q2.<\/strong> Calculer <span class=\"arithmatex\">\\(P(\\overline A\\cap B)\\)<\/span>.",
+    "<strong>Q3.<\/strong> Calculer <span class=\"arithmatex\">\\(P(B)\\)<\/span>.",
+    "<strong>Q4.<\/strong> Calculer <span class=\"arithmatex\">\\(P(A\\cap\\overline B)\\)<\/span>.",
+    "<strong>Q5.<\/strong> Calculer <span class=\"arithmatex\">\\(P(\\overline B)\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P_B(A)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\dfrac{0{,}18}{0{,}32}=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{\\dfrac{9}{16}}\\)<\/span>.",
@@ -214,7 +234,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "",
    "type": "flash",
    "enonce": "Calculer la probabilité de <span class=\"arithmatex\">\\(EEF\\)<\/span>, où <span class=\"arithmatex\">\\(E\\)<\/span> signifie échec et <span class=\"arithmatex\">\\(S\\)<\/span> succès.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Trois essais indépendants ont une probabilité de succès <span class=\"arithmatex\">\\(p=0{,}4\\)<\/span>. Calculer la probabilité de <span class=\"arithmatex\">\\(SSS\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(P(EES)=\\)<\/span><wbr><span class=\"arithmatex\">\\(0{,}6\\times0{,}6\\times0{,}4=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{0{,}144}\\)<\/span>.",

@@ -70,7 +70,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Réactivation : expressions et rangs",
    "type": "flash",
    "enonce": "Pour la même suite, calculer <span class=\"arithmatex\">\\(u_5\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(u_n=2n+3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(u_0\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(u_5=\\)<\/span><wbr><span class=\"arithmatex\">\\(2\\times5+3=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{13}\\)<\/span>.",
@@ -106,7 +108,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Réactivation : expressions et rangs",
    "type": "flash",
    "enonce": "Pour la même suite, calculer <span class=\"arithmatex\">\\(w_2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(u_n=2n+3\\)<\/span>. Calculer <span class=\"arithmatex\">\\(u_0\\)<\/span>.",
+    "<strong>Q2.<\/strong> Pour la même suite, calculer <span class=\"arithmatex\">\\(u_5\\)<\/span>.",
+    "<strong>Q3.<\/strong> <span class=\"arithmatex\">\\(v_n=n^2-1\\)<\/span>. Calculer <span class=\"arithmatex\">\\(v_3\\)<\/span>.",
+    "<strong>Q4.<\/strong> <span class=\"arithmatex\">\\(w_0=4\\)<\/span> et <span class=\"arithmatex\">\\(w_{n+1}=w_n+5\\)<\/span>. Calculer <span class=\"arithmatex\">\\(w_1\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(w_2=w_1+5=9+5=\\boxed{14}\\)<\/span>.",
@@ -178,7 +185,12 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Formule explicite ou récurrence",
    "type": "flash",
    "enonce": "Pour la même suite, calculer <span class=\"arithmatex\">\\(b_2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(u_n=5n-2\\)<\/span>. Type de définition ?",
+    "<strong>Q2.<\/strong> <span class=\"arithmatex\">\\(v_0=1\\)<\/span>, <span class=\"arithmatex\">\\(v_{n+1}=3v_n\\)<\/span>. Type de définition ?",
+    "<strong>Q3.<\/strong> <span class=\"arithmatex\">\\(a_n=10-4n\\)<\/span>. Calculer <span class=\"arithmatex\">\\(a_2\\)<\/span>.",
+    "<strong>Q4.<\/strong> <span class=\"arithmatex\">\\(b_0=2\\)<\/span>, <span class=\"arithmatex\">\\(b_{n+1}=b_n^2+1\\)<\/span>. Calculer <span class=\"arithmatex\">\\(b_1\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(b_2=\\)<\/span><wbr><span class=\"arithmatex\">\\(b_1^2+1=\\)<\/span><wbr><span class=\"arithmatex\">\\(5^2+1=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\boxed{26}\\)<\/span>.",
@@ -214,7 +226,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Représenter une suite",
    "type": "flash",
    "enonce": "Dans la même suite, conjecturer <span class=\"arithmatex\">\\(u_4\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> Une suite commence par <span class=\"arithmatex\">\\(3;7;11;15\\)<\/span>. Donner <span class=\"arithmatex\">\\(u_0\\)<\/span> et <span class=\"arithmatex\">\\(u_1\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "On ajoute <span class=\"arithmatex\">\\(4\\)<\/span> à chaque rang, donc <span class=\"arithmatex\">\\(u_4=15+4=\\boxed{19}\\)<\/span>.",

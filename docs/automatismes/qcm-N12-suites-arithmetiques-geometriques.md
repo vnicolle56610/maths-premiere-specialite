@@ -70,7 +70,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Réactivation : termes de suites",
    "type": "flash",
    "enonce": "Pour la même suite, calculer <span class=\"arithmatex\">\\(u_2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(u_0=4\\)<\/span>, <span class=\"arithmatex\">\\(u_{n+1}=u_n+6\\)<\/span>. Calculer <span class=\"arithmatex\">\\(u_1\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(u_2=10+6=\\boxed{16}\\)<\/span>.",
@@ -94,7 +96,11 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "theme": "Réactivation : termes de suites",
    "type": "flash",
    "enonce": "Pour la même suite, calculer <span class=\"arithmatex\">\\(v_2\\)<\/span>.",
-   "contexte": [],
+   "contexte": [
+    "<strong>Q1.<\/strong> <span class=\"arithmatex\">\\(u_0=4\\)<\/span>, <span class=\"arithmatex\">\\(u_{n+1}=u_n+6\\)<\/span>. Calculer <span class=\"arithmatex\">\\(u_1\\)<\/span>.",
+    "<strong>Q2.<\/strong> Pour la même suite, calculer <span class=\"arithmatex\">\\(u_2\\)<\/span>.",
+    "<strong>Q3.<\/strong> <span class=\"arithmatex\">\\(v_0=3\\)<\/span>, <span class=\"arithmatex\">\\(v_{n+1}=2v_n\\)<\/span>. Calculer <span class=\"arithmatex\">\\(v_1\\)<\/span>."
+   ],
    "choix": [],
    "bonne": null,
    "corrige": "<span class=\"arithmatex\">\\(v_2=2\\times6=\\boxed{12}\\)<\/span>.",
