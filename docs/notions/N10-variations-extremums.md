@@ -30,6 +30,10 @@ L’étude des variations met la dérivée au service de la résolution de probl
 - [Automatismes N10 — Variations et extremums](../automatismes/AUTOMATISMES_N10_VARIATIONS_EXTREMUMS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N10 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N10-variations-extremums.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

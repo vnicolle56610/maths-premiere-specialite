@@ -30,6 +30,10 @@ L’algorithmique rend les raisonnements exécutables étape par étape. Les exe
 - [Automatismes N14 — Algorithmique](../automatismes/AUTOMATISMES_N14_ALGORITHMIQUE.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N14 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N14-algorithmique.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

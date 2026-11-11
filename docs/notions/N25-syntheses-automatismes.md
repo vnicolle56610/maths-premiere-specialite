@@ -27,6 +27,10 @@ Cette page rassemble les ressources de synthèse et d’automatismes. Elle sert 
 
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N25 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N25-syntheses-automatismes.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Repère historique — Pourquoi organiser et vérifier sa méthode ?
 
 !!! historique ""

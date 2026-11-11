@@ -30,6 +30,10 @@ La trigonométrie étend les outils de mesure des angles. On travaille le cercle
 - [Automatismes N16 — Trigonométrie](../automatismes/AUTOMATISMES_N16_TRIGONOMETRIE.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N16 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N16-trigonometrie.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

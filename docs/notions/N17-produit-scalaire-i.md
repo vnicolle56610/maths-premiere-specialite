@@ -30,6 +30,10 @@ Le produit scalaire permet de calculer avec les longueurs, les angles et l’ort
 - [Automatismes N17 — Produit scalaire I](../automatismes/AUTOMATISMES_N17_PRODUIT_SCALAIRE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N17 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N17-produit-scalaire-i.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

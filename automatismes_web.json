@@ -3,28 +3,215 @@
   "niveau": "Première spécialité",
   "source_racine": "~/ENSEIGNEMENT/CLAUDE/Niveau_1S",
   "notions": [
-    {"code": "N01", "slug": "logique-ensembles", "titre": "Logique, ensembles et intervalles",
-     "source": "N01_LOGIQUE_ENSEMBLES/AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.tex",
-     "pdf": "AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.pdf", "notion": "../notions/N01-logique-ensembles.md"},
-    {"code": "N02", "slug": "calcul-algebrique-equations", "titre": "Calcul algébrique et équations",
-     "source": "N02_CALCUL_ALGEBRIQUE_EQUATIONS/AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.tex",
-     "pdf": "AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf", "notion": "../notions/N02-calcul-algebrique-equations.md"},
-    {"code": "N03", "slug": "fonctions-lectures-variations", "titre": "Fonctions : lectures graphiques et variations",
-     "source": "N03_FONCTIONS_LECTURES_VARIATIONS/AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.tex",
-     "pdf": "AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.pdf", "notion": "../notions/N03-fonctions-lectures-variations.md"},
-    {"code": "N04", "slug": "reperage-vecteurs", "titre": "Repérage et vecteurs",
-     "source": "N04_REPERAGES_VECTEURS/AUTOMATISMES_N04_REPERAGES_VECTEURS.tex",
-     "pdf": "AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf", "notion": "../notions/N04-reperages-vecteurs.md"},
-    {"code": "N05", "slug": "second-degre-forme-canonique", "titre": "Second degré I : fonction carré et forme canonique",
-     "source": "N05_SECOND_DEGRE_I/AUTOMATISMES_N05_SECOND_DEGRE_I.tex",
-     "pdf": "AUTOMATISMES_N05_SECOND_DEGRE_I.pdf", "notion": "../notions/N05-second-degre-i.md"},
-    {"id": "N06-1", "code": "N06", "slug": "second-degre-racines-signe-discriminant",
-     "titre": "Second degré II (partie 1) : formes, racines, signe et discriminant",
-     "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.tex",
-     "pdf": "AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf", "notion": "../notions/N06-second-degre-ii.md"},
-    {"id": "N06-2", "code": "N06", "slug": "second-degre-inequations-optimisation",
-     "titre": "Second degré II (partie 2) : inéquations, optimisation et problèmes",
-     "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.tex",
-     "pdf": "AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf", "notion": "../notions/N06-second-degre-ii.md"}
+    {
+      "code": "N01",
+      "slug": "logique-ensembles",
+      "titre": "Logique, ensembles et intervalles",
+      "source": "N01_LOGIQUE_ENSEMBLES/AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.tex",
+      "pdf": "AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.pdf",
+      "notion": "../notions/N01-logique-ensembles.md"
+    },
+    {
+      "code": "N02",
+      "slug": "calcul-algebrique-equations",
+      "titre": "Calcul algébrique et équations",
+      "source": "N02_CALCUL_ALGEBRIQUE_EQUATIONS/AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.tex",
+      "pdf": "AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf",
+      "notion": "../notions/N02-calcul-algebrique-equations.md"
+    },
+    {
+      "code": "N03",
+      "slug": "fonctions-lectures-variations",
+      "titre": "Fonctions : lectures graphiques et variations",
+      "source": "N03_FONCTIONS_LECTURES_VARIATIONS/AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.tex",
+      "pdf": "AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.pdf",
+      "notion": "../notions/N03-fonctions-lectures-variations.md"
+    },
+    {
+      "code": "N04",
+      "slug": "reperage-vecteurs",
+      "titre": "Repérage et vecteurs",
+      "source": "N04_REPERAGES_VECTEURS/AUTOMATISMES_N04_REPERAGES_VECTEURS.tex",
+      "pdf": "AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf",
+      "notion": "../notions/N04-reperages-vecteurs.md"
+    },
+    {
+      "code": "N05",
+      "slug": "second-degre-forme-canonique",
+      "titre": "Second degré I : fonction carré et forme canonique",
+      "source": "N05_SECOND_DEGRE_I/AUTOMATISMES_N05_SECOND_DEGRE_I.tex",
+      "pdf": "AUTOMATISMES_N05_SECOND_DEGRE_I.pdf",
+      "notion": "../notions/N05-second-degre-i.md"
+    },
+    {
+      "id": "N06-1",
+      "code": "N06",
+      "slug": "second-degre-racines-signe-discriminant",
+      "titre": "Second degré II (partie 1) : formes, racines, signe et discriminant",
+      "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.tex",
+      "pdf": "AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf",
+      "notion": "../notions/N06-second-degre-ii.md"
+    },
+    {
+      "id": "N06-2",
+      "code": "N06",
+      "slug": "second-degre-inequations-optimisation",
+      "titre": "Second degré II (partie 2) : inéquations, optimisation et problèmes",
+      "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.tex",
+      "pdf": "AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf",
+      "notion": "../notions/N06-second-degre-ii.md"
+    },
+    {
+      "code": "N07",
+      "slug": "taux-de-variation",
+      "titre": "Taux de variation",
+      "source": "N07_TAUX_DE_VARIATION/AUTOMATISMES_N07_TAUX_DE_VARIATION.tex",
+      "pdf": "AUTOMATISMES_N07_TAUX_DE_VARIATION.pdf",
+      "notion": "../notions/N07-taux-de-variation.md"
+    },
+    {
+      "code": "N08",
+      "slug": "nombre-derive-derivation",
+      "titre": "Nombre dérivé et dérivation",
+      "source": "N08_NOMBRE_DERIVE_DERIVATION/AUTOMATISMES_N08_NOMBRE_DERIVE_DERIVATION.tex",
+      "pdf": "AUTOMATISMES_N08_NOMBRE_DERIVE_DERIVATION.pdf",
+      "notion": "../notions/N08-nombre-derive-derivation.md"
+    },
+    {
+      "code": "N09",
+      "slug": "derivees-usuelles",
+      "titre": "Dérivées usuelles",
+      "source": "N09_DERIVEES_USUELLES/AUTOMATISMES_N09_DERIVEES_USUELLES.tex",
+      "pdf": "AUTOMATISMES_N09_DERIVEES_USUELLES.pdf",
+      "notion": "../notions/N09-derivees-usuelles.md"
+    },
+    {
+      "code": "N10",
+      "slug": "variations-extremums",
+      "titre": "Variations et extremums",
+      "source": "N10_VARIATIONS_EXTREMUMS/AUTOMATISMES_N10_VARIATIONS_EXTREMUMS.tex",
+      "pdf": "AUTOMATISMES_N10_VARIATIONS_EXTREMUMS.pdf",
+      "notion": "../notions/N10-variations-extremums.md"
+    },
+    {
+      "code": "N11",
+      "slug": "suites-definition",
+      "titre": "Suites : définition et premiers raisonnements",
+      "source": "N11_SUITES_DEFINITION/AUTOMATISMES_N11_SUITES_DEFINITION.tex",
+      "pdf": "AUTOMATISMES_N11_SUITES_DEFINITION.pdf",
+      "notion": "../notions/N11-suites-definition.md"
+    },
+    {
+      "code": "N12",
+      "slug": "suites-arithmetiques-geometriques",
+      "titre": "Suites arithmétiques et géométriques",
+      "source": "N12_SUITES_ARITHMETIQUES_GEOMETRIQUES/AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.tex",
+      "pdf": "AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf",
+      "notion": "../notions/N12-suites-arithmetiques-geometriiques.md"
+    },
+    {
+      "code": "N13",
+      "slug": "sommes-modeles-discrets",
+      "titre": "Sommes et modèles discrets",
+      "source": "N13_SOMMES_MODELES_DISCRETS/AUTOMATISMES_N13_SOMMES_MODELES_DISCRETS.tex",
+      "pdf": "AUTOMATISMES_N13_SOMMES_MODELES_DISCRETS.pdf",
+      "notion": "../notions/N13-sommes-modeles-discrets.md"
+    },
+    {
+      "code": "N14",
+      "slug": "algorithmique",
+      "titre": "Algorithmique",
+      "source": "N14_ALGORITHMIQUE/AUTOMATISMES_N14_ALGORITHMIQUE.tex",
+      "pdf": "AUTOMATISMES_N14_ALGORITHMIQUE.pdf",
+      "notion": "../notions/N14-algorithmique.md"
+    },
+    {
+      "code": "N15",
+      "slug": "droites-equations",
+      "titre": "Droites et équations",
+      "source": "N15_DROITES_ET_EQUATIONS/AUTOMATISMES_N15_DROITES_ET_EQUATIONS.tex",
+      "pdf": "AUTOMATISMES_N15_DROITES_ET_EQUATIONS.pdf",
+      "notion": "../notions/N15-droites-equations.md"
+    },
+    {
+      "code": "N16",
+      "slug": "trigonometrie",
+      "titre": "Trigonométrie",
+      "source": "N16_TRIGONOMETRIE/AUTOMATISMES_N16_TRIGONOMETRIE.tex",
+      "pdf": "AUTOMATISMES_N16_TRIGONOMETRIE.pdf",
+      "notion": "../notions/N16-trigonometrie.md"
+    },
+    {
+      "code": "N17",
+      "slug": "produit-scalaire-i",
+      "titre": "Produit scalaire I",
+      "source": "N17_PRODUIT_SCALAIRE_I/AUTOMATISMES_N17_PRODUIT_SCALAIRE_I.tex",
+      "pdf": "AUTOMATISMES_N17_PRODUIT_SCALAIRE_I.pdf",
+      "notion": "../notions/N17-produit-scalaire-i.md"
+    },
+    {
+      "code": "N18",
+      "slug": "produit-scalaire-ii",
+      "titre": "Produit scalaire II",
+      "source": "N18_PRODUIT_SCALAIRE_II/AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.tex",
+      "pdf": "AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.pdf",
+      "notion": "../notions/N18-produit-scalaire-ii.md"
+    },
+    {
+      "code": "N19",
+      "slug": "geometrie-reperee",
+      "titre": "Géométrie repérée",
+      "source": "N19_GEOMETRIE_REPEREE/AUTOMATISMES_N19_GEOMETRIE_REPEREE.tex",
+      "pdf": "AUTOMATISMES_N19_GEOMETRIE_REPEREE.pdf",
+      "notion": "../notions/N19-geometrie-reperee.md"
+    },
+    {
+      "code": "N20",
+      "slug": "fonction-exponentielle",
+      "titre": "Fonction exponentielle I",
+      "source": "N20_EXPONENTIELLE_I/AUTOMATISMES_N20_EXPONENTIELLE_I.tex",
+      "pdf": "AUTOMATISMES_N20_EXPONENTIELLE_I.pdf",
+      "notion": "../notions/N20-fonction-exponentielle.md"
+    },
+    {
+      "code": "N21",
+      "slug": "exponentielle-ii",
+      "titre": "Exponentielle II : modèles",
+      "source": "N21_EXPONENTIELLE_II/AUTOMATISMES_N21_EXPONENTIELLE_II_MODELES.tex",
+      "pdf": "AUTOMATISMES_N21_EXPONENTIELLE_II_MODELES.pdf",
+      "notion": "../notions/N21-exponentielle-ii.md"
+    },
+    {
+      "code": "N22",
+      "slug": "probabilites-conditionnelles",
+      "titre": "Probabilités conditionnelles",
+      "source": "N22_PROBABILITES_CONDITIONNELLES/AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.tex",
+      "pdf": "AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf",
+      "notion": "../notions/N22-probabilites-conditionnelles.md"
+    },
+    {
+      "code": "N23",
+      "slug": "independance-arbres",
+      "titre": "Indépendance et arbres",
+      "source": "N23_INDEPENDANCE_ARBRES/AUTOMATISMES_N23_INDEPENDANCE_ARBRES.tex",
+      "pdf": "AUTOMATISMES_N23_INDEPENDANCE_ARBRES.pdf",
+      "notion": "../notions/N23-independance-arbres.md"
+    },
+    {
+      "code": "N24",
+      "slug": "variables-aleatoires-esperance",
+      "titre": "Variables aléatoires et espérance",
+      "source": "N24_VARIABLES_ALEATOIRES_ESPERANCE/AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.tex",
+      "pdf": "AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf",
+      "notion": "../notions/N24-variables-aleatoires-esperance.md"
+    },
+    {
+      "code": "N25",
+      "slug": "syntheses-automatismes",
+      "titre": "Synthèses et automatismes",
+      "source": "N25_SYNTHESES_AUTOMATISMES/AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.tex",
+      "pdf": "AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf",
+      "notion": "../notions/N25-syntheses-automatismes.md"
+    }
   ]
 }

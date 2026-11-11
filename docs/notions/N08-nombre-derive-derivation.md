@@ -30,6 +30,10 @@ La dérivation permet de décrire une variation instantanée. Cette notion intro
 - [Automatismes N08 — Nombre dérivé et dérivation](../automatismes/AUTOMATISMES_N08_NOMBRE_DERIVE_DERIVATION.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N08 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N08-nombre-derive-derivation.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

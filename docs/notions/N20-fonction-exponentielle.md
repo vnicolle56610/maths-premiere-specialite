@@ -30,6 +30,10 @@ La fonction exponentielle modélise des évolutions où le taux de variation gar
 - [Automatismes N20 — Fonction exponentielle I](../automatismes/AUTOMATISMES_N20_EXPONENTIELLE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N20 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N20-fonction-exponentielle.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

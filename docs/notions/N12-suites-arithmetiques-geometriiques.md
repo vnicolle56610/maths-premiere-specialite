@@ -30,6 +30,10 @@ Les suites arithmétiques et géométriques modélisent des évolutions réguli�
 - [Automatismes N12 — Suites arithmétiques et géométriques](../automatismes/AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N12 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N12-suites-arithmetiques-geometriques.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

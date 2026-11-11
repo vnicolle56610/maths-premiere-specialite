@@ -30,6 +30,10 @@ Cette notion prolonge l’exponentielle dans les modèles d’évolution. Les re
 - [Automatismes N21 — Exponentielle II : modèles](../automatismes/AUTOMATISMES_N21_EXPONENTIELLE_II_MODELES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N21 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N21-exponentielle-ii.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

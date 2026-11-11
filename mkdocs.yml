@@ -45,6 +45,25 @@ nav:
       - "N05 — Second degré I : fonction carré et forme canonique (en ligne)": automatismes/automatismes-N05-second-degre-forme-canonique.md
       - "N06 — Second degré II (partie 1) : formes, racines, signe et discriminant (en ligne)": automatismes/automatismes-N06-second-degre-racines-signe-discriminant.md
       - "N06 — Second degré II (partie 2) : inéquations, optimisation et problèmes (en ligne)": automatismes/automatismes-N06-second-degre-inequations-optimisation.md
+      - "N07 — Taux de variation (en ligne)": automatismes/automatismes-N07-taux-de-variation.md
+      - "N08 — Nombre dérivé et dérivation (en ligne)": automatismes/automatismes-N08-nombre-derive-derivation.md
+      - "N09 — Dérivées usuelles (en ligne)": automatismes/automatismes-N09-derivees-usuelles.md
+      - "N10 — Variations et extremums (en ligne)": automatismes/automatismes-N10-variations-extremums.md
+      - "N11 — Suites : définition et premiers raisonnements (en ligne)": automatismes/automatismes-N11-suites-definition.md
+      - "N12 — Suites arithmétiques et géométriques (en ligne)": automatismes/automatismes-N12-suites-arithmetiques-geometriques.md
+      - "N13 — Sommes et modèles discrets (en ligne)": automatismes/automatismes-N13-sommes-modeles-discrets.md
+      - "N14 — Algorithmique (en ligne)": automatismes/automatismes-N14-algorithmique.md
+      - "N15 — Droites et équations (en ligne)": automatismes/automatismes-N15-droites-equations.md
+      - "N16 — Trigonométrie (en ligne)": automatismes/automatismes-N16-trigonometrie.md
+      - "N17 — Produit scalaire I (en ligne)": automatismes/automatismes-N17-produit-scalaire-i.md
+      - "N18 — Produit scalaire II (en ligne)": automatismes/automatismes-N18-produit-scalaire-ii.md
+      - "N19 — Géométrie repérée (en ligne)": automatismes/automatismes-N19-geometrie-reperee.md
+      - "N20 — Fonction exponentielle I (en ligne)": automatismes/automatismes-N20-fonction-exponentielle.md
+      - "N21 — Exponentielle II : modèles (en ligne)": automatismes/automatismes-N21-exponentielle-ii.md
+      - "N22 — Probabilités conditionnelles (en ligne)": automatismes/automatismes-N22-probabilites-conditionnelles.md
+      - "N23 — Indépendance et arbres (en ligne)": automatismes/automatismes-N23-independance-arbres.md
+      - "N24 — Variables aléatoires et espérance (en ligne)": automatismes/automatismes-N24-variables-aleatoires-esperance.md
+      - "N25 — Synthèses et automatismes (en ligne)": automatismes/automatismes-N25-syntheses-automatismes.md
   - "🎯 Préparer une évaluation": preparer-evaluation/index.md
   - "✅ Corrigés publiés": corriges/index.md
   - "ℹ️ À propos & licence": a-propos.md

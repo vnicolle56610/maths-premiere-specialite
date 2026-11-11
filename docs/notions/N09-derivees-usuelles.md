@@ -30,6 +30,10 @@ Les dérivées usuelles fournissent une boîte à outils pour étudier rapidemen
 - [Automatismes N09 — Dérivées usuelles](../automatismes/AUTOMATISMES_N09_DERIVEES_USUELLES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N09 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N09-derivees-usuelles.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

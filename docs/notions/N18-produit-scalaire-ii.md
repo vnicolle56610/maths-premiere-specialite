@@ -30,6 +30,10 @@ Cette seconde partie du produit scalaire développe les identités utiles et les
 - [Automatismes N18 — Produit scalaire II](../automatismes/AUTOMATISMES_N18_PRODUIT_SCALAIRE_II.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N18 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N18-produit-scalaire-ii.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

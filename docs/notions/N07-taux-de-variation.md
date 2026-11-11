@@ -30,6 +30,10 @@ Le taux de variation mesure une évolution moyenne entre deux valeurs. Il relie 
 - [Automatismes N07 — Taux de variation](../automatismes/AUTOMATISMES_N07_TAUX_DE_VARIATION.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N07 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N07-taux-de-variation.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

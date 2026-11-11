@@ -30,6 +30,10 @@ La géométrie repérée rassemble les outils de coordonnées, droites, distance
 - [Automatismes N19 — Géométrie repérée](../automatismes/AUTOMATISMES_N19_GEOMETRIE_REPEREE.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N19 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N19-geometrie-reperee.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

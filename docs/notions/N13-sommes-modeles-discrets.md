@@ -30,6 +30,10 @@ Les sommes permettent d’additionner les termes d’une suite et de modéliser 
 - [Automatismes N13 — Sommes et modèles discrets](../automatismes/AUTOMATISMES_N13_SOMMES_MODELES_DISCRETS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N13 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N13-sommes-modeles-discrets.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

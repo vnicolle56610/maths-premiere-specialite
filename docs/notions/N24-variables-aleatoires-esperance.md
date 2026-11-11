@@ -30,6 +30,10 @@ Les variables aléatoires transforment une expérience en valeurs numériques. C
 - [Automatismes N24 — Variables aléatoires et espérance](../automatismes/AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N24 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N24-variables-aleatoires-esperance.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

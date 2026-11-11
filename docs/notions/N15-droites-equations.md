@@ -30,6 +30,10 @@ Les équations de droites relient géométrie, calcul et fonctions affines. Cett
 - [Automatismes N15 — Droites et équations](../automatismes/AUTOMATISMES_N15_DROITES_ET_EQUATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N15 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N15-droites-equations.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

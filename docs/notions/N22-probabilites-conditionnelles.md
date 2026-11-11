@@ -30,6 +30,10 @@ Les probabilités conditionnelles permettent de calculer une probabilité en ten
 - [Automatismes N22 — Probabilités conditionnelles](../automatismes/AUTOMATISMES_N22_PROBABILITES_CONDITIONNELLES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N22 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N22-probabilites-conditionnelles.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""

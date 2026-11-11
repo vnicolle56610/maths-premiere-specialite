@@ -30,6 +30,10 @@ L’indépendance donne un critère pour simplifier certains calculs de probabil
 - [Automatismes N23 — Indépendance et arbres](../automatismes/AUTOMATISMES_N23_INDEPENDANCE_ARBRES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N23 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N23-independance-arbres.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""
