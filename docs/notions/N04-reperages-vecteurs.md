@@ -30,6 +30,10 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 - [Automatismes N04 — Repérage et vecteurs](../automatismes/AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N04 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N04-reperage-vecteurs.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)

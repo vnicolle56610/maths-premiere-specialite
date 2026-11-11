@@ -31,6 +31,10 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 - [Corrigé TD N05](../corriges/CORRIGE_TD_N05_SECOND_DEGRE_I.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N05 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N05-second-degre-forme-canonique.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)

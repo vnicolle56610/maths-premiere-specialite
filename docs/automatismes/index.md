@@ -2,6 +2,21 @@
 
 Exercices d'automatismes et mini-tests, classés par notion.
 
+<!-- AUTOMATISMES-WEB:START -->
+!!! tip "Automatismes en ligne : énoncés corrigés et QCM interactif"
+
+    Sans rien télécharger : questions à l'écran, corrigés repliables et QCM chronométré.
+
+    - **N01 — Logique, ensembles et intervalles** : [énoncés et corrigés](automatismes-N01-logique-ensembles.md) · [QCM interactif](qcm-N01-logique-ensembles.md)
+    - **N02 — Calcul algébrique et équations** : [énoncés et corrigés](automatismes-N02-calcul-algebrique-equations.md) · [QCM interactif](qcm-N02-calcul-algebrique-equations.md)
+    - **N03 — Fonctions : lectures graphiques et variations** : [énoncés et corrigés](automatismes-N03-fonctions-lectures-variations.md) · [QCM interactif](qcm-N03-fonctions-lectures-variations.md)
+    - **N04 — Repérage et vecteurs** : [énoncés et corrigés](automatismes-N04-reperage-vecteurs.md) · [QCM interactif](qcm-N04-reperage-vecteurs.md)
+    - **N05 — Second degré I : fonction carré et forme canonique** : [énoncés et corrigés](automatismes-N05-second-degre-forme-canonique.md) · [QCM interactif](qcm-N05-second-degre-forme-canonique.md)
+    - **N06 — Second degré II (partie 1) : formes, racines, signe et discriminant** : [énoncés et corrigés](automatismes-N06-second-degre-racines-signe-discriminant.md) · [QCM interactif](qcm-N06-second-degre-racines-signe-discriminant.md)
+    - **N06 — Second degré II (partie 2) : inéquations, optimisation et problèmes** : [énoncés et corrigés](automatismes-N06-second-degre-inequations-optimisation.md) · [QCM interactif](qcm-N06-second-degre-inequations-optimisation.md)
+
+<!-- AUTOMATISMES-WEB:END -->
+
 <!-- AUTO-DOCS:START -->
 ## N01 — Logique, ensembles et intervalles
 

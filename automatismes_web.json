@@ -1,0 +1,30 @@
+{
+  "_commentaire": "Notions publiées en ligne par scripts/generer_automatismes_web.py (pages lecture + QCM). Ajouter une entrée par notion, puis relancer le script.",
+  "niveau": "Première spécialité",
+  "source_racine": "~/ENSEIGNEMENT/CLAUDE/Niveau_1S",
+  "notions": [
+    {"code": "N01", "slug": "logique-ensembles", "titre": "Logique, ensembles et intervalles",
+     "source": "N01_LOGIQUE_ENSEMBLES/AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.tex",
+     "pdf": "AUTOMATISMES_N01_LOGIQUE_ENSEMBLES.pdf", "notion": "../notions/N01-logique-ensembles.md"},
+    {"code": "N02", "slug": "calcul-algebrique-equations", "titre": "Calcul algébrique et équations",
+     "source": "N02_CALCUL_ALGEBRIQUE_EQUATIONS/AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.tex",
+     "pdf": "AUTOMATISMES_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf", "notion": "../notions/N02-calcul-algebrique-equations.md"},
+    {"code": "N03", "slug": "fonctions-lectures-variations", "titre": "Fonctions : lectures graphiques et variations",
+     "source": "N03_FONCTIONS_LECTURES_VARIATIONS/AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.tex",
+     "pdf": "AUTOMATISMES_N03_FONCTIONS_LECTURES_VARIATIONS.pdf", "notion": "../notions/N03-fonctions-lectures-variations.md"},
+    {"code": "N04", "slug": "reperage-vecteurs", "titre": "Repérage et vecteurs",
+     "source": "N04_REPERAGES_VECTEURS/AUTOMATISMES_N04_REPERAGES_VECTEURS.tex",
+     "pdf": "AUTOMATISMES_N04_REPERAGES_VECTEURS.pdf", "notion": "../notions/N04-reperages-vecteurs.md"},
+    {"code": "N05", "slug": "second-degre-forme-canonique", "titre": "Second degré I : fonction carré et forme canonique",
+     "source": "N05_SECOND_DEGRE_I/AUTOMATISMES_N05_SECOND_DEGRE_I.tex",
+     "pdf": "AUTOMATISMES_N05_SECOND_DEGRE_I.pdf", "notion": "../notions/N05-second-degre-i.md"},
+    {"id": "N06-1", "code": "N06", "slug": "second-degre-racines-signe-discriminant",
+     "titre": "Second degré II (partie 1) : formes, racines, signe et discriminant",
+     "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.tex",
+     "pdf": "AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf", "notion": "../notions/N06-second-degre-ii.md"},
+    {"id": "N06-2", "code": "N06", "slug": "second-degre-inequations-optimisation",
+     "titre": "Second degré II (partie 2) : inéquations, optimisation et problèmes",
+     "source": "N06_SECOND_DEGRE_II/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.tex",
+     "pdf": "AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf", "notion": "../notions/N06-second-degre-ii.md"}
+  ]
+}

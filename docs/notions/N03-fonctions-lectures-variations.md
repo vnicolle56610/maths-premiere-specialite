@@ -31,6 +31,10 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 - [Corrigé TD N03](../corriges/CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N03 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N03-fonctions-lectures-variations.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 <!-- AUTO-EVAL:END -->

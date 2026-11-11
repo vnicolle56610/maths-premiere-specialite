@@ -33,6 +33,11 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - [Automatismes N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../automatismes/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 <!-- AUTO-DOCS:END -->
 
+<!-- AUTOMATISMES-WEB:START -->
+- ⚡ [Automatismes N06 en ligne — Second degré II (partie 1) : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N06-second-degre-racines-signe-discriminant.md)
+- ⚡ [Automatismes N06 en ligne — Second degré II (partie 2) : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N06-second-degre-inequations-optimisation.md)
+<!-- AUTOMATISMES-WEB:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
 <!-- AUTO-EVAL:END -->

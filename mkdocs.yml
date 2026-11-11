@@ -36,7 +36,15 @@ nav:
       - "N24 — Variables aléatoires espérance": notions/N24-variables-aleatoires-esperance.md
       - "N25 — Synthèses automatismes": notions/N25-syntheses-automatismes.md
   - "📝 TD": td/index.md
-  - "⚡ Automatismes": automatismes/index.md
+  - "⚡ Automatismes":
+      - automatismes/index.md
+      - "N01 — Logique, ensembles et intervalles (en ligne)": automatismes/automatismes-N01-logique-ensembles.md
+      - "N02 — Calcul algébrique et équations (en ligne)": automatismes/automatismes-N02-calcul-algebrique-equations.md
+      - "N03 — Fonctions : lectures graphiques et variations (en ligne)": automatismes/automatismes-N03-fonctions-lectures-variations.md
+      - "N04 — Repérage et vecteurs (en ligne)": automatismes/automatismes-N04-reperage-vecteurs.md
+      - "N05 — Second degré I : fonction carré et forme canonique (en ligne)": automatismes/automatismes-N05-second-degre-forme-canonique.md
+      - "N06 — Second degré II (partie 1) : formes, racines, signe et discriminant (en ligne)": automatismes/automatismes-N06-second-degre-racines-signe-discriminant.md
+      - "N06 — Second degré II (partie 2) : inéquations, optimisation et problèmes (en ligne)": automatismes/automatismes-N06-second-degre-inequations-optimisation.md
   - "🎯 Préparer une évaluation": preparer-evaluation/index.md
   - "✅ Corrigés publiés": corriges/index.md
   - "ℹ️ À propos & licence": a-propos.md
@@ -62,11 +70,19 @@ markdown_extensions:
   - admonition
   - attr_list
   - pymdownx.superfences
+  - pymdownx.details
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
 extra_css:
   - stylesheets/extra.css?v=2026-10-31
+  - stylesheets/automatismes.css?v=2026-11-11c
 extra_javascript:
   - javascripts/pdf-new-tab.js
   - javascripts/toutatice-header.js
   - javascripts/frise.js?v=2026-10-31
   - javascripts/goatcounter.js
   - javascripts/compteur-visites.js
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+  - javascripts/automatismes-qcm.js?v=2026-11-11c
