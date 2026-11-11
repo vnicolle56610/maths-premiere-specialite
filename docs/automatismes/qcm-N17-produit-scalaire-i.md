@@ -281,7 +281,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(-8\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(1\\times4+(-2)\\times2=0\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(1\\times4+(-2)\\times2=0\\)<\/span>.",
    "methode": "Dans un QCM, une formule simple suffit souvent à éliminer deux réponses."
   },
   {
@@ -297,7 +297,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "colinéaires"
    ],
    "bonne": 1,
-   "corrige": "Un produit scalaire nul caractérise l'orthogonalité. Réponse .",
+   "corrige": "Un produit scalaire nul caractérise l'orthogonalité.",
    "methode": "Dans un QCM, une formule simple suffit souvent à éliminer deux réponses."
   },
   {
@@ -313,7 +313,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(\\|\\vec u\\|^2\\)<\/span>"
    ],
    "bonne": 2,
-   "corrige": "<span class=\"arithmatex\">\\(\\vec u\\cdot\\vec u=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\|\\vec u\\|^2\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\vec u\\cdot\\vec u=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\|\\vec u\\|^2\\)<\/span>.",
    "methode": "Dans un QCM, une formule simple suffit souvent à éliminer deux réponses."
   },
   {
@@ -329,7 +329,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "obtus"
    ],
    "bonne": 2,
-   "corrige": "Un produit scalaire négatif donne un cosinus négatif. Réponse .",
+   "corrige": "Un produit scalaire négatif donne un cosinus négatif.",
    "methode": "Dans un QCM, une formule simple suffit souvent à éliminer deux réponses."
   },
   {
@@ -345,7 +345,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(3\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(6\\times2\\times\\dfrac12=6\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(6\\times2\\times\\dfrac12=6\\)<\/span>.",
    "methode": "Dans un QCM, une formule simple suffit souvent à éliminer deux réponses."
   }
  ]

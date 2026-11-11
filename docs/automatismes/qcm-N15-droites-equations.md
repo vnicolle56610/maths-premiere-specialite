@@ -281,7 +281,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\((1;1)\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "Pour <span class=\"arithmatex\">\\(m=-4\\)<\/span>, un vecteur directeur est <span class=\"arithmatex\">\\((1;-4)\\)<\/span> : réponse .",
+   "corrige": "Pour <span class=\"arithmatex\">\\(m=-4\\)<\/span>, un vecteur directeur est <span class=\"arithmatex\">\\((1;-4)\\)<\/span>.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   },
   {
@@ -297,7 +297,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(x=\\dfrac52\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(2x+5=0 \\Longleftrightarrow\\)<\/span><wbr><span class=\"arithmatex\">\\( x=-\\dfrac52\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(2x+5=0 \\Longleftrightarrow\\)<\/span><wbr><span class=\"arithmatex\">\\( x=-\\dfrac52\\)<\/span>.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   },
   {
@@ -313,7 +313,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "impossible à savoir"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(3\\times1+1=4\\)<\/span>, donc oui : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(3\\times1+1=4\\)<\/span>, donc oui.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   },
   {
@@ -329,7 +329,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "perpendiculaires"
    ],
    "bonne": 1,
-   "corrige": "Même coefficient directeur : droites parallèles ou confondues ; réponse .",
+   "corrige": "Même coefficient directeur : droites parallèles ou confondues.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   },
   {
@@ -345,7 +345,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\((1;-3)\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "Pour <span class=\"arithmatex\">\\(x+2y-3=0\\)<\/span>, un vecteur normal est <span class=\"arithmatex\">\\((1;2)\\)<\/span> : réponse .",
+   "corrige": "Pour <span class=\"arithmatex\">\\(x+2y-3=0\\)<\/span>, un vecteur normal est <span class=\"arithmatex\">\\((1;2)\\)<\/span>.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   },
   {
@@ -361,7 +361,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "oblique"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(y=-2\\)<\/span> est horizontale : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(y=-2\\)<\/span> est horizontale.",
    "methode": "Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal."
   }
  ]

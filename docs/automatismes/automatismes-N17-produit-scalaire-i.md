@@ -142,11 +142,11 @@ description: "23 questions d'automatismes de Première spécialité (produit sca
 ??? success "Corrigé de la série D"
 
     <ol class="auto-corrige">
-    <li value="1"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(1\times4+(-2)\times2=0\)</span>. Réponse .</li>
-    <li value="2"><strong class="auto-resultat">Réponse B</strong> : Un produit scalaire nul caractérise l'orthogonalité. Réponse .</li>
-    <li value="3"><strong class="auto-resultat">Réponse C</strong> : <span class="arithmatex">\(\vec u\cdot\vec u=\)</span><wbr><span class="arithmatex">\(\|\vec u\|^2\)</span>. Réponse .</li>
-    <li value="4"><strong class="auto-resultat">Réponse C</strong> : Un produit scalaire négatif donne un cosinus négatif. Réponse .</li>
-    <li value="5"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(6\times2\times\dfrac12=6\)</span>. Réponse .</li>
+    <li value="1"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(1\times4+(-2)\times2=0\)</span>.</li>
+    <li value="2"><strong class="auto-resultat">Réponse B</strong> : Un produit scalaire nul caractérise l'orthogonalité.</li>
+    <li value="3"><strong class="auto-resultat">Réponse C</strong> : <span class="arithmatex">\(\vec u\cdot\vec u=\)</span><wbr><span class="arithmatex">\(\|\vec u\|^2\)</span>.</li>
+    <li value="4"><strong class="auto-resultat">Réponse C</strong> : Un produit scalaire négatif donne un cosinus négatif.</li>
+    <li value="5"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(6\times2\times\dfrac12=6\)</span>.</li>
     </ol>
     <div class="auto-methode"><strong>Méthode.</strong> Dans un QCM, une formule simple suffit souvent à éliminer deux réponses.</div>
     <div class="auto-vigilance"><strong>Vigilance.</strong> Ne pas répondre au seul souvenir : faire le calcul éclair.</div>

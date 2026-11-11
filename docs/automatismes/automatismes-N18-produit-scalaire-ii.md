@@ -142,11 +142,11 @@ description: "23 questions d'automatismes de Première spécialité (produit sca
 ??? success "Corrigé de la série D"
 
     <ol class="auto-corrige">
-    <li value="1"><strong class="auto-resultat">Réponse B</strong> : C'est l'identité de la différence. Réponse .</li>
-    <li value="2"><strong class="auto-resultat">Réponse B</strong> : Avec un angle droit, <span class="arithmatex">\(\cos90^\circ=0\)</span>. Réponse .</li>
-    <li value="3"><strong class="auto-resultat">Réponse B</strong> : L'angle <span class="arithmatex">\(\widehat{AMB}\)</span> est droit. Réponse .</li>
-    <li value="4"><strong class="auto-resultat">Réponse C</strong> : Un cosinus négatif correspond à un angle obtus. Réponse .</li>
-    <li value="5"><strong class="auto-resultat">Réponse A</strong> : Les termes croisés s'annulent. Réponse .</li>
+    <li value="1"><strong class="auto-resultat">Réponse B</strong> : C'est l'identité de la différence.</li>
+    <li value="2"><strong class="auto-resultat">Réponse B</strong> : Avec un angle droit, <span class="arithmatex">\(\cos90^\circ=0\)</span>.</li>
+    <li value="3"><strong class="auto-resultat">Réponse B</strong> : L'angle <span class="arithmatex">\(\widehat{AMB}\)</span> est droit.</li>
+    <li value="4"><strong class="auto-resultat">Réponse C</strong> : Un cosinus négatif correspond à un angle obtus.</li>
+    <li value="5"><strong class="auto-resultat">Réponse A</strong> : Les termes croisés s'annulent.</li>
     </ol>
     <div class="auto-methode"><strong>Méthode.</strong> Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée.</div>
     <div class="auto-vigilance"><strong>Vigilance.</strong> La réponse juste doit être compatible avec les dimensions : longueur, carré de longueur ou nombre.</div>

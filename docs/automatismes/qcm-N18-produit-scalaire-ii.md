@@ -281,7 +281,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(\\|\\vec u\\|-\\|\\vec v\\|\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "C'est l'identité de la différence. Réponse .",
+   "corrige": "C'est l'identité de la différence.",
    "methode": "Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée."
   },
   {
@@ -297,7 +297,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "la médiane"
    ],
    "bonne": 1,
-   "corrige": "Avec un angle droit, <span class=\"arithmatex\">\\(\\cos90^\\circ=0\\)<\/span>. Réponse .",
+   "corrige": "Avec un angle droit, <span class=\"arithmatex\">\\(\\cos90^\\circ=0\\)<\/span>.",
    "methode": "Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée."
   },
   {
@@ -313,7 +313,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "une parabole"
    ],
    "bonne": 1,
-   "corrige": "L'angle <span class=\"arithmatex\">\\(\\widehat{AMB}\\)<\/span> est droit. Réponse .",
+   "corrige": "L'angle <span class=\"arithmatex\">\\(\\widehat{AMB}\\)<\/span> est droit.",
    "methode": "Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée."
   },
   {
@@ -329,7 +329,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "obtus"
    ],
    "bonne": 2,
-   "corrige": "Un cosinus négatif correspond à un angle obtus. Réponse .",
+   "corrige": "Un cosinus négatif correspond à un angle obtus.",
    "methode": "Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée."
   },
   {
@@ -345,7 +345,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(0\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "Les termes croisés s'annulent. Réponse .",
+   "corrige": "Les termes croisés s'annulent.",
    "methode": "Les QCM de géométrie se traitent mieux en identifiant la figure mentale associée."
   }
  ]

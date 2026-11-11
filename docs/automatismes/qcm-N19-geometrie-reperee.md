@@ -281,7 +281,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\((-2;-5)\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\((x+2)^2=(x-(-2))^2\\)<\/span> et <span class=\"arithmatex\">\\((y-5)^2\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\((x+2)^2=(x-(-2))^2\\)<\/span> et <span class=\"arithmatex\">\\((y-5)^2\\)<\/span>.",
    "methode": "Les questions courtes de repérage exigent surtout une lecture très précise des signes."
   },
   {
@@ -297,7 +297,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\((4;-1)\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "Pour <span class=\"arithmatex\">\\(ax+by+c=0\\)<\/span>, un normal est <span class=\"arithmatex\">\\((a;b)\\)<\/span>. Réponse .",
+   "corrige": "Pour <span class=\"arithmatex\">\\(ax+by+c=0\\)<\/span>, un normal est <span class=\"arithmatex\">\\((a;b)\\)<\/span>.",
    "methode": "Les questions courtes de repérage exigent surtout une lecture très précise des signes."
   },
   {
@@ -313,7 +313,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "oblique"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(x=3\\)<\/span> est une droite verticale. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(x=3\\)<\/span> est une droite verticale.",
    "methode": "Les questions courtes de repérage exigent surtout une lecture très précise des signes."
   },
   {
@@ -329,7 +329,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\((2;3)\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(\\left(\\dfrac{2+6}{2};\\dfrac{-1+5}{2}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\((4;2)\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\left(\\dfrac{2+6}{2};\\dfrac{-1+5}{2}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\((4;2)\\)<\/span>.",
    "methode": "Les questions courtes de repérage exigent surtout une lecture très précise des signes."
   },
   {
@@ -345,7 +345,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "confondues"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(2\\times\\left(-\\dfrac12\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(-1\\)<\/span>. Réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(2\\times\\left(-\\dfrac12\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(-1\\)<\/span>.",
    "methode": "Les questions courtes de repérage exigent surtout une lecture très précise des signes."
   }
  ]

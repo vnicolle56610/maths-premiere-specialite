@@ -281,7 +281,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(-1\\)<\/span>"
    ],
    "bonne": 2,
-   "corrige": "<span class=\"arithmatex\">\\(\\cos(\\pi)=-1\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\cos(\\pi)=-1\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   },
   {
@@ -297,7 +297,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(-1\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(\\sin(\\pi)=0\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\sin(\\pi)=0\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   },
   {
@@ -313,7 +313,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(360^\\circ\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(\\dfrac{3\\pi}{2}=\\)<\/span><wbr><span class=\"arithmatex\">\\(270^\\circ\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\dfrac{3\\pi}{2}=\\)<\/span><wbr><span class=\"arithmatex\">\\(270^\\circ\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   },
   {
@@ -329,7 +329,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(\\dfrac{\\sqrt3}{2}\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(\\cos\\left(\\dfrac{\\pi}{3}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\dfrac12\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\cos\\left(\\dfrac{\\pi}{3}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(\\dfrac12\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   },
   {
@@ -345,7 +345,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(-\\dfrac{\\sqrt3}{2}\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(\\sin\\left(-\\dfrac{\\pi}{6}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(-\\dfrac12\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\sin\\left(-\\dfrac{\\pi}{6}\\right)=\\)<\/span><wbr><span class=\"arithmatex\">\\(-\\dfrac12\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   },
   {
@@ -361,7 +361,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(\\dfrac{5\\pi}{6}\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "<span class=\"arithmatex\">\\(\\dfrac{11\\pi}{6}-2\\pi=\\)<\/span><wbr><span class=\"arithmatex\">\\(-\\dfrac{\\pi}{6}\\)<\/span> : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\dfrac{11\\pi}{6}-2\\pi=\\)<\/span><wbr><span class=\"arithmatex\">\\(-\\dfrac{\\pi}{6}\\)<\/span>.",
    "methode": "La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées."
   }
  ]

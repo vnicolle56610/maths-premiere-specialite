@@ -283,7 +283,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(14\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(10-4=6\\)<\/span>, réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(10-4=6\\)<\/span>.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   },
   {
@@ -299,7 +299,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(0;1;2;3\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(\\texttt{range(3)}\\)<\/span> donne <span class=\"arithmatex\">\\(0;1;2\\)<\/span>, réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\texttt{range(3)}\\)<\/span> donne <span class=\"arithmatex\">\\(0;1;2\\)<\/span>.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   },
   {
@@ -315,7 +315,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(6\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(2\\rightarrow6\\rightarrow18\\rightarrow54\\)<\/span>, réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(2\\rightarrow6\\rightarrow18\\rightarrow54\\)<\/span>.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   },
   {
@@ -331,7 +331,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(u_4-50\\)<\/span>"
    ],
    "bonne": 0,
-   "corrige": "Le compteur renvoie le premier rang trouvé : réponse .",
+   "corrige": "Le compteur renvoie le premier rang trouvé.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   },
   {
@@ -347,7 +347,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "<span class=\"arithmatex\">\\(2\\)<\/span>"
    ],
    "bonne": 1,
-   "corrige": "<span class=\"arithmatex\">\\(\\texttt{L[2]}\\)<\/span> est le troisième élément : réponse .",
+   "corrige": "<span class=\"arithmatex\">\\(\\texttt{L[2]}\\)<\/span> est le troisième élément.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   },
   {
@@ -363,7 +363,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
     "une tangente"
    ],
    "bonne": 0,
-   "corrige": "Une somme se construit avec un accumulateur : réponse .",
+   "corrige": "Une somme se construit avec un accumulateur.",
    "methode": "Pour un QCM algorithmique, refaire une trace très courte suffit souvent."
   }
  ]

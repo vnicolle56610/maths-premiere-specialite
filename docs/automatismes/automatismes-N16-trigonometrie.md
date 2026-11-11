@@ -143,12 +143,12 @@ description: "24 questions d'automatismes de Première spécialité (trigonomét
 ??? success "Corrigé de la série D"
 
     <ol class="auto-corrige">
-    <li value="1"><strong class="auto-resultat">Réponse C</strong> : <span class="arithmatex">\(\cos(\pi)=-1\)</span> : réponse .</li>
-    <li value="2"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\sin(\pi)=0\)</span> : réponse .</li>
-    <li value="3"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(\dfrac{3\pi}{2}=\)</span><wbr><span class="arithmatex">\(270^\circ\)</span> : réponse .</li>
-    <li value="4"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\cos\left(\dfrac{\pi}{3}\right)=\)</span><wbr><span class="arithmatex">\(\dfrac12\)</span> : réponse .</li>
-    <li value="5"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(\sin\left(-\dfrac{\pi}{6}\right)=\)</span><wbr><span class="arithmatex">\(-\dfrac12\)</span> : réponse .</li>
-    <li value="6"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\dfrac{11\pi}{6}-2\pi=\)</span><wbr><span class="arithmatex">\(-\dfrac{\pi}{6}\)</span> : réponse .</li>
+    <li value="1"><strong class="auto-resultat">Réponse C</strong> : <span class="arithmatex">\(\cos(\pi)=-1\)</span>.</li>
+    <li value="2"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\sin(\pi)=0\)</span>.</li>
+    <li value="3"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(\dfrac{3\pi}{2}=\)</span><wbr><span class="arithmatex">\(270^\circ\)</span>.</li>
+    <li value="4"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\cos\left(\dfrac{\pi}{3}\right)=\)</span><wbr><span class="arithmatex">\(\dfrac12\)</span>.</li>
+    <li value="5"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(\sin\left(-\dfrac{\pi}{6}\right)=\)</span><wbr><span class="arithmatex">\(-\dfrac12\)</span>.</li>
+    <li value="6"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(\dfrac{11\pi}{6}-2\pi=\)</span><wbr><span class="arithmatex">\(-\dfrac{\pi}{6}\)</span>.</li>
     </ol>
     <div class="auto-methode"><strong>Méthode.</strong> La trigonométrie rapide repose sur trois réflexes : réduire, placer, lire les coordonnées.</div>
     <div class="auto-vigilance"><strong>Vigilance.</strong> Un angle associé n'est pas seulement une valeur proche : il doit différer d'un multiple de <span class="arithmatex">\(2\pi\)</span>.</div>

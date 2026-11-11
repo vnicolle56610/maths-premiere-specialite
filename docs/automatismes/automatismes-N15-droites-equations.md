@@ -143,12 +143,12 @@ description: "24 questions d'automatismes de Première spécialité (droites et 
 ??? success "Corrigé de la série D"
 
     <ol class="auto-corrige">
-    <li value="1"><strong class="auto-resultat">Réponse A</strong> : Pour <span class="arithmatex">\(m=-4\)</span>, un vecteur directeur est <span class="arithmatex">\((1;-4)\)</span> : réponse .</li>
-    <li value="2"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(2x+5=0 \Longleftrightarrow\)</span><wbr><span class="arithmatex">\( x=-\dfrac52\)</span> : réponse .</li>
-    <li value="3"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(3\times1+1=4\)</span>, donc oui : réponse .</li>
-    <li value="4"><strong class="auto-resultat">Réponse B</strong> : Même coefficient directeur : droites parallèles ou confondues ; réponse .</li>
-    <li value="5"><strong class="auto-resultat">Réponse A</strong> : Pour <span class="arithmatex">\(x+2y-3=0\)</span>, un vecteur normal est <span class="arithmatex">\((1;2)\)</span> : réponse .</li>
-    <li value="6"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(y=-2\)</span> est horizontale : réponse .</li>
+    <li value="1"><strong class="auto-resultat">Réponse A</strong> : Pour <span class="arithmatex">\(m=-4\)</span>, un vecteur directeur est <span class="arithmatex">\((1;-4)\)</span>.</li>
+    <li value="2"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(2x+5=0 \Longleftrightarrow\)</span><wbr><span class="arithmatex">\( x=-\dfrac52\)</span>.</li>
+    <li value="3"><strong class="auto-resultat">Réponse A</strong> : <span class="arithmatex">\(3\times1+1=4\)</span>, donc oui.</li>
+    <li value="4"><strong class="auto-resultat">Réponse B</strong> : Même coefficient directeur : droites parallèles ou confondues.</li>
+    <li value="5"><strong class="auto-resultat">Réponse A</strong> : Pour <span class="arithmatex">\(x+2y-3=0\)</span>, un vecteur normal est <span class="arithmatex">\((1;2)\)</span>.</li>
+    <li value="6"><strong class="auto-resultat">Réponse B</strong> : <span class="arithmatex">\(y=-2\)</span> est horizontale.</li>
     </ol>
     <div class="auto-methode"><strong>Méthode.</strong> Le QCM se traite en repérant les invariants : coefficient directeur, point, vecteur normal.</div>
     <div class="auto-vigilance"><strong>Vigilance.</strong> Même coefficient directeur ne signifie pas forcément même droite.</div>
