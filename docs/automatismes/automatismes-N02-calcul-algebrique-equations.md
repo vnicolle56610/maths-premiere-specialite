@@ -109,7 +109,7 @@ description: "24 questions d'automatismes de Première spécialité (calcul alg�
 
     <ol class="auto-corrige">
     <li value="1"><span class="arithmatex">\(25-9=\boxed{16}\)</span>.</li>
-    <li value="2"><span class="arithmatex">\(2\in[0;5]\)</span> : <strong class="auto-resultat"><span class="arithmatex">\(\in\)</span></strong>.</li>
+    <li value="2"><span class="arithmatex">\(2\in[0;5]\)</span> : <span class="arithmatex">\(\boxed{\in}\)</span>.</li>
     <li value="3"><span class="arithmatex">\(x^2-49=\)</span><wbr><span class="arithmatex">\(\boxed{(x-7)(x+7)}\)</span>.</li>
     <li value="4"><span class="arithmatex">\(2x^2-18=\)</span><wbr><span class="arithmatex">\(2(x^2-9)=\)</span><wbr><span class="arithmatex">\(\boxed{2(x-3)(x+3)}\)</span>.</li>
     <li value="5">La <strong class="auto-resultat">forme factorisée</strong>.</li>

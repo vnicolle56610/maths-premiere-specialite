@@ -276,9 +276,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "enonce": "Racines de <span class=\"arithmatex\">\\((x+2)(x-5)\\)<\/span> :",
    "contexte": [],
    "choix": [
-    "<span class=\"arithmatex\">\\(-2,5\\)<\/span>",
-    "<span class=\"arithmatex\">\\(2,-5\\)<\/span>",
-    "<span class=\"arithmatex\">\\(2,5\\)<\/span>"
+    "<span class=\"arithmatex\">\\(-2;5\\)<\/span>",
+    "<span class=\"arithmatex\">\\(2;-5\\)<\/span>",
+    "<span class=\"arithmatex\">\\(2;5\\)<\/span>"
    ],
    "bonne": 0,
    "corrige": "Racines <span class=\"arithmatex\">\\(-2\\)<\/span> et <span class=\"arithmatex\">\\(5\\)<\/span>.",
@@ -292,9 +292,9 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "enonce": "Pour <span class=\"arithmatex\">\\(x^2-9x+20\\)<\/span>, somme et produit :",
    "contexte": [],
    "choix": [
-    "<span class=\"arithmatex\">\\(9,20\\)<\/span>",
-    "<span class=\"arithmatex\">\\(-9,20\\)<\/span>",
-    "<span class=\"arithmatex\">\\(9,-20\\)<\/span>"
+    "<span class=\"arithmatex\">\\(9;20\\)<\/span>",
+    "<span class=\"arithmatex\">\\(-9;20\\)<\/span>",
+    "<span class=\"arithmatex\">\\(9;-20\\)<\/span>"
    ],
    "bonne": 0,
    "corrige": "<span class=\"arithmatex\">\\(s=9\\)<\/span>, <span class=\"arithmatex\">\\(p=20\\)<\/span>.",

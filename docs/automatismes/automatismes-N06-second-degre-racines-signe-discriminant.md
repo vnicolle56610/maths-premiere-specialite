@@ -127,8 +127,8 @@ description: "24 questions d'automatismes de Première spécialité (second degr
 </div>
 
 <ol class="auto-questions">
-<li value="1">Racines de <span class="arithmatex">\((x+2)(x-5)\)</span> :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(-2,5\)</span></li><li><span class="arithmatex">\(2,-5\)</span></li><li><span class="arithmatex">\(2,5\)</span></li></ol></li>
-<li value="2">Pour <span class="arithmatex">\(x^2-9x+20\)</span>, somme et produit :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(9,20\)</span></li><li><span class="arithmatex">\(-9,20\)</span></li><li><span class="arithmatex">\(9,-20\)</span></li></ol></li>
+<li value="1">Racines de <span class="arithmatex">\((x+2)(x-5)\)</span> :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(-2;5\)</span></li><li><span class="arithmatex">\(2;-5\)</span></li><li><span class="arithmatex">\(2;5\)</span></li></ol></li>
+<li value="2">Pour <span class="arithmatex">\(x^2-9x+20\)</span>, somme et produit :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(9;20\)</span></li><li><span class="arithmatex">\(-9;20\)</span></li><li><span class="arithmatex">\(9;-20\)</span></li></ol></li>
 <li value="3">Si <span class="arithmatex">\(\Delta&lt;0\)</span> et <span class="arithmatex">\(a&gt;0\)</span>, le trinôme est :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(&gt;0\)</span></li><li><span class="arithmatex">\(&lt;0\)</span></li><li>de signe variable</li></ol></li>
 <li value="4"><span class="arithmatex">\(\Delta\)</span> de <span class="arithmatex">\(2x^2+x-3\)</span> :<ol class="auto-choix" type="A"><li><span class="arithmatex">\(25\)</span></li><li><span class="arithmatex">\(-23\)</span></li><li><span class="arithmatex">\(7\)</span></li></ol></li>
 <li value="5">Sommet de <span class="arithmatex">\(x\mapsto-3(x-2)^2+4\)</span> :<ol class="auto-choix" type="A"><li><span class="arithmatex">\((2;4)\)</span></li><li><span class="arithmatex">\((-2;4)\)</span></li><li><span class="arithmatex">\((2;-4)\)</span></li></ol></li>

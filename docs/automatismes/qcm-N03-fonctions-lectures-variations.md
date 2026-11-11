@@ -220,7 +220,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "contexte": [],
    "choix": [],
    "bonne": null,
-   "corrige": "Les zéros sont <span class=\"arithmatex\">\\(\\boxed{-2,\\ 1,\\ 3}\\)<\/span>.",
+   "corrige": "Les zéros sont <span class=\"arithmatex\">\\(\\boxed{-2;\\ 1;\\ 3}\\)<\/span>.",
    "methode": "Pour le signe, on découpe l'axe des abscisses avec les zéros."
   },
   {

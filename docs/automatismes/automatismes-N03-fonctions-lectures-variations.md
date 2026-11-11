@@ -110,7 +110,7 @@ description: "24 questions d'automatismes de Première spécialité (fonctions :
     <div class="auto-figure"><img src="../figures/N03-fonctions-lectures-variations-e787a0b33f.svg" alt="Figure de la série C" width="356"></div>
     <ol class="auto-corrige">
     <li value="1">On lit <span class="arithmatex">\(\boxed{f(-3)=-1}\)</span>.</li>
-    <li value="2">Les zéros sont <span class="arithmatex">\(\boxed{-2,\ 1,\ 3}\)</span>.</li>
+    <li value="2">Les zéros sont <span class="arithmatex">\(\boxed{-2;\ 1;\ 3}\)</span>.</li>
     <li value="3">On lit <span class="arithmatex">\(\boxed{2}\)</span>, car <span class="arithmatex">\(f(2)=-2\)</span>.</li>
     <li value="4"><span class="arithmatex">\(\boxed{f(x)&gt;0}\)</span> sur <span class="arithmatex">\(]-2;1[\)</span> et <span class="arithmatex">\(]3;4]\)</span>.</li>
     <li value="5">Vrai : <span class="arithmatex">\(f(2)=-2\)</span>, donc <span class="arithmatex">\(\boxed{\text{vrai}}\)</span>.</li>

@@ -217,7 +217,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "contexte": [],
    "choix": [],
    "bonne": null,
-   "corrige": "<span class=\"arithmatex\">\\(2\\in[0;5]\\)<\/span> : <strong class=\"auto-resultat\"><span class=\"arithmatex\">\\(\\in\\)<\/span><\/strong>.",
+   "corrige": "<span class=\"arithmatex\">\\(2\\in[0;5]\\)<\/span> : <span class=\"arithmatex\">\\(\\boxed{\\in}\\)<\/span>.",
    "methode": "Reconnaître une différence de deux carrés dès qu'une soustraction sépare deux carrés parfaits."
   },
   {
