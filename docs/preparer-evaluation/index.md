@@ -22,7 +22,8 @@ Avant chaque mini-test et chaque devoir surveillé, un **devoir blanc** est mis 
 **Devoir surveillé · 80 min · calculatrice interdite**  
 Notions : [N01 — Logique, ensembles et intervalles](../notions/N01-logique-ensembles.md) · [N02 — Calcul algébrique et équations](../notions/N02-calcul-algebrique-equations.md) · [N04 — Repérage et vecteurs](../notions/N04-reperages-vecteurs.md) · [N05 — Second degré I : fonction carré et forme canonique](../notions/N05-second-degre-i.md) · [N06 — Second degré II : racines, signe et discriminant](../notions/N06-second-degre-ii.md)
 
-- 📄 Devoir blanc et fiche « Ce que je dois savoir faire » : en ligne le lundi 16 novembre.
+- 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_DS1_1S.pdf)
+- ✅ Corrigé et grille d'auto-évaluation : en ligne le jeudi 19 novembre.
 
 ## Pour réviser — évaluations passées
 
