@@ -38,6 +38,18 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - ⚡ [Automatismes N06 en ligne — Second degré II (partie 2) : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N06-second-degre-inequations-optimisation.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé (partie 1)
+
+Trois fiches pour reprendre la partie 1 en autonomie : à la maison, après une absence ou pour préparer le DS1. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite. Chaque fiche représente environ 55 minutes de travail.
+
+- 📝 [Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1.pdf) : forme canonique et signe de α, racine ou image, racines sur une forme factorisée, choix de la forme.
+- 📝 [Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2.pdf) : facteur commun, x² = k, forme canonique, racine évidente et produit des racines.
+- 📝 [Fiche 3 — Discriminant, factorisation, signe](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3.pdf) : calculer Δ, résoudre et vérifier, factoriser sans oublier a, tableau de signes.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+<!-- PARCOURS-GUIDE:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [devoir blanc en ligne le lundi 16 novembre](../preparer-evaluation/index.md#ds1-2026-2027)
 <!-- AUTO-EVAL:END -->
