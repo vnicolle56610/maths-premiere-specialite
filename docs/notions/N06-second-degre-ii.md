@@ -29,8 +29,6 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 - [Cours N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../cours/COURS_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 - [TD N06 — Second degré (partie 1) : formes, racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant)](../td/TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
 - [TD N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../td/TD_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
-- [Automatismes N06 — Second degré (partie 1) : formes, racines, signe et discriminant (Partie 1 Formes Racines Signe Discriminant)](../automatismes/AUTOMATISMES_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
-- [Automatismes N06 — Second degré (partie 2) : inéquations, optimisation et problèmes (Partie 2 Inequations Optimisation Problemes)](../automatismes/AUTOMATISMES_N06_PARTIE_2_INEQUATIONS_OPTIMISATION_PROBLEMES.pdf)
 <!-- AUTO-DOCS:END -->
 
 <!-- AUTOMATISMES-WEB:START -->
@@ -41,7 +39,7 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 <!-- PARCOURS-GUIDE:START -->
 ### Parcours guidé (partie 1)
 
-Trois fiches pour reprendre la partie 1 en autonomie : à la maison, après une absence ou pour préparer le DS1. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite. Chaque fiche représente environ 55 minutes de travail.
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
 - 📝 [Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1.pdf) : forme canonique et signe de α, racine ou image, racines sur une forme factorisée, choix de la forme.
 - 📝 [Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2.pdf) : facteur commun, x² = k, forme canonique, racine évidente et produit des racines.
