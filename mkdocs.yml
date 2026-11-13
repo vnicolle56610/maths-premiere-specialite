@@ -35,7 +35,6 @@ nav:
       - "N23 — Indépendance arbres": notions/N23-independance-arbres.md
       - "N24 — Variables aléatoires espérance": notions/N24-variables-aleatoires-esperance.md
       - "N25 — Synthèses automatismes": notions/N25-syntheses-automatismes.md
-  - "📝 TD": td/index.md
   - "⚡ Automatismes":
       - automatismes/index.md
       - "N01 — Logique, ensembles et intervalles (en ligne)": automatismes/automatismes-N01-logique-ensembles.md
