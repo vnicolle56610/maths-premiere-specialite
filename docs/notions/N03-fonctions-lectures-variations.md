@@ -34,6 +34,20 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 - ⚡ [Automatismes N03 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N03-fonctions-lectures-variations.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+- 📝 [Fiche 1 — Image et antécédent par le calcul](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_1_CORRIGE.pdf) : distinguer image et antécédent, calculer des images (carrés de nombres négatifs compris), chercher un antécédent par le calcul et le contrôler, compléter et lire un tableau de valeurs.
+- 📝 [Fiche 2 — Lire sur une courbe](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_2_CORRIGE.pdf) : placer les points d'un tableau de valeurs et décider si on les relie, lire une image sur une courbe, lire des antécédents avec une droite horizontale, trouver les zéros d'une fonction (des nombres, pas des points).
+- 📝 [Fiche 3 — Signe d'une fonction](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_3_CORRIGE.pdf) : résoudre graphiquement f(x) > 0 ou f(x) ≤ 0 (réunion d'intervalles, crochets aux zéros, fonction définie sur R), dresser un tableau de signes à partir d'une courbe, lire un tableau de signes.
+- 📝 [Fiche 4 — Variations et extremums](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_4.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_4_CORRIGE.pdf) : décrire les variations d'une fonction sur une courbe, dresser son tableau de variations (ligne f), lire un tableau de variations : intervalles, maximum et minimum, avec la valeur de x où ils sont atteints.
+- 📝 [Fiche passerelle — Lire une situation](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_5.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_5_CORRIGE.pdf) : fiche passerelle : lire une courbe dans une situation (image, antécédents, variations, avec les unités), comparer deux courbes (f(x) = g(x), f(x) > g(x)), puis un problème de tarifs sans modèle avant le retour au TD.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier. Ne lire le corrigé qu'après avoir cherché.
+<!-- PARCOURS-GUIDE:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 <!-- AUTO-EVAL:END -->

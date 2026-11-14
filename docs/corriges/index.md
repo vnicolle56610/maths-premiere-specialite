@@ -22,6 +22,11 @@ Corrigés destinés aux élèves, classés par notion.
 ## N03 — Fonctions : lectures graphiques et variations
 
 - [Corrigé TD N03](CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf)
+- [Corrigé parcours guidé N03 — Fiche 1 — Image et antécédent par le calcul](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N03 — Fiche 2 — Lire sur une courbe](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N03 — Fiche 3 — Signe d'une fonction](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_3_CORRIGE.pdf)
+- [Corrigé parcours guidé N03 — Fiche 4 — Variations et extremums](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_4_CORRIGE.pdf)
+- [Corrigé parcours guidé N03 — Fiche passerelle — Lire une situation](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_5_CORRIGE.pdf)
 
 ## N05 — Second degré I : fonction carré et forme canonique
 

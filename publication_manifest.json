@@ -65,6 +65,20 @@
       ],
       "corrige_td": [
         "CORRIGE_TD_N03_FONCTIONS_LECTURES_VARIATIONS.pdf"
+      ],
+      "parcours": [
+        "PARCOURS_GUIDE_N03_FICHE_1.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_2.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_3.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_4.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_5.pdf"
+      ],
+      "corrige_parcours": [
+        "PARCOURS_GUIDE_N03_FICHE_1_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_2_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_3_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_4_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N03_FICHE_5_CORRIGE.pdf"
       ]
     },
     "N04": {
