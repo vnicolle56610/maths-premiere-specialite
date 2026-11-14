@@ -33,6 +33,19 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 - ⚡ [Automatismes N01 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N01-logique-ensembles.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+- 📝 [Fiche 1 — Nombres et ensembles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_1_CORRIGE.pdf) : classer un nombre dans N, Z, D, Q ou R, utiliser « appartient » et « est inclus » avec des ensembles finis, reconnaître une assertion, une phrase ouverte ou une écriture qui n'a pas de sens.
+- 📝 [Fiche 2 — Les intervalles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_2_CORRIGE.pdf) : passer d'une phrase à une inégalité puis à un intervalle, représenter et lire un intervalle sur une droite graduée, écrire « ou » avec une réunion, trouver l'intersection, la réunion et la différence de deux intervalles.
+- 📝 [Fiche 3 — Vrai ou faux ?](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_3_CORRIGE.pdf) : dire si une phrase « pour tout » ou « il existe » est vraie, donner un contre-exemple, écrire la négation d'une phrase quantifiée, étudier une implication, écrire sa réciproque et sa contraposée.
+- 📝 [Fiche passerelle — Traduire une situation](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_4.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_4_CORRIGE.pdf) : fiche passerelle : traduire des conditions par des intervalles, utiliser l'intersection et la réunion dans une situation, compter avec un diagramme à deux ensembles, puis un exercice sans modèle avant le retour au TD.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier. Ne lire le corrigé qu'après avoir cherché.
+<!-- PARCOURS-GUIDE:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [voir le devoir blanc](../preparer-evaluation/index.md#ds1-2026-2027)
 <!-- AUTO-EVAL:END -->

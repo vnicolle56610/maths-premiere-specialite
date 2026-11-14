@@ -6,6 +6,10 @@ Corrigés destinés aux élèves, classés par notion.
 ## N01 — Logique, ensembles et intervalles
 
 - [Corrigé TD N01](CORRIGE_TD_N01_LOGIQUE_ENSEMBLES.pdf)
+- [Corrigé parcours guidé N01 — Fiche 1 — Nombres et ensembles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N01 — Fiche 2 — Les intervalles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N01 — Fiche 3 — Vrai ou faux ?](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_3_CORRIGE.pdf)
+- [Corrigé parcours guidé N01 — Fiche passerelle — Traduire une situation](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_4_CORRIGE.pdf)
 
 ## N02 — Calcul algébrique et équations
 
