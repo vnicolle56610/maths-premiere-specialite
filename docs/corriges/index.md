@@ -38,4 +38,8 @@ Corrigés destinés aux élèves, classés par notion.
 ## N05 — Second degré I : fonction carré et forme canonique
 
 - [Corrigé TD N05](CORRIGE_TD_N05_SECOND_DEGRE_I.pdf)
+- [Corrigé parcours guidé N05 — Fiche 1 — La fonction carré](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N05 — Fiche 2 — Lire une forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N05 — Fiche 3 — Obtenir la forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_3_CORRIGE.pdf)
+- [Corrigé parcours guidé N05 — Fiche passerelle — De la courbe à l'expression](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_4_CORRIGE.pdf)
 <!-- AUTO-DOCS:END -->

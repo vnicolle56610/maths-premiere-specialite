@@ -116,6 +116,18 @@
       ],
       "corrige_td": [
         "CORRIGE_TD_N05_SECOND_DEGRE_I.pdf"
+      ],
+      "parcours": [
+        "PARCOURS_GUIDE_N05_FICHE_1.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_2.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_3.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_4.pdf"
+      ],
+      "corrige_parcours": [
+        "PARCOURS_GUIDE_N05_FICHE_1_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_2_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_3_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N05_FICHE_4_CORRIGE.pdf"
       ]
     },
     "N06": {
