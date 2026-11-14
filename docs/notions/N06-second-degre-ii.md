@@ -41,6 +41,8 @@ Cette notion complète l’étude du second degré avec les racines, le discrimi
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Partie 1 — Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1.pdf) : forme canonique et signe de α, racine ou image, racines sur une forme factorisée, choix de la forme.
 - 📝 [Partie 1 — Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2.pdf) : facteur commun, x² = k, forme canonique ; pour aller plus loin : racine évidente et produit des racines.
 - 📝 [Partie 1 — Fiche 3 — Discriminant, factorisation, signe](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3.pdf) : calculer Δ, résoudre et vérifier, factoriser sans oublier a, tableau de signes.

@@ -38,6 +38,8 @@ Les premières notations structurent tout le travail de spécialité mathématiq
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Fiche 1 — Nombres et ensembles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_1_CORRIGE.pdf) : classer un nombre dans N, Z, D, Q ou R, utiliser « appartient » et « est inclus » avec des ensembles finis, reconnaître une assertion, une phrase ouverte ou une écriture qui n'a pas de sens.
 - 📝 [Fiche 2 — Les intervalles](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_2_CORRIGE.pdf) : passer d'une phrase à une inégalité puis à un intervalle, représenter et lire un intervalle sur une droite graduée, écrire « ou » avec une réunion, trouver l'intersection, la réunion et la différence de deux intervalles.
 - 📝 [Fiche 3 — Vrai ou faux ?](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N01_FICHE_3_CORRIGE.pdf) : dire si une phrase « pour tout » ou « il existe » est vraie, donner un contre-exemple, écrire la négation d'une phrase quantifiée, étudier une implication, écrire sa réciproque et sa contraposée.

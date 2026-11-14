@@ -39,6 +39,8 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Fiche 1 — Développer et factoriser](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_1_CORRIGE.pdf) : développer un produit et contrôler avec x = 1, développer un carré avec une identité remarquable, factoriser par un facteur commun, factoriser une différence de deux carrés ou un carré parfait.
 - 📝 [Fiche 2 — Résoudre une équation](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_2_CORRIGE.pdf) : résoudre une équation du premier degré par équivalences et vérifier, utiliser le produit nul, se ramener au produit nul en factorisant, choisir la forme adaptée à la question.
 - 📝 [Fiche 3 — Quotient nul et inéquations](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_3_CORRIGE.pdf) : trouver la valeur interdite et résoudre un quotient nul, résoudre une inéquation en changeant le sens quand on divise par un négatif, écrire les solutions en intervalle sur une droite graduée, contrôler avec une valeur ; pour aller plus loin : équations avec une fraction.

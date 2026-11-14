@@ -39,6 +39,8 @@ Le second degré commence par l’étude de la fonction carré et des paraboles.
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Fiche 1 — La fonction carré](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_1_CORRIGE.pdf) : calculer des carrés sans erreur de signe, tableau de valeurs et symétrie, images et antécédents sur la courbe, variations et minimum de la fonction carré.
 - 📝 [Fiche 2 — Lire une forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_2_CORRIGE.pdf) : lire a, alpha et beta sans erreur de signe, sommet et axe, minimum ou maximum et tableau de variations, lecture d'une parabole tracée, symétrie par rapport à l'axe.
 - 📝 [Fiche 3 — Obtenir la forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_3_CORRIGE.pdf) : faire apparaître un carré, écrire x² + bx + c sous forme canonique et contrôler en développant, utiliser alpha = -b/(2a) et beta = f(alpha) ; pour aller plus loin : montrer qu'une expression est toujours positive.

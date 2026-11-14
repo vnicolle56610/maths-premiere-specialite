@@ -38,6 +38,8 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Fiche 1 — Points et vecteurs sur le quadrillage](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_1_CORRIGE.pdf) : lire et placer des points, lire les coordonnées d'un vecteur sur le quadrillage, calculer AB (arrivée moins départ) avec des nombres négatifs, vecteur opposé et vecteurs égaux.
 - 📝 [Fiche 2 — Calculer avec les vecteurs](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_2_CORRIGE.pdf) : additionner deux vecteurs et enchaîner deux déplacements, multiplier un vecteur par un nombre et soustraire, prouver qu'un quadrilatère est un parallélogramme, calculer les coordonnées d'un milieu.
 - 📝 [Fiche 3 — Colinéarité, alignement, parallélisme](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_3_CORRIGE.pdf) : calculer un déterminant, dire si deux vecteurs sont colinéaires et trouver k tel que v = k u, prouver que trois points sont alignés, prouver que deux droites sont parallèles.

@@ -39,6 +39,8 @@ Les fonctions décrivent des dépendances entre grandeurs. Cette notion reprend 
 
 Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
 
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
 - 📝 [Fiche 1 — Image et antécédent par le calcul](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_1_CORRIGE.pdf) : distinguer image et antécédent, calculer des images (carrés de nombres négatifs compris), chercher un antécédent par le calcul et le contrôler, compléter et lire un tableau de valeurs.
 - 📝 [Fiche 2 — Lire sur une courbe](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_2_CORRIGE.pdf) : placer les points d'un tableau de valeurs et décider si on les relie, lire une image sur une courbe, lire des antécédents avec une droite horizontale, trouver les zéros d'une fonction (des nombres, pas des points).
 - 📝 [Fiche 3 — Signe d'une fonction](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_3_CORRIGE.pdf) : résoudre graphiquement f(x) > 0 ou f(x) ≤ 0 (réunion d'intervalles, crochets aux zéros, fonction définie sur R), dresser un tableau de signes à partir d'une courbe, lire un tableau de signes.
