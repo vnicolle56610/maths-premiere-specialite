@@ -28,6 +28,13 @@ Corrigés destinés aux élèves, classés par notion.
 - [Corrigé parcours guidé N03 — Fiche 4 — Variations et extremums](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_4_CORRIGE.pdf)
 - [Corrigé parcours guidé N03 — Fiche passerelle — Lire une situation](../parcours-guide/PARCOURS_GUIDE_N03_FICHE_5_CORRIGE.pdf)
 
+## N04 — Repérage et vecteurs
+
+- [Corrigé parcours guidé N04 — Fiche 1 — Points et vecteurs sur le quadrillage](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N04 — Fiche 2 — Calculer avec les vecteurs](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N04 — Fiche 3 — Colinéarité, alignement, parallélisme](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_3_CORRIGE.pdf)
+- [Corrigé parcours guidé N04 — Fiche passerelle — Choisir la méthode](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_4_CORRIGE.pdf)
+
 ## N05 — Second degré I : fonction carré et forme canonique
 
 - [Corrigé TD N05](CORRIGE_TD_N05_SECOND_DEGRE_I.pdf)

@@ -33,6 +33,19 @@ Le repérage donne un langage efficace pour traiter la géométrie par le calcul
 - ⚡ [Automatismes N04 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N04-reperage-vecteurs.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+- 📝 [Fiche 1 — Points et vecteurs sur le quadrillage](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_1_CORRIGE.pdf) : lire et placer des points, lire les coordonnées d'un vecteur sur le quadrillage, calculer AB (arrivée moins départ) avec des nombres négatifs, vecteur opposé et vecteurs égaux.
+- 📝 [Fiche 2 — Calculer avec les vecteurs](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_2_CORRIGE.pdf) : additionner deux vecteurs et enchaîner deux déplacements, multiplier un vecteur par un nombre et soustraire, prouver qu'un quadrilatère est un parallélogramme, calculer les coordonnées d'un milieu.
+- 📝 [Fiche 3 — Colinéarité, alignement, parallélisme](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_3_CORRIGE.pdf) : calculer un déterminant, dire si deux vecteurs sont colinéaires et trouver k tel que v = k u, prouver que trois points sont alignés, prouver que deux droites sont parallèles.
+- 📝 [Fiche passerelle — Choisir la méthode](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_4.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N04_FICHE_4_CORRIGE.pdf) : fiche passerelle : trouver un point à partir d'un vecteur, construire le quatrième sommet d'un parallélogramme, puis un plan de jardin sans modèle où l'on choisit soi-même la méthode (alignement, parallélogramme, parallélisme) avant le retour au TD.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier. Ne lire le corrigé qu'après avoir cherché.
+<!-- PARCOURS-GUIDE:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [voir le devoir blanc](../preparer-evaluation/index.md#ds1-2026-2027)
