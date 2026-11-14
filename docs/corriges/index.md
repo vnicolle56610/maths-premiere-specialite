@@ -14,6 +14,10 @@ Corrigés destinés aux élèves, classés par notion.
 ## N02 — Calcul algébrique et équations
 
 - [Corrigé TD N02](CORRIGE_TD_N02_CALCUL_ALGEBRIQUE_EQUATIONS.pdf)
+- [Corrigé parcours guidé N02 — Fiche 1 — Développer et factoriser](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N02 — Fiche 2 — Résoudre une équation](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N02 — Fiche 3 — Quotient nul et inéquations](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_3_CORRIGE.pdf)
+- [Corrigé parcours guidé N02 — Fiche passerelle — Mettre en équation](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_4_CORRIGE.pdf)
 
 ## N03 — Fonctions : lectures graphiques et variations
 

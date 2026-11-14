@@ -34,6 +34,19 @@ Le calcul algébrique permet de transformer une expression pour faire apparaîtr
 - ⚡ [Automatismes N02 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N02-calcul-algebrique-equations.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+- 📝 [Fiche 1 — Développer et factoriser](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_1_CORRIGE.pdf) : développer un produit et contrôler avec x = 1, développer un carré avec une identité remarquable, factoriser par un facteur commun, factoriser une différence de deux carrés ou un carré parfait.
+- 📝 [Fiche 2 — Résoudre une équation](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_2_CORRIGE.pdf) : résoudre une équation du premier degré par équivalences et vérifier, utiliser le produit nul, se ramener au produit nul en factorisant, choisir la forme adaptée à la question.
+- 📝 [Fiche 3 — Quotient nul et inéquations](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_3_CORRIGE.pdf) : trouver la valeur interdite et résoudre un quotient nul, résoudre une inéquation en changeant le sens quand on divise par un négatif, écrire les solutions en intervalle sur une droite graduée, contrôler avec une valeur ; pour aller plus loin : équations avec une fraction.
+- 📝 [Fiche passerelle — Mettre en équation](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_4.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N02_FICHE_4_CORRIGE.pdf) : fiche passerelle : choisir l'inconnue, traduire une situation par une équation ou une inéquation, résoudre, contrôler avec l'énoncé et répondre par une phrase, puis un problème sans modèle avant le retour au TD.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier. Ne lire le corrigé qu'après avoir cherché.
+<!-- PARCOURS-GUIDE:END -->
+
 <!-- AUTO-EVAL:START -->
 - 🎯 Évaluée au DS1 du lundi 23 novembre : [voir le devoir blanc](../preparer-evaluation/index.md#ds1-2026-2027)
 <!-- AUTO-EVAL:END -->
