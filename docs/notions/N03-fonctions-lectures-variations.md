@@ -51,6 +51,7 @@ Des fiches pour reprendre la notion en autonomie : à la maison, après une abse
 <!-- PARCOURS-GUIDE:END -->
 
 <!-- AUTO-EVAL:START -->
+- 🔁 Après le mini-test 1 du mercredi 7 octobre 2026 : [sujet, fiches pour retravailler et corrigés](../preparer-evaluation/index.md#mt1-2026-2027)
 - 🎯 Pour réviser : [devoir blanc du mini-test 2 du lundi 9 novembre 2026](../preparer-evaluation/index.md#mt2-2026-2027)
 <!-- AUTO-EVAL:END -->
 

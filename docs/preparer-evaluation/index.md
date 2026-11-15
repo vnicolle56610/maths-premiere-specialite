@@ -29,6 +29,21 @@ Notions : [N01 — Logique, ensembles et intervalles](../notions/N01-logique-ens
 
 Les devoirs blancs des évaluations passées restent en ligne pour les révisions.
 
+### Mini-test 1 — mercredi 7 octobre 2026 {#mt1-2026-2027}
+
+**Mini-test · 30 min · calculatrice interdite**  
+Notions : [N01 — Logique, ensembles et intervalles](../notions/N01-logique-ensembles.md) · [N02 — Calcul algébrique et équations](../notions/N02-calcul-algebrique-equations.md) · [N03 — Fonctions : lectures graphiques et variations](../notions/N03-fonctions-lectures-variations.md)
+
+Pas de devoir blanc pour cette évaluation.
+
+**Après l'évaluation**
+
+- 📝 Le mini-test : [sujet A](2026-2027/apres-mt1/MINITEST_1_N01_N03_SUJET_A.pdf) · [sujet B](2026-2027/apres-mt1/MINITEST_1_N01_N03_SUJET_B.pdf) · [corrigé A](2026-2027/apres-mt1/MINITEST_1_N01_N03_SUJET_A_CORRIGE.pdf) · [corrigé B](2026-2027/apres-mt1/MINITEST_1_N01_N03_SUJET_B_CORRIGE.pdf)
+- 🔁 Retravailler : [parcours R — Reprendre](2026-2027/apres-mt1/FICHE_R_REMEDIATION_MT1_1S.pdf) · [parcours C — Consolider](2026-2027/apres-mt1/FICHE_C_REMEDIATION_MT1_1S.pdf) · [parcours A — Approfondir](2026-2027/apres-mt1/FICHE_A_REMEDIATION_MT1_1S.pdf)
+- ✔️ Corrigés détaillés : [parcours R](2026-2027/apres-mt1/CORRIGE_FICHE_R_REMEDIATION_MT1_1S.pdf) · [parcours C](2026-2027/apres-mt1/CORRIGE_FICHE_C_REMEDIATION_MT1_1S.pdf) · [parcours A](2026-2027/apres-mt1/CORRIGE_FICHE_A_REMEDIATION_MT1_1S.pdf)
+
+> Quelle fiche prendre ? Le parcours indiqué en classe. Sinon : R si l'équation et l'inéquation (questions B-2 et B-3) n'étaient pas réussies, C si une seule l'était, A si les deux l'étaient. Utile avant le DS1 : résoudre une inéquation jusqu'à l'ensemble des solutions. Ne lisez le corrigé qu'après avoir cherché.
+
 ### Mini-test 2 — lundi 9 novembre 2026 {#mt2-2026-2027}
 
 **Mini-test · 30 min · calculatrice interdite**  
