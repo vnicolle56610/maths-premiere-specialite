@@ -104,7 +104,7 @@ description: "24 questions d'automatismes de Première spécialité (synthèses 
     <ol class="auto-corrige">
     <li value="1"><span class="arithmatex">\(f'(x)=\boxed{2x-4}\)</span>.</li>
     <li value="2"><span class="arithmatex">\(2x-4&lt;0\)</span> si <span class="arithmatex">\(x&lt;2\)</span>, <span class="arithmatex">\(=0\)</span> si <span class="arithmatex">\(x=2\)</span>, <span class="arithmatex">\(&gt;0\)</span> si <span class="arithmatex">\(x&gt;2\)</span>.</li>
-    <li value="3"><span class="arithmatex">\(f\)</span> est <strong class="auto-resultat">décroissante sur <span class="arithmatex">\((-\infty,2]\)</span>, puis croissante sur <span class="arithmatex">\([2,+\infty)\)</span></strong>.</li>
+    <li value="3"><span class="arithmatex">\(f\)</span> est <strong class="auto-resultat">décroissante sur <span class="arithmatex">\(]-\infty;2]\)</span>, puis croissante sur <span class="arithmatex">\([2;+\infty[\)</span></strong>.</li>
     <li value="4"><span class="arithmatex">\(f(2)=4-8+1=\boxed{-3}\)</span>.</li>
     <li value="5"><span class="arithmatex">\(E(X)=\)</span><wbr><span class="arithmatex">\(0\times0{,}25+4\times0{,}75=\)</span><wbr><span class="arithmatex">\(\boxed{3}\)</span>.</li>
     <li value="6"><span class="arithmatex">\(P(A\cap B)=\)</span><wbr><span class="arithmatex">\(0{,}5\times0{,}2=\)</span><wbr><span class="arithmatex">\(\boxed{0{,}1}\)</span>.</li>

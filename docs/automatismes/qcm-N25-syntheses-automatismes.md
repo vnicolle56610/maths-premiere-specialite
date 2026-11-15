@@ -234,7 +234,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    ],
    "choix": [],
    "bonne": null,
-   "corrige": "<span class=\"arithmatex\">\\(f\\)<\/span> est <strong class=\"auto-resultat\">décroissante sur <span class=\"arithmatex\">\\((-\\infty,2]\\)<\/span>, puis croissante sur <span class=\"arithmatex\">\\([2,+\\infty)\\)<\/span><\/strong>.",
+   "corrige": "<span class=\"arithmatex\">\\(f\\)<\/span> est <strong class=\"auto-resultat\">décroissante sur <span class=\"arithmatex\">\\(]-\\infty;2]\\)<\/span>, puis croissante sur <span class=\"arithmatex\">\\([2;+\\infty[\\)<\/span><\/strong>.",
    "methode": "Calculer, interpréter, conclure. Relier signe de la dérivée et variations."
   },
   {
