@@ -93,7 +93,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "serie": "A",
    "theme": "Réactiver les dérivées",
    "type": "flash",
-   "enonce": "Donner le signe de <span class=\"arithmatex\">\\(x-3\\)<\/span> sur <span class=\"arithmatex\">\\((-\\infty;3)\\)<\/span>.",
+   "enonce": "Donner le signe de <span class=\"arithmatex\">\\(x-3\\)<\/span> sur <span class=\"arithmatex\">\\(\\left]-\\infty;3\\right[\\)<\/span>.",
    "contexte": [],
    "choix": [],
    "bonne": null,
@@ -157,7 +157,7 @@ Entraînement **sans calculatrice**. Rien n'est enregistré ni envoyé : tout se
    "contexte": [],
    "choix": [],
    "bonne": null,
-   "corrige": "Les zéros sont <span class=\"arithmatex\">\\(-3\\)<\/span> et <span class=\"arithmatex\">\\(1\\)<\/span>. Signe : <span class=\"arithmatex\">\\(\\boxed{+}\\)<\/span> sur <span class=\"arithmatex\">\\((-\\infty;-3)\\cup(1;+\\infty)\\)<\/span>, <span class=\"arithmatex\">\\(\\boxed{-}\\)<\/span> sur <span class=\"arithmatex\">\\((-3;1)\\)<\/span>.",
+   "corrige": "Les zéros sont <span class=\"arithmatex\">\\(-3\\)<\/span> et <span class=\"arithmatex\">\\(1\\)<\/span>. Signe : <span class=\"arithmatex\">\\(\\boxed{+}\\)<\/span> sur <span class=\"arithmatex\">\\(\\left]-\\infty;-3\\right[\\cup\\left]1;+\\infty\\right[\\)<\/span>, <span class=\"arithmatex\">\\(\\boxed{-}\\)<\/span> sur <span class=\"arithmatex\">\\(\\left]-3;1\\right[\\)<\/span>.",
    "methode": "Une ligne de signe de <span class=\"arithmatex\">\\(f'\\)<\/span> se transforme en ligne de variations de <span class=\"arithmatex\">\\(f\\)<\/span>."
   },
   {

@@ -25,7 +25,7 @@ description: "24 questions d'automatismes de Première spécialité (variations 
 <li value="1"><span class="arithmatex">\(f(x)=x^2-4x+1\)</span>. Calculer <span class="arithmatex">\(f'(x)\)</span>.</li>
 <li value="2"><span class="arithmatex">\(g(x)=-x^2+6x+2\)</span>. Calculer <span class="arithmatex">\(g'(x)\)</span>.</li>
 <li value="3">Résoudre <span class="arithmatex">\(2x-4=0\)</span>.</li>
-<li value="4">Donner le signe de <span class="arithmatex">\(x-3\)</span> sur <span class="arithmatex">\((-\infty;3)\)</span>.</li>
+<li value="4">Donner le signe de <span class="arithmatex">\(x-3\)</span> sur <span class="arithmatex">\(\left]-\infty;3\right[\)</span>.</li>
 <li value="5"><span class="arithmatex">\(h(x)=x^3-3x\)</span>. Calculer <span class="arithmatex">\(h'(1)\)</span>.</li>
 <li value="6"><span class="arithmatex">\(p(x)=\dfrac1x\)</span>. Calculer <span class="arithmatex">\(p'(2)\)</span>.</li>
 </ol>
@@ -75,7 +75,7 @@ description: "24 questions d'automatismes de Première spécialité (variations 
     <ol class="auto-corrige">
     <li value="1"><span class="arithmatex">\(2x-4=0\iff x=2\)</span>. <span class="arithmatex">\(f'&lt;0\)</span> si <span class="arithmatex">\(x&lt;2\)</span>, <span class="arithmatex">\(f'&gt;0\)</span> si <span class="arithmatex">\(x&gt;2\)</span>. Donc <span class="arithmatex">\(f\)</span> décroît puis croît.</li>
     <li value="2"><span class="arithmatex">\(-3x+6=0\iff x=2\)</span>. <span class="arithmatex">\(g'&gt;0\)</span> si <span class="arithmatex">\(x&lt;2\)</span>, <span class="arithmatex">\(g'&lt;0\)</span> si <span class="arithmatex">\(x&gt;2\)</span>. Donc <span class="arithmatex">\(g\)</span> croît puis décroît.</li>
-    <li value="3">Les zéros sont <span class="arithmatex">\(-3\)</span> et <span class="arithmatex">\(1\)</span>. Signe : <span class="arithmatex">\(\boxed{+}\)</span> sur <span class="arithmatex">\((-\infty;-3)\cup(1;+\infty)\)</span>, <span class="arithmatex">\(\boxed{-}\)</span> sur <span class="arithmatex">\((-3;1)\)</span>.</li>
+    <li value="3">Les zéros sont <span class="arithmatex">\(-3\)</span> et <span class="arithmatex">\(1\)</span>. Signe : <span class="arithmatex">\(\boxed{+}\)</span> sur <span class="arithmatex">\(\left]-\infty;-3\right[\cup\left]1;+\infty\right[\)</span>, <span class="arithmatex">\(\boxed{-}\)</span> sur <span class="arithmatex">\(\left]-3;1\right[\)</span>.</li>
     <li value="4"><span class="arithmatex">\(u'(x)=2x-4\)</span>, donc minimum en <span class="arithmatex">\(2\)</span>. <span class="arithmatex">\(u(2)=4-8+1=\boxed{-3}\)</span>.</li>
     <li value="5"><span class="arithmatex">\(v'(x)=-2x+6\)</span>, donc maximum en <span class="arithmatex">\(3\)</span>. <span class="arithmatex">\(v(3)=-9+18+2=\boxed{11}\)</span>.</li>
     <li value="6"><span class="arithmatex">\(x^2+1&gt;0\)</span> pour tout réel <span class="arithmatex">\(x\)</span>. Donc <span class="arithmatex">\(w\)</span> est <span class="arithmatex">\(\boxed{\text{strictement croissante}}\)</span>.</li>
