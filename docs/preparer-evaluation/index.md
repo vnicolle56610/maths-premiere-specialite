@@ -29,6 +29,14 @@ Notions : [N01 — Logique, ensembles et intervalles](../notions/N01-logique-ens
 
 Les devoirs blancs des évaluations passées restent en ligne pour les révisions.
 
+### Mini-test 2 — lundi 9 novembre 2026 {#mt2-2026-2027}
+
+**Mini-test · 30 min · calculatrice interdite**  
+Notions : [N03 — Fonctions : lectures graphiques et variations](../notions/N03-fonctions-lectures-variations.md) · [N04 — Repérage et vecteurs](../notions/N04-reperages-vecteurs.md) · [N05 — Second degré I : fonction carré et forme canonique](../notions/N05-second-degre-i.md)
+
+- 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_MT2_1S.pdf)
+- ✅ [Corrigé et grille d'auto-évaluation](2026-2027/CORRIGE_DEVOIR_BLANC_MT2_1S.pdf)
+
 ### Mini-test 1 — mercredi 7 octobre 2026 {#mt1-2026-2027}
 
 **Mini-test · 30 min · calculatrice interdite**  
@@ -43,12 +51,4 @@ Pas de devoir blanc pour cette évaluation.
 - ✔️ Corrigés détaillés : [parcours R](2026-2027/apres-mt1/CORRIGE_FICHE_R_REMEDIATION_MT1_1S.pdf) · [parcours C](2026-2027/apres-mt1/CORRIGE_FICHE_C_REMEDIATION_MT1_1S.pdf) · [parcours A](2026-2027/apres-mt1/CORRIGE_FICHE_A_REMEDIATION_MT1_1S.pdf)
 
 > Quelle fiche prendre ? Le parcours indiqué en classe. Sinon : R si l'équation et l'inéquation (questions B-2 et B-3) n'étaient pas réussies, C si une seule l'était, A si les deux l'étaient. Utile avant le DS1 : résoudre une inéquation jusqu'à l'ensemble des solutions. Ne lisez le corrigé qu'après avoir cherché.
-
-### Mini-test 2 — lundi 9 novembre 2026 {#mt2-2026-2027}
-
-**Mini-test · 30 min · calculatrice interdite**  
-Notions : [N03 — Fonctions : lectures graphiques et variations](../notions/N03-fonctions-lectures-variations.md) · [N04 — Repérage et vecteurs](../notions/N04-reperages-vecteurs.md) · [N05 — Second degré I : fonction carré et forme canonique](../notions/N05-second-degre-i.md)
-
-- 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_MT2_1S.pdf)
-- ✅ [Corrigé et grille d'auto-évaluation](2026-2027/CORRIGE_DEVOIR_BLANC_MT2_1S.pdf)
 <!-- AUTO-EVAL:END -->
