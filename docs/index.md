@@ -34,10 +34,10 @@ hide:
   <div class="maths-news-box">
     <h3>🆕 Nouveautés</h3>
     <ul class="maths-news-list">
+      <li><span class="maths-news-date">15/11</span><span><strong>Après le MT1</strong> : sujets, corrigés et remédiation — <a href="preparer-evaluation/">Préparer une évaluation</a></span></li>
       <li><span class="maths-news-date">15/11</span><span><strong>Parcours guidé</strong> : <a href="notions/N05-second-degre-i/#parcours-guide">N05 Second degré I</a>, avec corrigés</span></li>
       <li><span class="maths-news-date">14/11</span><span><strong>Parcours guidés</strong> : <a href="notions/N01-logique-ensembles/#parcours-guide">N01</a> · <a href="notions/N02-calcul-algebrique-equations/#parcours-guide">N02</a> · <a href="notions/N03-fonctions-lectures-variations/#parcours-guide">N03</a> · <a href="notions/N04-reperages-vecteurs/#parcours-guide">N04</a>, avec corrigés</span></li>
       <li><span class="maths-news-date">12/11</span><span><strong>Devoir blanc DS1</strong> — <a href="preparer-evaluation/">Préparer une évaluation</a></span></li>
-      <li><span class="maths-news-date">12/11</span><span><strong>Parcours guidé</strong> : <a href="notions/N06-second-degre-ii/#parcours-guide">N06 Second degré II</a></span></li>
     </ul>
   </div>
   <div class="maths-news-box maths-news-box--revise">
