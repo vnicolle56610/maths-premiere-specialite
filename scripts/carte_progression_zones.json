@@ -1,0 +1,207 @@
+{
+ "image": "assets/images/Progression_1S.png",
+ "alt": "Progression spiralée en Première spécialité mathématiques",
+ "_note": "Grandes bulles de domaines sans lien.",
+ "zones": [
+  {
+   "libelle": "N01 – Logique, ensembles",
+   "lien": "notions/N01-logique-ensembles.md",
+   "amorce": [
+    113,
+    136
+   ]
+  },
+  {
+   "libelle": "N02 – Calcul algébrique, équations",
+   "lien": "notions/N02-calcul-algebrique-equations.md",
+   "amorce": [
+    329,
+    129
+   ]
+  },
+  {
+   "libelle": "N03 – Fonctions : lectures et variations",
+   "lien": "notions/N03-fonctions-lectures-variations.md",
+   "amorce": [
+    472,
+    440
+   ]
+  },
+  {
+   "libelle": "N04 – Repérage, vecteurs",
+   "lien": "notions/N04-reperages-vecteurs.md",
+   "amorce": [
+    1057,
+    527
+   ]
+  },
+  {
+   "libelle": "N05 – Second degré I",
+   "lien": "notions/N05-second-degre-i.md",
+   "amorce": [
+    329,
+    238
+   ]
+  },
+  {
+   "libelle": "N06 – Second degré II",
+   "lien": "notions/N06-second-degre-ii.md",
+   "amorce": [
+    329,
+    343
+   ]
+  },
+  {
+   "libelle": "N07 – Taux de variation",
+   "lien": "notions/N07-taux-de-variation.md",
+   "amorce": [
+    600,
+    436
+   ]
+  },
+  {
+   "libelle": "N08 – Nombre dérivé, dérivation",
+   "lien": "notions/N08-nombre-derive-derivation.md",
+   "amorce": [
+    727,
+    435
+   ]
+  },
+  {
+   "libelle": "N09 – Dérivées usuelles",
+   "lien": "notions/N09-derivees-usuelles.md",
+   "amorce": [
+    848,
+    436
+   ]
+  },
+  {
+   "libelle": "N10 – Variations, extremums",
+   "lien": "notions/N10-variations-extremums.md",
+   "amorce": [
+    963,
+    436
+   ]
+  },
+  {
+   "libelle": "N11 – Suites : définition",
+   "lien": "notions/N11-suites-definition.md",
+   "amorce": [
+    288,
+    510
+   ]
+  },
+  {
+   "libelle": "N12 – Suites arithmétiques et géométriques",
+   "lien": "notions/N12-suites-arithmetiques-geometriiques.md",
+   "amorce": [
+    274,
+    631
+   ]
+  },
+  {
+   "libelle": "N13 – Sommes et modèles discrets",
+   "lien": "notions/N13-sommes-modeles-discrets.md",
+   "amorce": [
+    271,
+    758
+   ]
+  },
+  {
+   "libelle": "N14 – Algorithmique",
+   "lien": "notions/N14-algorithmique.md",
+   "amorce": [
+    665,
+    795
+   ]
+  },
+  {
+   "libelle": "N15 – Droites et équations",
+   "lien": "notions/N15-droites-equations.md",
+   "amorce": [
+    1170,
+    526
+   ]
+  },
+  {
+   "libelle": "N16 – Trigonométrie",
+   "lien": "notions/N16-trigonometrie.md",
+   "amorce": [
+    1282,
+    532
+   ]
+  },
+  {
+   "libelle": "N17 – Produit scalaire I",
+   "lien": "notions/N17-produit-scalaire-i.md",
+   "amorce": [
+    1396,
+    534
+   ]
+  },
+  {
+   "libelle": "N18 – Produit scalaire II",
+   "lien": "notions/N18-produit-scalaire-ii.md",
+   "amorce": [
+    1504,
+    536
+   ]
+  },
+  {
+   "libelle": "N19 – Géométrie repérée",
+   "lien": "notions/N19-geometrie-reperee.md",
+   "amorce": [
+    1584,
+    641
+   ]
+  },
+  {
+   "libelle": "N20 – Exponentielle I",
+   "lien": "notions/N20-fonction-exponentielle.md",
+   "amorce": [
+    505,
+    625
+   ]
+  },
+  {
+   "libelle": "N21 – Exponentielle II",
+   "lien": "notions/N21-exponentielle-ii.md",
+   "amorce": [
+    505,
+    732
+   ]
+  },
+  {
+   "libelle": "N22 – Probabilités conditionnelles",
+   "lien": "notions/N22-probabilites-conditionnelles.md",
+   "amorce": [
+    1087,
+    259
+   ]
+  },
+  {
+   "libelle": "N23 – Indépendance, arbres",
+   "lien": "notions/N23-independance-arbres.md",
+   "amorce": [
+    1277,
+    259
+   ]
+  },
+  {
+   "libelle": "N24 – Variables aléatoires, espérance",
+   "lien": "notions/N24-variables-aleatoires-esperance.md",
+   "amorce": [
+    1461,
+    260
+   ]
+  },
+  {
+   "libelle": "N25 – Synthèses, automatismes",
+   "lien": "notions/N25-syntheses-automatismes.md",
+   "amorce": [
+    1224,
+    800
+   ]
+  }
+ ]
+}
