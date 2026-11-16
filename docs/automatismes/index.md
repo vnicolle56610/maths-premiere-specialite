@@ -136,6 +136,10 @@ Exercices d'automatismes et mini-tests, classés par notion.
 ## N24 — Variables aléatoires et espérance
 
 - [Automatismes N24](AUTOMATISMES_N24_VARIABLES_ALEATOIRES_ESPERANCE.pdf)
+
+## N25 — Synthèses et automatismes
+
+- [Automatismes N25](AUTOMATISMES_N25_SYNTHESES_AUTOMATISMES.pdf)
 <!-- AUTO-DOCS:END -->
 
 </div>
