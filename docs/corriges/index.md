@@ -42,4 +42,8 @@ Corrigés destinés aux élèves, classés par notion.
 - [Corrigé parcours guidé N05 — Fiche 2 — Lire une forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_2_CORRIGE.pdf)
 - [Corrigé parcours guidé N05 — Fiche 3 — Obtenir la forme canonique](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_3_CORRIGE.pdf)
 - [Corrigé parcours guidé N05 — Fiche passerelle — De la courbe à l'expression](../parcours-guide/PARCOURS_GUIDE_N05_FICHE_4_CORRIGE.pdf)
+
+## N06 — Second degré II : racines, signe et discriminant
+
+- [Corrigé TD N06](CORRIGE_TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
 <!-- AUTO-DOCS:END -->
