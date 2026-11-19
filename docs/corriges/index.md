@@ -46,4 +46,7 @@ Corrigés destinés aux élèves, classés par notion.
 ## N06 — Second degré II : racines, signe et discriminant
 
 - [Corrigé TD N06](CORRIGE_TD_N06_PARTIE_1_FORMES_RACINES_SIGNE_DISCRIMINANT.pdf)
+- [Corrigé parcours guidé N06 (partie 1) — Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1_CORRIGE.pdf)
+- [Corrigé parcours guidé N06 (partie 1) — Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2_CORRIGE.pdf)
+- [Corrigé parcours guidé N06 (partie 1) — Fiche 3 — Discriminant, factorisation, signe](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3_CORRIGE.pdf)
 <!-- AUTO-DOCS:END -->

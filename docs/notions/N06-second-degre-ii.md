@@ -44,13 +44,13 @@ Des fiches pour reprendre la notion en autonomie : à la maison, après une abse
 
 **Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
 
-- 📝 [Partie 1 — Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1.pdf) : forme canonique et signe de α, racine ou image, racines sur une forme factorisée, choix de la forme.
-- 📝 [Partie 1 — Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2.pdf) : facteur commun, x² = k, forme canonique ; pour aller plus loin : racine évidente et produit des racines.
-- 📝 [Partie 1 — Fiche 3 — Discriminant, factorisation, signe](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3.pdf) : calculer Δ, résoudre et vérifier, factoriser sans oublier a, tableau de signes.
+- 📝 [Partie 1 — Fiche 1 — Trois formes, des racines](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1_CORRIGE.pdf) : forme canonique et signe de α, racine ou image, racines sur une forme factorisée, choix de la forme.
+- 📝 [Partie 1 — Fiche 2 — Résoudre sans discriminant](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2_CORRIGE.pdf) : facteur commun, x² = k, forme canonique ; pour aller plus loin : racine évidente et produit des racines.
+- 📝 [Partie 1 — Fiche 3 — Discriminant, factorisation, signe](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3.pdf) · ✔️ [corrigé](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3_CORRIGE.pdf) : calculer Δ, résoudre et vérifier, factoriser sans oublier a, tableau de signes.
 - 📝 [Partie 2 — Fiche 1 — Inéquations du second degré](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_2_FICHE_1.pdf) : lire les solutions dans un tableau de signes, résoudre avec le discriminant, ramener à 0, comparer deux fonctions.
 - 📝 [Partie 2 — Fiche 2 — Extremum et optimisation](../parcours-guide/PARCOURS_GUIDE_N06_PARTIE_2_FICHE_2.pdf) : lire un extremum sur la forme canonique, le calculer depuis la forme développée, problème d'optimisation complet.
 
-À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier. Ne lire le corrigé qu'après avoir cherché.
 <!-- PARCOURS-GUIDE:END -->
 
 <!-- AUTO-EVAL:START -->

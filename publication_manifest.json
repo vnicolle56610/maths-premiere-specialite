@@ -152,6 +152,11 @@
         "PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3.pdf",
         "PARCOURS_GUIDE_N06_PARTIE_2_FICHE_1.pdf",
         "PARCOURS_GUIDE_N06_PARTIE_2_FICHE_2.pdf"
+      ],
+      "corrige_parcours": [
+        "PARCOURS_GUIDE_N06_PARTIE_1_FICHE_1_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N06_PARTIE_1_FICHE_2_CORRIGE.pdf",
+        "PARCOURS_GUIDE_N06_PARTIE_1_FICHE_3_CORRIGE.pdf"
       ]
     },
     "N07": {
@@ -163,6 +168,13 @@
       ],
       "automatismes": [
         "AUTOMATISMES_N07_TAUX_DE_VARIATION.pdf"
+      ],
+      "parcours": [
+        "PARCOURS_GUIDE_N07_FICHE_1.pdf",
+        "PARCOURS_GUIDE_N07_FICHE_2.pdf",
+        "PARCOURS_GUIDE_N07_FICHE_3.pdf",
+        "PARCOURS_GUIDE_N07_FICHE_4.pdf",
+        "PARCOURS_GUIDE_N07_SOCLE_ELEVES.pdf"
       ]
     },
     "N08": {
