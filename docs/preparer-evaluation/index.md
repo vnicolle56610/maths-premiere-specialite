@@ -37,6 +37,14 @@ Notions : [N03 — Fonctions : lectures graphiques et variations](../notions/N03
 - 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_MT2_1S.pdf)
 - ✅ [Corrigé et grille d'auto-évaluation](2026-2027/CORRIGE_DEVOIR_BLANC_MT2_1S.pdf)
 
+**Après l'évaluation**
+
+- 📝 Le mini-test : [sujet A](2026-2027/apres-mt2/MT2_1S_SUJET_A.pdf) · [sujet B](2026-2027/apres-mt2/MT2_1S_SUJET_B.pdf) · [corrigé A](2026-2027/apres-mt2/CORRIGE_MT2_1S_SUJET_A.pdf) · [corrigé B](2026-2027/apres-mt2/CORRIGE_MT2_1S_SUJET_B.pdf)
+- 🔁 Retravailler : [fiche de reprise « Lire un tableau de variations »](2026-2027/apres-mt2/FICHE_REPRISE_MT2_1S.pdf)
+- ✔️ Corrigé détaillé : [fiche de reprise](2026-2027/apres-mt2/FICHE_REPRISE_MT2_1S_CORRIGE.pdf)
+
+> La fiche de reprise travaille la confusion la plus fréquente du mini-test : les valeurs de x (ligne du haut du tableau) et les valeurs de f(x) (flèches). Ne lisez le corrigé qu'après avoir cherché.
+
 ### Mini-test 1 — mercredi 7 octobre 2026 {#mt1-2026-2027}
 
 **Mini-test · 30 min · calculatrice interdite**  

@@ -72,8 +72,8 @@ devoirs_blancs:
     etat: sujet_et_corrige
     # À publier après la séance de reprise en classe et les rattrapages.
     apres_evaluation:
-      etat: non_publie
-      rattrapages_termines: false
+      etat: publie
+      rattrapages_termines: true
       dossier: Evaluations/MINITESTS/MT2_N03_N05_2026_11_09/apres_evaluation
       rubriques:
         - titre: 📝 Le mini-test
