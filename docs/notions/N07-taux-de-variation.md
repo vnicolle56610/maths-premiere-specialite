@@ -40,7 +40,7 @@ Des fiches pour reprendre la notion en autonomie : à la maison, après une abse
 
 **Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
 
-- 📝 [Parcours Guide N07 Socle Eleves](../parcours-guide/PARCOURS_GUIDE_N07_SOCLE_ELEVES.pdf)
+- 📝 [Fiche 1 — Calculer un taux de variation](../parcours-guide/PARCOURS_GUIDE_N07_FICHE_1.pdf) : Calculer des images ; distinguer les deux accroissements ; calculer un taux de variation sans confondre numérateur et dénominateur.
 - 📝 [Fiche 2 — Lire et interpréter une pente](../parcours-guide/PARCOURS_GUIDE_N07_FICHE_2.pdf) : Reconnaître le signe d'une pente, calculer la pente d'une sécante, interpréter une évolution moyenne et son unité.
 - 📝 [Fiche 3 — Comparer et utiliser le pas h](../parcours-guide/PARCOURS_GUIDE_N07_FICHE_3.pdf) : Comparer des taux de variation ; comprendre le cas affine ; écrire et simplifier un taux entre a et a+h, avec h non nul.
 - 📝 [Fiche passerelle — Comparer plusieurs évolutions](../parcours-guide/PARCOURS_GUIDE_N07_FICHE_4.pdf) : Comparer plusieurs taux moyens ; expliquer un taux global nul sans constance ; justifier ou réfuter une conclusion sur les variations.
