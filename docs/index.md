@@ -35,9 +35,9 @@ hide:
     <h3>🆕 Nouveautés</h3>
     <ul class="maths-news-list">
       <li><span class="maths-news-date">19/11</span><span><strong>Corrigé du devoir blanc DS1</strong> — <a href="preparer-evaluation/">Préparer une évaluation</a></span></li>
+      <li><span class="maths-news-date">19/11</span><span><strong>Après le MT2</strong> : sujets, corrigés et remédiation — <a href="preparer-evaluation/">Préparer une évaluation</a></span></li>
       <li><span class="maths-news-date">19/11</span><span><strong>Parcours guidé</strong> : <a href="notions/N07-taux-de-variation/#parcours-guide">N07 Taux de variation</a></span></li>
       <li><span class="maths-news-date">19/11</span><span><strong>Corrigés du parcours guidé</strong> : <a href="notions/N06-second-degre-ii/#parcours-guide">N06 Second degré II</a></span></li>
-      <li><span class="maths-news-date">18/11</span><span><strong>Corrigé du TD</strong> : <a href="notions/N06-second-degre-ii/">N06 Second degré II</a></span></li>
     </ul>
   </div>
   <div class="maths-news-box maths-news-box--revise">
