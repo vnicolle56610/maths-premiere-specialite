@@ -33,6 +33,21 @@ La dérivation permet de décrire une variation instantanée. Cette notion intro
 - ⚡ [Automatismes N08 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N08-nombre-derive-derivation.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
+- 📝 [Fiche 1 — Du quotient au nombre dérivé](../parcours-guide/PARCOURS_GUIDE_N08_FICHE_1.pdf) : Calculer f(a) et développer f(a+h) ; simplifier le quotient (f(a+h) - f(a))/h en gardant h non nul ; en déduire le nombre dérivé f'(a).
+- 📝 [Fiche 2 — Lire une tangente](../parcours-guide/PARCOURS_GUIDE_N08_FICHE_2.pdf) : Lire f(a) et calculer f'(a) sur une tangente tracée ; relier le signe de f'(a) à la tangente et au sens de variation de f près de a.
+- 📝 [Fiche 3 — Équation et approximation](../parcours-guide/PARCOURS_GUIDE_N08_FICHE_3.pdf) : Écrire et contrôler l'équation d'une tangente ; approcher f(a+h) avec la tangente. Pour aller plus loin : estimer un nombre dérivé avec un taux (préparer le DS2) ; reconnaître un point où le nombre dérivé n'existe pas.
+- 📝 [Fiche passerelle — Choisir la bonne pente](../parcours-guide/PARCOURS_GUIDE_N08_FICHE_4.pdf) : Distinguer sécante et tangente ; distinguer une information moyenne d'une information locale ; choisir seul l'information utile et réfuter une confusion.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+<!-- PARCOURS-GUIDE:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""
