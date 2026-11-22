@@ -239,6 +239,13 @@
       ],
       "automatismes": [
         "AUTOMATISMES_N12_SUITES_ARITHMETIQUES_GEOMETRIQUES.pdf"
+      ],
+      "parcours": [
+        "PARCOURS_GUIDE_N12_FICHE_1.pdf",
+        "PARCOURS_GUIDE_N12_FICHE_2.pdf",
+        "PARCOURS_GUIDE_N12_FICHE_3.pdf",
+        "PARCOURS_GUIDE_N12_FICHE_4.pdf",
+        "PARCOURS_GUIDE_N12_FICHE_5.pdf"
       ]
     },
     "N13": {

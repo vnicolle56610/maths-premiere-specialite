@@ -33,6 +33,22 @@ Les suites arithmétiques et géométriques modélisent des évolutions réguli�
 - ⚡ [Automatismes N12 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N12-suites-arithmetiques-geometriques.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
+- 📝 [Fiche 1 — Reconnaître une suite arithmétique](../parcours-guide/PARCOURS_GUIDE_N12_FICHE_1.pdf) : Reconnaître un ajout constant, calculer des termes successifs et déterminer une raison, y compris négative.
+- 📝 [Fiche 2 — Calculer les termes arithmétiques](../parcours-guide/PARCOURS_GUIDE_N12_FICHE_2.pdf) : Écrire le terme général d'une suite arithmétique selon son rang initial et lire une progression sur un graphique.
+- 📝 [Fiche 3 — Reconnaître une suite géométrique](../parcours-guide/PARCOURS_GUIDE_N12_FICHE_3.pdf) : Identifier la multiplication constante, la raison géométrique et calculer les termes successifs ; lire la nature et la raison sur une formule explicite.
+- 📝 [Fiche 4 — Calculer et modéliser](../parcours-guide/PARCOURS_GUIDE_N12_FICHE_4.pdf) : Calculer un terme géométrique éloigné, maîtriser le rang initial et choisir un modèle simple d'évolution.
+- 📝 [Fiche passerelle — Choisir le bon modèle](../parcours-guide/PARCOURS_GUIDE_N12_FICHE_5.pdf) : Choisir une suite arithmétique ou géométrique, argumenter et passer à des exercices du TD de niveau classe.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+<!-- PARCOURS-GUIDE:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""
