@@ -44,7 +44,8 @@ Des fiches pour reprendre la notion en autonomie : à la maison, après une abse
 - 📝 [Fiche 2 — Calculer par récurrence](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_2.pdf) : Calculer les termes successifs, reconnaître les modes de définition et dérouler un algorithme.
 - 📝 [Fiche 3 — Représenter une suite](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_3.pdf) : Lire un terme sur un nuage de points et construire les points de coordonnées (n ; u_n).
 - 📝 [Fiche 4 — Motifs et situations](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_4.pdf) : Compter des éléments sur un motif et modéliser une évolution simple par une suite.
-- 📝 [Fiche passerelle — Choisir une méthode](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_5.pdf) : Choisir, justifier et modéliser une suite pour retourner au TD commun.
+- 📝 [Fiche 5 — Sens de variation](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_5.pdf) : Comparer un terme au suivant, puis étudier le signe de u(n+1) - u(n) pour une suite définie par récurrence ou par une formule explicite.
+- 📝 [Fiche passerelle — Choisir une méthode](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_6.pdf) : Choisir, justifier et modéliser une suite pour retourner au TD commun.
 
 À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
 <!-- PARCOURS-GUIDE:END -->
