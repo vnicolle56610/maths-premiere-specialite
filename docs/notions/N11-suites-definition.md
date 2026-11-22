@@ -33,6 +33,22 @@ Les suites décrivent des phénomènes discrets, étape par étape. Cette notion
 - ⚡ [Automatismes N11 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N11-suites-definition.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
+- 📝 [Fiche 1 — Rangs et formule explicite](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_1.pdf) : Identifier le rang de départ, calculer directement les termes et compléter un tableau de valeurs.
+- 📝 [Fiche 2 — Calculer par récurrence](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_2.pdf) : Calculer les termes successifs, reconnaître les modes de définition et dérouler un algorithme.
+- 📝 [Fiche 3 — Représenter une suite](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_3.pdf) : Lire un terme sur un nuage de points et construire les points de coordonnées (n ; u_n).
+- 📝 [Fiche 4 — Motifs et situations](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_4.pdf) : Compter des éléments sur un motif et modéliser une évolution simple par une suite.
+- 📝 [Fiche passerelle — Choisir une méthode](../parcours-guide/PARCOURS_GUIDE_N11_FICHE_5.pdf) : Choisir, justifier et modéliser une suite pour retourner au TD commun.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+<!-- PARCOURS-GUIDE:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""
