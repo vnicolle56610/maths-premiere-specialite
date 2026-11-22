@@ -202,6 +202,12 @@
       ],
       "automatismes": [
         "AUTOMATISMES_N09_DERIVEES_USUELLES.pdf"
+      ],
+      "parcours": [
+        "PARCOURS_GUIDE_N09_FICHE_1.pdf",
+        "PARCOURS_GUIDE_N09_FICHE_2.pdf",
+        "PARCOURS_GUIDE_N09_FICHE_3.pdf",
+        "PARCOURS_GUIDE_N09_FICHE_4.pdf"
       ]
     },
     "N10": {

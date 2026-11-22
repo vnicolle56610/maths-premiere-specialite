@@ -33,6 +33,21 @@ Les dérivées usuelles fournissent une boîte à outils pour étudier rapidemen
 - ⚡ [Automatismes N09 en ligne : énoncés, corrigés et QCM interactif](../automatismes/automatismes-N09-derivees-usuelles.md)
 <!-- AUTOMATISMES-WEB:END -->
 
+<!-- PARCOURS-GUIDE:START -->
+### Parcours guidé
+
+Des fiches pour reprendre la notion en autonomie : à la maison, après une absence ou avant une évaluation. Chaque bloc commence par un **exemple résolu**. Les réponses sont imprimées **à l'envers** dans les cadres « Je vérifie » : répondre d'abord, retourner la feuille ensuite.
+
+**Pour réviser** : pour chaque bloc, tenter d'abord la dernière question sans aide. Si elle est réussie, passer au bloc suivant ; sinon, lire l'exemple résolu et faire tout le bloc. Terminer par les exercices du TD indiqués à côté des questions.
+
+- 📝 [Fiche 1 — Premières dérivées](../parcours-guide/PARCOURS_GUIDE_N09_FICHE_1.pdf) : Interpréter une pente sur une tangente, dériver les puissances usuelles, distinguer domaines de définition et de dérivabilité.
+- 📝 [Fiche 2 — Règles de dérivation](../parcours-guide/PARCOURS_GUIDE_N09_FICHE_2.pdf) : Dériver sommes, produits, inverses et quotients en suivant une méthode explicite, puis préparer le mini-test sur les variations.
+- 📝 [Fiche 3 — Composées et choix](../parcours-guide/PARCOURS_GUIDE_N09_FICHE_3.pdf) : Dériver des compositions avec une fonction affine et reconnaître la règle de dérivation adaptée.
+- 📝 [Fiche passerelle — Choisir la règle](../parcours-guide/PARCOURS_GUIDE_N09_FICHE_4.pdf) : Comparer et justifier plusieurs méthodes de dérivation, puis choisir seul une stratégie sur des expressions nouvelles.
+
+À la maison, ignorer les cases « STOP ». Faire le ticket de sortie seul, à la fin, puis l'apporter au cours suivant pour le faire vérifier.
+<!-- PARCOURS-GUIDE:END -->
+
 ## Notions essentielles
 
 !!! essentiel ""
