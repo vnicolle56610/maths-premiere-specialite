@@ -17,17 +17,19 @@ Avant chaque mini-test et chaque devoir surveillé, un **devoir blanc** est mis 
 <!-- AUTO-EVAL:START -->
 ## À venir
 
-### DS1 — lundi 23 novembre {#ds1-2026-2027}
+Aucune évaluation annoncée pour le moment : le prochain devoir blanc sera publié environ une semaine avant l'évaluation.
+
+## Pour réviser — évaluations passées
+
+Les devoirs blancs des évaluations passées restent en ligne pour les révisions.
+
+### DS1 — lundi 23 novembre 2026 {#ds1-2026-2027}
 
 **Devoir surveillé · 80 min · calculatrice interdite**  
 Notions : [N01 — Logique, ensembles et intervalles](../notions/N01-logique-ensembles.md) · [N02 — Calcul algébrique et équations](../notions/N02-calcul-algebrique-equations.md) · [N04 — Repérage et vecteurs](../notions/N04-reperages-vecteurs.md) · [N05 — Second degré I : fonction carré et forme canonique](../notions/N05-second-degre-i.md) · [N06 — Second degré II : racines, signe et discriminant](../notions/N06-second-degre-ii.md)
 
 - 📄 [Devoir blanc : fiche « Ce que je dois savoir faire » et sujet](2026-2027/DEVOIR_BLANC_DS1_1S.pdf)
 - ✅ [Corrigé et grille d'auto-évaluation](2026-2027/CORRIGE_DEVOIR_BLANC_DS1_1S.pdf)
-
-## Pour réviser — évaluations passées
-
-Les devoirs blancs des évaluations passées restent en ligne pour les révisions.
 
 ### Mini-test 2 — lundi 9 novembre 2026 {#mt2-2026-2027}
 
